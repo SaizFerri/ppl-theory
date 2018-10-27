@@ -1,0 +1,5 @@
+<h4>{{question.question}}</h4>
+<mat-radio-group class="question-answers" [(ngModel)]="selectedAnswer">
+    <mat-radio-button [color]="'primary'" *ngFor="let answer of question.answers" [value]="answer">{{answer.text}}</mat-radio-button>
+</mat-radio-group>
+<button mat-flat-button [color]="'primary'" (click)="check()">Check</button>

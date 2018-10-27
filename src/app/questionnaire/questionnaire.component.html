@@ -1,0 +1,12 @@
+<div class="container-fluid" *ngIf="loaded">
+    <div class="row">
+        <div class="col-2 pl-0">
+            <app-questionnaire-menu [questions]="questions" [subject]="subject"></app-questionnaire-menu>
+        </div>
+        <div class="col-10">
+            <app-question [question]="question"></app-question>
+            <button mat-flat-button [color]="'accent'" (click)="prev()">Prev</button>
+            <button mat-flat-button [color]="'accent'" (click)="next()">Next</button>
+        </div>
+    </div>
+</div>
