@@ -1,14 +1,27 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes, ExtraOptions } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { QuestionnaireComponent } from './questionnaire/questionnaire.component';
-import { QuestionComponent } from './question/question.component';
+import { WrongQuestionnaireMenuComponent } from './wrong-questionnaire-menu/wrong-questionnaire-menu.component';
 import { WrongQuestionnaireComponent } from './wrong-questionnaire/wrong-questionnaire.component';
+import { WrongWrapperComponent } from './wrong-wrapper/wrong-wrapper.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: ':subject/:id', component: QuestionnaireComponent },
-  { path: 'wrong/:subject/:id', component: WrongQuestionnaireComponent }
+  { 
+    path: 'wrong', 
+    component: WrongWrapperComponent,
+    children: [
+      {
+        path: '',
+        children: [
+          { path: '', component: WrongQuestionnaireMenuComponent },
+          { path: ':subject/:id', component: WrongQuestionnaireComponent }
+        ]
+      }
+    ]
+  }
 ];
 
 @NgModule({

@@ -183,7 +183,8 @@
   },
   {
     "id": 8,
-    "question": "Der Umfang der Erde am Äquator beträgt ungefähr... Siehe Bild (NAV-002) (1,00 P.)",
+    "question": "Der Umfang der Erde am Äquator beträgt ungefähr... <br><br>Siehe Bild (NAV-002) (1,00 P.)",
+    "asset": "assets/NAV/NAV-002.png",
     "answers": [
       {
         "id": 0,
@@ -209,7 +210,7 @@
   },
   {
     "id": 9,
-    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Hamburg (N53°38', E009°59'). Wie groß ist die geflogene Distanz? (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Hamburg (N53°38', E009°59'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -235,7 +236,7 @@
   },
   {
     "id": 10,
-    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Kiel (N54°23', E009°59'). Wie groß ist die geflogene Distanz? (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Kiel (N54°23', E009°59'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -391,7 +392,7 @@
   },
   {
     "id": 16,
-    "question": "Ein Punkt auf der Erdoberfläche liegt bei 47°50'27'' nördlicher Breite. Welcher Punkt liegt genau 240 NM nördlich davon? (1,00 P.)",
+    "question": "Ein Punkt auf der Erdoberfläche liegt bei 47°50'27'' nördlicher Breite. <br><br>Welcher Punkt liegt genau 240 NM nördlich davon? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -417,7 +418,7 @@
   },
   {
     "id": 17,
-    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Klagenfurt (N46°40', E014°20') nach Linz (N48°15', E014°20'). Wie groß ist die geflogene Distanz? (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Klagenfurt (N46°40', E014°20') nach Linz (N48°15', E014°20'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -521,7 +522,7 @@
   },
   {
     "id": 21,
-    "question": "Zwei beliebige Punkte A und B liegen auf demselben Breitengrad (nicht der Äquator). Punkt A befindet sich auf dem Längengrad E010°, Punkt B auf E020°. Welche der folgenden Aussagen zur Entfernung entlang der Kursgleichen von A nach B ist korrekt? (1,00 P.)",
+    "question": "Zwei beliebige Punkte A und B liegen auf demselben Breitengrad (nicht der Äquator). Punkt A befindet sich auf dem Längengrad E010°, Punkt B auf E020°. <br><br>Welche der folgenden Aussagen zur Entfernung entlang der Kursgleichen von A nach B ist korrekt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -547,7 +548,7 @@
   },
   {
     "id": 22,
-    "question": "Die Punkte A und B liegen beide auf dem Breitengrad N60°. Punkt A befindet sich auf W020°, Punkt B auf W010°. Welche Distanz hat die Loxodrome zwischen den beiden Punkten? (1,00 P.)",
+    "question": "Die Punkte A und B liegen beide auf dem Breitengrad N60°. Punkt A befindet sich auf W020°, Punkt B auf W010°. <br><br>Welche Distanz hat die Loxodrome zwischen den beiden Punkten? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -573,7 +574,7 @@
   },
   {
     "id": 23,
-    "question": "Ein Luftfahrzeug befindet sich an der Position N60° W040°. Die Distanz entlang der Loxodrome zum Punkt N60° W000° beträgt... (2,00 P.)",
+    "question": "Ein Luftfahrzeug befindet sich an der Position N60° W040°. <br><br>Die Distanz entlang der Loxodrome zum Punkt N60° W000° beträgt... (2,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -677,7 +678,7 @@
   },
   {
     "id": 27,
-    "question": "Mitteleuropäische Sommerzeit (CEST) ist festgelegt als UTC+2. Welche Zeit in UTC entspricht somit 1600 MESZ (CEST)? (1,00 P.)",
+    "question": "Mitteleuropäische Sommerzeit (CEST) ist festgelegt als UTC+2. <br><br>Welche Zeit in UTC entspricht somit 1600 MESZ (CEST)? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -729,7 +730,7 @@
   },
   {
     "id": 29,
-    "question": "Mitteleuropäische Zeit (MEZ) ist festgelegt als UTC+1. Welche Zeit in UTC entspricht somit 1700 MEZ? (1,00 P.)",
+    "question": "Mitteleuropäische Zeit (MEZ) ist festgelegt als UTC+1. <br><br>Welche Zeit in UTC entspricht somit 1700 MEZ? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -755,7 +756,7 @@
   },
   {
     "id": 30,
-    "question": "Ort 1 befindet sich bei etwa E 016° 34', Ort 2 bei etwa E 013° 00'. Beide Orte liegen etwa auf derselben geografischen Breite. Um welchen Wert unterscheiden sich die Sonnenauf- und Sonnenuntergangszeiten (angegeben in Standardzeit - SZ) in Ort 1 und Ort 2? (2,00 P.)",
+    "question": "Ort 1 befindet sich bei etwa E 016° 34', Ort 2 bei etwa E 013° 00'. Beide Orte liegen etwa auf derselben geografischen Breite. <br><br>Um welchen Wert unterscheiden sich die Sonnenauf- und Sonnenuntergangszeiten (angegeben in Standardzeit - SZ) in Ort 1 und Ort 2? (2,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -859,26 +860,26 @@
   },
   {
     "id": 34,
-    "question": "Gegeben sind: TC: 032°; WCA: +11°; DEV: 001° W; CH: 049°. Welche Werte haben TH, VAR und MH? (2,00 P.)",
+    "question": "Gegeben sind: TC: 032°; WCA: +11°; DEV: 001° W; CH: 049°. <br><br>Welche Werte haben TH, VAR und MH? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "TH: 043°. VAR: 005°E. MH: 048°.",
+        "text": "TH: 043°. <br>VAR: 005°E. <br>MH: 048°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "TH: 048°. VAR: 005°W. MH: 043°.",
+        "text": "TH: 048°. <br>VAR: 005°W. <br>MH: 043°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "TH: 043°. VAR: 005°W. MH: 048°.",
+        "text": "TH: 043°. <br>VAR: 005°W. <br>MH: 048°.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "TH: 048°. VAR: 005°E. MH: 050°.",
+        "text": "TH: 048°. <br>VAR: 005°E. <br>MH: 050°.",
         "correct": false
       }
     ]
@@ -889,74 +890,74 @@
     "answers": [
       {
         "id": 0,
-        "text": "VAR: 005°E. DEV: -001°.",
+        "text": "VAR: 005°E. <br>DEV: -001°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "VAR: 005°W. DEV: +001°.",
+        "text": "VAR: 005°W. <br>DEV: +001°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "VAR: 005°E. DEV: +001°.",
+        "text": "VAR: 005°E. <br>DEV: +001°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "VAR: 005°W. DEV: -001°.",
+        "text": "VAR: 005°W. <br>DEV: -001°.",
         "correct": true
       }
     ]
   },
   {
     "id": 36,
-    "question": "Gegeben sind: WCA: -012°; TH: 125°; MC: 139°; DEV: 002°E. Welche Werte haben: TC, MH und CH? (2,00 P.)",
+    "question": "Gegeben sind: WCA: -012°; TH: 125°; MC: 139°; DEV: 002°E. <br><br>Welche Werte haben: TC, MH und CH? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "TC: 113°. MH: 127°. CH: 129°.",
+        "text": "TC: 113°. <br>MH: 127°. <br>CH: 129°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "TC: 113°. MH: 139°. CH: 129°.",
+        "text": "TC: 113°. <br>MH: 139°. <br>CH: 129°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "TC: 137°. MH: 139°. CH: 125°.",
+        "text": "TC: 137°. <br>MH: 139°. <br>CH: 125°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "TC: 137°. MH: 127°. CH: 125°.",
+        "text": "TC: 137°. <br>MH: 127°. <br>CH: 125°.",
         "correct": true
       }
     ]
   },
   {
     "id": 37,
-    "question": "Gegeben sind: TC: 179°; WCA: -12°; VAR: 004°E; DEV: +002°. Welche Werte haben MH und MC? (1,00 P.)",
+    "question": "Gegeben sind: TC: 179°; WCA: -12°; VAR: 004°E; DEV: +002°. <br><br>Welche Werte haben MH und MC? (1,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "MH: 163°. MC: 161°.",
+        "text": "MH: 163°. <br>MC: 161°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "MH: 167°.MC: 175°.",
+        "text": "MH: 167°. <br>MC: 175°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "MH: 163°. MC: 175°.",
+        "text": "MH: 163°. <br>MC: 175°.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "MH: 167°. MC: 161°.",
+        "text": "MH: 167°. <br>MC: 161°.",
         "correct": false
       }
     ]
@@ -1093,104 +1094,104 @@
   },
   {
     "id": 43,
-    "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. Welche Werte haben TH und DEV? (2,00 P.)",
+    "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. <br><br>Welche Werte haben TH und DEV? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "TH: 194°. DEV: -002°.",
+        "text": "TH: 194°. <br>DEV: -002°.",
         "correct": true
       },
       {
         "id": 1,
-        "text": "TH: 194°. DEV: +002°.",
+        "text": "TH: 194°. <br>DEV: +002°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "TH: 172°. DEV: -002°.",
+        "text": "TH: 172°. <br>DEV: -002°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "TH: 172°. DEV: +002°.",
+        "text": "TH: 172°. <br>DEV: +002°.",
         "correct": false
       }
     ]
   },
   {
     "id": 44,
-    "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. Welche Werte haben VAR und DEV? (2,00 P.)",
+    "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. <br><br>Welche Werte haben VAR und DEV? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "VAR: 004°W. DEV: -002°.",
+        "text": "VAR: 004°W. <br>DEV: -002°.",
         "correct": true
       },
       {
         "id": 1,
-        "text": "VAR: 004°E. DEV: +002°.",
+        "text": "VAR: 004°E. <br>DEV: +002°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "VAR: 004°E. DEV: -002°.",
+        "text": "VAR: 004°E. <br>DEV: -002°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "VAR: 004°W. DEV: +002°.",
+        "text": "VAR: 004°W. <br>DEV: +002°.",
         "correct": false
       }
     ]
   },
   {
     "id": 45,
-    "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. Welche Werte haben TH und VAR? (2,00 P.)",
+    "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. <br><br>Welche Werte haben TH und VAR? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "TH: 152°. VAR: 002°W.",
+        "text": "TH: 152°. <br>VAR: 002°W.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "TH: 180°. VAR: 002°W.",
+        "text": "TH: 180°. <br>VAR: 002°W.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "TH: 180°. VAR: 002°E.",
+        "text": "TH: 180°. <br>VAR: 002°E.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "TH: 152°. VAR: 002°E.",
+        "text": "TH: 152°. <br>VAR: 002°E.",
         "correct": false
       }
     ]
   },
   {
     "id": 46,
-    "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. Welche Werte haben VAR und DEV? (2,00 P.)",
+    "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. <br><br>Welche Werte haben VAR und DEV? (2,00 P.)",
     "answers": [
       {
         "id": 0,
-        "text": "VAR: 002°W. DEV: -002°.",
+        "text": "VAR: 002°W. <br>DEV: -002°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "VAR: 002°E. DEV: +002°.",
+        "text": "VAR: 002°E. <br>DEV: +002°.",
         "correct": true
       },
       {
         "id": 2,
-        "text": "VAR: 002°E. DEV: -002°.",
+        "text": "VAR: 002°E. <br>DEV: -002°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "VAR: 002°W. DEV: +002°.",
+        "text": "VAR: 002°W. <br>DEV: +002°.",
         "correct": false
       }
     ]
@@ -1405,7 +1406,8 @@
   },
   {
     "id": 55,
-    "question": "Bei welchen Punkten in der abgebildeten Checkliste ist der Magnetkompass zu berücksichtigen? Siehe Anlage (NAV-004) (1,00 P.) Siehe Anlage 1",
+    "question": "Bei welchen Punkten in der abgebildeten Checkliste ist der Magnetkompass zu berücksichtigen? <br><br>Siehe Anlage (NAV-004) (1,00 P.)",
+    "asset": "assets/NAV/NAV-004.png",
     "answers": [
       {
         "id": 0,
@@ -1565,22 +1567,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Kursgleichen: als gerade Linien. Großkreise: als gerade Linien.",
+        "text": "Kursgleichen: als gerade Linien. <br>Großkreise: als gerade Linien.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Kursgleichen: als gekrümmte Linien. Großkreise: als gekrümmte Linien.",
+        "text": "Kursgleichen: als gekrümmte Linien. <br>Großkreise: als gekrümmte Linien.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Kursgleichen: als gekrümmte Linien. Großkreise: als gerade Linien.",
+        "text": "Kursgleichen: als gekrümmte Linien. <br>Großkreise: als gerade Linien.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Kursgleichen: als gerade Linien. Großkreise: als gekrümmte Linien.",
+        "text": "Kursgleichen: als gerade Linien. <br>Großkreise: als gekrümmte Linien.",
         "correct": true
       }
     ]
@@ -1639,7 +1641,8 @@
   },
   {
     "id": 64,
-    "question": "Das Radial vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) lautet... Siehe Anlage (NAV-031) (1,00 P.)",
+    "question": "Das Radial vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) lautet... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
+    "asset": "assets/NAV/NAV-031.png",
     "answers": [
       {
         "id": 0,
@@ -1665,7 +1668,8 @@
   },
   {
     "id": 65,
-    "question": "Welche Position hat das Luftfahrzeug unter Berücksichtigung der folgenden Kreuzpeilung? VOR Hamburg (HAM) (53°41?N, 010°12?E): Radial 119° VOR Brünkendorf (BKD) (53°02?N, 011°33?E): Radial 320° Siehe Anlage (NAV-031) (1,00 P.)",
+    "question": "Welche Position hat das Luftfahrzeug unter Berücksichtigung der folgenden Kreuzpeilung? <br><br>VOR Hamburg (HAM) (53°41?N, 010°12?E): Radial 119° <br>VOR Brünkendorf (BKD) (53°02?N, 011°33?E): Radial 320° <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
+    "asset": "assets/NAV/NAV-031.png",
     "answers": [
       {
         "id": 0,
@@ -1691,7 +1695,7 @@
   },
   {
     "id": 66,
-    "question": "Auf einer aeronautischen Navigationskarte werden zwei 220 NM voneinander entfernte Flugplätze in einem Abstand von 40,7 cm dargestellt. Wie groß ist der Kartenmaßstab? (1,00 P.)",
+    "question": "Auf einer aeronautischen Navigationskarte werden zwei 220 NM voneinander entfernte Flugplätze in einem Abstand von 40,7 cm dargestellt. <br><br>Wie groß ist der Kartenmaßstab? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1717,7 +1721,8 @@
   },
   {
     "id": 67,
-    "question": "Die Distanz vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) beträgt... Siehe Anlage (NAV-031) (1,00 P.) Siehe Anlage 2",
+    "question": "Die Distanz vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
+    "asset": "assets/NAV/NAV-031.png",
     "answers": [
       {
         "id": 0,
@@ -1743,7 +1748,7 @@
   },
   {
     "id": 68,
-    "question": "Der Abstand von 7,5 cm auf einer aeronautischen Karte entspricht in der Realität einer Distanz von 60,745 NM. Der Kartenmaßstab beträgt... (1,00 P.)",
+    "question": "Der Abstand von 7,5 cm auf einer aeronautischen Karte entspricht in der Realität einer Distanz von 60,745 NM. <br><br>Der Kartenmaßstab beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1769,33 +1774,34 @@
   },
   {
     "id": 69,
-    "question": "Welche der Zuordnungen ist korrekt? Siehe Bild (NAV-006) (1,00 P.)",
+    "question": "Welche der Zuordnungen ist korrekt? <br><br>Siehe Bild (NAV-006) (1,00 P.)",
+    "asset": "assets/NAV/NAV-006.png",
     "answers": [
       {
         "id": 0,
-        "text": "1: VOR. 2: VOR/DME. 3: NDB. 4: VORTAC.",
+        "text": "1: VOR. <br>2: VOR/DME. <br>3: NDB. <br>4: VORTAC.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "1: VOR/DME. 2: VOR. 3: VORTAC. 4: NDB.",
+        "text": "1: VOR/DME. <br>2: VOR. <br>3: VORTAC. <br>4: NDB.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "1: VOR. 2: VOR/DME. 3: VORTAC. 4: NDB.",
+        "text": "1: VOR. <br>2: VOR/DME. <br>3: VORTAC. <br>4: NDB.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "1: VORTAC. 2: VOR/DME. 3: VOR. 4: NDB.",
+        "text": "1: VORTAC. <br>2: VOR/DME. <br>3: VOR. <br>4: NDB.",
         "correct": false
       }
     ]
   },
   {
     "id": 70,
-    "question": "Für einen kurzen Flug von A nach B entnimmt der Pilot einer aeronautischen Karte folgende Information: Rechtweisender Kurs (TC): 245°. Magnetische Variation: 7° W. Der magnetische Kurs (MC) beträgt... (1,00 P.)",
+    "question": "Für einen kurzen Flug von A nach B entnimmt der Pilot einer aeronautischen Karte folgende Information: <br><br>Rechtweisender Kurs (TC): 245°. <br>Magnetische Variation: 7° W. <br><br>Der magnetische Kurs (MC) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1821,7 +1827,7 @@
   },
   {
     "id": 71,
-    "question": "Ein Luftfahrzeug fliegt mit einer angezeigten Fluggeschwindigkeit (IAS) von 150 kt in 8.000 ft MSL. Die wahre Fluggeschwindigkeit (TAS) beträgt nach der Faustregel... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt mit einer angezeigten Fluggeschwindigkeit (IAS) von 150 kt in 8.000 ft MSL. <br><br>Die wahre Fluggeschwindigkeit (TAS) beträgt nach der Faustregel... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1847,7 +1853,7 @@
   },
   {
     "id": 72,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC) von A nach B: 250°. Distanz am Boden: 210 NM. TAS: 130 kt. Gegenwindkomponente: 15 kt. Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0915 UTC. Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (2,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 250°. <br>Distanz am Boden: 210 NM. <br>TAS: 130 kt. <br>Gegenwindkomponente: 15 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0915 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (2,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1873,7 +1879,7 @@
   },
   {
     "id": 73,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC) von A nach B: 283°. Distanz am Boden: 75 NM. TAS: 105 kt. Gegenwindkomponente: 12 kt. Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1242 UTC. Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 283°. <br>Distanz am Boden: 75 NM. <br>TAS: 105 kt. <br>Gegenwindkomponente: 12 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1242 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1899,7 +1905,7 @@
   },
   {
     "id": 74,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC) von A nach B: 182°. Distanz am Boden: 110 NM. GS: 77 kt. Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1513 UTC. Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 182°. <br>Distanz am Boden: 110 NM. <br>GS: 77 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1513 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1925,7 +1931,7 @@
   },
   {
     "id": 75,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC) von A nach B: 352°. Distanz am Boden: 100 NM. GS: 107 kt. Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0933 UTC. Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 352°. <br>Distanz am Boden: 100 NM. <br>GS: 107 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0933 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1951,7 +1957,7 @@
   },
   {
     "id": 76,
-    "question": "Ein Luftfahrzeug legt 50 NM in 42 Minuten zurück. Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
+    "question": "Ein Luftfahrzeug legt 50 NM in 42 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1977,7 +1983,7 @@
   },
   {
     "id": 77,
-    "question": "Ein Luftfahrzeug legt 15 km in 4 Minuten zurück. Wie groß ist die Geschwindigkeit über Grund (GS)? (1,00 P.)",
+    "question": "Ein Luftfahrzeug legt 15 km in 4 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund (GS)? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2003,7 +2009,7 @@
   },
   {
     "id": 78,
-    "question": "Ein Luftfahrzeug legt 100 km in 56 Minuten zurück. Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
+    "question": "Ein Luftfahrzeug legt 100 km in 56 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2029,7 +2035,7 @@
   },
   {
     "id": 79,
-    "question": "Ein Luftfahrzeug legt 120 NM in 55 Minuten zurück. Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
+    "question": "Ein Luftfahrzeug legt 120 NM in 55 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2081,7 +2087,7 @@
   },
   {
     "id": 81,
-    "question": "Ein Luftfahrzeug fliegt mit einer wahren Fluggeschwindigkeit (TAS) von 120 kt bei einem Rückenwind von 35 kt. Die Flugdauer für eine Distanz von 185 NM beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt mit einer wahren Fluggeschwindigkeit (TAS) von 120 kt bei einem Rückenwind von 35 kt. <br><br>Die Flugdauer für eine Distanz von 185 NM beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2211,7 +2217,7 @@
   },
   {
     "id": 86,
-    "question": "Gegeben: CAS: 155 kt. FL 80. Außentemperatur (OAT): -15°C. Die Wahre Fluggeschwindigkeit (TAS) beträgt... (1,00 P.)",
+    "question": "Gegeben: <br><br>CAS: 155 kt. <br>FL 80. <br>Außentemperatur (OAT): -15°C. <br><br>Die Wahre Fluggeschwindigkeit (TAS) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2237,7 +2243,8 @@
   },
   {
     "id": 87,
-    "question": "Der rechtweisende Kurs (TC) von Uelzen (EDVU) (52°59?N, 10°28?E) nach Neustadt (EDAN) (53°22'N, 011°37'E) beträgt... Siehe Anlage (NAV-031) (1,00 P.) Siehe Anlage 2",
+    "question": "Der rechtweisende Kurs (TC) von Uelzen (EDVU) (52°59?N, 10°28?E) nach Neustadt (EDAN) (53°22'N, 011°37'E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
+    "asset": "assets/NAV/NAV-031.png",
     "answers": [
       {
         "id": 0,
@@ -2263,7 +2270,7 @@
   },
   {
     "id": 88,
-    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von -9°C. Die QNH-Höhe beträgt 6.500 ft. Die wahre Höhe gerundet auf den nächsten 50 ft-Wert beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von -9°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe gerundet auf den nächsten 50 ft-Wert beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2289,7 +2296,8 @@
   },
   {
     "id": 89,
-    "question": "Die Distanz von Neustadt (EDAN) (53°22'N, 011°37'E) nach Uelzen (EDVU) (52°59?N, 10°28?E) beträgt... Siehe Anlage (NAV-031) (1,00 P.) Siehe Anlage 2",
+    "question": "Die Distanz von Neustadt (EDAN) (53°22'N, 011°37'E) nach Uelzen (EDVU) (52°59?N, 10°28?E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
+    "asset": "assets/NAV/NAV-031.png",
     "answers": [
       {
         "id": 0,
@@ -2315,7 +2323,7 @@
   },
   {
     "id": 90,
-    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +11°C. Die QNH-Höhe beträgt 6.500 ft. Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +11°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2341,7 +2349,7 @@
   },
   {
     "id": 91,
-    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +21°C. Die QNH-Höhe beträgt 6.500 ft. Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +21°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2367,7 +2375,7 @@
   },
   {
     "id": 92,
-    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 250° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Der Wind beträgt 010°/30 kt. Der rechtweisende Kurs (TC) beträgt: (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 250° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Der Wind beträgt 010°/30 kt. <br>Der rechtweisende Kurs (TC) beträgt: (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2393,7 +2401,7 @@
   },
   {
     "id": 93,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC): 255°. TAS: 100 kt. Wind: 200°/10 kt. Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 255°. <br>TAS: 100 kt. <br>Wind: 200°/10 kt. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2419,7 +2427,7 @@
   },
   {
     "id": 94,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC): 165°. TAS: 90 kt. Wind: 130°/20 kt. Distanz: 153 NM. Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 165°. <br>TAS: 90 kt. <br>Wind: 130°/20 kt. <br>Distanz: 153 NM. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2445,7 +2453,7 @@
   },
   {
     "id": 95,
-    "question": "Folgende Werte sind gegeben: Geschwindigkeit über Grund (GS): 160 kt. Rechtweisender Kurs (TC): 177°. Windvektor (W/V): 140°/20 kt. Die wahre Eigengeschwindigkeit (TAS) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Geschwindigkeit über Grund (GS): 160 kt. <br>Rechtweisender Kurs (TC): 177°. <br>Windvektor (W/V): 140°/20 kt. <br><br>Die wahre Eigengeschwindigkeit (TAS) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2471,7 +2479,7 @@
   },
   {
     "id": 96,
-    "question": "Folgende Werte sind gegeben: Geschwindigkeit über Grund (GS): 160 kt. Rechtweisender Kurs (TC): 177°. Windvektor (W/WS): 140°/20 kt. Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Geschwindigkeit über Grund (GS): 160 kt. <br>Rechtweisender Kurs (TC): 177°. <br>Windvektor (W/WS): 140°/20 kt. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2497,7 +2505,7 @@
   },
   {
     "id": 97,
-    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 220° mit einer wahren Fluggeschwindigkeit (TAS) von 220 kt. Der Wind beträgt 270°/50 kt. Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 220° mit einer wahren Fluggeschwindigkeit (TAS) von 220 kt. Der Wind beträgt 270°/50 kt. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2523,7 +2531,7 @@
   },
   {
     "id": 98,
-    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2549,7 +2557,7 @@
   },
   {
     "id": 99,
-    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2575,7 +2583,7 @@
   },
   {
     "id": 100,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC): 270°. TAS: 100 kt. Wind: 090°/25 kt. Distanz: 100 NM. Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 270°. <br>TAS: 100 kt. <br>Wind: 090°/25 kt. <br>Distanz: 100 NM. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2601,7 +2609,7 @@
   },
   {
     "id": 101,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC): 270°. TAS: 100 kt. Wind: 090°/25 kt. Distanz: 100 NM. Die Flugzeit beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 270°. <br>TAS: 100 kt. <br>Wind: 090°/25 kt. <br>Distanz: 100 NM. <br><br>Die Flugzeit beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2627,7 +2635,7 @@
   },
   {
     "id": 102,
-    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 290° mit einer Wahren Eigengeschwindigkeit (TAS) von 150 kt. Der Wind beträgt 260°/20 kt. Der rechtweisende Kurs (TC) beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 290° mit einer Wahren Eigengeschwindigkeit (TAS) von 150 kt. Der Wind beträgt 260°/20 kt. <br><br>Der rechtweisende Kurs (TC) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2653,7 +2661,7 @@
   },
   {
     "id": 103,
-    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
+    "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2679,7 +2687,7 @@
   },
   {
     "id": 104,
-    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 140° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Die Wahre Fluggeschwindigkeit (TAS) beträgt 150 kt, der rechtweisende Steuerkurs (TH) beträgt 150°. Windrichtung und Windgeschwindigkeit betragen... (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 140° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Die Wahre Fluggeschwindigkeit (TAS) beträgt 150 kt, der rechtweisende Steuerkurs (TH) beträgt 150°. <br><br>Windrichtung und Windgeschwindigkeit betragen... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2705,7 +2713,7 @@
   },
   {
     "id": 105,
-    "question": "Folgende Werte sind gegeben: Rechtweisender Kurs (TC): 120°. TAS: 120 kt. Wind 150°/12 kt. Der WCA beträgt... (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 120°. <br>TAS: 120 kt. <br>Wind 150°/12 kt. <br><br> Der WCA beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2731,7 +2739,7 @@
   },
   {
     "id": 106,
-    "question": "Beim Passieren einer bekannten Bodenmarkierung während eines Streckenfluges stellt der Pilot fest, dass er 5 Minuten schneller als geplant ist. Die geplante Geschwindigkeit über Grund (GS) beträgt 120 kt, die Distanz des vorherigen Teilstücks betrug 30 NM. Die zusätzliche Windkomponente (WK) beträgt... (1,00 P.)",
+    "question": "Beim Passieren einer bekannten Bodenmarkierung während eines Streckenfluges stellt der Pilot fest, dass er 5 Minuten schneller als geplant ist. Die geplante Geschwindigkeit über Grund (GS) beträgt 120 kt, die Distanz des vorherigen Teilstücks betrug 30 NM. <br><br>Die zusätzliche Windkomponente (WK) beträgt... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2757,7 +2765,7 @@
   },
   {
     "id": 107,
-    "question": "Die Entfernung von A nach B beträgt 120 NM. Nach 55 NM stellt der Pilot eine Abweichung von der geplanten Kursstrecke von 7 NM nach rechts fest. Welche Steuerkursänderung muss durchgeführt werden, um B direkt zu erreichen? (1,00 P.)",
+    "question": "Die Entfernung von A nach B beträgt 120 NM. Nach 55 NM stellt der Pilot eine Abweichung von der geplanten Kursstrecke von 7 NM nach rechts fest. <br><br>Welche Steuerkursänderung muss durchgeführt werden, um B direkt zu erreichen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2783,7 +2791,7 @@
   },
   {
     "id": 108,
-    "question": "Ein Luftfahrzeug fliegt auf einem Steuerkurs von 090°. Die zu fliegende Distanz beträgt 90 NM. Nach 45 NM ist das Luftfahrzeug 4,5 NM nördlich des Flugweges. Welche Steuerkursänderung muss durchgeführt werden, um am Zielflughafen anzukommen? (1,00 P.)",
+    "question": "Ein Luftfahrzeug fliegt auf einem Steuerkurs von 090°. Die zu fliegende Distanz beträgt 90 NM. Nach 45 NM ist das Luftfahrzeug 4,5 NM nördlich des Flugweges. <br><br>Welche Steuerkursänderung muss durchgeführt werden, um am Zielflughafen anzukommen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2835,7 +2843,7 @@
   },
   {
     "id": 110,
-    "question": "Während des Fluges werden folgende Werte ermittelt: Rechtweisender Kurs (TC): 120°. Geschwindigkeit über Grund (GS): 140 kt. Rechtweisender Steuerkurs (TH): 115°. Wahre Fluggeschwindigkeit (TAS): 150 kt. Welcher Windvektor ist korrekt? (1,00 P.)",
+    "question": "Während des Fluges werden folgende Werte ermittelt: <br><br>Rechtweisender Kurs (TC): 120°. <br>Geschwindigkeit über Grund (GS): 140 kt. <br>Rechtweisender Steuerkurs (TH): 115°. <br>Wahre Fluggeschwindigkeit (TAS): 150 kt. <br><br>Welcher Windvektor ist korrekt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2861,7 +2869,7 @@
   },
   {
     "id": 111,
-    "question": "Ein Luftfahrzeug befindet sich auf dem Flug von A nach B (Entfernung 220 NM) bei einer kalkulierten Geschwindigkeit über Grund (GS) von 120 kt. Der Start erfolgte um 1200 UTC. Nach 70 NM entlang der Strecke ist das Luftfahrzeug 5 Minuten vor seiner geplanten Zeit. Welches ist die revidierte voraussichtliche Ankunftszeit (estimated time of arrival - ETA) für B, wenn die neu ermittelte GS für die gesamte Strecke gilt? (1,00 P.)",
+    "question": "Ein Luftfahrzeug befindet sich auf dem Flug von A nach B (Entfernung 220 NM) bei einer kalkulierten Geschwindigkeit über Grund (GS) von 120 kt. Der Start erfolgte um 1200 UTC. Nach 70 NM entlang der Strecke ist das Luftfahrzeug 5 Minuten vor seiner geplanten Zeit. <br><br>Welches ist die revidierte voraussichtliche Ankunftszeit (estimated time of arrival - ETA) für B, wenn die neu ermittelte GS für die gesamte Strecke gilt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2887,7 +2895,7 @@
   },
   {
     "id": 112,
-    "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 9.000 ft auf 1.500 ft bei einer Sinkrate von 1.200 ft/Min. Wie lange dauert der Sinkflug? (1,00 P.)",
+    "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 9.000 ft auf 1.500 ft bei einer Sinkrate von 1.200 ft/Min. <br><br>Wie lange dauert der Sinkflug? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2913,7 +2921,7 @@
   },
   {
     "id": 113,
-    "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 7.500 ft auf 1.200 ft. Die durchschnittliche wahre Eigengeschwindigkeit (TAS) beträgt 105 kt bei einer Sinkrate von 800 ft/Min. Wie lange dauert der Sinkflug? (1,00 P.)",
+    "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 7.500 ft auf 1.200 ft. Die durchschnittliche wahre Eigengeschwindigkeit (TAS) beträgt 105 kt bei einer Sinkrate von 800 ft/Min. <br><br>Wie lange dauert der Sinkflug? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2939,33 +2947,35 @@
   },
   {
     "id": 114,
-    "question": "Welche Werte ergänzen den Flugdurchführungsplan (markierte Kästchen) korrekt? Siehe Anlage (NAV-014) (3,00 P.) Siehe Anlage 3",
+    "question": "Welche Werte ergänzen den Flugdurchführungsplan (markierte Kästchen) korrekt? <br><br>Siehe Anlage (NAV-014) (3,00 P.)",
+    "asset": "assets/NAV/NAV-014.png",
     "answers": [
       {
         "id": 0,
-        "text": "TH: 185°. MH: 185°. MC: 180°.",
+        "text": "TH: 185°. <br>MH: 185°. <br>MC: 180°.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "TH: 173°. MH: 184°. MC: 178°.",
+        "text": "TH: 173°. <br>MH: 184°. <br>MC: 178°.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "TH: 173°. MH: 174°. MC: 178°.",
+        "text": "TH: 173°. <br>MH: 174°. <br>MC: 178°.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "TH: 185°. MH: 184°. MC: 178°.",
+        "text": "TH: 185°. <br>MH: 184°. <br>MC: 178°.",
         "correct": true
       }
     ]
   },
   {
     "id": 115,
-    "question": "Welche Empfangsantenne befindet sich unter dem abgebildeten Antennenschutz? Siehe Bild (NAV-017) (1,00 P.)",
+    "question": "Welche Empfangsantenne befindet sich unter dem abgebildeten Antennenschutz? <br><br>Siehe Bild (NAV-017) (1,00 P.)",
+    "asset": "assets/NAV/NAV-017.png",
     "answers": [
       {
         "id": 0,
@@ -3173,7 +3183,7 @@
   },
   {
     "id": 123,
-    "question": "Gegeben: QDM: 138°; VAR: 010°E. Welchen Wert hat das QUJ? (1,00 P.)",
+    "question": "Gegeben: QDM: 138°; VAR: 010°E. <br><br>Welchen Wert hat das QUJ? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3199,7 +3209,7 @@
   },
   {
     "id": 124,
-    "question": "Gegeben: QTE: 229°; VAR: 010°W. Welchen Wert hat das QDM? (1,00 P.)",
+    "question": "Gegeben: QTE: 229°; VAR: 010°W. <br><br>Welchen Wert hat das QDM? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3225,7 +3235,7 @@
   },
   {
     "id": 125,
-    "question": "Gegeben: QDR: 022°; VAR 010°E. Welchen Wert hat das QTE? (1,00 P.)",
+    "question": "Gegeben: QDR: 022°; VAR 010°E. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3251,7 +3261,7 @@
   },
   {
     "id": 126,
-    "question": "Gegeben: QDR: 067°; VAR: 005°E. Welchen Wert hat das QDM? (1,00 P.)",
+    "question": "Gegeben: QDR: 067°; VAR: 005°E. <br><br>Welchen Wert hat das QDM? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3277,7 +3287,7 @@
   },
   {
     "id": 127,
-    "question": "Gegeben: QDM: 279°; VAR: 005°W; DEV 005°E. Welchen Wert hat das QDR? (1,00 P.)",
+    "question": "Gegeben: QDM: 279°; VAR: 005°W; DEV 005°E. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3303,7 +3313,7 @@
   },
   {
     "id": 128,
-    "question": "Gegeben: QDM: 300°; VAR: 005°E; DEV: 005°W. Welchen Wert hat das QDR? (1,00 P.)",
+    "question": "Gegeben: QDM: 300°; VAR: 005°E; DEV: 005°W. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3329,7 +3339,7 @@
   },
   {
     "id": 129,
-    "question": "Gegeben: QDR 152°; VAR: 005°W; DEV: 005°E. Welchen Wert hat das QUJ? (1,00 P.)",
+    "question": "Gegeben: QDR 152°; VAR: 005°W; DEV: 005°E. <br><br>Welchen Wert hat das QUJ? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3355,7 +3365,7 @@
   },
   {
     "id": 130,
-    "question": "Gegeben: QDM: 348°; VAR: 005°W. Welchen Wert hat das QTE? (1,00 P.)",
+    "question": "Gegeben: QDM: 348°; VAR: 005°W. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3381,7 +3391,7 @@
   },
   {
     "id": 131,
-    "question": "Gegeben: QTE 203°; VAR 010°E. Welchen Wert hat das QDR? (1,00 P.)",
+    "question": "Gegeben: QTE 203°; VAR 010°E. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3407,7 +3417,7 @@
   },
   {
     "id": 132,
-    "question": "Gegeben: QTE: 248°; VAR: 010°W. Welchen Wert hat das QDR? (1,00 P.)",
+    "question": "Gegeben: QTE: 248°; VAR: 010°W. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3433,7 +3443,7 @@
   },
   {
     "id": 133,
-    "question": "Gegeben: QDR: 254°; VAR: 010°E. Welchen Wert hat das QTE? (1,00 P.)",
+    "question": "Gegeben: QDR: 254°; VAR: 010°E. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3459,7 +3469,7 @@
   },
   {
     "id": 134,
-    "question": "Gegeben: QDM: 134°; VAR: 005°W. Welchen Wert hat das QTE? (1,00 P.)",
+    "question": "Gegeben: QDM: 134°; VAR: 005°W. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3797,7 +3807,7 @@
   },
   {
     "id": 147,
-    "question": "Ein Pilot möchte mit einem QDM von 090° auf ein NDB zufliegen. Das Luftfahrzeug fliegt für 5 Minuten mit einem magnetischen Steuerkurs (MH) von 095° und einer Funkkompass-Anzeige (RBI) von 355° stabil auf ein NDB zu. Nach 6 Minuten zeigt der Funkkompass den Wert 358° an. Welche Aussage ist korrekt? (1,00 P.)",
+    "question": "Ein Pilot möchte mit einem QDM von 090° auf ein NDB zufliegen. Das Luftfahrzeug fliegt für 5 Minuten mit einem magnetischen Steuerkurs (MH) von 095° und einer Funkkompass-Anzeige (RBI) von 355° stabil auf ein NDB zu. Nach 6 Minuten zeigt der Funkkompass den Wert 358° an. <br><br>Welche Aussage ist korrekt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3823,7 +3833,8 @@
   },
   {
     "id": 148,
-    "question": "Welches QDM muss der Pilot fliegen, um bei Windstille direkt zum eingestellten NDB zu gelangen? Siehe Bild (NAV-019) (1,00 P.)",
+    "question": "Welches QDM muss der Pilot fliegen, um bei Windstille direkt zum eingestellten NDB zu gelangen? <br><br>Siehe Bild (NAV-019) (1,00 P.)",
+    "asset": "assets/NAV/NAV-019.png",
     "answers": [
       {
         "id": 0,
@@ -4109,7 +4120,8 @@
   },
   {
     "id": 159,
-    "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? Siehe Anlage (NAV-021) (1,00 P.) Siehe Anlage 4",
+    "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? <br><br>Siehe Anlage (NAV-021) (1,00 P.)",
+    "asset": "assets/NAV/NAV-021.png",
     "answers": [
       {
         "id": 0,
@@ -4135,7 +4147,8 @@
   },
   {
     "id": 160,
-    "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? Siehe Anlage (NAV-022) (1,00 P.) Siehe Anlage 5",
+    "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? <br><br>Siehe Anlage (NAV-022) (1,00 P.)",
+    "asset": "assets/NAV/NAV-022.png",
     "answers": [
       {
         "id": 0,
@@ -4161,7 +4174,8 @@
   },
   {
     "id": 161,
-    "question": "Auf welchem Radial befindet sich das Luftfahrzeug? Siehe Anlage (NAV-024) (1,00 P.) Siehe Anlage 6",
+    "question": "Auf welchem Radial befindet sich das Luftfahrzeug? <br><br>Siehe Anlage (NAV-024) (1,00 P.)",
+    "asset": "assets/NAV/NAV-022.png",
     "answers": [
       {
         "id": 0,

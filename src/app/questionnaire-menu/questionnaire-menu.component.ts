@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { Question } from '../interfaces/question.interface';
 import { Router } from '@angular/router';
 
@@ -9,12 +9,19 @@ import { Router } from '@angular/router';
 export class QuestionnaireMenuComponent {
 
   @Input() questions: Question[];
+  @Input() wrong: boolean;
   @Input() subject: string;
+
+  @Output() navigateTo = new EventEmitter<Question>();
 
   constructor(private readonly router: Router) { }
 
   navigate(id: number) {
-    this.router.navigateByUrl(`${this.subject}/${id}`);
+    if (this.wrong) {
+      this.navigateTo.emit(this.questions.filter(q => q.id === id)[0]);
+    } else {
+      this.router.navigateByUrl(`${this.subject}/${id}`);
+    }
   }
 
 }

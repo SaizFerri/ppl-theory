@@ -105,7 +105,7 @@
   },
   {
     "id": 5,
-    "question": "Was resultiert aus einer vorderen Schwerpunktlage? 1. Größere Stabilität. 2. Erhöhter Treibstoffverbrauch. 3. Größere Strömungsabrissgeschwindigkeit. 4. Größere Reichweite. (1,00 P.)",
+    "question": "Was resultiert aus einer vorderen Schwerpunktlage? <br><br>1. Größere Stabilität. <br>2. Erhöhter Treibstoffverbrauch. <br>3. Größere Strömungsabrissgeschwindigkeit. <br>4. Größere Reichweite. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -573,7 +573,8 @@
   },
   {
     "id": 23,
-    "question": "Die Position des Schwerpunktes beträgt... Siehe Bild (PFP-052) (1,00 P.)",
+    "question": "Die Position des Schwerpunktes beträgt... <br><br>Siehe Bild (PFP-052) (1,00 P.)",
+    "asset": "assets/FPP/PFP-052.png",
     "answers": [
       {
         "id": 0,
@@ -625,7 +626,7 @@
   },
   {
     "id": 25,
-    "question": "Folgende Werte sind gegeben: Abflugmasse: 2.300 lbs. Schwerpunktlage: 95,75 in. Kraftstoffverbrauch: 170 lbs auf Station 87,00 in. Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br>Abflugmasse: 2.300 lbs. <br>Schwerpunktlage: 95,75 in. <br>Kraftstoffverbrauch: 170 lbs auf Station 87,00 in. <br><br>Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -651,7 +652,7 @@
   },
   {
     "id": 26,
-    "question": "Folgende Werte sind gegeben: Abflugmasse: 746 kg Schwerpunktlage: 37,1 cm. Kraftstoffverbrauch: 30.5 l auf Station 45 cm. Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br>Abflugmasse: 746 kg <br>Schwerpunktlage: 37,1 cm. <br>Kraftstoffverbrauch: 30.5 l auf Station 45 cm. <br><br>Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -677,7 +678,7 @@
   },
   {
     "id": 27,
-    "question": "Folgende Werte sind gegeben: Abflugmasse: 1.082 kg. Schwerpunktlage: 0,254 m. Kraftstoffverbrauch: 55 Liter auf Station 0,40 m. Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
+    "question": "Folgende Werte sind gegeben: <br>Abflugmasse: 1.082 kg. <br>Schwerpunktlage: 0,254 m. <br>Kraftstoffverbrauch: 55 Liter auf Station 0,40 m. <br><br>Wo befindet sich der Schwerpunkt nach der Landung? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -703,7 +704,8 @@
   },
   {
     "id": 28,
-    "question": "Die Position des Schwerpunktes (inklusive Kraftstoff) beträgt... Siehe Bild (PFP-053) (1,00 P.)",
+    "question": "Die Position des Schwerpunktes (inklusive Kraftstoff) beträgt... <br><br>Siehe Bild (PFP-053) (1,00 P.)",
+    "asset": "assets/FPP/PFP-053.png",
     "answers": [
       {
         "id": 0,
@@ -729,7 +731,8 @@
   },
   {
     "id": 29,
-    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 750 kg und ein Gesamtmoment von 625.000 mmkg berechnet. Bei welcher Markierung befindet sich der Schwerpunkt? Siehe Anlage (PFP-003) (1,00 P.)",
+    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 750 kg und ein Gesamtmoment von 625.000 mmkg berechnet. <br>Bei welcher Markierung befindet sich der Schwerpunkt? <br><br>Siehe Anlage (PFP-003) (1,00 P.)",
+    "asset": "assets/FPP/PFP-003.png",
     "answers": [
       {
         "id": 0,
@@ -755,7 +758,8 @@
   },
   {
     "id": 30,
-    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 725 kg und ein Gesamtmoment von 650.000 mmkg berechnet. Bei welcher Markierung befindet sich der Schwerpunkt? Siehe Anlage (PFP-004) (1,00 P.)",
+    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 725 kg und ein Gesamtmoment von 650.000 mmkg berechnet. <br>Bei welcher Markierung befindet sich der Schwerpunkt? <br><br>Siehe Anlage (PFP-004) (1,00 P.)",
+    "asset": "assets/FPP/PFP-004.png",
     "answers": [
       {
         "id": 0,
@@ -781,7 +785,8 @@
   },
   {
     "id": 31,
-    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 775 kg und ein Gesamtmoment von 700.000 mmkg berechnet. Bei welcher Markierung befindet sich der Schwerpunkt? Siehe Anlage (PFP-005) (1,00 P.)",
+    "question": "Im Rahmen der Flugplanung hat der Pilot für den Start ein Gesamtgewicht von 775 kg und ein Gesamtmoment von 700.000 mmkg berechnet. <br>Bei welcher Markierung befindet sich der Schwerpunkt? <br><br>Siehe Anlage (PFP-005) (1,00 P.)",
+    "asset": "assets/FPP/PFP-005.png",
     "answers": [
       {
         "id": 0,
@@ -807,7 +812,8 @@
   },
   {
     "id": 32,
-    "question": "Wie lauten die aktuelle Leermasse und der zuletzt festgestellte Leermassenschwerpunkt des Luftfahrzeuges? Siehe Anlage (PFP-006) (1,00 P.)",
+    "question": "Wie lauten die aktuelle Leermasse und der zuletzt festgestellte Leermassenschwerpunkt des Luftfahrzeuges? <br><br>Siehe Anlage (PFP-006) (1,00 P.)",
+    "asset": "assets/FPP/PFP-006.png",
     "answers": [
       {
         "id": 0,
@@ -833,7 +839,8 @@
   },
   {
     "id": 33,
-    "question": "Wie unterscheiden sich die Startkonfigurationen der Luftfahrzeuge A und B, wenn alle anderen Parameter gleich sind? Siehe Bild (PFP-007) (1,00 P.)",
+    "question": "Wie unterscheiden sich die Startkonfigurationen der Luftfahrzeuge A und B, wenn alle anderen Parameter gleich sind? <br><br>Siehe Bild (PFP-007) (1,00 P.)",
+    "asset": "assets/FPP/PFP-007.png",
     "answers": [
       {
         "id": 0,
@@ -937,7 +944,7 @@
   },
   {
     "id": 37,
-    "question": "Der Bodenwind an einem Flugplatz kann durch Reibung stark verzögert werden. Wenn diese Reibungszone im Anfangssteigflug verlassen wird, kann bei einem schwachen Rückenwind am Boden mit folgendem Phänomen gerechnet werden: (1,00 P.)",
+    "question": "Der Bodenwind an einem Flugplatz kann durch Reibung stark verzögert werden. <br><br>Wenn diese Reibungszone im Anfangssteigflug verlassen wird, kann bei einem schwachen Rückenwind am Boden mit folgendem Phänomen gerechnet werden: (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1015,7 +1022,7 @@
   },
   {
     "id": 40,
-    "question": "Ein Luftfahrzeug ist nicht explizit für den Einsatz in vorhergesagte Vereisungsgebiete zertifiziert. Welche Aussage ist korrekt? (1,00 P.)",
+    "question": "Ein Luftfahrzeug ist nicht explizit für den Einsatz in vorhergesagte Vereisungsgebiete zertifiziert. <br><br>Welche Aussage ist korrekt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1223,7 +1230,8 @@
   },
   {
     "id": 48,
-    "question": "Der Anfang des weißen Bogens am Fahrtmesser (Markierung 1) bezeichnet folgende Geschwindigkeit: Siehe Bild (PFP-008) (1,00 P.)",
+    "question": "Der Anfang des weißen Bogens am Fahrtmesser (Markierung 1) bezeichnet folgende Geschwindigkeit: <br><br>Siehe Bild (PFP-008) (1,00 P.)",
+    "asset": "assets/FPP/PFP-008.png",
     "answers": [
       {
         "id": 0,
@@ -1249,7 +1257,8 @@
   },
   {
     "id": 49,
-    "question": "Der Anfang des grünen Bogens am Fahrtmesser (Markierung 2) bezeichnet folgende Geschwindigkeit: Siehe Bild (PFP-008) (1,00 P.)",
+    "question": "Der Anfang des grünen Bogens am Fahrtmesser (Markierung 2) bezeichnet folgende Geschwindigkeit: <br><br>Siehe Bild (PFP-008) (1,00 P.)",
+    "asset": "assets/FPP/PFP-008.png",
     "answers": [
       {
         "id": 0,
@@ -1275,7 +1284,8 @@
   },
   {
     "id": 50,
-    "question": "Das Ende des grünen Bogens am Fahrtmesser (Markierung 4) bezeichnet folgende Geschwindigkeit: Siehe Bild (PFP-008) (1,00 P.)",
+    "question": "Das Ende des grünen Bogens am Fahrtmesser (Markierung 4) bezeichnet folgende Geschwindigkeit: <br><br>Siehe Bild (PFP-008) (1,00 P.)",
+    "asset": "assets/FPP/PFP-008.png",
     "answers": [
       {
         "id": 0,
@@ -1301,7 +1311,8 @@
   },
   {
     "id": 51,
-    "question": "Der rote Strich am Fahrtmesser (Markierung 5) bezeichnet folgende Geschwindigkeit: Siehe Bild (PFP-008) (1,00 P.)",
+    "question": "Der rote Strich am Fahrtmesser (Markierung 5) bezeichnet folgende Geschwindigkeit: <br><br>Siehe Bild (PFP-008) (1,00 P.)",
+    "asset": "assets/FPP/PFP-008.png",
     "answers": [
       {
         "id": 0,
@@ -1353,7 +1364,7 @@
   },
   {
     "id": 53,
-    "question": "Für den Start auf Piste 22 ist ein Bodenwind von 250°/10 kt vorhergesagt. Wie groß ist die Längswindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
+    "question": "Für den Start auf Piste 22 ist ein Bodenwind von 250°/10 kt vorhergesagt. <br><br>Wie groß ist die Längswindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1379,7 +1390,8 @@
   },
   {
     "id": 54,
-    "question": "Die Startstrecke (T/O distance) unter folgenden Bedingungen beträgt: Außentemperatur: -20°C. Druckhöhe (pressure altitude): 5.000 ft. Flugzeugmasse: 750 kg. Gegenwind (head wind): 10 kt. Siehe Anlage (PFP-009) (1,00 P.)",
+    "question": "Die Startstrecke (T/O distance) unter folgenden Bedingungen beträgt: <br><br>Außentemperatur: -20°C. <br>Druckhöhe (pressure altitude): 5.000 ft. <br>Flugzeugmasse: 750 kg. <br>Gegenwind (head wind): 10 kt. <br><br>Siehe Anlage (PFP-009) (1,00 P.)",
+    "asset": "assets/FPP/PFP-009.png",
     "answers": [
       {
         "id": 0,
@@ -1405,7 +1417,7 @@
   },
   {
     "id": 55,
-    "question": "Der Pilot plant einen Start auf Piste 36 bei einem Bodenwind von 240°/12 kt. Wie groß ist die Längswindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
+    "question": "Der Pilot plant einen Start auf Piste 36 bei einem Bodenwind von 240°/12 kt. <br><br>Wie groß ist die Längswindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1431,7 +1443,8 @@
   },
   {
     "id": 56,
-    "question": "Der Pilot plant einen Flug von einem auf 4.000 ft hoch gelegenen Platz bei einem QNH von 1.013 hPa, die Temperatur entspricht den ISA-Bedingungen. Die Startmasse beträgt 750 kg, es sind 5 kt Rückenwind (tail wind) vorhergesagt. Die Startstrecke (T/O distance) beträgt... Siehe Anlage (PFP-009) (1,00 P.)",
+    "question": "Der Pilot plant einen Flug von einem auf 4.000 ft hoch gelegenen Platz bei einem QNH von 1.013 hPa, die Temperatur entspricht den ISA-Bedingungen. Die Startmasse beträgt 750 kg, es sind 5 kt Rückenwind (tail wind) vorhergesagt. <br><br>Die Startstrecke (T/O distance) beträgt... <br><br>Siehe Anlage (PFP-009) (1,00 P.)",
+    "asset": "assets/FPP/PFP-009.png",
     "answers": [
       {
         "id": 0,
@@ -1457,7 +1470,8 @@
   },
   {
     "id": 57,
-    "question": "Der Pilot plant einen Flug von einem auf 3.500 ft hoch gelegenen Platz bei einem QNH von 1.013 hPa und einer Temperatur von 20°C. Die Startmasse beträgt 705 kg, es sind 5 kt Rückenwind (tail wind) vorhergesagt. Die Startstrecke (T/O distance) beträgt... Siehe Anlage (PFP-009) (1,00 P.)",
+    "question": "Der Pilot plant einen Flug von einem auf 3.500 ft hoch gelegenen Platz bei einem QNH von 1.013 hPa und einer Temperatur von 20°C. Die Startmasse beträgt 705 kg, es sind 5 kt Rückenwind (tail wind) vorhergesagt. <br><br>Die Startstrecke (T/O distance) beträgt... <br><br>Siehe Anlage (PFP-009) (1,00 P.)",
+    "asset": "assets/FPP/PFP-009.png",
     "answers": [
       {
         "id": 0,
@@ -1483,7 +1497,7 @@
   },
   {
     "id": 58,
-    "question": "Der Pilot plant einen Start auf Piste 36 bei einem Bodenwind von 240°/12 kt. Wie groß ist die Querwindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
+    "question": "Der Pilot plant einen Start auf Piste 36 bei einem Bodenwind von 240°/12 kt. <br><br>Wie groß ist die Querwindkomponente, die während des Starts auf das Luftfahrzeug wirkt? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1509,7 +1523,8 @@
   },
   {
     "id": 59,
-    "question": "Wie hoch ist der Kraftstoffverbrauch (FF) unter folgenden Bedingungen? Druckhöhe (pressure altitude): 2.000 ft. Temperatur: 31°C. Drehzahl (RPM): 2.400 U/Min. Siehe Anlage (PFP-012) (1,00 P.)",
+    "question": "Wie hoch ist der Kraftstoffverbrauch (FF) unter folgenden Bedingungen? <br><br>Druckhöhe (pressure altitude): 2.000 ft. <br>Temperatur: 31°C. <br>Drehzahl (RPM): 2.400 U/Min. <br><br>Siehe Anlage (PFP-012) (1,00 P.)",
+    "asset": "assets/FPP/PFP-012.png",
     "answers": [
       {
         "id": 0,
@@ -1535,7 +1550,8 @@
   },
   {
     "id": 60,
-    "question": "Die Steiggeschwindigkeit (rate of climb) beträgt unter folgenden Bedingungen: Außentemperatur (OAT): -20°C. Druckhöhe (pressure altitude): 10.000 ft. Siehe Anlage (PFP-011) (1,00 P.)",
+    "question": "Die Steiggeschwindigkeit (rate of climb) beträgt unter folgenden Bedingungen: <br><br>Außentemperatur (OAT): -20°C. <br>Druckhöhe (pressure altitude): 10.000 ft. <br><br>Siehe Anlage (PFP-011) (1,00 P.)",
+    "asset": "assets/FPP/PFP-011.png",
     "answers": [
       {
         "id": 0,
@@ -1561,7 +1577,8 @@
   },
   {
     "id": 61,
-    "question": "Welche Reichweite (range) kann unter folgenden Bedingungen erzielt werden? Außentemperatur (OAT): 6°C. Druckhöhe (pressure altitude): 6.000 ft. Leistung (power): 65%. Siehe Anlage (PFP-013) (1,00 P.)",
+    "question": "Welche Reichweite (range) kann unter folgenden Bedingungen erzielt werden? <br><br>Außentemperatur (OAT): 6°C. <br>Druckhöhe (pressure altitude): 6.000 ft. <br>Leistung (power): 65%. <br><br>Siehe Anlage (PFP-013) (1,00 P.)",
+    "asset": "assets/FPP/PFP-013.png",
     "answers": [
       {
         "id": 0,
@@ -1587,7 +1604,8 @@
   },
   {
     "id": 62,
-    "question": "Welche Reichweite (range) kann unter folgenden Bedingungen erzielt werden? Außentemperatur (OAT): 20°C. Druckhöhe (pressure altitude): MSL. Leistung (power): 55%. Siehe Anlage (PFP-013) (1,00 P.)",
+    "question": "Welche Reichweite (range) kann unter folgenden Bedingungen erzielt werden? <br><br>Außentemperatur (OAT): 20°C. <br>Druckhöhe (pressure altitude): MSL. <br>Leistung (power): 55%. <br><br>Siehe Anlage (PFP-013) (1,00 P.)",
+    "asset": "assets/FPP/PFP-013.png",
     "answers": [
       {
         "id": 0,
@@ -1613,7 +1631,8 @@
   },
   {
     "id": 63,
-    "question": "Welchen Wert hat die TAS unter folgenden Bedingungen? Außentemperatur (OAT): 10°C. Druckhöhe (pressure altitude): 6.000 ft. Leistung (power): 65%. Siehe Anlage (PFP-014) (1,00 P.)",
+    "question": "Welchen Wert hat die TAS unter folgenden Bedingungen? <br><br>Außentemperatur (OAT): 10°C. <br>Druckhöhe (pressure altitude): 6.000 ft. <br>Leistung (power): 65%. <br><br>Siehe Anlage (PFP-014) (1,00 P.)",
+    "asset": "assets/FPP/PFP-014.png",
     "answers": [
       {
         "id": 0,
@@ -1639,7 +1658,8 @@
   },
   {
     "id": 64,
-    "question": "Welchen Wert hat die TAS unter folgenden Bedingungen? Außentemperatur (OAT): -2°C. Druckhöhe (pressure altitude): 8.000 ft. Leistung (power): 75%. Siehe Anlage (PFP-014) (1,00 P.)",
+    "question": "Welchen Wert hat die TAS unter folgenden Bedingungen? <br><br>Außentemperatur (OAT): -2°C. <br>Druckhöhe (pressure altitude): 8.000 ft. <br>Leistung (power): 75%. <br><br>Siehe Anlage (PFP-014) (1,00 P.)",
+    "asset": "assets/FPP/PFP-014.png",
     "answers": [
       {
         "id": 0,
@@ -1665,7 +1685,8 @@
   },
   {
     "id": 65,
-    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 9.000 ft bei einer Temperatur von 12°C maximal noch erreichen? Siehe Anlage (PFP-011) (1,00 P.)",
+    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 9.000 ft bei einer Temperatur von 12°C maximal noch erreichen? <br><br>Siehe Anlage (PFP-011) (1,00 P.)",
+    "asset": "assets/FPP/PFP-011.png",
     "answers": [
       {
         "id": 0,
@@ -1691,7 +1712,8 @@
   },
   {
     "id": 66,
-    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 2.200 ft bei einer Temperatur von 15°C maximal noch erreichen? Siehe Anlage (PFP-011) (1,00 P.)",
+    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 2.200 ft bei einer Temperatur von 15°C maximal noch erreichen? <br><br>Siehe Anlage (PFP-011) (1,00 P.)",
+    "asset": "assets/FPP/PFP-011.png",
     "answers": [
       {
         "id": 0,
@@ -1717,7 +1739,8 @@
   },
   {
     "id": 67,
-    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 6.500 ft bei einer Temperatur von 0°C maximal noch erreichen? Siehe Anlage (PFP-011) (1,00 P.)",
+    "question": "Welche Steiggeschwindigkeit (rate of climb) kann das Luftfahrzeug in einer Druckhöhe (pressure altitude) von 6.500 ft bei einer Temperatur von 0°C maximal noch erreichen? <br><br>Siehe Anlage (PFP-011) (1,00 P.)",
+    "asset": "assets/FPP/PFP-011.png",
     "answers": [
       {
         "id": 0,
@@ -1743,59 +1766,62 @@
   },
   {
     "id": 68,
-    "question": "Welche wahre Eigengeschwindigkeit (TAS) und welcher Kraftstoffverbrauch (FF) werden im Reiseflug mit 60% Leistung in Flugfläche 60 unter den folgenden Bedingungen erreicht? Temperatur: ISA - 20°C. QNH: 980 hPa. Siehe Anlage (PFP-012) (2,00 P.)",
+    "question": "Welche wahre Eigengeschwindigkeit (TAS) und welcher Kraftstoffverbrauch (FF) werden im Reiseflug mit 60% Leistung in Flugfläche 60 unter den folgenden Bedingungen erreicht? <br><br>Temperatur: ISA - 20°C. <br>QNH: 980 hPa. <br><br>Siehe Anlage (PFP-012) (2,00 P.)",
+    "asset": "assets/FPP/PFP-012.png",
     "answers": [
       {
         "id": 0,
-        "text": "94 kt. 19,0 l/h.",
+        "text": "94 kt. <br>19,0 l/h.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "110 kt. 25,1 l/h.",
+        "text": "110 kt. <br>25,1 l/h.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "95 kt. 19,6 l/h.",
+        "text": "95 kt. <br>19,6 l/h.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "93 kt. 18,6 l/h.",
+        "text": "93 kt. <br>18,6 l/h.",
         "correct": false
       }
     ]
   },
   {
     "id": 69,
-    "question": "Welche wahre Fluggeschwindigkeit (TAS) und welcher Kraftstoffverbrauch (FF) werden im Reiseflug mit 70% Leistung in Flugfläche 60 unter den folgenden Bedingungen erreicht? Temperatur: ISA - 20°C. QNH: 980 hPa. Siehe Anlage (PFP-012) (2,00 P.)",
+    "question": "Welche wahre Fluggeschwindigkeit (TAS) und welcher Kraftstoffverbrauch (FF) werden im Reiseflug mit 70% Leistung in Flugfläche 60 unter den folgenden Bedingungen erreicht? <br><br>Temperatur: ISA - 20°C. <br>QNH: 980 hPa. <br><br>Siehe Anlage (PFP-012) (2,00 P.)",
+    "asset": "assets/FPP/PFP-012.png",
     "answers": [
       {
         "id": 0,
-        "text": "100 kt. 19,3 l/h.",
+        "text": "100 kt. <br>19,3 l/h.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "110 kt. 23,9 l/h.",
+        "text": "110 kt. <br>23,9 l/h.",
         "correct": true
       },
       {
         "id": 2,
-        "text": "95 kt. 19,6 l/h.",
+        "text": "95 kt. <br>19,6 l/h.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "105 kt. 21,5 l/h.",
+        "text": "105 kt. <br>21,5 l/h.",
         "correct": false
       }
     ]
   },
   {
     "id": 70,
-    "question": "Wie groß ist die Reichweite (range) für einen Reiseflug mit 70% Leistung in Flugfläche 75 bei einer Außentemperatur (OAT) von -20°C? Siehe Anlage (PFP-013) (1,00 P.)",
+    "question": "Wie groß ist die Reichweite (range) für einen Reiseflug mit 70% Leistung in Flugfläche 75 bei einer Außentemperatur (OAT) von -20°C? <br><br>Siehe Anlage (PFP-013) (1,00 P.)",
+    "asset": "assets/FPP/PFP-013.png",
     "answers": [
       {
         "id": 0,
@@ -1821,7 +1847,8 @@
   },
   {
     "id": 71,
-    "question": "Wie groß ist die Reichweite (range) für einen Reiseflug mit 60% Leistung in Flugfläche 65 bei einer Außentemperatur (OAT) von -15°C? Siehe Anlage (PFP-013) (1,00 P.)",
+    "question": "Wie groß ist die Reichweite (range) für einen Reiseflug mit 60% Leistung in Flugfläche 65 bei einer Außentemperatur (OAT) von -15°C? <br><br>Siehe Anlage (PFP-013) (1,00 P.)",
+    "asset": "assets/FPP/PFP-013.png",
     "answers": [
       {
         "id": 0,
@@ -1847,59 +1874,62 @@
   },
   {
     "id": 72,
-    "question": "Welche Werte haben Kraftstoffverbrauch (fuel flow) und wahre Fluggeschwindigkeit (TAS) für einen Reiseflug mit 60% Leistung in Flugfläche 85 bei einer Außentemperatur (OAT) von -25°C? Siehe Anlage (PFP-014) (1,00 P.)",
+    "question": "Welche Werte haben Kraftstoffverbrauch (fuel flow) und wahre Fluggeschwindigkeit (TAS) für einen Reiseflug mit 60% Leistung in Flugfläche 85 bei einer Außentemperatur (OAT) von -25°C? <br><br>Siehe Anlage (PFP-014) (1,00 P.)",
+    "asset": "assets/FPP/PFP-014.png",
     "answers": [
       {
         "id": 0,
-        "text": "Kraftstoffverbrauch: 20 l. TAS: 89 kt.",
+        "text": "Kraftstoffverbrauch: 20 l. <br>TAS: 89 kt.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Kraftstoffverbrauch: 17,5 l. TAS: 83 kt.",
+        "text": "Kraftstoffverbrauch: 17,5 l. <br>TAS: 83 kt.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Kraftstoffverbrauch: 18,5 l. TAS: 85 kt.",
+        "text": "Kraftstoffverbrauch: 18,5 l. <br>TAS: 85 kt.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "Kraftstoffverbrauch: 17 l. TAS: 81 kt.",
+        "text": "Kraftstoffverbrauch: 17 l. <br>TAS: 81 kt.",
         "correct": false
       }
     ]
   },
   {
     "id": 73,
-    "question": "Welche Werte haben Kraftstoffverbrauch (fuel flow) und wahre Fluggeschwindigkeit (TAS) für einen Reiseflug mit 70% Leistung in Flugfläche 75 bei einer Außentemperatur (OAT) von 0°C? Siehe Anlage (PFP-014) (1,00 P.)",
+    "question": "Welche Werte haben Kraftstoffverbrauch (fuel flow) und wahre Fluggeschwindigkeit (TAS) für einen Reiseflug mit 70% Leistung in Flugfläche 75 bei einer Außentemperatur (OAT) von 0°C? <br><br>Siehe Anlage (PFP-014) (1,00 P.)",
+    "asset": "assets/FPP/PFP-014.png",
     "answers": [
       {
         "id": 0,
-        "text": "Kraftstoffverbrauch: 20,5 l. TAS: 93 kt.",
+        "text": "Kraftstoffverbrauch: 20,5 l. <br>TAS: 93 kt.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Kraftstoffverbrauch: 21,5 l. TAS: 98 kt.",
+        "text": "Kraftstoffverbrauch: 21,5 l. <br>TAS: 98 kt.",
         "correct": true
       },
       {
         "id": 2,
-        "text": "Kraftstoffverbrauch: 18,5 l. TAS: 95 kt.",
+        "text": "Kraftstoffverbrauch: 18,5 l. <br>TAS: 95 kt.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Kraftstoffverbrauch: 20 l. TAS: 99 kt.",
+        "text": "Kraftstoffverbrauch: 20 l. <br>TAS: 99 kt.",
         "correct": false
       }
     ]
   },
   {
     "id": 74,
-    "question": "Welche Steigrate kann unter den angegebenen Bedingungen erreicht werden? Temperatur (OAT): 20°C. Druckhöhe (pressure altitude): 4.000 ft. Luftfahrzeugmasse: 530 kg. Siehe Anlage (PFP-010) (1,00 P.)",
+    "question": "Welche Steigrate kann unter den angegebenen Bedingungen erreicht werden? <br><br>Temperatur (OAT): 20°C. <br>Druckhöhe (pressure altitude): 4.000 ft. <br>Luftfahrzeugmasse: 530 kg. <br><br>Siehe Anlage (PFP-010) (1,00 P.)",
+    "asset": "assets/FPP/PFP-010.png",
     "answers": [
       {
         "id": 0,
@@ -1925,7 +1955,8 @@
   },
   {
     "id": 75,
-    "question": "Welche Steigrate kann unter den angegebenen Bedingungen erreicht werden? Temperatur (OAT): -15°C. Druckhöhe (pressure altitude): 11.000 ft. Luftfahrzeugmasse: 500 kg. Siehe Anlage (PFP-010) (1,00 P.)",
+    "question": "Welche Steigrate kann unter den angegebenen Bedingungen erreicht werden? <br><br>Temperatur (OAT): -15°C. <br>Druckhöhe (pressure altitude): 11.000 ft. <br>Luftfahrzeugmasse: 500 kg. <br><br>Siehe Anlage (PFP-010) (1,00 P.)",
+    "asset": "assets/FPP/PFP-010.png",
     "answers": [
       {
         "id": 0,
@@ -1951,7 +1982,8 @@
   },
   {
     "id": 76,
-    "question": "Der Pilot möchte nach dem Start einen Steigflug auf FL 75 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Druckhöhe am Flugplatz beträgt 3.000 ft, die Temperatur (outside air temperature - OAT) am Flugplatz beträgt 25° C, in FL 75 0°C. Mit welcher Geschwindigkeit ist der Steigflug durchzuführen? Siehe Anlage (PFP-023) (1,00 P.)",
+    "question": "Der Pilot möchte nach dem Start einen Steigflug auf FL 75 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Druckhöhe am Flugplatz beträgt 3.000 ft, die Temperatur (outside air temperature - OAT) am Flugplatz beträgt 25° C, in FL 75 0°C. <br><br>Mit welcher Geschwindigkeit ist der Steigflug durchzuführen? <br><br>Siehe Anlage (PFP-023) (1,00 P.)",
+    "asset": "assets/FPP/PFP-023.png",
     "answers": [
       {
         "id": 0,
@@ -1977,7 +2009,8 @@
   },
   {
     "id": 77,
-    "question": "Der Pilot möchte einen Steigflug von FL 65 auf FL 95 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Temperatur (outside air temperature - OAT) in FL 65 beträgt -5° C, in FL 95 -15°C. Wie viel Kraftstoff wird für den Steigflug benötigt? Siehe Anlage (PFP-023) (1,00 P.)",
+    "question": "Der Pilot möchte einen Steigflug von FL 65 auf FL 95 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Temperatur (outside air temperature - OAT) in FL 65 beträgt -5° C, in FL 95 -15°C. <br><br>Wie viel Kraftstoff wird für den Steigflug benötigt? <br><br>Siehe Anlage (PFP-023) (1,00 P.)",
+    "asset": "assets/FPP/PFP-023.png",
     "answers": [
       {
         "id": 0,
@@ -2003,7 +2036,8 @@
   },
   {
     "id": 78,
-    "question": "Der Pilot möchte einen Steigflug von FL 65 auf FL 95 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Temperatur (outside air temperature - OAT) in FL 65 beträgt -5° C, in FL 95 -15°C. Welche Distanz wird für den Steigflug benötigt? Siehe Anlage (PFP-023) (1,00 P.)",
+    "question": "Der Pilot möchte einen Steigflug von FL 65 auf FL 95 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Temperatur (outside air temperature - OAT) in FL 65 beträgt -5° C, in FL 95 -15°C. <br><br>Welche Distanz wird für den Steigflug benötigt? <br><br>Siehe Anlage (PFP-023) (1,00 P.)",
+    "asset": "assets/FPP/PFP-023.png",
     "answers": [
       {
         "id": 0,
@@ -2029,7 +2063,8 @@
   },
   {
     "id": 79,
-    "question": "Der Pilot möchte nach dem Start einen Steigflug auf FL 75 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Druckhöhe am Flugplatz beträgt 3.000 ft, die Temperatur (outside air temperature - OAT) am Flugplatz beträgt 25° C, in FL 75 0°C. Welche Distanz wird für den Steigflug benötigt? Siehe Anlage (PFP-023) (1,00 P.)",
+    "question": "Der Pilot möchte nach dem Start einen Steigflug auf FL 75 durchführen. Die Luftfahrzeugmasse beträgt 3.000 lb, die Druckhöhe am Flugplatz beträgt 3.000 ft, die Temperatur (outside air temperature - OAT) am Flugplatz beträgt 25° C, in FL 75 0°C. <br><br>Welche Distanz wird für den Steigflug benötigt? <br><br>Siehe Anlage (PFP-023) (1,00 P.)",
+    "asset": "assets/FPP/PFP-023.png",
     "answers": [
       {
         "id": 0,
@@ -2159,7 +2194,7 @@
   },
   {
     "id": 84,
-    "question": "Wie viel Kraftstoff muss beim Rollen zum Start verbraucht werden, um die Masse des Luftfahrzeuges auf die maximale Abflugmasse zu reduzieren? Maximale Rollmasse: 1150 kg. Aktuelle Rollmasse: 1148 kg. Maximale Abflugmasse: 1145 kg. (1,00 P.)",
+    "question": "Wie viel Kraftstoff muss beim Rollen zum Start verbraucht werden, um die Masse des Luftfahrzeuges auf die maximale Abflugmasse zu reduzieren? <br><br>Maximale Rollmasse: 1150 kg. <br>Aktuelle Rollmasse: 1148 kg. <br>Maximale Abflugmasse: 1145 kg. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2185,7 +2220,7 @@
   },
   {
     "id": 85,
-    "question": "Für einen Flug wird für die einzelnen Segmente folgender Kraftstoff benötigt: Anlassen und Rollen zum Start: 5 l. Start und Steigflug: 12 l. Reiseflug: 25 l. Sinkflug, Anflug und Landung: 7 l. Abrollen und Parken: 3 l. Wie hoch ist der Streckenkraftstoff (trip fuel)? (1,00 P.)",
+    "question": "Für einen Flug wird für die einzelnen Segmente folgender Kraftstoff benötigt: <br><br>Anlassen und Rollen zum Start: 5 l. <br>Start und Steigflug: 12 l. <br>Reiseflug: 25 l. <br>Sinkflug, Anflug und Landung: 7 l. <br>Abrollen und Parken: 3 l. <br><br>Wie hoch ist der Streckenkraftstoff (trip fuel)? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2211,7 +2246,8 @@
   },
   {
     "id": 86,
-    "question": "Bis zu welcher Höhe ist gemäß NOTAM der Überflug über das angegebene Gebiet untersagt? Siehe Bild (PFP-024) (1,00 P.)",
+    "question": "Bis zu welcher Höhe ist gemäß NOTAM der Überflug über das angegebene Gebiet untersagt? <br><br>Siehe Bild (PFP-024) (1,00 P.)",
+    "asset": "assets/FPP/PFP-024.png",
     "answers": [
       {
         "id": 0,
@@ -2237,7 +2273,7 @@
   },
   {
     "id": 87,
-    "question": "Kurz vor dem Erreichen des Pflichtmeldepunktes stellt der Pilot fest, dass die gemeldete Sichtweite 4.000 m beträgt. Unter welchen Bedingungen darf bei einer entsprechenden Freigabe in die Kontrollzone eingeflogen werden? (1,00 P.)",
+    "question": "Kurz vor dem Erreichen des Pflichtmeldepunktes stellt der Pilot fest, dass die gemeldete Sichtweite 4.000 m beträgt. <br><br>Unter welchen Bedingungen darf bei einer entsprechenden Freigabe in die Kontrollzone eingeflogen werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,

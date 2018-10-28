@@ -677,7 +677,7 @@
   },
   {
     "id": 27,
-    "question": "Welchen Wert hat die wahre Höhe unter folgenden Bedingungen? QNH: 983 hPa. Flug in Flugfläche: 85. Außentemperatur: ISA - 10. (1,00 P.)",
+    "question": "Welchen Wert hat die wahre Höhe unter folgenden Bedingungen? <br><br>QNH: 983 hPa. <br>Flug in Flugfläche: 85. <br>Außentemperatur: ISA - 10. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1483,7 +1483,8 @@
   },
   {
     "id": 58,
-    "question": "Mit welcher als Ziffer 2 abgebildeten Bewölkung muss auf der Leeseite einer Föhnwetterlage gerechnet werden? Siehe Bild (MET-008). (1,00 P.)",
+    "question": "Mit welcher als Ziffer 2 abgebildeten Bewölkung muss auf der Leeseite einer Föhnwetterlage gerechnet werden? <br><br>Siehe Bild (MET-008). (1,00 P.)",
+    "asset": "assets/MET/MET-008.png",
     "answers": [
       {
         "id": 0,
@@ -1509,7 +1510,8 @@
   },
   {
     "id": 59,
-    "question": "Welche Wolkengattung ist auf dem Foto abgebildet? Siehe Bild (MET-002). (1,00 P.)",
+    "question": "Welche Wolkengattung ist auf dem Foto abgebildet? <br><br>Siehe Bild (MET-002). (1,00 P.)",
+    "asset": "assets/MET/MET-002.png",
     "answers": [
       {
         "id": 0,
@@ -1535,7 +1537,8 @@
   },
   {
     "id": 60,
-    "question": "Welche Wolkengattung ist auf dem Foto abgebildet? Siehe Bild (MET-004). (1,00 P.)",
+    "question": "Welche Wolkengattung ist auf dem Foto abgebildet? <br><br>Siehe Bild (MET-004). (1,00 P.)",
+    "asset": "assets/MET/MET-004.png",
     "answers": [
       {
         "id": 0,
@@ -1847,7 +1850,8 @@
   },
   {
     "id": 72,
-    "question": "Bei der abgebildeten Front handelt es sich um eine... Siehe Bild (MET-005) (1,00 P.)",
+    "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-005) (1,00 P.)",
+    "asset": "assets/MET/MET-005.png",
     "answers": [
       {
         "id": 0,
@@ -1873,7 +1877,8 @@
   },
   {
     "id": 73,
-    "question": "Bei der abgebildeten Front handelt es sich um eine... Siehe Bild (MET-006) (1,00 P.)",
+    "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-006) (1,00 P.)",
+    "asset": "assets/MET/MET-006.png",
     "answers": [
       {
         "id": 0,
@@ -1899,7 +1904,8 @@
   },
   {
     "id": 74,
-    "question": "Bei der abgebildeten Front handelt es sich um eine... Siehe Bild (MET-009) (1,00 P.)",
+    "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-009) (1,00 P.)",
+    "asset": "assets/MET/MET-009.png",
     "answers": [
       {
         "id": 0,
@@ -2111,22 +2117,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Steigender Druck vor der Warmfront, konstanter Druck im Warmsektor, steigender Druck hinter der Kaltfront",
+        "text": "Steigender Druck vor der Warmfront, <br>konstanter Druck im Warmsektor, <br>steigender Druck hinter der Kaltfront",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Fallender Druck vor der Warmfront, konstanter Druck im Warmsektor, steigender Druck hinter der Kaltfront",
+        "text": "Fallender Druck vor der Warmfront, <br>konstanter Druck im Warmsektor, <br>steigender Druck hinter der Kaltfront",
         "correct": true
       },
       {
         "id": 2,
-        "text": "Steigender Druck vor der Warmfront, steigender Druck im Warmsektor, fallender Druck hinter der Kaltfront",
+        "text": "Steigender Druck vor der Warmfront, <br>steigender Druck im Warmsektor, <br>fallender Druck hinter der Kaltfront",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Fallender Druck vor der Warmfront, konstanter Druck im Warmsektor, fallender Druck hinter der Kaltfront",
+        "text": "Fallender Druck vor der Warmfront, <br>konstanter Druck im Warmsektor, <br>fallender Druck hinter der Kaltfront",
         "correct": false
       }
     ]

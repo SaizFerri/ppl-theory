@@ -1,14 +1,97 @@
 import { Component, OnInit } from '@angular/core';
+import { QuestionsService } from '../questions.service';
+import { Question } from '../interfaces/question.interface';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-wrong-questionnaire',
   templateUrl: './wrong-questionnaire.component.html'
 })
 export class WrongQuestionnaireComponent implements OnInit {
+  questions: Question[];
+  answeredQuestions: any[];
+  isEmpty: boolean = true;
+  actualQuestion: any;
+  subject: string;
+  path: string;
 
-  constructor() { }
+  constructor(
+    private router: Router,
+    private readonly route: ActivatedRoute,
+    private readonly questionService: QuestionsService
+  ) { 
+    route.params.subscribe(params => { this.initialize(params); this.subject = params.subject })
+  }
 
   ngOnInit() {
+    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
+    if (this.subject) {
+      // Check if id is valid
+      this.questionService.fireGetAllWrong(this.subject).subscribe(
+        response => {
+          this.answeredQuestions = response;
+          this.questionService.passQuestion(this.answeredQuestions[0]);
+          this.actualQuestion = this.answeredQuestions[0];
+          this.isEmpty = this.answeredQuestions.length > 0 ? false : true;
+
+          this.questionService.getQuestions(this.path).subscribe(
+            response => {
+              this.questions = response;
+              const originalQuestions = [];
+              this.answeredQuestions.forEach(question => {
+                this.questions.forEach(q => {
+                  if (question.questionId === q.id) {
+                    originalQuestions.push(q);
+                  }
+                });
+              });
+              this.questions = originalQuestions;
+            }
+          )
+        }
+      );
+    }
+  }
+
+  initialize(params) {}
+
+  navigateTo(question) {
+    const questionToNavigate = this.answeredQuestions.filter(q => q.questionId === question.id)[0];
+    this.questionService.passQuestion(questionToNavigate);
+    this.actualQuestion = questionToNavigate;
+    this.router.navigateByUrl(`wrong/${this.subject}/${questionToNavigate.questionId}`);
+  }
+
+  next() {
+    const index = this.answeredQuestions.indexOf(this.actualQuestion);  
+    
+    if (this.answeredQuestions.length > 1) {
+      if (this.answeredQuestions[index+1]) {
+        this.questionService.passQuestion(this.answeredQuestions[index+1]);
+        this.actualQuestion = this.answeredQuestions[index+1];
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+      } else {
+        this.questionService.passQuestion(this.answeredQuestions[0]);
+        this.actualQuestion = this.answeredQuestions[0];
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+      }
+    }
+  }
+
+  prev() {
+    const index = this.answeredQuestions.indexOf(this.actualQuestion);
+    
+    if (this.answeredQuestions.length > 1) {
+      if (this.answeredQuestions[index-1] && this.answeredQuestions.length > 1) {
+        this.questionService.passQuestion(this.answeredQuestions[index-1]);
+        this.actualQuestion = this.answeredQuestions[index-1];
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+      } else {
+        this.questionService.passQuestion(this.answeredQuestions[this.answeredQuestions.length-1]);
+        this.actualQuestion = this.answeredQuestions[this.answeredQuestions.length-1];
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+      }
+    }
   }
 
 }

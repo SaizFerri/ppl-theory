@@ -1,12 +1,15 @@
 <div class="container-fluid" *ngIf="loaded">
     <div class="row">
-        <div class="col-2 pl-0">
+        <div class="col-lg-2 col-sm-3 pl-0">
             <app-questionnaire-menu [questions]="questions" [subject]="subject"></app-questionnaire-menu>
         </div>
-        <div class="col-10">
+        <div class="col-lg-10 col-sm-9 question">
+            <div class="q-button">
+                <button mat-flat-button [color]="'accent'" (click)="prev()" style="margin-right: .5rem;">Prev</button>
+                <button mat-flat-button [color]="'accent'" (click)="next()" style="margin-right: .5rem;">Next</button>
+                <button mat-flat-button [color]="'accent'" routerLink='/'>Home</button>
+            </div>
             <app-question [question]="question"></app-question>
-            <button mat-flat-button [color]="'accent'" (click)="prev()">Prev</button>
-            <button mat-flat-button [color]="'accent'" (click)="next()">Next</button>
         </div>
     </div>
 </div>

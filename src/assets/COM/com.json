@@ -833,7 +833,7 @@
   },
   {
     "id": 33,
-    "question": "Nach dem Absetzen eines Funkspruchs antwortet die gerufene Station nicht. Wie lange sollte bis zum erneuten Absetzen eines Funkspruchs gewartet werden? (1,00 P.)",
+    "question": "Nach dem Absetzen eines Funkspruchs antwortet die gerufene Station nicht. <br><br>Wie lange sollte bis zum erneuten Absetzen eines Funkspruchs gewartet werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,

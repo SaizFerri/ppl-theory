@@ -1,0 +1,7 @@
+<div class="row justify-content-center">
+  <div class="col-6">
+      <mat-list role="list" class="questionnaire-menu">
+        <mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route" class="q-menu-item">{{ subject.subject }}</mat-list-item>
+      </mat-list>
+  </div>
+</div>

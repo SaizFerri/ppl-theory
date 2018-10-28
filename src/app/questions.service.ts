@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, EventEmitter } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Question } from './interfaces/question.interface';
@@ -9,6 +9,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
   providedIn: 'root'
 })
 export class QuestionsService {
+  wrongQuestionData = new EventEmitter<Question>();
 
   constructor(
     private http: HttpClient,
@@ -17,6 +18,10 @@ export class QuestionsService {
 
   getQuestions(path: string): Observable<any> {
     return this.http.get(`./assets/${path}`);
+  }
+
+  passQuestion(question: Question) {
+    this.wrongQuestionData.emit(question);
   }
 
   async correctQuestion(selectedQuestion: Question, selectedAnswer: Answer, path: string): Promise<boolean> {
@@ -30,6 +35,10 @@ export class QuestionsService {
     }
 
     return false;
+  }
+
+  fireGetAllWrong(subject: string): Observable<any> {
+    return this.db.collection('answeredQuestions').doc(subject).collection('questions', ref => ref.where("answeredCorrectly", "==", false)).valueChanges();
   }
 
   async fireAddToCollection(question: Question, collection: string, correct: boolean, subject: string) {

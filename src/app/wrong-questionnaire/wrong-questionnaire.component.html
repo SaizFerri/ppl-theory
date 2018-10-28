@@ -1,3 +1,18 @@
-<p>
-  wrong-questionnaire works!
-</p>
+<div class="container-fluid">
+    <div class="row">
+        <div *ngIf="!isEmpty" class="col-lg-2 col-sm-3 pl-0">
+            <app-questionnaire-menu [questions]="questions" [subject]="subject" [wrong]="true" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
+        </div>
+        <div class="col-lg-10 col-sm-9 question">
+            <div *ngIf="isEmpty">
+                <h2>There are no wrong answered questions.</h2>
+            </div>
+            <div *ngIf="!isEmpty" class="q-button">
+                <button mat-flat-button [color]="'accent'" (click)="prev()" style="margin-right: .5rem;">Prev</button>
+                <button mat-flat-button [color]="'accent'" (click)="next()" style="margin-right: .5rem;">Next</button>
+                <button mat-flat-button [color]="'accent'" routerLink='/'>Home</button>
+            </div>
+            <app-wrong-question [isEmpty]="isEmpty"></app-wrong-question>
+        </div>
+    </div>
+</div>

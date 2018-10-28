@@ -15,6 +15,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 import { WrongQuestionnaireComponent } from './wrong-questionnaire/wrong-questionnaire.component';
 import { QuestionnaireMenuComponent } from './questionnaire-menu/questionnaire-menu.component';
+import { WrongQuestionComponent } from './wrong-question/wrong-question.component';
+import { WrongQuestionnaireMenuComponent } from './wrong-questionnaire-menu/wrong-questionnaire-menu.component';
+import { WrongWrapperComponent } from './wrong-wrapper/wrong-wrapper.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +26,10 @@ import { QuestionnaireMenuComponent } from './questionnaire-menu/questionnaire-m
     HomeComponent,
     QuestionnaireComponent,
     WrongQuestionnaireComponent,
-    QuestionnaireMenuComponent
+    QuestionnaireMenuComponent,
+    WrongQuestionComponent,
+    WrongQuestionnaireMenuComponent,
+    WrongWrapperComponent
   ],
   imports: [
     BrowserModule,
