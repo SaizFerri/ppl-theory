@@ -10,14 +10,15 @@ import { Collection } from '../../enum/collection.enum';
   templateUrl: './question.component.html'
 })
 export class QuestionComponent implements OnInit {
-  @Input() question: Question;
-  
-  path: string;
-  subject: string;
+  question: Question;
   answers: Answer[];
   selectedAnswer: Answer;
-  correct: boolean;
+  correctAnswer: Answer;
+  path: string;
+  params: object;
+  subject: string;
   buttonColor: string;
+  isLoaded: boolean = false;
   isWrong: boolean = false;
   isCorrect: boolean = false;
 
@@ -29,28 +30,37 @@ export class QuestionComponent implements OnInit {
     route.params.subscribe(params => this.initialize(params));
   }
 
-  ngOnInit() {
-    this.answers = this.question.answers;
-  }
-
-  initialize(params) {
+  ngOnInit() {}
+  
+  async initialize(params) {
+    this.isLoaded = false;
     this.subject = params.subject;
     this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
     this.buttonColor = 'primary';
     this.isWrong = false;
     this.isCorrect = false;
+
+    this.questionService.getQuestions(this.path).subscribe(
+      response => {
+        this.question = response.filter(question => question.id === parseInt(params.id))[0];
+        this.answers = this.question.answers;
+        this.isLoaded = true;
+      }
+    )
   }
 
   async check() {
-    
     if (this.selectedAnswer) {
-      this.correct = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);
+      this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);      
+      this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
       
-      if (!this.correct) {
+      if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
+        this.selectedAnswer = this.correctAnswer;
         this.isCorrect = false;
         this.isWrong = true;
-      } else if (this.correct) {
+      } else if (this.correctAnswer.id === this.selectedAnswer.id) {
+        this.buttonColor = 'primary';
         this.isWrong = false;
         this.isCorrect = true;
       }
@@ -58,7 +68,7 @@ export class QuestionComponent implements OnInit {
       let exists = await this.questionService.fireCheckIfExists(this.question, Collection.ANSWERED, this.subject);
 
       if (!exists) {
-        this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.correct, this.subject);
+        this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.isCorrect, this.subject);
       }
     } else {
       return;

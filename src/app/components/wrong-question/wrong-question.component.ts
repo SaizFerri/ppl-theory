@@ -20,7 +20,7 @@ export class WrongQuestionComponent implements OnInit {
   subject: string;
   answers: Answer[];
   selectedAnswer: Answer;
-  correct: boolean;
+  correctAnswer: Answer;
   buttonColor: string;
   isLoaded: boolean = false;
   isWrong: boolean = false;
@@ -66,13 +66,15 @@ export class WrongQuestionComponent implements OnInit {
   async check() {
     
     if (this.selectedAnswer) {
-      this.correct = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);
-      
-      if (!this.correct) {
+      this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);
+      this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
+
+      if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
+        this.selectedAnswer = this.correctAnswer;
         this.isCorrect = false;
         this.isWrong = true;
-      } else if (this.correct) {
+      } else if (this.correctAnswer.id === this.selectedAnswer.id) {
         this.buttonColor = 'primary';
         this.isWrong = false;
         this.isCorrect = true;

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionsService } from '../../services/questions.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { QuestionsService } from '../../services/questions.service';
 import { Subjects } from '../../enum/subjects.enum';
 import { Question } from '../../interfaces/question.interface';
 
@@ -30,7 +30,6 @@ export class QuestionnaireComponent {
       this.questionService.getQuestions(`${this.subject.toUpperCase()}/${this.subject}.json`).subscribe(
         response => {
           this.questions = response;
-          this.question = this.questions.filter(question => question.id === id)[0];
           this.loaded = true;
         },
         err => console.log(err)
@@ -56,7 +55,7 @@ export class QuestionnaireComponent {
     if (a.length > 0) {
       this.router.navigateByUrl(`/${this.subject}/${questionId}`);
     } else {
-      this.router.navigateByUrl(`/${this.subject}/1`);
+      this.router.navigateByUrl(`/${this.subject}/${this.questions.length}`);
     }
   }
 

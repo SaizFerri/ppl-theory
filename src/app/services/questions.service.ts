@@ -27,17 +27,13 @@ export class QuestionsService {
     this.wrongQuestionData.emit(question);
   }
 
-  async correctQuestion(selectedQuestion: Question, selectedAnswer: Answer, path: string): Promise<boolean> {
+  async correctQuestion(selectedQuestion: Question, selectedAnswer: Answer, path: string): Promise<Answer> {
     const questions = await this.getQuestions(path).toPromise();
     const answers = questions.filter(question => question.id === selectedQuestion.id)[0].answers;
     
     const correctAnswer = answers.filter(answer => answer.correct === true)[0];
-    
-    if (correctAnswer.id === selectedAnswer.id) {
-      return true;
-    }
 
-    return false;
+    return correctAnswer;
   }
 
   fireGetAllWrong(user: User, subject: string): Observable<any> {
