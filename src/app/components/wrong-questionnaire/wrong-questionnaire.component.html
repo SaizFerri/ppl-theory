@@ -1,9 +1,9 @@
 <div class="container-fluid">
     <div class="row">
-        <div *ngIf="!isEmpty" class="col-lg-2 col-sm-3 pl-0">
+        <div *ngIf="!isEmpty" class="col-xl-2 col-lg-2 col-md-3 d-md-block d-none fixed-top pl-0">
             <app-questionnaire-menu [questions]="questions" [subject]="subject" [wrong]="true" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
         </div>
-        <div class="col-lg-10 col-sm-9 question">
+        <div class="col-xl-6 col-lg-8 col-md-9 offset-xl-2 offset-lg-2 offset-md-3 question">
             <div *ngIf="isEmpty">
                 <h2>There are no wrong answered questions.</h2>
             </div>

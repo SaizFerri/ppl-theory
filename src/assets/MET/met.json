@@ -109,22 +109,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "21% Stickstoff. 78% Sauerstoff. 1% Edelgase / Kohlendioxid.",
+        "text": "21% Stickstoff. <br>78% Sauerstoff. <br>1% Edelgase / Kohlendioxid.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "21% Sauerstoff. 78% Wasserdampf. 1% Edelgase / Kohlendioxid.",
+        "text": "21% Sauerstoff. <br>78% Wasserdampf. <br>1% Edelgase / Kohlendioxid.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "21% Sauerstoff. 78% Stickstoff. 1% Edelgase / Kohlendioxid.",
+        "text": "21% Sauerstoff. <br>78% Stickstoff. <br>1% Edelgase / Kohlendioxid.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "78% Sauerstoff. 21% Wasserdampf. 1% Stickstoff.",
+        "text": "78% Sauerstoff. <br>21% Wasserdampf. <br>1% Stickstoff.",
         "correct": false
       }
     ]
