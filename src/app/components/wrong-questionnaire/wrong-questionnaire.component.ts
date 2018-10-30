@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionsService } from '../questions.service';
-import { Question } from '../interfaces/question.interface';
+import { QuestionsService } from '../../services/questions.service';
+import { Question } from '../../interfaces/question.interface';
 import { Router, ActivatedRoute } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-wrong-questionnaire',
@@ -18,16 +19,18 @@ export class WrongQuestionnaireComponent implements OnInit {
   constructor(
     private router: Router,
     private readonly route: ActivatedRoute,
-    private readonly questionService: QuestionsService
+    private readonly questionService: QuestionsService,
+    private readonly authService: AuthService
   ) { 
     route.params.subscribe(params => { this.initialize(params); this.subject = params.subject })
   }
 
-  ngOnInit() {
+  async ngOnInit() {
     this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
+    const user = await this.authService.isLoggedIn();
     if (this.subject) {
       // Check if id is valid
-      this.questionService.fireGetAllWrong(this.subject).subscribe(
+      this.questionService.fireGetAllWrong(user, this.subject).subscribe(
         response => {
           this.answeredQuestions = response;
           this.questionService.passQuestion(this.answeredQuestions[0]);

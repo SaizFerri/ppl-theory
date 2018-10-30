@@ -1,10 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { AuthService } from '../../services/auth.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html'
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
   subjects: object[] = [
     {
       subject: "Navigation",
@@ -28,9 +30,14 @@ export class HomeComponent implements OnInit {
     }
   ]
 
-  constructor() { }
+  constructor(
+    private readonly router: Router,
+    private readonly authService: AuthService
+  ) { }
 
-  ngOnInit() {
+  logOut() {
+    this.authService.logOut();
+    this.router.navigate(['login']);
   }
 
 }

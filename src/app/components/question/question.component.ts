@@ -1,9 +1,9 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { Question } from '../interfaces/question.interface';
-import { Answer } from '../interfaces/answer.interface';
-import { QuestionsService } from '../questions.service';
-import { Collection } from '../enum/collection.enum';
+import { Question } from '../../interfaces/question.interface';
+import { Answer } from '../../interfaces/answer.interface';
+import { QuestionsService } from '../../services/questions.service';
+import { Collection } from '../../enum/collection.enum';
 
 @Component({
   selector: 'app-question',

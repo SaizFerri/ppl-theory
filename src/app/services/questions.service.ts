@@ -1,9 +1,11 @@
 import { Injectable, EventEmitter } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { Question } from './interfaces/question.interface';
-import { Answer } from './interfaces/answer.interface';
 import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
+import { Question } from '../interfaces/question.interface';
+import { Answer } from '../interfaces/answer.interface';
+import { AuthService } from './auth.service';
+import { User } from 'firebase';
 
 @Injectable({
   providedIn: 'root'
@@ -13,8 +15,9 @@ export class QuestionsService {
 
   constructor(
     private http: HttpClient,
-    private readonly db: AngularFirestore
-    ) { }
+    private readonly db: AngularFirestore,
+    private readonly authService: AuthService
+  ) { }
 
   getQuestions(path: string): Observable<any> {
     return this.http.get(`./assets/${path}`);
@@ -37,23 +40,26 @@ export class QuestionsService {
     return false;
   }
 
-  fireGetAllWrong(subject: string): Observable<any> {
-    return this.db.collection('answeredQuestions').doc(subject).collection('questions', ref => ref.where("answeredCorrectly", "==", false)).valueChanges();
+  fireGetAllWrong(user: User, subject: string): Observable<any> {
+    return this.db.collection('answeredQuestions').doc(subject).collection('questions', ref => ref.where('userId', '==', user.uid).where('answeredCorrectly', '==', false)).valueChanges();
   }
 
   async fireAddToCollection(question: Question, collection: string, correct: boolean, subject: string) {
+    const user = await this.authService.isLoggedIn();
+    
     await this.db.collection(collection)
             .doc(subject)
             .collection('questions')
-            .add({ questionId: question.id, answeredCorrectly: correct });
+            .add({ userId: user.uid, questionId: question.id, answeredCorrectly: correct });
   }
 
   async fireCheckIfExists(question: Question, collection: string, subject: string): Promise<boolean> {
+    const user = await this.authService.isLoggedIn();
     const documents = await this.db.collection(collection).doc(subject).collection('questions').get().toPromise();
     let exists = false;
 
     documents.forEach(doc => {
-      if (doc.data().questionId === question.id) {
+      if (doc.data().questionId === question.id && doc.data().userId === user.uid) {
         exists = true;
       }
     });

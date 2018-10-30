@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { Question } from '../interfaces/question.interface';
 import { Router } from '@angular/router';
+import { Question } from '../../interfaces/question.interface';
 
 @Component({
   selector: 'app-questionnaire-menu',

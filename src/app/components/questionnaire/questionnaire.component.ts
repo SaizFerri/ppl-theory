@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { QuestionsService } from '../questions.service';
+import { QuestionsService } from '../../services/questions.service';
 import { ActivatedRoute, Router } from '@angular/router';
-import { Subjects } from '../enum/subjects.enum';
-import { Question } from '../interfaces/question.interface';
+import { Subjects } from '../../enum/subjects.enum';
+import { Question } from '../../interfaces/question.interface';
 
 @Component({
   selector: 'app-questionnaire',

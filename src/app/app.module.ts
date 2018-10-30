@@ -1,23 +1,28 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { AngularFireModule } from '@angular/fire';
+import { AngularFireAuthModule } from '@angular/fire/auth';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { MatButtonModule, MatRadioModule, MatListModule, MatInputModule } from '@angular/material';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { AppComponent } from './app.component';
-import { QuestionComponent } from './question/question.component';
+import { QuestionComponent } from './components/question/question.component';
 import { AppRoutingModule } from './app-routing.module';
-import { HomeComponent } from './home/home.component';
-import { HttpClientModule }    from '@angular/common/http';
-import { QuestionnaireComponent } from './questionnaire/questionnaire.component'
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatButtonModule, MatRadioModule, MatListModule } from '@angular/material';
-import { FormsModule } from '@angular/forms';
-import { AngularFireModule } from '@angular/fire';
-import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { HomeComponent } from './components/home/home.component';
+import { QuestionnaireComponent } from './components/questionnaire/questionnaire.component'
 import { environment } from '../environments/environment';
-import { WrongQuestionnaireComponent } from './wrong-questionnaire/wrong-questionnaire.component';
-import { QuestionnaireMenuComponent } from './questionnaire-menu/questionnaire-menu.component';
-import { WrongQuestionComponent } from './wrong-question/wrong-question.component';
-import { WrongQuestionnaireMenuComponent } from './wrong-questionnaire-menu/wrong-questionnaire-menu.component';
-import { WrongWrapperComponent } from './wrong-wrapper/wrong-wrapper.component';
+import { WrongQuestionnaireComponent } from './components/wrong-questionnaire/wrong-questionnaire.component';
+import { QuestionnaireMenuComponent } from './components/questionnaire-menu/questionnaire-menu.component';
+import { WrongQuestionComponent } from './components/wrong-question/wrong-question.component';
+import { WrongQuestionnaireMenuComponent } from './components/wrong-questionnaire-menu/wrong-questionnaire-menu.component';
+import { WrongWrapperComponent } from './components/wrong-wrapper/wrong-wrapper.component';
+import { UserLoginComponent } from './components/user-login/user-login.component';
+import { AuthGuard } from './services/auth-guard.service';
 
 @NgModule({
   declarations: [
@@ -29,21 +34,25 @@ import { WrongWrapperComponent } from './wrong-wrapper/wrong-wrapper.component';
     QuestionnaireMenuComponent,
     WrongQuestionComponent,
     WrongQuestionnaireMenuComponent,
-    WrongWrapperComponent
+    WrongWrapperComponent,
+    UserLoginComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    AngularFireAuthModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
     MatButtonModule, 
     MatRadioModule,
-    MatListModule
+    MatListModule,
+    MatInputModule,
+    MatFormFieldModule
   ],
-  providers: [],
+  providers: [AuthGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

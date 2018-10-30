@@ -1,0 +1,28 @@
+[debug] [2018-10-30T00:02:07.603Z] ----------------------------------------------------------------------
+[debug] [2018-10-30T00:02:07.604Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-10-30T00:02:07.604Z] CLI Version:   3.9.2
+[debug] [2018-10-30T00:02:07.604Z] Platform:      linux
+[debug] [2018-10-30T00:02:07.604Z] Node Version:  v10.10.0
+[debug] [2018-10-30T00:02:07.604Z] Time:          Tue Oct 30 2018 01:02:07 GMT+0100 (Central European Standard Time)
+[debug] [2018-10-30T00:02:07.604Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-30T00:02:07.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-30T00:02:07.610Z] > authorizing via signed-in user
+[debug] [2018-10-30T00:02:07.611Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-30T00:02:07.611Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token:
+   '1/hU8ZRWv7Fl1vhBeR1AwUAtGeb51a6e_ZWwINtSh3cRZzRJABcCH65oF47btq7p5M',
+  client_id:
+   '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope:
+   'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Oct 30 2018 01:02:07 GMT+0100 (Central European Standard Time)
+[debug] [2018-10-30T00:02:07.800Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:02:07.806Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ppl-theory  
+ Tue Oct 30 2018 01:02:07 GMT+0100 (Central European Standard Time)
+[debug] [2018-10-30T00:02:08.415Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-30T00:02:08.417Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ppl-theory/tokens  
+ Tue Oct 30 2018 01:02:08 GMT+0100 (Central European Standard Time)
+[debug] [2018-10-30T00:02:08.921Z] <<< HTTP RESPONSE 200
+[info] 
