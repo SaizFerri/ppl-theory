@@ -1,9 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { Question } from '../../interfaces/question.interface';
 import { Answer } from '../../interfaces/answer.interface';
 import { QuestionsService } from '../../services/questions.service';
-import { Collection } from '../../enum/collection.enum';
 
 @Component({
   selector: 'app-wrong-question',
@@ -13,7 +12,7 @@ export class WrongQuestionComponent implements OnInit {
   @Input() isEmpty: boolean;
   
   question: Question;
-  params;
+  params: any;
   questionId: number;
   
   path: string;
@@ -29,21 +28,25 @@ export class WrongQuestionComponent implements OnInit {
 
   constructor(
     private readonly route: ActivatedRoute,
+    private readonly router: Router,
     private readonly questionService: QuestionsService
   ) {
-    route.params.subscribe(params => { /*this.initialize(params);*/ this.params = params; });
+    route.params.subscribe(params => this.params = params);
   }
 
   ngOnInit() {
-    this.path = `${this.params.subject.toUpperCase()}/${this.params.subject}.json`;
+    this.subject = this.params.subject;
+    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
     this.questionService.wrongQuestionData.subscribe(
       res => {
         this.questionId = res.questionId;
+        this.router.navigateByUrl(`/wrong/${this.subject}/${this.questionId}`);
         this.questionService.getQuestions(this.path).subscribe(
           response => {
             const questions = response;
             this.question = questions.filter(question => question.id === this.questionId)[0];
             this.answers = this.question.answers;
+            this.selectedAnswer = null;
             this.isLoaded = true;
             this.buttonColor = 'primary';
             this.isWrong = false;
@@ -53,14 +56,6 @@ export class WrongQuestionComponent implements OnInit {
         )
       }
     )
-  }
-
-  initialize(params) {
-    this.subject = params.subject;
-    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
-    this.buttonColor = 'primary';
-    this.isWrong = false;
-    this.isCorrect = false;
   }
 
   async check() {

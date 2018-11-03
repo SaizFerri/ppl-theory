@@ -33,6 +33,7 @@ export class QuestionComponent implements OnInit {
   ngOnInit() {}
   
   async initialize(params) {
+    this.selectedAnswer = null;
     this.isLoaded = false;
     this.subject = params.subject;
     this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
@@ -53,6 +54,8 @@ export class QuestionComponent implements OnInit {
     if (this.selectedAnswer) {
       this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);      
       this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
+      console.log(this.selectedAnswer);
+      
       
       if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
