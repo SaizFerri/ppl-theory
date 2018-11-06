@@ -1,0 +1,3212 @@
+[
+  {
+    "id": "9r1xwt5ju4j9s40vazypjf",
+    "question": "Welchen Vorteil besitzen Auftriebshilfen wie z.B. Slots im vorderen Tragflächenbereich im Vergleich zu Landeklappen im hinteren Tragflügelbereich? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Sie reduzieren den kritischen Anstellwinkel für eine bestimmte Geschwindigkeit",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sie erhöhen bei geringeren Anstellwinkeln die Wölbung",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Sie erlauben höhere Geschwindigkeiten bei Start und Landung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sie erlauben bei geringerem Widerstand höhere Anstellwinkel",
+        "correct": true
+      }
+    ],
+    "questionId": 1,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "hwhhvboeudmb1laxz4oko",
+    "question": "Durch welche Baugruppe wird die Stabilisierung um die Querachse während des Reisefluges erreicht? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Höhenleitwerk.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Landeklappen.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Seitenleitwerk.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Querruder.",
+        "correct": false
+      }
+    ],
+    "questionId": 2,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "k6s8wdv0l7p9pqe6fvbeoe",
+    "question": "Was kann die Folge sein, wenn mit Geschwindigkeiten jenseits der höchstzulässigen Geschwindigkeit (v_NE) geflogen wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zu hoher Gesamtdruck lässt den Fahrtmesser unbrauchbar werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Erhöhung des Auftrieb-zu-Widerstand-Verhältnisses und verbesserter Gleitwinkel",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Flattern und mechanische Schäden an den Tragflächen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Weniger Widerstand bei erhöhten Steuerdrücken",
+        "correct": false
+      }
+    ],
+    "questionId": 3,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "1k5n586lgce487p7l1d3vd",
+    "question": "Welche Effekte sind typischerweise Folgen von Propeller-Vereisung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Gesteigerte Leistungsabgabe, sinkende Drehzahl",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Reduzierte Leistungsabgabe, sinkende Drehzahl",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Reduzierte Leistungsabgabe, erhöhte Drehzahl",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Gesteigerte Leistungsabgabe, erhöhte Drehzahl",
+        "correct": false
+      }
+    ],
+    "questionId": 4,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "pmmz9ntov4sq5uncgkaib",
+    "question": "Welche Kraftkomponente wirkt im stationären Steigflug in dieselbe Richtung wie die Widerstandskraft und führt im Steigflug zu einem höheren Leistungsbedarf als im Horizontalflug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die vertikale Komponente der Gewichtskraft",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Eine Komponente der Gewichtskraft in Richtung des rückwärtigen Flugwegs",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Eine Komponente der Schubkraft in Richtung des rückwärtigen Flugwegs",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine Komponente der Auftriebskraft in Richtung des vorderen Flugwegs",
+        "correct": false
+      }
+    ],
+    "questionId": 5,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "dtphy3t1e3c7zfhgwfoywh",
+    "question": "In welche Richtung wirkt der statische Druck in Gasen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Nur senkrecht zur Strömungsrichtung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "In alle Richtungen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Nur in die Richtung des totalen Drucks",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Nur in Strömungsrichtung",
+        "correct": false
+      }
+    ],
+    "questionId": 6,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "x2ch5fbz3hhtgupo5rwg7",
+    "question": "Die Gleichung von Bernoulli besagt für reibungsfreie, inkompressible Gase: (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Gesamtdruck = dynamischer Druck - statischer Druck",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Dynamischer Druck = Gesamtdruck + statischer Druck",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Statischer Druck = Gesamtdruck + dynamischer Druck",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Gesamtdruck = dynamischer Druck + statischer Druck",
+        "correct": true
+      }
+    ],
+    "questionId": 7,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "wzvk9txvx1cciulr8n26u",
+    "question": "Umgeben von einer Luftströmung (V>0) erzeugt jeder beliebig geformte Körper in jedem Fall: (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Einen auftriebsabhängigen Widerstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Einen formabhängigen Widerstand",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Auftrieb und Widerstand",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Einen geschwindigkeitsunabhängigen Widerstand",
+        "correct": false
+      }
+    ],
+    "questionId": 8,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "h7frokcmwatn45pw0pdl4m",
+    "question": "Alle am Profil wirksamen Luftkräfte lassen sich als in einem einzigen Punkt angreifend betrachten. Dieser Punkt heißt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Druckpunkt.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Auftriebspunkt.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Schwerpunkt.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Umschlagpunkt.",
+        "correct": false
+      }
+    ],
+    "questionId": 9,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ju116trdgnc9sl3h7e7ba",
+    "question": "Der \"Druckpunkt\" ist der theoretische Angriffspunkt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "nur des resultierenden Gesamtwiderstandes.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "aller am Profil angreifenden Luftkräfte.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "der am Profil angreifenden Schwerkraft.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "von Gewichtskraft und Luftkräften.",
+        "correct": false
+      }
+    ],
+    "questionId": 10,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2bei2elwmsltwne6g85dj",
+    "question": "Nummer 2 in der Zeichnung entspricht... Siehe Bild (PFA-010) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "dem Anstellwinkel.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "der Profiltiefe.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "der Profilsehne.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "der Profildicke.",
+        "correct": false
+      }
+    ],
+    "questionId": 11,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ec63x2nxwskakfcirf5tdb",
+    "question": "Nummer 3 in der Zeichnung entspricht... Siehe Bild (PFA-010) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "der Skelettlinie.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "der Profilsehne.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "der Profildicke.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "der Profiltiefe.",
+        "correct": false
+      }
+    ],
+    "questionId": 12,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "1u31nw3ysiz1swt8uqnajm",
+    "question": "Der Anstellwinkel ist der Winkel zwischen... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "der Profilsehne und dem ungestörten Luftstrom.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "dem Flügel und dem Rumpf eines Luftfahrzeuges.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "der anströmenden Luft und der Längsachse eines Luftfahrzeuges.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "der Profilsehne und der Längsachse eines Luftfahrzeuges.",
+        "correct": false
+      }
+    ],
+    "questionId": 13,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ozy8kj1o6vputp7t1q1dj",
+    "question": "Wie wird das Verhältnis aus Spannweite und mittlerer Profiltiefe bezeichnet? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zuspitzung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Trapezform",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Pfeilung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Flügelstreckung",
+        "correct": true
+      }
+    ],
+    "questionId": 14,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "1ztiwt0k7yb9ad8qw5twfo",
+    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 3 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ablösepunkt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Umschlagpunkt",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Staupunkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Druckpunkt",
+        "correct": false
+      }
+    ],
+    "questionId": 15,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "0ixazzw4mvopkkv5kyifofc",
+    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 4 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Staupunkt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ablösepunkt",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Druckpunkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Umschlagpunkt",
+        "correct": false
+      }
+    ],
+    "questionId": 16,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "p9khikc8gge848seuuzg26",
+    "question": "In welcher Flugphase beginnt die Entstehung von Wirbelschleppen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Beim Ausfahren der Landeklappen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Beim Setzen der Startleistung im Startlauf",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Sobald sich das Luftfahrzeug in Bewegung setzt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Beim Rotieren mit beginnender Auftriebserzeugung",
+        "correct": true
+      }
+    ],
+    "questionId": 17,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "o4h8yh1p688fx87pct2k5a",
+    "question": "Welcher Punkt am Flügelprofil wird von Nummer 1 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ablösepunkt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Druckpunkt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Umschlagpunkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Staupunkt",
+        "correct": true
+      }
+    ],
+    "questionId": 18,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "tpwmvhjmis393xirkj928",
+    "question": "Welcher Vorgang findet am Staupunkt statt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die laminare Grenzschicht schlägt in eine turbulente Grenzschicht um",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die Grenzschicht beginnt sich auf der Profiloberseite abzulösen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Dort lassen sich alle Luftkräfte als gemeinsam angreifend betrachten",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die anströmende Luft wird in einen Teilstrom oberhalb und unterhalb der Profilform geteilt",
+        "correct": true
+      }
+    ],
+    "questionId": 19,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "sa67egdh6ep8iqtd2bs1",
+    "question": "Welche Druckverhältnisse bestehen bei positiven Anstellwinkeln an einem Tragflügelprofil, das Auftrieb erzeugt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Auf der Oberseite wird Überdruck, auf der Unterseite Unterdruck erzeugt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Auf der Oberseite wird Unterdruck, auf der Unterseite Überdruck erzeugt",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Der Druck auf der Oberseite ändert sich nicht, auf der Unterseite wird Überdruck erzeugt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Druck auf der Unterseite ändert sich nicht, auf der Oberseite wird Überdruck erzeugt",
+        "correct": false
+      }
+    ],
+    "questionId": 20,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2315p9f9nz7l4lye46dyi",
+    "question": "Die Lage des Druckpunktes eines positiv gewölbten Profils... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "verlagert sich in Richtung der Hinterkante mit kleiner werdendem Anstellwinkel.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "befindet sich ungefähr auf 25% der Profiltiefe gemessen von der Nasenleiste.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "verlagert sich in Richtung der Vorderkante mit kleiner werdendem Anstellwinkel.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "verlagert sich nicht und ist unabhängig vom Anstellwinkel.",
+        "correct": false
+      }
+    ],
+    "questionId": 21,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "aclbh30enptk71l211fcq",
+    "question": "Wie verhält sich die Lage des Druckpunktes eines positiv gewölbten Profils mit größer werdendem Anstellwinkel? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er wandert in Richtung der Flügelspitze",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Er wandert erst nach vorne, dann nach hinten",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Er wandert nach vorne bis zum kritischen Anstellwinkel",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Er wandert nach hinten bis zum kritischen Anstellwinkel",
+        "correct": false
+      }
+    ],
+    "questionId": 22,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "pb8b8mlbhqgcz9z2d7rzg9",
+    "question": "Welcher Zusammenhang besteht zwischen Anstellwinkel und Auftrieb? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein zu großer Anstellwinkel kann zu einer exponentiellen Steigerung des Auftriebs führen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Je kleiner der Anstellwinkel, umso höher wird der über das Profil erzeugte Auftrieb",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Ein zu großer Anstellwinkel kann zum überzogenen Flugzustand und damit zum Auftriebsverlust führen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Je höher der Anstellwinkel, umso geringer wird der über das Profil erzeugte Auftrieb",
+        "correct": false
+      }
+    ],
+    "questionId": 23,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "nnorc89x6gcntzwuxt947",
+    "question": "Welche Aussage über die Umströmung einer Tragfläche ist korrekt, wenn der Anstellwinkel zunimmt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Druckpunkt bewegt sich nach unten",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der Staupunkt bewegt sich nach oben",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Druckpunkt bewegt sich nach oben",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Staupunkt bewegt sich nach unten",
+        "correct": true
+      }
+    ],
+    "questionId": 24,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2sh26wlu59hvj427683zlc",
+    "question": "Welche Aussage zur Umströmung einer Tragfläche ist korrekt, wenn der Anstellwinkel abnimmt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Staupunkt bleibt konstant",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der Druckpunkt bewegt sich nach vorne",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Druckpunkt bewegt sich nach hinten",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Der Staupunkt bewegt sich nach unten",
+        "correct": false
+      }
+    ],
+    "questionId": 25,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "14jegno9io7hqm87cs5lm",
+    "question": "Der in der Grafik dargestellte Winkel (alpha) entspricht dem... Siehe Bild (PFA-003) DoF: Anströmrichtung (direction of airflow). (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Neigungswinkel.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Einstellwinkel.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Auftriebswinkel.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Anstellwinkel.",
+        "correct": true
+      }
+    ],
+    "questionId": 26,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "pw083cuaa7utfid1ptz2",
+    "question": "Um das Überziehverhalten eines Luftfahrzeuges zu verbessern, wird der Flügel nach außen hin verwunden (der Einstellwinkel verändert sich in Spannweitenrichtung). Dies bezeichnet man als... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "aerodynamische Schränkung.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "V-Form.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Pfeilform.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "geometrische Schränkung.",
+        "correct": true
+      }
+    ],
+    "questionId": 27,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "wrmcv84v3dpc773jk5yx1",
+    "question": "Welches ist ein Vorteil der aerodynamischen Flügelschränkung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Wirksamkeit des Querruders bleibt bei hohen Anstellwinkeln noch möglichst lange erhalten",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Mit der Flügelschränkung wird der Formwiderstand bei hohen Geschwindigkeiten reduziert",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Tragflügel wird konstruktiv gegen Verdrehung steifer gemacht",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine größere Festigkeit, weil den Torsionskräften am Flügel besser widerstanden werden kann",
+        "correct": false
+      }
+    ],
+    "questionId": 28,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "rr08fzybxuei8ah6iydy8b",
+    "question": "Welche Aussage über den Anstellwinkel ist zutreffend? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein zu großer Anstellwinkel lässt den Auftrieb zusammenbrechen",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Der Anstellwinkel kann nicht negativ werden",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Anstellwinkel ist während des Fluges konstant",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Je größer der Anstellwinkel, um so kleiner der Auftrieb",
+        "correct": false
+      }
+    ],
+    "questionId": 29,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jzu991602l06wwwk0ven9a",
+    "question": "Wie ändert sich der parasitäre Widerstand bei Verdopplung der Strömungsgeschwindigkeit, wenn alle anderen Parameter unverändert bleiben? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er vervierfacht sich",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Er halbiert sich",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Er verdoppelt sich",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er viertelt sich",
+        "correct": false
+      }
+    ],
+    "questionId": 30,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "w7ha5np83eokg5d7wmwai",
+    "question": "Welche Aussage über den Widerstandsbeiwert ist zutreffend? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Widerstandsbeiwert ändert sich gleichsinnig mit dem Auftriebsbeiwert",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der Widerstandsbeiwert kann zwischen Null und einem maximalen Wert variieren",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Widerstandsbeiwert steigt mit zunehmender Strömungsgeschwindigkeit",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Widerstandsbeiwert kann einen minimalen positiven Wert nicht unterschreiten",
+        "correct": true
+      }
+    ],
+    "questionId": 31,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6u62h9srm1t2x74h7jp9yp",
+    "question": "Wo am Tragflügel kann ein Druckausgleich zwischen Unter- und Oberseite stattfinden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "An den Übergangsstellen zum Rumpf",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "An der Vorderkante",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "An der Flügelwurzel",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "An den Tragflächen-Enden (Randbögen)",
+        "correct": true
+      }
+    ],
+    "questionId": 32,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "9zvh6g69rgginjf9mdz6zh",
+    "question": "Unter welchen Bedingungen ist der induzierte Widerstand besonders groß? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bei schmal zulaufenden Tragflächen-Enden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Bei großer Flügelstreckung",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Bei geringer Flügelstreckung",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Bei kleinen Auftriebswerten",
+        "correct": false
+      }
+    ],
+    "questionId": 33,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "an19ayidrfmak3ctx8w49",
+    "question": "Welche Bauteile am Flugzeug haben besonders Einfluss auf den induzierten Widerstand? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Tragflächenspitzen",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Äußerer Teil der Querruder",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Unterer Teil des Fahrwerks",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Vorderer Bereich des Rumpfes",
+        "correct": false
+      }
+    ],
+    "questionId": 34,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gnysemd07rmfzbftswefgd",
+    "question": "Wo entsteht der Interferenzwiderstand an einem Luftfahrzeug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Am Fahrwerk",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "An den Tragflächenenden",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "An den Querrudern",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "An den Tragflügelwurzeln",
+        "correct": true
+      }
+    ],
+    "questionId": 35,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "hfvpos6zqil9ozdgwxd0d",
+    "question": "Welche Kurve stellt den induzierten Widerstand dar? Siehe Bild (PFA-011). (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "3",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "4",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "2",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1",
+        "correct": true
+      }
+    ],
+    "questionId": 36,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "kpxt7bly7zh5wequwo2a2x",
+    "question": "Druckwiderstand, Interferenzwiderstand und Reibungswiderstand gehören zur Gruppe des... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Hauptwiderstands.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "auftriebsbasierten Widerstands.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "induzierten Widerstands.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "parasitären Widerstands.",
+        "correct": true
+      }
+    ],
+    "questionId": 37,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "j9fftlilcle5wau5uti74l",
+    "question": "Welche Widerstandsart zählt NICHT zu den parasitären (schädlichen) Widerstandsarten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Interferenzwiderstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Formwiderstand",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Induzierter Widerstand",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Reibungswiderstand",
+        "correct": false
+      }
+    ],
+    "questionId": 38,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "7utepnrvc2g0knnlzyoymx",
+    "question": "Wie ändern sich schädlicher und induzierter Widerstand mit zunehmender Fluggeschwindigkeit im ungestörten Reiseflug (Horizontalflug)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der induzierte Widerstand sinkt und der schädliche Widerstand steigt",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Der schädliche Widerstand sinkt und der induzierte Widerstand steigt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der schädliche Widerstand sinkt und der induzierte Widerstand sinkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der induzierte Widerstand steigt und der schädliche Widerstand steigt",
+        "correct": false
+      }
+    ],
+    "questionId": 39,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "n5zhhrpykjprfceuqos7d",
+    "question": "Welche der genannten Flügelformen hat den geringsten induzierten Widerstand? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Trapezform",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ellipsenform",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Doppeltrapezform",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Rechteckform",
+        "correct": false
+      }
+    ],
+    "questionId": 40,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "9n4n9yuheckocotxkbyg",
+    "question": "Welche Auswirkungen hat eine abnehmende Fluggeschwindigkeit auf den induzierten Widerstand im ungestörten Reiseflug (Horizontalflug)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er nimmt zu",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Er nimmt leicht ab",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Er bricht zusammen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er bleibt konstant",
+        "correct": false
+      }
+    ],
+    "questionId": 41,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "dzicrk9x61v1i7ofex4h",
+    "question": "Welche Aussage über den induzierten Widerstand im ungestörten Reiseflug (Horizontalflug) ist zutreffend? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er ist minimal bei einer bestimmten Geschwindigkeit, darüber und darunter nimmt er zu",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Er sinkt mit zunehmender Fluggeschwindigkeit",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Er steigt mit zunehmender Fluggeschwindigkeit",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er ist maximal bei einer bestimmten Geschwindigkeit, darüber und darunter nimmt er ab",
+        "correct": false
+      }
+    ],
+    "questionId": 42,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "scyv0ldqxqod99ab31aj",
+    "question": "In welcher der genannten Situationen ist der Widerstand eines Luftfahrzeuges am geringsten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der schädliche Widerstand ist doppelt so groß wie der induzierte Widerstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der schädliche Widerstand ist gleich dem induzierten Widerstand",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Der induzierte Widerstand ist kleiner als der schädliche Widerstand",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der induzierte Widerstand ist doppelt so groß wie der schädliche Widerstand",
+        "correct": false
+      }
+    ],
+    "questionId": 43,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ti01pdpb6eijk3iqc7xct",
+    "question": "Der Gesamtwiderstand besteht vollständig aus welchen Widerstandsarten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Formwiderstand, Reibungswiderstand, Interferenzwiderstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Interferenzwiderstand und parasitärer Widerstand",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Induzierter Widerstand und parasitärer Widerstand",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Induzierter Widerstand, Formwiderstand, Reibungswiderstand",
+        "correct": false
+      }
+    ],
+    "questionId": 44,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "63ao8nkgj8xibkyjt28xu",
+    "question": "Wie ändern sich Auftrieb und Widerstand bei Annäherung an den überzogenen Flugzustand? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zunahme von Auftrieb und Abnahme von Widerstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Zunahme von Auftrieb und Widerstand",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Abnahme von Auftrieb und Zunahme von Widerstand",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Abnahme von Auftrieb und Widerstand",
+        "correct": false
+      }
+    ],
+    "questionId": 45,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ouakjf8paa7k7piau3x5i",
+    "question": "Im Falle eines überzogenen Flugzustandes ist es wichtig... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "den Anstellwinkel zu vergrößern und die Geschwindigkeit zu reduzieren.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "die Schräglage zu vergrößern und die Geschwindigkeit zu reduzieren.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "den Anstellwinkel zu verkleinern und die Geschwindigkeit zu erhöhen.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "den Anstellwinkel zu vergrößern und die Geschwindigkeit zu erhöhen.",
+        "correct": false
+      }
+    ],
+    "questionId": 46,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6okmsi5adnmc65wjw98et",
+    "question": "Wie verhalten sich Auftrieb und Widerstand während des Strömungsabrisses (stall)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Auftrieb steigt und der Widerstand sinkt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der Auftrieb sinkt und der Widerstand sinkt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Auftrieb sinkt und der Widerstand steigt",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Der Auftrieb steigt und der Widerstand steigt",
+        "correct": false
+      }
+    ],
+    "questionId": 47,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "u12t216rxycpyaru58kj0k",
+    "question": "Der kritische Anstellwinkel... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "wird größer mit hinterer Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "hängt nicht von der Masse des Flugzeuges ab.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "verändert sich mit zunehmender Flugmasse.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "wird kleiner mit vorderer Schwerpunktlage.",
+        "correct": false
+      }
+    ],
+    "questionId": 48,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "b5k8ab3ikhqysdo7ma4w",
+    "question": "Welche Umstände führen zu einer verringerten Strömungsabrissgeschwindigkeit Vs (IAS)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Abnehmende Flugzeugmasse",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Niedrigere Flughöhe",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Geringere Luftdichte",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Höheres Lastvielfaches",
+        "correct": false
+      }
+    ],
+    "questionId": 49,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6iimcu8iakla13nt6l751b",
+    "question": "Kurz vor Erreichen welcher Geschwindigkeit wird die Überziehwarnanlage aktiviert? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "VX",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "VS",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "VR",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "VNE",
+        "correct": false
+      }
+    ],
+    "questionId": 50,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jqoxzd5zjoqzqryruhnqzj",
+    "question": "Die Überziehwarnung (stall warning) wird bei Motorflugzeugen häufig aktiviert durch die Änderung... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "des Staupunktes.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "des Druckpunktes.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "des Umschlagpunktes.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "des Schwerpunktes.",
+        "correct": false
+      }
+    ],
+    "questionId": 51,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "lewj7w04773t2u9tz0j6s",
+    "question": "Wie ist vom Piloten auf das Auslösen der Überziehwarnung zum Beenden des überzogenen Flugzustandes zu reagieren? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Geschwindigkeit durch Heben der Flugzeugnase reduzieren",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Höhenruder nachdrücken, Motorleistung erhöhen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Höhenruder konstant halten, Motorleistung erhöhen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Höhenruder ziehen, Motorleistung auf Leerlauf",
+        "correct": false
+      }
+    ],
+    "questionId": 52,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "edbqe9mtqwsbpbguvv9jjq",
+    "question": "Welche Aussage in Bezug auf das Trudeln ist korrekt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Während des Trudelns nimmt die Fluggeschwindigkeit stetig zu",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Während des Ausleitens werden die Querruder neutral gehalten",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Nur bei sehr alten Flugzeugmodellen besteht Trudelgefahr",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Während des Ausleitens müssen die Ruder gekreuzt werden",
+        "correct": false
+      }
+    ],
+    "questionId": 53,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "wffy2rrgo1nu6bsyxx0z8n",
+    "question": "Wie verhält sich der Auftriebsbeiwert, wenn die Landeklappen bei konstantem Anstellwinkel weit vor Erreichen des maximalen Auftriebsbeiwertes ausgefahren werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er verkleinert sich",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Er vergrößert sich",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Er bleibt unverändert",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er ist nicht definierbar",
+        "correct": false
+      }
+    ],
+    "questionId": 54,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "zv2b67vn9vop4vidlv97x",
+    "question": "Welche Eigenschaft sorgt für die auftriebserhöhende Wirkung einer Landeklappe? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Verringerung des induzierten Widerstandes",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Verkleinerung des Formwiderstandes",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Vergrößerung der Profilwölbung",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Verkleinerung des Anstellwinkels",
+        "correct": false
+      }
+    ],
+    "questionId": 55,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "g9dlwy8i0dr3aibacjvvcg",
+    "question": "Welcher Faktor kann sich durch die Betätigung der Landeklappen verändern? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Drallwirkung des Motors",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die Lage des Schwerpunkts",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Wirksamkeit des Seitenruders",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die Lastigkeit (Trimmzustand)",
+        "correct": true
+      }
+    ],
+    "questionId": 56,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ycg8beo9bor5gyl97fc8yg",
+    "question": "Welche Konstruktionsmerkmale weist die \"Fowler-Klappe\" auf? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine Klappe wird aus der hinteren Unterseite des Flügels nach unten geklappt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der hintere Teil des Tragflügels wird nach unten geklappt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Bei größerem Anstellwinkel hebt sich ein Teil der Flügelnase ab",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Aus dem hinteren Ende des Flügels wird eine profilartige Klappe ausgefahren",
+        "correct": true
+      }
+    ],
+    "questionId": 57,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ip3ujewtltck5jybmdxi6c",
+    "question": "Welche Art von Landehilfen darf in Bodennähe nicht plötzlich eingefahren werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Wölbungs- und Spreizklappen",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Bremsklappen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Störklappen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Schempp-Hirth-Klappen",
+        "correct": false
+      }
+    ],
+    "questionId": 58,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "hlfteiymkvs48t6qc0zbhi",
+    "question": "Ein Start mit ausgefahrenen Klappen in Startstellung bewirkt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "die Erhöhung der Steigrate.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "die Erhöhung der Beschleunigung.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "die Verringerung des Widerstandes.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "die Verkürzung der Startrollstrecke.",
+        "correct": true
+      }
+    ],
+    "questionId": 59,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "fyyzoxwkg8wxyo95ey4h6b",
+    "question": "Sofern laut Flughandbuch keine anderen Verfahren zu befolgen sind, dürfen die Klappen beim Durchstarten nach Erhöhen der Motorleistung in der Regel... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "ohne Verzögerung voll eingefahren werden.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "bis zum Erreichen der Platzrunde voll ausgefahren bleiben.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "bis zur Sicherheitsmindesthöhe nicht betätigt werden.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "nur auf eine mittlere Stellung eingefahren werden.",
+        "correct": true
+      }
+    ],
+    "questionId": 60,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "j8bot2y1n1kgtsmqcj7xpo",
+    "question": "Wie verändern sich Auftrieb und Widerstand beim Ausfahren von Landeklappen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Auftrieb steigt, Widerstand steigt",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Auftrieb steigt, Widerstand sinkt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Auftrieb sinkt, Widerstand sinkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Auftrieb sinkt, Widerstand steigt",
+        "correct": false
+      }
+    ],
+    "questionId": 61,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "1fnzozowmnnhhuzncqcbq9a",
+    "question": "Die laminare Grenzschicht am Tragflügel befindet sich zwischen... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Umschlagpunkt und Druckpunkt.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Staupunkt und Umschlagpunkt.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Staupunkt und Druckpunkt.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Umschlagpunkt und Ablösepunkt.",
+        "correct": false
+      }
+    ],
+    "questionId": 62,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "51zgvesy0lukera87jyw4",
+    "question": "Welche Arten von Grenzschichten sind an einem Tragflächenprofil zu beobachten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Auf der gesamten Profiloberseite turbulente Grenzschicht bei abgelöster Strömung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Auf der gesamten Profiloberseite laminare Grenzschicht bei nicht abgelöster Strömung",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "An der vorderen Tragflügeloberseite laminare Strömung, weiter hinten turbulente Strömung",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "An der vorderen Tragflügeloberseite turbulente Strömung, weiter hinten laminare Strömung",
+        "correct": false
+      }
+    ],
+    "questionId": 63,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gnub00t5awideay3bpenu9",
+    "question": "Wie unterscheiden sich laminare und turbulente Grenzschicht am Tragflügelprofil? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die turbulente Grenzschicht ist dicker und besitzt einen geringeren Reibungswiderstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die turbulente Grenzschicht ist auch bei höheren Anstellwinkeln in der Lage, der Profilwölbung zu folgen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Die laminare Grenzschicht ist dünner und besitzt einen größeren Reibungswiderstand",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die laminare Grenzschicht erzeugt Auftrieb, die turbulente Grenzschicht produziert ausschließlich Widerstand",
+        "correct": false
+      }
+    ],
+    "questionId": 64,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "g19vwy6ko9k9r3uglzi96t",
+    "question": "An welchen Stellen des Luftfahrzeuges setzt in Vereisungsbedingungen das meiste Eis an? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Am Staurohr und an der statischen Druckabnahme",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Auf der Ober- und Unterseite der Ruderflächen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "An allen Stirnflächen von Flugzeugzelle, Tragflächen und Leitwerk",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Auf der Ober- und Unterseite der Tragflächen-Hinterkante",
+        "correct": false
+      }
+    ],
+    "questionId": 65,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "e6oxs62o8hg6u8aihul0se",
+    "question": "Welche konstruktiven Merkmale sorgen in jedem Fall für Erhöhung der Querstabilität eines Flächenflugzeuges? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Seitenleitwerk",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Positive V-Form der Tragflächen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Differenzieller Querruderausschlag",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Höhenleitwerk",
+        "correct": false
+      }
+    ],
+    "questionId": 66,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "n0216hfuv145xtwll0zwd",
+    "question": "Welche Aussage beschreibt eine Situation statischer Stabilität? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Wird ein Flugzustand durch äußere Einflüsse gestört, kann das Luftfahrzeug durch Ruderkräfte in den ursprünglichen Zustand zurückgeführt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Wird ein Flugzustand durch äußere Einflüsse gestört, neigt das Luftfahrzeug dazu, sich noch weiter vom ursprünglichen Zustand zu entfernen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Wird ein Flugzustand durch äußere Einflüsse gestört, neigt das Luftfahrzeug dazu, sich in Richtung des ursprünglichen Zustands zurückzubewegen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Wird ein Flugzustand durch äußere Einflüsse gestört, verbleibt das Luftfahrzeug im veränderten Flugzustand",
+        "correct": false
+      }
+    ],
+    "questionId": 67,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xrluztlos9pgarkyuhbzve",
+    "question": "Ein statisch instabiles Flugzeug... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "wird stabiler mit rückwärtiger Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "íst immer dynamisch stabil.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "wird stabil bei hohen Geschwindigkeiten.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "wird nie dynamisch stabil sein.",
+        "correct": true
+      }
+    ],
+    "questionId": 68,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "npo075wi97eeje9iuzfkqq",
+    "question": "Welche Kraft ist im stationären, horizontalen Geradeausflug NICHT wirksam? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zentrifugalkraft",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Gewichtskraft.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Widerstandskraft",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Auftriebskraft",
+        "correct": false
+      }
+    ],
+    "questionId": 69,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2ah91p5i302g30zjjmg9mm",
+    "question": "Welches konstruktive Merkmal ist in der Abbildung dargestellt? Siehe Bild (PFA-006) L: Auftrieb. (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Differenzieller Querruderausschlag",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Längsstabilität durch V-Form",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Richtungsstabilität durch Abtriebserzeugung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Querstabilität durch positive V-Form",
+        "correct": true
+      }
+    ],
+    "questionId": 70,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "saqnngvrqw7sfur6q8u4q",
+    "question": "Als \"Längsstabilität\" wird die Stabilität um welche Achse bezeichnet? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Propellerachse",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Hochachse",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Querachse",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Längsachse",
+        "correct": false
+      }
+    ],
+    "questionId": 71,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "j6rz5m5fb0sb5w3nnfiuki",
+    "question": "Die Stabilität um welche Achse wird maßgeblich durch die horizontale Schwerpunktlage mitbestimmt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Schwerpunktachse",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Hochachse",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Längsachse",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Querachse",
+        "correct": true
+      }
+    ],
+    "questionId": 72,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "guklkvw55f74jnejceizx",
+    "question": "Welches konstruktive Merkmal sorgt in jedem Fall für eine Erhöhung der Richtungsstabilität eines Flächenflugzeuges? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Großes Seitenleitwerk",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "V-Form der Tragflächen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Großes Höhenleitwerk",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Differenzieller Querruderausschlag",
+        "correct": false
+      }
+    ],
+    "questionId": 73,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jmdeop9ue4m92nhf87jx",
+    "question": "Wie wird eine Drehung um die Hochachse genannt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Schieben",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Gieren",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Rollen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Nicken",
+        "correct": false
+      }
+    ],
+    "questionId": 74,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xhglhmz1qqcssryl6wnps",
+    "question": "Wie wird eine Drehung um die Querachse genannt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Rollen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Kippen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Gieren",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Nicken",
+        "correct": true
+      }
+    ],
+    "questionId": 75,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "fgn6z2syrd9r2b8lozzk9",
+    "question": "Der kritische Anstellwinkel... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "verändert sich durch verschiedene Flugzeugmassen nicht.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "verkleinert sich bei einer hinteren Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "vergrößert sich bei einer vorderen Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "verändert sich bei zu- oder abnehmender Flugzeugmasse.",
+        "correct": false
+      }
+    ],
+    "questionId": 76,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "dsmsbxo15b48nv253m7rfe",
+    "question": "Bei gleichbleibender Leistung des Motors im Reiseflug ist der Anstellwinkel am Flügel... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "kleiner als im Steigflug.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "größer als im Steigflug.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "kleiner als im Sinkflug.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "größer als beim Start.",
+        "correct": false
+      }
+    ],
+    "questionId": 77,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "81ztgup1zo2fzces4944r",
+    "question": "Welches ist eine Funktion des Höhenleitwerks? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Stabilisierung des Flugzeugs um die Hochachse",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Das Einleiten von Kurven um die Hochachse",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Stabilisierung des Flugzeugs um die Querachse",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Die Stabilisierung des Flugzeugs um die Längsachse",
+        "correct": false
+      }
+    ],
+    "questionId": 78,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ajwm4l8vf5muqjqh2ukvq",
+    "question": "Der Höhenruderausschlag für ein bestimmtes Manöver ist... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "gleich für alle Schwerpunktlagen.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "gleich für alle Fluggeschwindigkeiten.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "größer bei hinterer Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "kleiner bei hohen Fluggeschwindigkeiten.",
+        "correct": true
+      }
+    ],
+    "questionId": 79,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "0caeq4nz5cnsk2r5sdrb1yk",
+    "question": "Der Höhenruderausschlag beim Rotieren zum Start wird... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "größer sein mit einer vorderen Schwerpunktlage.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "größer sein mit einer hinteren Schwerpunktlage.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "unabhängig von der Fluggeschwindigkeit gleich groß sein.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "größer sein bei hohen Fluggeschwindigkeiten.",
+        "correct": false
+      }
+    ],
+    "questionId": 80,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "todxg029zgdd87fin26s",
+    "question": "Das Höhenruder bewegt ein Luftfahrzeug um die... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Höhenachse.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Querachse.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Hochachse.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Längsachse.",
+        "correct": false
+      }
+    ],
+    "questionId": 81,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "3dsmjg2b2fr23ggggzvwca",
+    "question": "Ein Höhenruderausschlag nach oben bewirkt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "ein Senken der Flugzeugnase.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "eine Verlagerung des Schwerpunkts nach vorne.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "ein Heben der Flugzeugnase.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "eine Verlagerung des Schwerpunkts nach hinten.",
+        "correct": false
+      }
+    ],
+    "questionId": 82,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "de54a3t3ltpjn6ubnqw4k",
+    "question": "Was ist hinsichtlich der Lage des Schwerpunktes zu beachten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Schwerpunkt kann durch Trimmen des Querruders in eine zulässige Position bewegt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Bei der Beladung ist unbedingt auf eine zulässige Schwerpunktlage zu achten",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Die Lage des Schwerpunktes kann erst während des Fluges bestimmt werden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Schwerpunkt kann durch Trimmen des Höhenruders in eine zulässige Position bewegt werden",
+        "correct": false
+      }
+    ],
+    "questionId": 83,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "r0tmj7xrx9b3pl7yf5thsi",
+    "question": "Das Seitenruder bewegt ein Luftfahrzeug um die... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Hochachse.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Seitenachse.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Querachse.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Längsachse.",
+        "correct": false
+      }
+    ],
+    "questionId": 84,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "rfxbrbxfzdcjhpuxyj0ft9",
+    "question": "Ein Seitenruderausschlag nach links bewirkt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "ein Gieren des Luftfahrzeugs nach links.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "ein Gieren des Luftfahrzeugs nach rechts.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "ein Kippen des Luftfahrzeugs nach links.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "ein Kippen des Luftfahrzeugs nach rechts.",
+        "correct": false
+      }
+    ],
+    "questionId": 85,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "qoz0ai3pfb1czh68y3371",
+    "question": "Welches ist ein Vorteil des differenzierten Querruderausschlages? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Das negative Wendemoment wird verstärkt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Das Verhältnis von Widerstandsbeiwert zu Auftriebsbeiwert wird erhöht",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Widerstand des nach unten ausgeschlagenen Querruders wird verringert und damit ist das negative Wendemoment kleiner",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Der totale Auftrieb wird beim Querruderausschlag konstant gehalten",
+        "correct": false
+      }
+    ],
+    "questionId": 86,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5y173mlzlss233n5lmea2g",
+    "question": "Wie wird das negative Wendemoment kompensiert? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Durch differenzierten Querruderausschlag",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Durch eine Tragflächen-V-Form",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Durch die Querrudertrimmung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Durch einen Vollausschlag des Querruders",
+        "correct": false
+      }
+    ],
+    "questionId": 87,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "b9o5hpg1kv6s221j2c39sf",
+    "question": "Welchen Vorteil hat die Verwendung von differenzierten Querrudern? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Sie halten das negative Wendemoment gering",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Sie vermeiden einen Strömungsabriss bei niedrigen Anstellwinkeln",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Sie erhöhen die Sinkflugrate",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sie reduzieren Wirbelschleppen",
+        "correct": false
+      }
+    ],
+    "questionId": 88,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5t9wzql16bjm24dqm2wjhe",
+    "question": "Das rechte Querruder schlägt nach oben aus, das linke nach unten. Wie reagiert das Luftfahrzeug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Rollen nach links, kein Gieren",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Rollen nach links, Gieren nach rechts",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Rollen nach rechts, Gieren nach rechts",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Rollen nach rechts, Gieren nach links",
+        "correct": true
+      }
+    ],
+    "questionId": 89,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "r8mbqtcgenzmawig2364",
+    "question": "Welche Funktion hat der aerodynamische Ruderausgleich? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er verringert die Steuerkräfte",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Er verbessert die Ruderwirksamkeit",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Er verkleinert die Ruderflächen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er verzögert das Abreißen der Strömung",
+        "correct": false
+      }
+    ],
+    "questionId": 90,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "vy5pi3p7q110ioeo3yu1m",
+    "question": "Welche konstruktive Maßnahme trägt zur Verringerung von Ruderkräften bei? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Differenzieller Querruderausschlag",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Aerodynamischer Ruderausgleich",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "T-Leitwerk",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Wirbelgeneratoren (Vortex Generators)",
+        "correct": false
+      }
+    ],
+    "questionId": 91,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "uoz1tdat88sdw3l3qji",
+    "question": "Welche Funktion hat der statische Ruderausgleich? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er verhindert das \"Flattern\" der Ruder",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Er erhöht die Steuerdrücke",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Er begrenzt die Steuerdrücke",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Das nahezu kraftlose Trimmen der Ruder",
+        "correct": false
+      }
+    ],
+    "questionId": 92,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "q4temqjyb8e529qlz18wyh",
+    "question": "Ein Flugzeug besitzt im Reiseflug bei konstanter Leistungseinstellung die Tendenz, die Nase zu heben. Wie kann diese Tendenz unterdrückt werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Durch das Auslenken der Höhenruder-Trimmfläche nach unten",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Durch das Auslenken der Höhenruder-Trimmfläche nach oben",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Durch eine Verlagerung des Schwerpunkts nach hinten",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Durch den Ausschlag des Höhenruders nach oben",
+        "correct": false
+      }
+    ],
+    "questionId": 93,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "dkuddw6jsmm5fu4mn4pzc8",
+    "question": "Was ist eine Bügelkante? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine während des Fluges verstellbare Trimmfläche",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Eine Ausgleichsmasse am Ruder",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Eine Bezeichnung für ein Ausgleichsruder",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine starr am entsprechenden Ruder befestigte Trimmfläche",
+        "correct": true
+      }
+    ],
+    "questionId": 94,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ayni6k0lxkn3cqzjgr6cnu",
+    "question": "Das Trimmruder am Höhenruder ist nach oben ausgeschlagen. In welcher Stellung befindet sich die zugehörige Anzeige? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Kopflastig getrimmt",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Hecklastig getrimmt.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Neutrale Stellung (0-Stellung)",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Seitlich getrimmt",
+        "correct": false
+      }
+    ],
+    "questionId": 95,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "cwkyeopv6yhuzpyef7m83a",
+    "question": "Welches Verhältnis bezeichnet der Begriff \"Flächenbelastung\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Rüstgewichtskraft pro Flügelfläche",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Flügelfläche pro Fluggewichtskraft",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Luftfahrzeugmasse pro Flügelfläche",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Widerstandskraft pro Flügelfläche",
+        "correct": false
+      }
+    ],
+    "questionId": 96,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "l50xtxgxp7l41g6c13v2c6",
+    "question": "Durch welchen der aufgeführten Faktoren erhöht sich das wirkende Lastvielfache im Reiseflug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine aufwärtsgerichtete Böe",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Eine höhere Flugzeugmasse",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Einen vorderen Schwerpunkt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine geringere Luftdichte",
+        "correct": false
+      }
+    ],
+    "questionId": 97,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "e91s440h6u5ivmyzr4y37",
+    "question": "Durch welchen der aufgeführten Faktoren verringert sich das wirkende Lastvielfache im Reiseflug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine abwärtsgerichtete Böe",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Eine Zunahme der Luftdichte",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Eine hintere Schwerpunktlage",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine geringere Flugzeugmasse",
+        "correct": false
+      }
+    ],
+    "questionId": 98,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2dd6rixzw7nniq1p9qjtzc",
+    "question": "Welche Aussage bezüglich des Verstellpropellers (\"Constant-Speed Propeller\") ist korrekt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Einstellwinkel des Propellers wird mit zunehmender Fluggeschwindigkeit größer",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Der Propeller hält die Fluggeschwindigkeit des Flugzeuges konstant",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Drehzahl des Propellers wird mit zunehmender Fluggeschwindigkeit kleiner",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die eingestellte Drehzahl wird durch die Motorleistung (MAP) konstant gehalten",
+        "correct": false
+      }
+    ],
+    "questionId": 99,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "g591ejgn94ly72t8bqant8",
+    "question": "Warum ändert sich bei einem Propellerblatt der Einstellwinkel von der Nabe bis zur Spitze? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Um eine möglichst konstante Belastung durch einen gleichbleibenden effektiven Anstellwinkel über die gesamte Länge des Blattes zu gewährleisten",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Um sicher zu stellen, dass im Bereich der Propellerspitze der größte Schub produziert wird",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Um im Bereich der Propellerspitze einen möglichst großen Anstellwinkel zu gewährleisten",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Um sicher zu stellen, dass im Bereich der Propellernabe der größte Schub produziert wird",
+        "correct": false
+      }
+    ],
+    "questionId": 100,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "cft51pal6hmcue5qozmlr",
+    "question": "Wie verhält sich nach einem Motorausfall ein im Wind drehender Propeller? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Er besitzt einen größeren Einstellwinkel als in der Segelstellung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Er produziert Widerstand anstatt Schub",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Er verbessert die Gleitflugeigenschaften",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Er produziert weder Schub noch Widerstand",
+        "correct": false
+      }
+    ],
+    "questionId": 101,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4ay0rk883ru3h2115hh62s",
+    "question": "Wie verhalten sich Propellersteigung und Sinkrate, wenn während eines Sinkfluges im Leerlauf bei konstanter Geschwindigkeit der Propellerverstellhebel nach hinten gezogen wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Propellersteigung wird größer. Sinkrate wird größer.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Propellersteigung wird kleiner. Sinkrate wird kleiner.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Propellersteigung wird kleiner. Sinkrate wird größer.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Propellersteigung wird größer. Sinkrate wird kleiner.",
+        "correct": true
+      }
+    ],
+    "questionId": 102,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "8ar5js2km84y0apmokgxn",
+    "question": "Der in der Polare bezeichnete Punkt 1 kennzeichnet welchen Flugzustand? Siehe Bild (PFA-008) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Strömungsabriss (stall)",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Rückenflug",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Langsamflug",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Bestes Gleiten",
+        "correct": false
+      }
+    ],
+    "questionId": 103,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "hevirpai8f6d9ixu3kwuf9",
+    "question": "Der in der Polare bezeichnete Punkt 5 kennzeichnet welchen Flugzustand? Siehe Bild (PFA-008) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Strömungsabriss (stall)",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Bestes Gleiten",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Langsamflug",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Rückenflug",
+        "correct": false
+      }
+    ],
+    "questionId": 104,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "hgmy8cgfoppqpqf9sk6r9m",
+    "question": "Die Schräglage (bank) in einer 2-Minuten Kurve (rate one turn) hängt von welchem der aufgeführten Faktoren ab? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Dem Lastvielfachen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Dem Wind",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Dem Gewicht",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der TAS",
+        "correct": true
+      }
+    ],
+    "questionId": 105,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "u03pp53mvutrzaafy55jb",
+    "question": "Wie verhalten sich das Lastvielfache (n) und die Strömungsabrissgeschwindigkeit (Vs) im koordinierten Kurvenflug? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "N ist größer als 1 und Vs ist größer als im Horizontalflug",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "N ist kleiner als 1 und Vs ist kleiner als im Horizontalflug",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "N ist größer als 1 und Vs ist kleiner als im Horizontalflug",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "N ist kleiner als 1 und Vs größer als im Horizontalflug",
+        "correct": false
+      }
+    ],
+    "questionId": 106,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "v4hbm3cbzwqhzp29ea3tpn",
+    "question": "Wie wird das Kräftegleichgewicht aus Auftriebskraft und Schwerkraft im Kurvenflug beeinflusst? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Scheingewichtskraft ergibt sich als Resultierende aus Schwerkraft und Zentripetalkraft",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die horizontale Komponente der Auftriebskraft bei Querlage ist die Zentrifugalkraft",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Auftriebskraft muss erhöht werden, um die größere Scheingewichtskraft auszugleichen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Die resultierende Scheingewichtskraft im Kurvenflug ist kleiner als im Geradeausflug",
+        "correct": false
+      }
+    ],
+    "questionId": 107,
+    "subject": "pfa",
+    "lang": "de",
+    "asset": null
+  }
+]

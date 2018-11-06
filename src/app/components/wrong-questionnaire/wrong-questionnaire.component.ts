@@ -25,35 +25,36 @@ export class WrongQuestionnaireComponent implements OnInit {
     route.params.subscribe(params => { this.initialize(params); this.subject = params.subject })
   }
 
+  //Fix this
   async ngOnInit() {
-    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
-    const user = await this.authService.isLoggedIn();
-    if (this.subject) {
-      // Check if id is valid
-      this.questionService.fireGetAllWrong(user, this.subject).subscribe(
-        response => {
-          this.answeredQuestions = response;
-          this.questionService.passQuestion(this.answeredQuestions[0]);
-          this.actualQuestion = this.answeredQuestions[0];
-          this.isEmpty = this.answeredQuestions.length > 0 ? false : true;
+    // this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
+    // const user = await this.authService.isLoggedIn();
+    // if (this.subject) {
+    //   // Check if id is valid
+    //   this.questionService.fireGetAllWrong(user).subscribe(
+    //     response => {
+    //       this.answeredQuestions = response;
+    //       this.questionService.passQuestion(this.answeredQuestions[0]);
+    //       this.actualQuestion = this.answeredQuestions[0];
+    //       this.isEmpty = this.answeredQuestions.length > 0 ? false : true;
 
-          this.questionService.getQuestions(this.path).subscribe(
-            response => {
-              this.questions = response;
-              const originalQuestions = [];
-              this.answeredQuestions.forEach(question => {
-                this.questions.forEach(q => {
-                  if (question.questionId === q.id) {
-                    originalQuestions.push(q);
-                  }
-                });
-              });
-              this.questions = originalQuestions;
-            }
-          )
-        }
-      );
-    }
+    //       this.questionService.getQuestions(this.path).subscribe(
+    //         response => {
+    //           this.questions = response;
+    //           const originalQuestions = [];
+    //           this.answeredQuestions.forEach(question => {
+    //             this.questions.forEach(q => {
+    //               if (question.questionId === q.id) {
+    //                 originalQuestions.push(q);
+    //               }
+    //             });
+    //           });
+    //           this.questions = originalQuestions;
+    //         }
+    //       )
+    //     }
+    //   );
+    // }
   }
 
   initialize(params) {}
@@ -62,7 +63,7 @@ export class WrongQuestionnaireComponent implements OnInit {
     const questionToNavigate = this.answeredQuestions.filter(q => q.questionId === question.id)[0];
     this.questionService.passQuestion(questionToNavigate);
     this.actualQuestion = questionToNavigate;
-    this.router.navigateByUrl(`wrong/${this.subject}/${questionToNavigate.questionId}`);
+    this.router.navigateByUrl(`wrong/${this.subject}/${questionToNavigate.questionNumber}`);
   }
 
   next() {
@@ -72,11 +73,11 @@ export class WrongQuestionnaireComponent implements OnInit {
       if (this.answeredQuestions[index+1]) {
         this.questionService.passQuestion(this.answeredQuestions[index+1]);
         this.actualQuestion = this.answeredQuestions[index+1];
-        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionNumber}`);
       } else {
         this.questionService.passQuestion(this.answeredQuestions[0]);
         this.actualQuestion = this.answeredQuestions[0];
-        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionNumber}`);
       }
     }
   }
@@ -88,11 +89,11 @@ export class WrongQuestionnaireComponent implements OnInit {
       if (this.answeredQuestions[index-1] && this.answeredQuestions.length > 1) {
         this.questionService.passQuestion(this.answeredQuestions[index-1]);
         this.actualQuestion = this.answeredQuestions[index-1];
-        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionNumber}`);
       } else {
         this.questionService.passQuestion(this.answeredQuestions[this.answeredQuestions.length-1]);
         this.actualQuestion = this.answeredQuestions[this.answeredQuestions.length-1];
-        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionId}`);
+        this.router.navigateByUrl(`wrong/${this.subject}/${this.actualQuestion.questionNumber}`);
       }
     }
   }

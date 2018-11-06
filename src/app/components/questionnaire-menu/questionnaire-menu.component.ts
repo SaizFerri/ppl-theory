@@ -18,7 +18,7 @@ export class QuestionnaireMenuComponent {
 
   navigate(id: number) {
     if (this.wrong) {
-      this.navigateTo.emit(this.questions.filter(q => q.id === id)[0]);
+      this.navigateTo.emit(this.questions.filter(q => q.questionId === id)[0]);
     } else {
       this.router.navigateByUrl(`${this.subject}/${id}`);
     }

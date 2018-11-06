@@ -6,14 +6,14 @@
         Wrong!
     </div>
     <div class="question-title d-flex">
-        <h5>{{question.id}}.&nbsp;</h5>
+        <h5>{{question.questionId}}.&nbsp;</h5>
         <h5 [innerHTML]="question.question"></h5>
     </div>
     <mat-radio-group class="question-answers" [(ngModel)]="selectedAnswer">
         <mat-radio-button [color]="buttonColor" *ngFor="let answer of answers" [value]="answer"><span [innerHTML]="answer.text"></span></mat-radio-button>
     </mat-radio-group>
     <button mat-flat-button [color]="'primary'" (click)="check()" style="margin-top: 1rem;">Check</button>
-    <div *ngIf="question.asset" class="q-image">
+    <div *ngIf="hasAsset" class="q-image">
         <img [src]="question.asset" alt="">
     </div>
 </div>

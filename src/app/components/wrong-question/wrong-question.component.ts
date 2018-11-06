@@ -13,7 +13,8 @@ export class WrongQuestionComponent implements OnInit {
   
   question: Question;
   params: any;
-  questionId: number;
+  questionId: string;
+  questionNumber: number;
   
   path: string;
   subject: string;
@@ -24,6 +25,7 @@ export class WrongQuestionComponent implements OnInit {
   isLoaded: boolean = false;
   isWrong: boolean = false;
   isCorrect: boolean = false;
+  hasAsset: boolean = false;
 
 
   constructor(
@@ -39,21 +41,28 @@ export class WrongQuestionComponent implements OnInit {
     this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
     this.questionService.wrongQuestionData.subscribe(
       res => {
-        this.questionId = res.questionId;
-        this.router.navigateByUrl(`/wrong/${this.subject}/${this.questionId}`);
-        this.questionService.getQuestions(this.path).subscribe(
-          response => {
-            const questions = response;
-            this.question = questions.filter(question => question.id === this.questionId)[0];
-            this.answers = this.question.answers;
-            this.selectedAnswer = null;
-            this.isLoaded = true;
-            this.buttonColor = 'primary';
-            this.isWrong = false;
-            this.isCorrect = false;
-          },
-          err => console.log(err)
-        )
+        if(res) {
+          this.questionId = res.questionId;
+          this.questionNumber = res.questionNumber;
+          this.router.navigateByUrl(`/wrong/${this.subject}/${this.questionNumber}`);
+          this.questionService.getQuestions(this.path).subscribe(
+            response => {
+              const questions = response;
+              this.question = questions.filter(question => question.id === this.questionId)[0];
+              this.answers = this.question.answers;
+              this.hasAsset = false;
+              if (this.question.asset) {
+                this.hasAsset = true;
+              }
+              this.selectedAnswer = null;
+              this.isLoaded = true;
+              this.buttonColor = 'primary';
+              this.isWrong = false;
+              this.isCorrect = false;
+            },
+            err => console.log(err)
+          )
+        }
       }
     )
   }

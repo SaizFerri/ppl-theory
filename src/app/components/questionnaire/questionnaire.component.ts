@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { QuestionsService } from '../../services/questions.service';
-import { Subjects } from '../../enum/subjects.enum';
+import { Subject } from '../../enum/subject.enum';
 import { Question } from '../../interfaces/question.interface';
 
 @Component({
@@ -26,7 +26,7 @@ export class QuestionnaireComponent {
     this.subject = params.subject;
     const id = parseInt(params.id);
 
-    if (Subjects[this.subject.toUpperCase()]) {
+    if (Subject[this.subject.toUpperCase()]) {
       this.questionService.getQuestions(`${this.subject.toUpperCase()}/${this.subject}.json`).subscribe(
         response => {
           this.questions = response;
@@ -39,7 +39,7 @@ export class QuestionnaireComponent {
 
   next() {
     const questionId = parseInt(this.route.snapshot.paramMap.get('id')) + 1;
-    const a = this.questions.filter(question => question.id === questionId);
+    const a = this.questions.filter(question => question.questionId === questionId);
     
     if (a.length > 0) {
       this.router.navigateByUrl(`/${this.subject}/${questionId}`);
@@ -50,7 +50,7 @@ export class QuestionnaireComponent {
 
   prev() {
     const questionId = parseInt(this.route.snapshot.paramMap.get('id')) - 1;
-    const a = this.questions.filter(question => question.id === questionId);
+    const a = this.questions.filter(question => question.questionId === questionId);
     
     if (a.length > 0) {
       this.router.navigateByUrl(`/${this.subject}/${questionId}`);

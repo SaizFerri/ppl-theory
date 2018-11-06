@@ -22,6 +22,8 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "@ngxs/logger-plugin": "^3.2.0-dev.master-3677b91",
+    "@ngxs/store": "^3.2.0-dev.master-fd4bd6b",
     "bootstrap": "^4.1.3",
     "core-js": "^2.5.4",
     "rxjs": "^6.0.0",

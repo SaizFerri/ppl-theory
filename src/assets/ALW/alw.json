@@ -1,0 +1,3302 @@
+[
+  {
+    "id": "9ezum8pilvo3zxk5pykwp4",
+    "question": "Welche dieser Dokumente müssen auf internationalen Flügen immer mitgeführt werden? a) Eintragungsschein b) Lufttüchtigkeitszeugnis c) Bescheinigung über die Nachprüfung der Lufttüchtigkeit d) EASA Form-1 e) Bordbuch f) Entsprechende Ausweise für jedes Besatzungsmitglied g) Technische Lebenslaufakte (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "b, c, d, e, f, g.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "a, b, e, g.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "a, b, c, e, f.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "d, f, g.",
+        "correct": false
+      }
+    ],
+    "questionId": 1,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "mfckvf9smxl5uv1az9tr",
+    "question": "Wie wird ein Gebiet bezeichnet, in welches der Einflug nur mit bestimmten Auflagen erlaubt ist? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Flugverbotszone",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Gefahrengebiet",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Flugbeschränkungsgebiet",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Luftsperrgebiet",
+        "correct": false
+      }
+    ],
+    "questionId": 2,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6d6u8uaf0jyh7zp2yst5kg",
+    "question": "Wo kann die Art der Luftraumbeschränkung innerhalb eines Flugbeschränkungsgebietes nachgelesen werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Im monatlichen AIC",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "In der AIP",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "In aktuellen NOTAMs",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Auf der ICAO-Karte 1:500.000",
+        "correct": false
+      }
+    ],
+    "questionId": 3,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "rrl1ezq9bkq4iqcs6uj1u",
+    "question": "Was bedeutet der Begriff \"planmäßige Flüge\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Flüge, für die ein Flugplan aufgegeben wurde",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Alle Flüge, für die eine Flugvorbereitung und Planung der Flugroute vorgeschrieben ist",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Flüge, die Personen oder Sachen auf bestimmten Linien regelmäßig und öffentlich befördern",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Flüge, die über die Staatsgrenzen hinausgehen",
+        "correct": false
+      }
+    ],
+    "questionId": 4,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "mn3tt4lemq3jk56ry741y",
+    "question": "Welchen Status haben die von der EASA entworfenen Regeln und Verfahren? (z.B. Teil-FCL und Teil-MED) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Sie sind erst nach der Ratifizierung durch die einzelnen EU-Mitgliedsstaaten in diesen rechtlich bindend",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sie haben denselben Status wie ICAO Anhänge und können somit begründete nationale Abweichungen erfahren",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Sie haben keinen rechtlich bindenden Charakter, sondern dienen lediglich als Orientierung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sie sind Teil einer EU-Verordnung und unmittelbar in allen EU-Mitgliedsstaaten bindend",
+        "correct": true
+      }
+    ],
+    "questionId": 5,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xwyf0uh10ys16lh1w6kexw",
+    "question": "Wie lange gilt ein \"Certificate of Airworthiness\" (Lufttüchtigkeitszeugnis)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "12 Jahre",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "6 Monate",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "12 Monate",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Unbegrenzt",
+        "correct": true
+      }
+    ],
+    "questionId": 6,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5hcfgb73gycumsxneccuaf",
+    "question": "Was bedeutet die Abkürzung \"ARC\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Airspace Restriction Criteria",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Airspace Rulemaking Committee",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Airworthiness Recurring Control",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Airworthiness Review Certificate",
+        "correct": true
+      }
+    ],
+    "questionId": 7,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "01rvn0v0cg5m4uy7xnft7wj",
+    "question": "Welches Land stellt ein \"Certificate of Airworthiness\" (Lufttüchtigkeitszeugnis) aus? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Das Land, in dem die Nachprüfung durchgeführt wurde",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Das Land, in dem das Luftfahrzeug hergestellt wurde",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Das Land, in dem das Luftfahrzeug eingetragen ist",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Das Land, in dem der Besitzer seinen Hauptwohnsitz hat",
+        "correct": false
+      }
+    ],
+    "questionId": 8,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5pea0zno38ltgtdz5vn2r",
+    "question": "In welchen Ländern ist eine gemäß ICAO Annex 1 ausgestellte Pilotenlizenz gültig? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "In allen ICAO Vertragsstaaten",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "In dem Land, in dem die Lizenz erworben wurde",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Nur in den Staaten, die diese Lizenz per Antrag anerkannt haben",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "In dem Land, das die Lizenz ausgestellt hat",
+        "correct": false
+      }
+    ],
+    "questionId": 9,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "uqfizn0lhmjf420i3x25h",
+    "question": "Mit welchem Thema befasst sich der ICAO Annex 1? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Luftverkehrsregeln",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Lizenzierung von Piloten",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Luftverkehrsdienste",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Betrieb von Luftfahrzeugen",
+        "correct": false
+      }
+    ],
+    "questionId": 10,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "9y0j7qo3al7b71mtzsnsol",
+    "question": "Welche Gültigkeitsdauer hat eine Privatpilotenlizenz (PPL)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "60 Monate",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "24 Monate",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "48 Monate",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Unbegrenzt",
+        "correct": true
+      }
+    ],
+    "questionId": 11,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "h847by0z7mk1k5riqavbek",
+    "question": "Das Mindestalter zur Ausstellung einer Privatpilotenlizenz (PPL) beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "18 Jahre",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "17 Jahre",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "16 Jahre",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "21 Jahre",
+        "correct": false
+      }
+    ],
+    "questionId": 12,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "a7nsronjib6ekk5p3exph",
+    "question": "Welche Mindestanforderungen müssen unter anderem erfüllt sein, um eine Berechtigung für VFR Flüge bei Nacht zu erhalten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Mindestens 5 Flugstunden bei Nacht, davon 3 mit Fluglehrer mit mindestens einer Stunde Überlandflug plus 10 Solostarts und Landungen bis zum Stillstand",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Mindestens 10 Flugstunden bei Nacht, davon 3 mit Fluglehrer mit mindestens einer Stunde Überlandflug plus 5 Solostarts und Landungen bis zum Stillstand",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Mindestens 5 Flugstunden bei Nacht, davon 3 mit Fluglehrer mit mindestens einer Stunde Überlandflug plus 5 Solostarts und Landungen bis zum Stillstand",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Mindestens 5 Flugstunden bei Nacht, davon 4 mit Fluglehrer mit mindestens einer Stunde Überlandflug plus 5 Solostarts und Landungen bis zum Stillstand",
+        "correct": false
+      }
+    ],
+    "questionId": 13,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6r9hqw4lmjebhxqfm34tce",
+    "question": "Welche Gültigkeit hat ein medizinisches Tauglichkeitszeugnis der Klasse 2, wenn der Pilot 62 Jahre alt ist? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "48 Monate",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "12 Monate",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "24 Monate",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "60 Monate",
+        "correct": false
+      }
+    ],
+    "questionId": 14,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "zn58alizt5qoyx9i1m11",
+    "question": "Wie kann die Klassenberechtigung verlängert werden, wenn die notwendige Flugerfahrung vor Ablauf der Gültigkeit einer Klassenberechtigung SEP(land) nicht erbracht werden konnte? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die notwendige Flugerfahrung muss unter Aufsicht eines Fluglehrers nachgeholt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Eine Flugschule kann nach einem Übungsflug mit einem Fluglehrer die Berechtigung verlängern",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Durch eine Befähigungsüberprüfung mit einem Prüfer (Examiner)",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Entsprechend der Flugerfahrung müssen unter Aufsicht einer Flugschule zusätzliche Trainingsflüge absolviert werden",
+        "correct": false
+      }
+    ],
+    "questionId": 15,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "50hojrkbtcpzkjohrn6eh",
+    "question": "Wozu berechtigt der Besitz einer europäischen Privatpilotenlizenz PPL(A)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Als Pilot auf gewerblichen und nichtgewerblichen Flügen mit einmotorigen Flugzeugen zu agieren",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Als PIC zu agieren, wobei nur für Flüge mit Flugzeugen mit einem MTOW von max. 2.000 kg eine Vergütung erhalten werden darf",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Als Pilot auf gewerblichen Flügen zu agieren, wenn sich maximal 4 Personen an Bord des Luftfahrzeuges befinden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Als PIC ohne Vergütung auf nichtgewerblichen Flügen zu agieren sowie eine Vergütung für Flüge als Fluglehrer zu erhalten",
+        "correct": true
+      }
+    ],
+    "questionId": 16,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xsiq4x9tosomrjcrw4ezfd",
+    "question": "Das Mindestalter für eine Ausbildung zum Privatpiloten (PPL) beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "18 Jahre vor Beginn von Theorie- und Praxisausbildung.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "16 Jahre vor Beginn von Theorie- und Praxisausbildung.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "17 Jahre vor dem ersten Alleinflug.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "16 Jahre vor dem ersten Alleinflug.",
+        "correct": true
+      }
+    ],
+    "questionId": 17,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5p8hoory8faluvtu0n0y8j",
+    "question": "Was bedeutet die Abkürzung \"SERA\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Standardized European Rules of the Air",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Standard European Routes of the Air",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Selective Radar Altimeter",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Specialized Radar Approach",
+        "correct": false
+      }
+    ],
+    "questionId": 18,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2yxd09vsfgdc74iun6bgze",
+    "question": "Was bedeutet die Abkürzung \"TRA\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zone mit Transponderpflicht (Transponder Area)",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Temporäre Luftraumreservierung (Temporary Reserved Airspace)",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Temporäre Zone mit Radarführung (Temporary Radar Routing Area)",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Nahverkehrskontrollzone (Terminal Area)",
+        "correct": false
+      }
+    ],
+    "questionId": 19,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "x81wk1vv0qpki4wcw3qdl",
+    "question": "Was ist beim Einflug in eine RMZ zu beachten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Vor Einflug in diese Zone muss eine Einflugfreigabe eingeholt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Vor Einflug in diese Zone muss eine Genehmigung der Luftfahrtbehörde eingeholt werden",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Der Transponder muss eingeschaltet sein und den Code 7000 Mode C senden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Es ist dauerhafte Hörbereitschaft zu halten und ggf. eine Funkverbindung herzustellen",
+        "correct": true
+      }
+    ],
+    "questionId": 20,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "sfausdc6sbe9t233bkqc8",
+    "question": "Welche der folgenden Bedingungen muss für einen Sondersichtflug erfüllt sein? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Es muss Erdsicht gegeben sein",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Ein Mindestabstand zu Wolken von 2000 m ist einzuhalten",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Eine Geschwindigkeit von 115 kt IAS darf nicht überschritten werden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die Bodensicht muss 500 m oder mehr betragen",
+        "correct": false
+      }
+    ],
+    "questionId": 21,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "dupty2h5g9jotxn09lteg",
+    "question": "Welche Voraussetzung muss für den Einflug in eine TMZ erfüllt sein? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Über Funk muss eine Freigabe angefordert werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Transponder einschalten, Modi A und C oder S",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Vor Antritt des Fluges muss ein Flugplan aufgeben werden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Transponder einschalten, Mode A, \"IDENT\" einmal betätigen",
+        "correct": false
+      }
+    ],
+    "questionId": 22,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "7wc8ies0vgknwxqvyfjw5i",
+    "question": "Was bedeutet die Kennzeichnung eines Bereiches mit \"TMZ\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zone mit Transponderpflicht",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Tagflugzone",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Nachtsichtflugzone",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Militärische Tiefflugzone",
+        "correct": false
+      }
+    ],
+    "questionId": 23,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4npenhhqwyw8sthr7p6k98",
+    "question": "Der Begriff \"Flugplatzverkehr\" ist gemäß ICAO Anhang 2 definiert als... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "der Verkehr von Luftfahrzeugen, die sich in der Platzrunde befinden sowie der gesamte Verkehr auf dem Rollfeld.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Der Verkehr von Luftfahrzeugen, die in die Kontrollzone einfliegen oder sie verlassen sowie der gesamte Verkehr auf dem Rollfeld.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "der Verkehr von Luftfahrzeugen, die sich in der Platzrunde befinden, in diese einfliegen oder sie verlassen sowie der gesamte Verkehr auf dem Rollfeld und auf dem Vorfeld.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Verkehr von Luftfahrzeugen, die sich in der Platzrunde befinden, in diese einfliegen oder sie verlassen sowie der gesamte Verkehr auf dem Rollfeld.",
+        "correct": true
+      }
+    ],
+    "questionId": 24,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ltj9xtflf9c90e13fiikf",
+    "question": "Was bedeutet die Abkürzung \"IFR\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Gewerbliche Flugregeln",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Instrumentenflugwetterbedingungen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Instrumentenflugregeln",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Schlechtwetterflugregeln",
+        "correct": false
+      }
+    ],
+    "questionId": 25,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6u0zc91lyrb9gqy13ocf5t",
+    "question": "Unter welchen Bedingungen ist ein Flug ein \"Sichtflug\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Wenn der Flug nach Sichtflugregeln durchgeführt wird",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Wenn die Flugsicht mehr als 5 km beträgt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Wenn die Flugsicht mehr als 8 km beträgt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Wenn der Flug in Sichtflugwetterbedingungen stattfindet",
+        "correct": false
+      }
+    ],
+    "questionId": 26,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "fionksqwjtud3isklrfaul",
+    "question": "Was bedeutet \"VMC\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Veränderliche meteorologische Bedingungen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sichtflugwetterbedingungen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Instrumentenflugpflicht",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sichtflugregeln",
+        "correct": false
+      }
+    ],
+    "questionId": 27,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "kr8vw6c7wzqk81u106s2",
+    "question": "Was bedeutet \"IMC\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Veränderliche meteorologische Bedingungen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Instrumentenflugwetterbedingungen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Instrumentenflugpflicht",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Instrumentenflugregeln",
+        "correct": false
+      }
+    ],
+    "questionId": 28,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "oygcnbv10pnuens499ysao",
+    "question": "Wie hoch ist die Mindestflughöhe über feuer- und explosionsgefährlichen Industriegeländen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "2.000 ft über Grund",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "1.000 ft über dem höchsten Hindernis, von dem das Luftfahrzeug weniger als 600 m weit entfernt ist; eine Landung muss im Notfall ohne Gefährdung möglich sein",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "500 ft über Grund",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1.000 ft über dem höchsten Hindernis, von dem das Luftfahrzeug weniger als 300 m weit entfernt ist; eine Landung muss im Notfall ohne Gefährdung möglich sein",
+        "correct": false
+      }
+    ],
+    "questionId": 29,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "lupqvhw7mqr7hci0uadbuf",
+    "question": "Zwei motorisierte Luftfahrzeuge nähern sich auf entgegengesetztem Kurs in annähernd gleicher Höhe. Wer muss ausweichen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Beide müssen íhren Kurs nach rechts ändern",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Das schwerere Luftfahrzeug muss steigen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Beide müssen ihren Kurs nach links ändern",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Das leichtere Luftfahrzeug muss steigen",
+        "correct": false
+      }
+    ],
+    "questionId": 30,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jk79l77hcssywun7axwn1g",
+    "question": "Zwei motorisierte Luftfahrzeuge auf entgegengesetztem Kurs nähern sich während des Rollens am Boden an. Wer muss ausweichen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Beide müssen nach rechts ausweichen",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Beide müssen nach links ausweichen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Das schwerere Flugzeug muss nach links ausweichen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Das schwerere Flugzeug muss nach rechts ausweichen",
+        "correct": false
+      }
+    ],
+    "questionId": 31,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "f14e433o2qik8pibu154k",
+    "question": "Zwei motorisierte Luftfahrzeuge nähern sich mit kreuzenden Kursen. Wie muss ausgewichen werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Das von rechts kommende Luftfahrzeug hat Vorrang",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Beide Luftfahrzeuge müssen ihre Kurse nach rechts ändern",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Beide Luftfahrzeuge müssen ihre Kurse nach links ändern",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Das von links kommende Luftfahrzeug hat Vorrang",
+        "correct": false
+      }
+    ],
+    "questionId": 32,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gz0wet77jphjuqo83v16o",
+    "question": "Wie unterscheidet sich das \"Kreuzen\" zweier Luftfahrzeuge vom \"Überholen\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine Begegnung gilt als Kreuzen, wenn beide Luftfahrzeugführer das andere Luftfahrzeug im Seitenfenster sehen können",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Beim Kreuzen bilden die Kurse der Luftfahrzeuge einen Winkel von mehr als 70°, beim Überholen ist der Winkel größer",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Beim Kreuzen bilden die Kurse der Luftfahrzeuge einen Winkel von mehr als 70°, beim Überholen ist der Winkel geringer",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Eine Begegnung gilt dann als Überholen, wenn die Geschwindigkeitsdifferenz der beiden Luftfahrzeuge mehr als 30 kt beträgt",
+        "correct": false
+      }
+    ],
+    "questionId": 33,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "95tkvcc7xkglf713pcek",
+    "question": "Eine Boeing 737 und eine Cessna 152 nähern sich auf kreuzenden Kursen im Luftraum der Klasse \"D\". Wer muss ausweichen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Boeing 737, da Verkehrsflugzeuge die größeren Leistungsreserven haben",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die Cessna 152, da Leichtflugzeuge IFR Flügen und gewerblichen Flügen ausweichen müssen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Das von rechts kommende Luftfahrzeug hat Vorrang, das andere Luftfahrzeug muss ausweichen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Die Luftverkehrskontrollstelle (ATC) muss entscheiden, wer den Kurs ändern muss",
+        "correct": false
+      }
+    ],
+    "questionId": 34,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jx5ass2864qelwbdxm6osq",
+    "question": "Welches ist KEIN ausreichender Grund, um die Mindestflughöhe zu unterschreiten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Abwerfen von Schleppgegenständen auf Fluglätzen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Start oder Landung auf Flugplätzen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Landeanflug ohne nachfolgende Landung auf Flugplätzen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Schlechtwetter im Flugplatzbereich",
+        "correct": true
+      }
+    ],
+    "questionId": 35,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4ko6nug2ldn96l969st7n",
+    "question": "Welche der folgenden Aussagen in Bezug auf Vorrangregeln stimmt NICHT? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Motorflugzeuge haben Vorrang vor Motorseglern",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Flugzeuge in einer Notlage haben immer Vorrang",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Reisemotorsegler mit abgestelltem Triebwerk haben Vorrang vor Motorflugzeugen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Landende Flugzeuge haben Vorrang vor startenden Flugzeugen",
+        "correct": false
+      }
+    ],
+    "questionId": 36,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "06bb1we6qco7a5zcuuxbina",
+    "question": "Ein einmotoriges kolbengetriebenes Luftfahrzeug und ein zweimotoriges turbopropgetriebenes Luftfahrzeug nähern sich von vorne in der gleichen Flughöhe. Welche Ausweichregel kommt zur Anwendung, um einen Zusammenstoß zu vermeiden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Das turbopropgetriebene Luftfahrzeug muss dem kolbengetriebenen Luftfahrzeug ausweichen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Das kolbengetriebene Luftfahrzeug muss dem turbopropgetriebenen Luftfahrzeug ausweichen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Beide Luftfahrzeuge müssen nach rechts ausweichen",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Beide Luftfahrzeuge müssen nach links ausweichen",
+        "correct": false
+      }
+    ],
+    "questionId": 37,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "y14dy7il77h754vrys5vv",
+    "question": "Welche Distanz müssen Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klassen C, D oder E zu Wolken einhalten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1.000 m horizontal, 1.500 ft vertikal",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "1.500 m horizontal, 1.000 ft vertikal",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "1.500 m horizontal, 1.000 m vertikal",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1.000 m horizontal, 300 m vertikal",
+        "correct": false
+      }
+    ],
+    "questionId": 38,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "fk2zx9kusduvqo25ykfns",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse B in einer Flughöhe von 5.000 ft MSL beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "3.000 m.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "1.500 m.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "8.000 m.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "5.000 m.",
+        "correct": true
+      }
+    ],
+    "questionId": 39,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5u3g93evg0m0t0zb8eralk",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse C in einer Flughöhe von 5.000 ft MSL beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1.500 m.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "5.000 m.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "3.000 m.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "8.000 m.",
+        "correct": false
+      }
+    ],
+    "questionId": 40,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "lqdbnz4nv1bxtxm7rluma",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse E in einer Flughöhe von 7.000 ft MSL beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "8.000 m.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "1.500 m.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "5.000 m.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "3.000 m.",
+        "correct": false
+      }
+    ],
+    "questionId": 41,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "kwc026px2fqrb3w81glkg",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse D in FL110 beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1.500 m.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "3.000 m.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "8.000 m.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "5.000 m.",
+        "correct": false
+      }
+    ],
+    "questionId": 42,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "avvda51kbnm88csbw1pau3",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse C in FL125 beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1.500 m.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "3.000 m.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "8.000 m.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "5.000 m.",
+        "correct": false
+      }
+    ],
+    "questionId": 43,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gdulp0wfyt71on7o0vn3nd",
+    "question": "Welche Distanz müssen Flüge nach Sichtflugregeln (VFR) in Lufträumen der Klasse B zu Wolken einhalten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1.500 m horizontal, 300 m vertikal",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "1.500 m horizontal, 1.000 m vertikal",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1.000 m horizontal, 1.500 ft vertikal",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "1.000 m horizontal, 300 m vertikal",
+        "correct": false
+      }
+    ],
+    "questionId": 44,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6sj8y6ntlmdilku9l6nhyd",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Luftraum C unterhalb von Flugfläche 100 beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "5 km.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "8 km.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1,5 km.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "10 km.",
+        "correct": false
+      }
+    ],
+    "questionId": 45,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "vam2w4z63b9x0x56gyask",
+    "question": "Die Mindestflugsicht für Flüge nach Sichtflugregeln (VFR) in Luftraum C in und oberhalb von Flugfläche 100 beträgt... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "1,5 km.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "10 km.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "8 km.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "5 km.",
+        "correct": false
+      }
+    ],
+    "questionId": 46,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "kyefl8ea2vg9184ktg9y6",
+    "question": "Der Begriff \"Hauptwolkenuntergrenze\" ist definiert als... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "die Höhe der Untergrenze der niedrigsten Wolkenschicht über Grund oder Wasser, die mehr als die Hälfte des Himmels bedeckt unterhalb 10.000 ft AGL.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "die Höhe der Untergrenze der höchsten Wolkenschicht über MSL, die mehr als die Hälfte des Himmels bedeckt unterhalb 10.000 ft AGL.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "die Höhe der Untergrenze der niedrigsten Wolkenschicht über MSL, die mehr als die Hälfte des Himmels bedeckt unterhalb 20.000 ft AGL.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "die Höhe der Untergrenze der niedrigsten Wolkenschicht über Grund oder Wasser, die mehr als die Hälfte des Himmels bedeckt unterhalb 20.000 ft AGL.",
+        "correct": true
+      }
+    ],
+    "questionId": 47,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4jog26u6nb8er6pxsu0ls5",
+    "question": "Welche Mindestwetterbedingungen gelten für ein Luftfahrzeug mit festen Tragflächen, um in eine Kontrollzone (Luftraum D) unter Sonder-VFR Bedingungen einfliegen zu dürfen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bodensicht: mindestens 1,5 km. Flugsicht: mindestens 1,5 km. Hauptwolkenuntergrenze: nicht unter 600 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Bodensicht: mindestens 800 m. Flugsicht: mindestens 800 m. Hauptwolkenuntergrenze: nicht unter 600 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Bodensicht: mindestens 1,5 km. Flugsicht: mindestens 1,5 km. Hauptwolkenuntergrenze nicht unter 1000 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Bodensicht: mindestens 5 km. Flugsicht: mindestens 5 km. Hauptwolkenuntergrenze: nicht unter 1500 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "correct": false
+      }
+    ],
+    "questionId": 48,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xbnfhjlm3qm0mufvywh3dr",
+    "question": "Ein militärisches Luftfahrzeug nähert sich tagsüber von der linken Seite, betätigt wechselweise die Querruder und dreht anschließend in einer sanften Linkskurve ab. Welche Bedeutung hat dieses Signal? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bereiten Sie eine Sicherheitslandung vor, Sie sind in ein Sperrgebiet eingeflogen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sie fliegen in ein Flugbeschränkungsgebiet ein, verlassen Sie den Luftraum unverzüglich",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Folgen Sie mir",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Sie sind frei von Flugbeschränkungsgebieten und reservierten Lufträumen, Sie können weiterfliegen",
+        "correct": false
+      }
+    ],
+    "questionId": 49,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jq3whapni1uce41gkz5bf",
+    "question": "Ein militärisches Luftfahrzeug vollzieht tagsüber einen plötzlichen Richtungswechsel von 90 Grad und zieht hoch, ohne den Flugweg des zivilen Luftfahrzeuges zu kreuzen. Welche Bedeutung hat dieses Signal? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bereiten Sie eine Sicherheitslandung vor, Sie sind in ein Sperrgebiet eingeflogen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sie können Ihren Flug fortsetzen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Folgen Sie mir, ich bringe Sie zum nächsten geeigneten Flugplatz",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sie fliegen in ein Flugbeschränkungsgebiet ein, verlassen Sie den Luftraum unverzüglich",
+        "correct": false
+      }
+    ],
+    "questionId": 50,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "xh5wund4b99jrul161lfq",
+    "question": "In welcher Flughöhe wird die Subskala des Höhenmessers von QNH auf 1.013 hPa umgestellt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Beim Sinken unterhalb von FL 100",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "In der Entscheidungshöhe",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "In einer Höhe von 4.000 ft",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Bei Übersteigen der \"Transition Altitude\"",
+        "correct": true
+      }
+    ],
+    "questionId": 51,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "uv433g2f5j5zgt4szhgu",
+    "question": "Auf welche Einstellung der Subskala des Höhenmessers werden Flugflächen referenziert? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "QFE.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "1030,25 hPa.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "1013,25 hPa.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "QNH.",
+        "correct": false
+      }
+    ],
+    "questionId": 52,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5yx6ojzbgkhr4bwzv9q6",
+    "question": "Welchen Zweck erfüllen die Halbkreisflugregeln? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Steig- und Sinkflugverfahren innerhalb von Warteschleifen gefahrlos zu ermöglichen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Kollisionsvermeidung durch Verringerung der Wahrscheinlichkeit direkten Gegenverkehrs",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Flugplanbefreiung innerhalb vorgegebener und in der AIP veröffentlichter Zonen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Kollisionsvermeidung durch Unterbrechen des Wendemanövers",
+        "correct": false
+      }
+    ],
+    "questionId": 53,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "88tbhdrshp6lp1d6yeuhl",
+    "question": "Welche der folgenden SSR-Transponder Modi gibt es? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "B, C, V.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "A, C, S.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "B, R, S.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "A, C, R.",
+        "correct": false
+      }
+    ],
+    "questionId": 54,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "k2a5hpxvx4gb8dgzx5tdo",
+    "question": "Ein Transponder mit der Fähigkeit, die aktuelle Druckhöhe zu senden ist ein... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Mode C oder S Transponder.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Mode A Transponder.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Airspace B approved Transponder.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Druck-Decoder.",
+        "correct": false
+      }
+    ],
+    "questionId": 55,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5t6iiiz8gkm78s138nnmsj",
+    "question": "Welcher Transpondercode signalisiert einen Ausfall der Sprechfunkanlage(n)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "2000",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "7000",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "7700",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "7600",
+        "correct": true
+      }
+    ],
+    "questionId": 56,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "zj88bd23qkkgukqim9ly8j",
+    "question": "Welcher Transpondercode ist bei einem Funkausfall unaufgefordert zu schalten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "7500",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "7600",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "7000",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "7700",
+        "correct": false
+      }
+    ],
+    "questionId": 57,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ex8s3bc8rywcoa78qzs3b",
+    "question": "Welcher Transpondercode ist bei einem Notfall unaufgefordert zu schalten? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "7600",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "7500",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "7000",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "7700",
+        "correct": true
+      }
+    ],
+    "questionId": 58,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "k0gxnhuv6oq867hgh9v52p",
+    "question": "Was ist bei der Betätigung der \"IDENT\" Taste am Transponder zu berücksichtigen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Durch dreimaliges Drücken der IDENT-Taste kann ein Funkausfall signalisiert werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Sie muss unaufgefordert vor Einflug in Lufträume der Klasse C, D oder E betätigt werden",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Sie muss unaufgefordert vor Einflug in einen Nahverkehrsbereich (CTA) betätigt werden",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Sie darf nur nach direkter Aufforderung durch eine Flugverkehrskontrollstelle betätigt werden",
+        "correct": true
+      }
+    ],
+    "questionId": 59,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "tf9hh5vetgqkvb22ivbd",
+    "question": "Welcher Flugsicherungsdienst ist für die sichere Durchführung von kontrollierten Flügen verantwortlich? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Alarmdienst (ALR)",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Fluginformationsdienst (FIS)",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Flugverkehrskontrolldienst (ATC)",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Flugberatungsdienst (AIS)",
+        "correct": false
+      }
+    ],
+    "questionId": 60,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "mebkowh4pz9oxivrvehndb",
+    "question": "Welche Dienste führen Flugverkehrskontrolldienst durch? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Flugplatzkontrolldienst (TWR). Anflugkontrolldienst (APP). Bezirkskontrolldienst (ACC).",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Fluginformationsdienst (FIS). Flugberatungsdienst (AIS). Fester Flugfernmeldedienst (AFS).",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Flugalarmdienst (ALR). Such- und Rettungsdienst (SAR). Flugplatzkontrolldienst (TWR).",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Anflugkontrolldienst (APP). Bezirkskontrolldienst (ACC). Fluginformationsdienst (FIS).",
+        "correct": false
+      }
+    ],
+    "questionId": 61,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "38azeq0aqkp6mp9avaec0k",
+    "question": "Welche Antwort ist in Bezug auf die Staffelung in Luftraum E korrekt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "VFR-Verkehr wird zu VFR- und IFR-Verkehr gestaffelt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "VFR-Verkehr wird nicht gegenüber VFR- und IFR-Verkehr gestaffelt",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "IFR-Verkehr wird zu VFR-Verkehr gestaffelt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "VFR-Verkehr wird nur zu IFR-Verkehr gestaffelt",
+        "correct": false
+      }
+    ],
+    "questionId": 62,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "q6hijw0hmjhfwzdxgzzq8t",
+    "question": "Welche Flugsicherungsdienste können in einem Fluginformationsgebiet (FIR) in Anspruch genommen werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Flugverkehrskontrolldienst (ATC). Fluginformationsdienst (FIS).",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Fluginformationsdienst (FIS). Flugalarmdienst (ALR).",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Flugberatungsdienst (AIS). Such- und Rettungsdienst (SAR).",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Flugverkehrskontrolldienst (ATC). Flugberatungsdienst (AIS).",
+        "correct": false
+      }
+    ],
+    "questionId": 63,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "sntjt2x3plfimyzuoeprl",
+    "question": "Zum Fluginformationsdienst (FIS) kann nur Kontakt aufgenommen werden... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "durch persönlichen Besuch.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "via Sprechfunkverkehr.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "via Telefon.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "via Internet/Fax.",
+        "correct": false
+      }
+    ],
+    "questionId": 64,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "z7bxf75p1tmrcgnkmwacrk",
+    "question": "Welche Sprechgruppe wird angewendet, um darauf hinzuweisen, dass ein Leichtflugzeug einem Flugzeug mit einer höheren Wirbelschleppenkategorie folgt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Achtung Propellerwirbel",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Vorsicht Wirbelschleppen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Gefahr Turbinenstrahl",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Beachten Sie Wirbelschleppenwinde",
+        "correct": false
+      }
+    ],
+    "questionId": 65,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "vmy0syvkzjl9kxj11svcrf",
+    "question": "Welche Antwort beinhaltet eine korrekte Positionsmeldung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "DEABC, \"N\", 2.500 ft",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "DEABC erreiche \"N\"",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "DEABC über \"N\" in FL 2.500 ft",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "DEABC über \"N\" um 35",
+        "correct": false
+      }
+    ],
+    "questionId": 66,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "qnj0lefz39r2v1gaigg5x6",
+    "question": "Was bedeutet die Abkürzung \"AIREP\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Automatische Identifizierungsmeldung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Luftfahrtgerätebedarfsmeldung",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Luftfahrtinformationsmeldung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Meldung eines Luftfahrzeugs",
+        "correct": true
+      }
+    ],
+    "questionId": 67,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "58qxymywf438h1014gnfpq",
+    "question": "Welche Informationen enthält der Allgemeine Teil \"GEN\" der AIP? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zutrittsbestimmungen zu Flughäfen, Passagierkontrollen und Anforderungen an Piloten, Lizenzmuster, Gültigkeitszeitrahmen.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Kartensymbole, Verzeichnis der Funknavigationshilfen, Sonnenauf- und Untergangszeiten, Flugplatzgebühren, Flugsicherungsgebühren.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Verzeichnis, Klassifizierung und Karten von Flugplätzen, Anflugkarten, Bodenkarten, Beschränkungs- und Gefahrengebiete.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Warnungen für die Luftfahrt, ATS Lufträume und Strecken, Luftsperrgebiete, Beschränkungs- und Gefahrengebiete.",
+        "correct": false
+      }
+    ],
+    "questionId": 68,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2vj4qhek9s73so67zpxc3c",
+    "question": "Die einzelnen Teile des Luftfahrthandbuches (AIP) sind... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "GEN, MET, RAC.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "GEN, COM, MET.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "GEN, ENR, AD.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "GEN, AGA, COM.",
+        "correct": false
+      }
+    ],
+    "questionId": 69,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ghhw1ebkrnahqut82cuoh5",
+    "question": "Welche Informationen enthält der Teil \"AD\" der AIP? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Zutrittsbestimmungen zu Flughäfen, Passagierkontrollen und Anforderungen an Piloten, Lizenzmuster, Gültigkeitszeitrahmen.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Verzeichnis, Klassifizierung und Karten von Flugplätzen, Anflugkarten, Bodenkarten.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Kartensymbole, Verzeichnis der Funknavigationshilfen, Sonnenauf- und Untergangszeiten, Flugplatzgebühren, Flugsicherungsgebühren.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Warnungen für die Luftfahrt, ATS Lufträume und Strecken, Luftsperrgebiete, Beschränkungs- und Gefahrengebiete.",
+        "correct": false
+      }
+    ],
+    "questionId": 70,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "igto3km5wbj4a0dospsc0d",
+    "question": "Bis wann gilt das dargestellte NOTAM? A1024/13 A) LOWW B) 1305211200 C) 1305211400 E) STOCKERAU VOR STO 113.00 UNSERVICEABLE. (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "13.10.2013 00:00 Uhr",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "13.05.2013 12:00 Uhr",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "21.05.2014 13:00 Uhr",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "21.05.2013 14:00 Uhr",
+        "correct": true
+      }
+    ],
+    "questionId": 71,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "20kaywdnpzvpp1pmvayrd",
+    "question": "Was ist ein \"Pre-Flight Information Bulletin\" (PIB)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine Zusammenstellung gültiger ICAO Informationen, die nach der Beendigung eines Fluges von betrieblicher Bedeutung sind",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Eine Zusammenstellung gültiger AIP Informationen, die vor dem Beginn eines Fluges von betrieblicher Bedeutung sind",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Eine Zusammenstellung gültiger NOTAM Informationen, die vor dem Beginn eines Fluges von betrieblicher Bedeutung sind",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Eine Zusammenstellung gültiger AIS Informationen, die nach der Beendigung eines Fluges von betrieblicher Bedeutung sind",
+        "correct": false
+      }
+    ],
+    "questionId": 72,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "3w5s6tww5xbpbqbsjgsza",
+    "question": "Der Begriff \"Flugplatzhöhe\" (aerodrome elevation) ist gemäß ICAO Annex 14 definiert als... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "der Durchschnittswert der Höhe des Rollfeldes.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "der tiefste Punkt der Landefläche.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "der höchste Punkt auf dem Vorfeld.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "der höchste Punkt der Landefläche.",
+        "correct": true
+      }
+    ],
+    "questionId": 73,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "otj2l0aoytamqxv1kvsh2d",
+    "question": "Der Begriff \"Piste\" (runway) ist definiert als... (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "eine festgelegte rechteckige Fläche auf einem Land- oder Wasserflugplatz, vorgesehen für Landungen und Starts von Luftfahrzeugen.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "eine festgelegte rechteckige Fläche auf einem Landflugplatz, vorgesehen für Landungen und Starts von Luftfahrzeugen.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "eine festgelegte runde Fläche auf einem Flugplatz, vorgesehen für Landungen und Starts von Luftfahrzeugen.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "eine festgelegte rechteckige Fläche auf einem Landflugplatz, vorgesehen für Landungen und Starts von Hubschraubern.",
+        "correct": false
+      }
+    ],
+    "questionId": 74,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gielctsftckddt4w7n99o",
+    "question": "Welche Antwort ist korrekt in Bezug auf den Begriff \"Rollhalt\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein Rollhalt ist ein Punkt, der angelegt wurde, um den Beginn des Sicherheitsbereiches zu definieren",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ein Rollhalt ist eine Fläche, innerhalb derer Luftfahrzeuge halten müssen, wenn keine weitere Freigabe zum Rollen erteilt worden ist",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Ein Rollhalt ist ein Punkt, an dem Luftfahrzeuge halten müssen, wenn keine weitere Freigabe zum Rollen erteilt worden ist",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Ein Rollhalt hat nur Bedeutung für Instrumentenflugverkehr bei Instrumentenwetterbedingungen",
+        "correct": false
+      }
+    ],
+    "questionId": 75,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "tkwjzdgnelqro2ejg8pgt8",
+    "question": "Welche Informationen beinhaltet ein SNOWTAM? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Special NOTAM - besonders dringende NOTAM Informationen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Spezielle Informationen zu aktuellen Änderungen auf ICAO Luftfahrtkarten",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Informationen über Behinderungen durch Schnee",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Informationen, welche in der AIP nicht angeführt werden konnten",
+        "correct": false
+      }
+    ],
+    "questionId": 76,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "wjd5twfg9yf39uh9xerlf5",
+    "question": "Was bedeutet der gemeldete Pistenzustand \"WET\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein Großteil der Oberfläche ist überschwemmt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Aufgrund von Feuchtigkeit ist die Farbe der Oberfläche verändert",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Oberfläche der Piste ist feucht, aber keine signifikanten Wasserpfützen sind sichtbar",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Die Piste ist frei von Wasser, Schnee oder Eis",
+        "correct": false
+      }
+    ],
+    "questionId": 77,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "6ir250dmwjmbhzcctfs1r9",
+    "question": "Was bedeutet der gemeldete Pistenzustand \"DAMP\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Aufgrund von Feuchtigkeit ist die Farbe der Oberfläche verändert",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Ein Großteil der Oberfläche ist überschwemmt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Oberfläche der Piste ist feucht, aber keine signifikanten Wasserpfützen sind sichtbar",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die Piste ist frei von Wasser, Schnee oder Eis",
+        "correct": false
+      }
+    ],
+    "questionId": 78,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5ig02crvu3uynl5ifsg68",
+    "question": "Was bedeutet der gemeldete Pistenzustand \"WATER PATCHES\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein Großteil der Oberfläche ist überschwemmt",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Die Oberfläche der Piste ist feucht, aber keine signifikanten Wasserpfützen sind sichtbar",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Einzelne Wasserpfützen sind sichtbar",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Die Piste ist frei von Wasser, Schnee oder Eis",
+        "correct": false
+      }
+    ],
+    "questionId": 79,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "w6h1qd7nzxvqs3papczlo",
+    "question": "Wie kann ein Windrichtungsanzeiger zur besseren Sichtbarkeit gekennzeichnet werden? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Der Windrichtungsanzeiger kann auf eine größere, schwarz asphaltierte Fläche gesetzt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ein weißer Kreis kann um den Windrichtungsanzeiger herum angebracht werden",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Der Windrichtungsanzeiger wird nach Möglichkeit auf dem Dach des Kontrollturmes montiert",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Der Windrichtungsanzeiger kann aus grünem Stoff gefertigt werden",
+        "correct": false
+      }
+    ],
+    "questionId": 80,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ftqvx50v472py3hm3urml",
+    "question": "Welche Bedeutung hat ein rotes blinkendes Lichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug im Flug gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Auf diesem Flugplatz landen und zur Abstellfläche rollen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Flugplatz unbenutzbar, zurzeit nicht landen",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Landung frei",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Zwecks Landung zurückkehren, Landefreigabe abwarten",
+        "correct": false
+      }
+    ],
+    "questionId": 81,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "b1etn2z1ucejidn5ex55bl",
+    "question": "Welche Bedeutung hat ein grünes blinkendes Lichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug im Flug gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Flugplatz unbenutzbar, zurzeit nicht landen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Zwecks Landung zurückkehren, Landefreigabe abwarten",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Auf diesem Flugplatz landen und zur Abstellfläche rollen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Landung frei",
+        "correct": false
+      }
+    ],
+    "questionId": 82,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "a7g23dxo468pmopxuwsbsn",
+    "question": "Welche Bedeutung hat ein grünes Dauerlichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug im Flug gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Auf diesem Flugplatz landen und zur Abstellfläche rollen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Flugplatz unbenutzbar, zurzeit nicht landen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Zwecks Landung zurückkehren, Landefreigabe abwarten",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Landung frei",
+        "correct": true
+      }
+    ],
+    "questionId": 83,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "y1q06cohgznndjtt4hlwja",
+    "question": "Welche Bedeutung hat ein weiß blinkendes Lichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug am Boden gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Start frei",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Von der Landefläche wegrollen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Zum Ausgangspunkt auf dem Flugplatz zurückkehren",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Rollen frei",
+        "correct": false
+      }
+    ],
+    "questionId": 84,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "p0obcclm0hshevcmiwuywd",
+    "question": "Welche Bedeutung hat ein rot blinkendes Lichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug am Boden gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Von der Landefläche wegrollen.",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Start frei.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Rollen frei.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Zum Ausgangspunkt auf dem Flugplatz zurückkehren.",
+        "correct": false
+      }
+    ],
+    "questionId": 85,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "grnamsw5rvn9uaj8rl33b4",
+    "question": "Welche Bedeutung hat ein grün blinkendes Lichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug am Boden gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Anflug fortsetzen, Landefreigabe abwarten",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Zum Ausgangspunkt auf dem Flugplatz zurückkehren",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Rollen frei",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Start frei",
+        "correct": false
+      }
+    ],
+    "questionId": 86,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gm0uqagrienauek34zaurn",
+    "question": "Welche Form hat ein Landerichtungsanzeiger? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "L",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ein abgewinkelter Pfeil",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "T",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Ein gerader Pfeil",
+        "correct": false
+      }
+    ],
+    "questionId": 87,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "s49nvrqlqrbx4z0zgk34t",
+    "question": "Welchen Zweck erfüllt die Signalfläche? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die Signalfläche ist jene Fläche, auf welcher vorrangig Bodenzeichen zur Information für Luftfahrzeuge in der Luft ausgelegt werden",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Die Signalfläche ist eine besonders markierte Stelle, an welcher Schleppgegenstände aufgenommen oder abgeworfen werden können",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Signalfläche ist eine beleuchtete Fläche, auf welcher Fahrzeuge des Such- und Rettungsdienstes und der Flughafenfeuerwehr aufgestellt sind",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Flugzeuge ohne Sprechfunkanlage rollen auf die Signalfläche, um dort per Lichtsignal Roll- und Startfreigaben zu erhalten",
+        "correct": false
+      }
+    ],
+    "questionId": 88,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "egzq9ntzriicbmfbcosrw",
+    "question": "Wie muss ein Pilot in der Luft erhaltene Lichtsignale bestätigen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bei Tag durch mehrmaliges wechselseitiges Betätigen der Querruder",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Durch schnelles, wechselseitiges Betätigen des Höhenruders",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Durch mehrmalige Änderung der Motordrehzahl oder der Motorleistung",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Durch wechselseitiges Betätigen des Seitenruders",
+        "correct": false
+      }
+    ],
+    "questionId": 89,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "r9m0t7lp03f5x26i4fv7",
+    "question": "Welche Bedeutung hat ein rotes Dauerlichtsignal, das an einem kontrollierten Flugplatz auf ein Luftfahrzeug am Boden gerichtet wird? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Anflug fortsetzen, Landefreigabe abwarten",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Benutzte Landefläche freimachen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Halt",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Zum Ausgangspunkt auf dem Flugplatz zurückkehren",
+        "correct": false
+      }
+    ],
+    "questionId": 90,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "qhrnyn6aq4as0x6jnkgya",
+    "question": "Wie werden zwei parallele Pisten bezeichnet? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Die linke Piste bekommt als Anhang zur Bezeichnung ein \"L\", die rechte Piste bekommt als Anhang zur Bezeichnung ein \"R\"",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Die linke Piste bekommt als Anhang zur Bezeichnung ein \"L\", die Nummer der rechten Piste bleibt unverändert",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Die Nummer der linken Piste bleibt unverändert, die Nummer der rechten Piste bekommt wird um \"1\" erhöht",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die linke Piste bekommt als Anhang zur Bezeichnung ein \"-1\", die rechte Piste bekommt als Anhang zur Bezeichnung ein \"-2\"",
+        "correct": false
+      }
+    ],
+    "questionId": 91,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "76lx53j2urtm8wx9vpl45",
+    "question": "Welche Farbe haben Pistenmarkierungen gemäß ICAO Annex 14? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Gelb",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Grün",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Blau",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Weiß",
+        "correct": true
+      }
+    ],
+    "questionId": 92,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "r0ho01n3tfjvpy5njtz8s",
+    "question": "Welche Bedeutung hat ein quer zur Piste angebrachter Zebrastreifen? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Danach darf nicht mehr aufgesetzt werden",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Dort trifft der Gleitpfad des ILS-Anflugsystems auf die Piste",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Vorher darf nicht aufgesetzt werden",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Ab dieser Position darf der Startvorgang begonnen werden",
+        "correct": false
+      }
+    ],
+    "questionId": 93,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "5z7o5lbeclcgvbdxdc3wj4",
+    "question": "Welche Bezeichnungen für zwei parallele Pisten sind korrekt? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "\"18\" und \"18-2\"",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "\"26\" und \"26R\"",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "\"24\" und \"25\"",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "\"06L\" und \"06R\"",
+        "correct": true
+      }
+    ],
+    "questionId": 94,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "47g7udhex0a8hf4rrbl6ih",
+    "question": "Was ist eine \"PAPI\" (precision approach path indicator)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Eine Sichtanflughilfe, die dem Turmlotsen die Möglichkeit gibt, Luftfahrzeugen einen genauen Anflug auf einen Flughafen zu ermöglichen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Eine Instrumentenanflughilfe, die Piloten Orientierung für einen präzisen Anflug auf einen Flughafen bei Nacht gibt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Eine Sichtabflughilfe, die Piloten Orientierung für einen präzisen Abflug von einem Flughafen bei Nacht gibt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Eine Sichtanflughilfe, die dem Piloten eine Orientierung für die Einhaltung des korrekten Gleitwinkels beim Anflug auf einen Flughafen gibt",
+        "correct": true
+      }
+    ],
+    "questionId": 95,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "2l2mnpl91yv099e2r2yffm",
+    "question": "Welchen Zweck erfüllt ein Flugplatzblinklicht (aerodrome beacon)? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ein Flugplatzblinklicht ist ein rotierender Scheinwerfer, der am Beginn des Endanflugs auf einen Flughafen aufgestellt ist, um Piloten aus der Luft die Position des Flughafens anzuzeigen",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ein Flugplatzblinklicht ist ein rotierender Scheinwerfer oder ein Blitzlicht, das auf einem Flughafen aufgestellt ist, um Piloten am Boden die Position des Flughafens anzuzeigen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Ein Flugplatzblinklicht ist ein feststehender Scheinwerfer, der auf einem Flughafen aufgestellt ist, um Piloten aus der Luft die Position des Flughafens anzuzeigen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Ein Flugplatzblinklicht ist ein rotierender Scheinwerfer oder ein Blitzlicht, das auf einem Flughafen aufgestellt ist, um Piloten aus der Luft die Position des Flughafens anzuzeigen",
+        "correct": true
+      }
+    ],
+    "questionId": 96,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4l98x9ui2cuqnhy995lfsb",
+    "question": "Welche Farbe hat die Pistenseitenbefeuerung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Grün",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Weiß",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Blau",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Rot",
+        "correct": false
+      }
+    ],
+    "questionId": 97,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "vv4nuid8t78ibfy7i4vwk",
+    "question": "Welche Farbe hat die Pistenendbefeuerung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Rot",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Weiß",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Blau",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Grün",
+        "correct": false
+      }
+    ],
+    "questionId": 98,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "i9e6cwib60qvcmp6agootn",
+    "question": "Welche Bedeutung hat das abgebildete Schild? Siehe Bild (ALW-019) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Parkposition \"A\"",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Rollweg (taxiway) Alpha",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "Punkt \"A\" auf dem Rollweg (taxiway)",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Abschnitt A (erstes Drittel) der Piste",
+        "correct": false
+      }
+    ],
+    "questionId": 99,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "9klrhlhnt2ov4y3falaca",
+    "question": "Welche Bedeutung hat das abgebildete Schild? Siehe Bild (ALW-020) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ab dieser Pistenkreuzung beträgt die verfügbare Länge der Piste in Pfeilrichtung 2.500 m",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Es sind noch 2.500 m in die angegebene Richtung bis zum Erreichen des Abflugpunktes der Piste",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Ab dieser Pistenkreuzung beträgt die Gesamtlänge der Piste in Pfeilrichtung 2.500 m",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Es sind noch 2.500 m in die angegebene Richtung bis zum Erreichen des Abstellplatzes",
+        "correct": false
+      }
+    ],
+    "questionId": 100,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "x6osh4wjprmk43q5bbus78",
+    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? Siehe Bild (ALW-010) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Landeverbot für längere Zeit",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Nach dem Start und vor der Landung sind alle Richtungsänderungen nur nach rechts durchzuführen",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Auf dem Flugplatz wird Segelflugbetrieb durchgeführt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Beim Landeanflug und der Landung ist besondere Vorsicht geboten",
+        "correct": false
+      }
+    ],
+    "questionId": 101,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4rz5vy454jyt8bfy1vz1gq",
+    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? Siehe Bild (ALW-011) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Landeverbot für längere Zeit",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Beim Landeanflug und der Landung ist besondere Vorsicht geboten",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Nach dem Start und vor der Landung sind alle Richtungsänderungen nur nach rechts durchzuführen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Auf dem Flugplatz wird Segelflugbetrieb durchgeführt",
+        "correct": true
+      }
+    ],
+    "questionId": 102,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "gg46h7b80dal7dvnxtzjvo",
+    "question": "Welche Bedeutung hat das abgebildete Zeichen an einem Flugplatz? Siehe Bild (ALW-012) (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Nach dem Start und vor der Landung sind alle Richtungsänderungen nur nach rechts durchzuführen",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Auf dem Flugplatz wird Segelflugbetrieb durchgeführt",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Beim Landeanflug und der Landung ist besondere Vorsicht geboten",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Landeverbot für längere Zeit",
+        "correct": false
+      }
+    ],
+    "questionId": 103,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "vu0xbtbjm2960dmpt42vjt",
+    "question": "Was bedeutet \"DETRESFA\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Bereitschaftsstufe",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Ungewissheitsstufe",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Rettungsstufe",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Notstufe",
+        "correct": true
+      }
+    ],
+    "questionId": 104,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "4eo5ywbsuvei4hfhro73oj",
+    "question": "Am Such- und Rettungsdienst sind beteiligt: (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "nur internationale Organisationen.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "militärische und zivile Organisationen.",
+        "correct": true
+      },
+      {
+        "id": 2,
+        "text": "nur zivile Organisationen.",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "nur militärische Organisationen.",
+        "correct": false
+      }
+    ],
+    "questionId": 105,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "p83dbirbdif8m8op1skj36",
+    "question": "Welche Bedeutung hat das am Boden von Insassen eines verunglückten Luftfahrzeuges ausgelegte Zeichen \"X\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Gehen Sie in diese Richtung",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Brauchen Nahrung und Wasser",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Brauchen einen Arzt",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Können nicht mehr weitergehen",
+        "correct": false
+      }
+    ],
+    "questionId": 106,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "yvvoo12i83quzsw13r4w",
+    "question": "Welche Bedeutung hat das am Boden von Insassen eines verunglückten Luftfahrzeuges ausgelegte Zeichen \"V\"? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Brauchen Hilfe",
+        "correct": true
+      },
+      {
+        "id": 1,
+        "text": "Gehen Sie in diese Richtung",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Brauchen einen Arzt",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Können nicht mehr weitergehen",
+        "correct": false
+      }
+    ],
+    "questionId": 107,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "jlb24brzoqctkernspflw",
+    "question": "Wie kann der Pilot eines Luftfahrzeuges Hilfsbedürftigen am Boden am Tag bestätigen, Rettungszeichen verstanden zu haben? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Durch mehrmaliges Wiederholen einer parabelförmigen Flugbahn",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Durch wechselseitiges Betätigen des Seitenruders",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Mehrmaliges Ein- und Ausfahren der Landeklappen",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Durch wechselseitiges Betätigen der Querruder",
+        "correct": true
+      }
+    ],
+    "questionId": 108,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ngcdkn3pcpmhmu2j9sahld",
+    "question": "Ungewöhnliche Vorfälle in der Luftfahrt werden der Reihe nach wie folgt eingestuft: (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Ereignis. Vorfall. Schwerer Vorfall.",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Vorfall. Absturz. Katastrophe.",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Störung. Schwere Störung. Unfall.",
+        "correct": true
+      },
+      {
+        "id": 3,
+        "text": "Vorfall. Schwerer Vorfall. Unfall.",
+        "correct": false
+      }
+    ],
+    "questionId": 109,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  },
+  {
+    "id": "ekhejglpzhtyh9jffkkq1",
+    "question": "Was ist der vorrangige Zweck einer Flugunfalluntersuchung? (1,00 P.)",
+    "answers": [
+      {
+        "id": 0,
+        "text": "Aufarbeitung der Flugunfälle im Auftrag der Staatsanwaltschaft",
+        "correct": false
+      },
+      {
+        "id": 1,
+        "text": "Den Schuldigen festzustellen, um strafrechtliche Konsequenzen daraus ziehen zu können",
+        "correct": false
+      },
+      {
+        "id": 2,
+        "text": "Haftungsfragen im Sinne der Entschädigungen für Flugpassagiere zu klären",
+        "correct": false
+      },
+      {
+        "id": 3,
+        "text": "Die Ursachen festzustellen, um Sicherheitsempfehlungen ausarbeiten zu können",
+        "correct": true
+      }
+    ],
+    "questionId": 110,
+    "subject": "alw",
+    "lang": "de",
+    "asset": null
+  }
+]

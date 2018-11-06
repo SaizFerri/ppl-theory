@@ -4,6 +4,8 @@ import { Question } from '../../interfaces/question.interface';
 import { Answer } from '../../interfaces/answer.interface';
 import { QuestionsService } from '../../services/questions.service';
 import { Collection } from '../../enum/collection.enum';
+import { Store } from '@ngxs/store';
+import { CheckIfExistsInFirebase } from 'src/app/actions/questionnaire.actions';
 
 @Component({
   selector: 'app-question',
@@ -25,7 +27,8 @@ export class QuestionComponent implements OnInit {
 
   constructor(
     private readonly route: ActivatedRoute,
-    private readonly questionService: QuestionsService
+    private readonly questionService: QuestionsService,
+    private readonly store: Store
   ) {
     route.params.subscribe(params => this.initialize(params));
   }
@@ -43,7 +46,7 @@ export class QuestionComponent implements OnInit {
 
     this.questionService.getQuestions(this.path).subscribe(
       response => {
-        this.question = response.filter(question => question.id === parseInt(params.id))[0];
+        this.question = response.filter(question => question.questionId === parseInt(params.id))[0];
         this.answers = this.question.answers;
         this.isLoaded = true;
       }
@@ -54,8 +57,6 @@ export class QuestionComponent implements OnInit {
     if (this.selectedAnswer) {
       this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);      
       this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
-      console.log(this.selectedAnswer);
-      
       
       if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
@@ -68,11 +69,12 @@ export class QuestionComponent implements OnInit {
         this.isCorrect = true;
       }
 
-      let exists = await this.questionService.fireCheckIfExists(this.question, Collection.ANSWERED, this.subject);
-
-      if (!exists) {
-        this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.isCorrect, this.subject);
-      }
+      /** Update this */
+      //let exists = this.store.dispatch(new CheckIfExistsInFirebase(this.question)).subscribe(response => console.log(response));
+      
+      // if (!exists) {
+      //   this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.isCorrect, this.subject);
+      // }
     } else {
       return;
     }

@@ -1,6 +1,6 @@
 [
   {
-    "id": "i4ku71r69ywae9fy6mf9",
+    "id": 1,
     "question": "In welcher Situation sollte der Pilot eine \"Blindsendung\" übermitteln? (1,00 P.)",
     "answers": [
       {
@@ -23,14 +23,10 @@
         "text": "Wenn eine Funksendung mit wichtigen navigatorischen oder technischen Informationen an mehrere Stationen gleichzeitig gesendet werden soll",
         "correct": false
       }
-    ],
-    "questionId": 1,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "y0wk5z0g7dljp3b022b5v",
+    "id": 2,
     "question": "Das Verlassen einer Kontrollfrequenz, ausgenommen nach Erreichen der endgültigen Parkposition... (1,00 P.)",
     "answers": [
       {
@@ -53,14 +49,10 @@
         "text": "muss nicht gemeldet werden.",
         "correct": false
       }
-    ],
-    "questionId": 2,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0yn5d1s13ay6w78g78ngue",
+    "id": 3,
     "question": "Wie wird der Begriff \"querab\" (abeam) abgekürzt? (1,00 P.)",
     "answers": [
       {
@@ -83,14 +75,10 @@
         "text": "ABM",
         "correct": true
       }
-    ],
-    "questionId": 3,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fgbl191smkly7gk378ypj",
+    "id": 4,
     "question": "Wie wird der Begriff \"Sichtflugregeln\" (visual flight rules) abgekürzt? (1,00 P.)",
     "answers": [
       {
@@ -113,14 +101,10 @@
         "text": "VRU",
         "correct": false
       }
-    ],
-    "questionId": 4,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dbxbqn6aywihjd9n22bfe",
+    "id": 5,
     "question": "Wie wird der Begriff \"Hindernis\" (obstacle) abgekürzt? (1,00 P.)",
     "answers": [
       {
@@ -143,14 +127,10 @@
         "text": "OBTC",
         "correct": false
       }
-    ],
-    "questionId": 5,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "omclhovn6ui513td970l",
+    "id": 6,
     "question": "Wofür steht die Abkürzung \"FIS\"? (1,00 P.)",
     "answers": [
       {
@@ -173,14 +153,10 @@
         "text": "Flight information service (Fluginformationsdienst)",
         "correct": true
       }
-    ],
-    "questionId": 6,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2lea2izhyxksety9cw9y7",
+    "id": 7,
     "question": "Wofür steht die Abkürzung \"FIR\"? (1,00 P.)",
     "answers": [
       {
@@ -203,14 +179,10 @@
         "text": "Flow integrity required (Verkehrsflussüberwachung erforderlich)",
         "correct": false
       }
-    ],
-    "questionId": 7,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "illibm9pvbhu88bgvdsaki",
+    "id": 8,
     "question": "Wofür steht die Abkürzung \"H24\"? (1,00 P.)",
     "answers": [
       {
@@ -233,14 +205,10 @@
         "text": "Durchgängiger Betrieb Tag und Nacht",
         "correct": true
       }
-    ],
-    "questionId": 8,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mhyflcxr77q1stj3mmtiya",
+    "id": 9,
     "question": "Wofür steht die Abkürzung \"HX\"? (1,00 P.)",
     "answers": [
       {
@@ -263,14 +231,10 @@
         "text": "Sonnenaufgang bis Sonnenuntergang",
         "correct": false
       }
-    ],
-    "questionId": 9,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "u838zbhdv4817czj689sc6",
+    "id": 10,
     "question": "Welcher Wert muss eingestellt werden, wenn der Höhenmesser am Boden \"Null\" anzeigen soll? (1,00 P.)",
     "answers": [
       {
@@ -293,14 +257,10 @@
         "text": "QNH",
         "correct": false
       }
-    ],
-    "questionId": 10,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i8eijjhqvbpqdur5ruiwn",
+    "id": 11,
     "question": "Welche Höhe zeigt ein Höhenmesser an, wenn das QNH eingestellt ist? (1,00 P.)",
     "answers": [
       {
@@ -323,14 +283,10 @@
         "text": "Die Höhe bezogen auf den mittleren Meeresspiegel",
         "correct": true
       }
-    ],
-    "questionId": 11,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "061d69kfr0xikm54jq6pith",
+    "id": 12,
     "question": "Welche Höhe zeigt ein Höhenmesser an, wenn das QFE eingestellt ist? (1,00 P.)",
     "answers": [
       {
@@ -353,14 +309,10 @@
         "text": "Die Höhe bezogen auf die höchste Erhebung im Umkreis von 10 km",
         "correct": false
       }
-    ],
-    "questionId": 12,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "y3lt5bu2gtay9qs6xjhno",
+    "id": 13,
     "question": "Wofür steht die Abkürzung \"QDR\"? (1,00 P.)",
     "answers": [
       {
@@ -383,14 +335,10 @@
         "text": "Wahre Peilung zur Station",
         "correct": false
       }
-    ],
-    "questionId": 13,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ic0vfkncjqizfcq4yxt1",
+    "id": 14,
     "question": "Wofür steht die Abkürzung \"QUJ\"? (1,00 P.)",
     "answers": [
       {
@@ -413,14 +361,10 @@
         "text": "Wahre Peilung zur Station",
         "correct": true
       }
-    ],
-    "questionId": 14,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tbzm14fc7re3iprl57w99y",
+    "id": 15,
     "question": "Wofür steht die Abkürzung \"QTE\"? (1,00 P.)",
     "answers": [
       {
@@ -443,14 +387,10 @@
         "text": "Magnetische Peilung zur Station",
         "correct": false
       }
-    ],
-    "questionId": 15,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7teh66g5nygu45cjj6unk",
+    "id": 16,
     "question": "Welcher Q-Code wird für die magnetische Peilung von der Station verwendet? (1,00 P.)",
     "answers": [
       {
@@ -473,14 +413,10 @@
         "text": "QTE",
         "correct": false
       }
-    ],
-    "questionId": 16,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2wn8xm0fsyo1tvvn4oc84v",
+    "id": 17,
     "question": "Welcher Q-Code wird für die wahre Peilung von der Station verwendet? (1,00 P.)",
     "answers": [
       {
@@ -503,14 +439,10 @@
         "text": "QTE",
         "correct": true
       }
-    ],
-    "questionId": 17,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bnyif6uysdb19dnoizh8s1",
+    "id": 18,
     "question": "Welcher Q-Code wird für die wahre Peilung zur Station verwendet? (1,00 P.)",
     "answers": [
       {
@@ -533,14 +465,10 @@
         "text": "QTE",
         "correct": false
       }
-    ],
-    "questionId": 18,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "73sklfl4mpuberxb4ihoxm",
+    "id": 19,
     "question": "Welche der angegebenen Meldungen hat eine größere Priorität als eine Flugsicherheitsmeldung? (1,00 P.)",
     "answers": [
       {
@@ -563,14 +491,10 @@
         "text": "Standortmeldung",
         "correct": false
       }
-    ],
-    "questionId": 19,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "57kwl174ou6rk9ifkvigks",
+    "id": 20,
     "question": "Wie wird eine Meldung bezeichnet, die der Flugverkehrskontrolle dient? (1,00 P.)",
     "answers": [
       {
@@ -593,14 +517,10 @@
         "text": "Wettermeldung",
         "correct": false
       }
-    ],
-    "questionId": 20,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "l3xxg392msjz8d7c7mfw4o",
+    "id": 21,
     "question": "Notmeldungen sind Meldungen... (1,00 P.)",
     "answers": [
       {
@@ -623,14 +543,10 @@
         "text": "über Luftfahrzeuge und deren Insassen, die von schwerer und unmittelbarer Gefahr bedroht sind und sofortiger Hilfe bedürfen.",
         "correct": true
       }
-    ],
-    "questionId": 21,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sl54nvgj2g2g75kssuqm3",
+    "id": 22,
     "question": "Dringlichkeitsmeldungen sind Meldungen... (1,00 P.)",
     "answers": [
       {
@@ -653,14 +569,10 @@
         "text": "über den Betrieb oder die Wartung von Einrichtungen, die für die Sicherheit oder Regelmäßigkeit des Flugbetriebs wichtig sind.",
         "correct": false
       }
-    ],
-    "questionId": 22,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "od3wtcy8ymbud6rk1iwn",
+    "id": 23,
     "question": "Flugbetriebsmeldungen sind Meldungen... (1,00 P.)",
     "answers": [
       {
@@ -683,14 +595,10 @@
         "text": "von Luftfahrzeugführern oder Luftfahrzeughaltern, die für im Flug befindliche Luftfahrzeuge von unmittelbarer Bedeutung sind.",
         "correct": false
       }
-    ],
-    "questionId": 23,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "d6jg72rvaevx92zzctrtw",
+    "id": 24,
     "question": "Welche der angegebenen Meldungen hat die größte Priorität? (1,00 P.)",
     "answers": [
       {
@@ -713,14 +621,10 @@
         "text": "Wind aus 300 Grad mit 10 Knoten",
         "correct": false
       }
-    ],
-    "questionId": 24,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zi7o4wy6cqnpbdzv7hbzr",
+    "id": 25,
     "question": "Wie wird im Sprechfunkverkehr das Kennzeichen HB-YKM korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -743,14 +647,10 @@
         "text": "Home Bravo Yuliett Kilo Mike",
         "correct": false
       }
-    ],
-    "questionId": 25,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hdyaq5c46rnm96x5jdjmun",
+    "id": 26,
     "question": "Wie wird im Sprechfunkverkehr das Kennzeichen OE-JVK korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -773,14 +673,10 @@
         "text": "Oscar Echo Juliett Victor Kilo",
         "correct": true
       }
-    ],
-    "questionId": 26,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "z9q76d8sptm6eo03x4xl",
+    "id": 27,
     "question": "Wie wird die Flughöhe 4.500 Fuß im Sprechfunkverkehr korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -803,14 +699,10 @@
         "text": "Vier Tausend Fünf Hundert",
         "correct": true
       }
-    ],
-    "questionId": 27,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4i5hx3dc55w3tpat7i3b1c",
+    "id": 28,
     "question": "Wie wird der Steuerkurs 285 im Sprechfunkverkehr korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -833,14 +725,10 @@
         "text": "Zwo Acht Fünf",
         "correct": true
       }
-    ],
-    "questionId": 28,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "culmgwo59yd54t3b56ftd8",
+    "id": 29,
     "question": "Wie wird die Frequenz 119,500 MHz im Sprechfunkverkehr korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -863,14 +751,10 @@
         "text": "Eins Eins Neun Komma Fünf",
         "correct": true
       }
-    ],
-    "questionId": 29,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "q1d0z9sp7w88alynyweef",
+    "id": 30,
     "question": "Wie wird die Richtungsangabe \"12 Uhr\" im Sprechfunkverkehr korrekt übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -893,14 +777,10 @@
         "text": "Eins Zwo Uhr",
         "correct": false
       }
-    ],
-    "questionId": 30,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "biw9h71m67d4v4it3ogfkn",
+    "id": 31,
     "question": "In welchem Zeitsystem werden im Sprechfunkverkehr Uhrzeiten übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -923,14 +803,10 @@
         "text": "Lokale Ortszeit",
         "correct": false
       }
-    ],
-    "questionId": 31,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "31rv4wtpe0wed1v2xxh5v7",
+    "id": 32,
     "question": "Wie ist die Uhrzeit 1620 Uhr im Sprechfunkverkehr zu übermitteln, wenn eine Verwechslungsgefahr mit einer anderen Uhrzeit besteht? (1,00 P.)",
     "answers": [
       {
@@ -953,14 +829,10 @@
         "text": "Zwo Null",
         "correct": false
       }
-    ],
-    "questionId": 32,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "46tgiotpo8j3j9g3nmx6yi",
+    "id": 33,
     "question": "Nach dem Absetzen eines Funkspruchs antwortet die gerufene Station nicht. <br><br>Wie lange sollte bis zum erneuten Absetzen eines Funkspruchs gewartet werden? (1,00 P.)",
     "answers": [
       {
@@ -983,14 +855,10 @@
         "text": "20 Sekunden",
         "correct": false
       }
-    ],
-    "questionId": 33,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "1lzebg1nke35unhvplwbqj",
+    "id": 34,
     "question": "Welche Bedeutung hat die Redewendung \"Verstanden\"? (1,00 P.)",
     "answers": [
       {
@@ -1013,14 +881,10 @@
         "text": "Bei der Übermittlung ist ein Fehler unterlaufen, es muss richtig heißen...",
         "correct": false
       }
-    ],
-    "questionId": 34,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g5orwtxmubs2jqzrog7i4k",
+    "id": 35,
     "question": "Welche Bedeutung hat die Redewendung \"Berichtigung\"? (1,00 P.)",
     "answers": [
       {
@@ -1043,14 +907,10 @@
         "text": "Bei der Übermittlung ist ein Fehler unterlaufen, es muss richtig heißen...",
         "correct": true
       }
-    ],
-    "questionId": 35,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "kiovt65hklqpx9p4yb2l",
+    "id": 36,
     "question": "Welche Bedeutung hat die Redewendung \"Genehmigt\"? (1,00 P.)",
     "answers": [
       {
@@ -1073,14 +933,10 @@
         "text": "Bei der Übermittlung ist ein Fehler unterlaufen, es muss richtig heißen...",
         "correct": false
       }
-    ],
-    "questionId": 36,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3aa7t6thqi8mjvlwig5xhk",
+    "id": 37,
     "question": "Welche Redewendung verwendet der Pilot, wenn die Verständlichkeit der Sendung überprüft werden soll? (1,00 P.)",
     "answers": [
       {
@@ -1103,14 +959,10 @@
         "text": "Wie verstehen Sie mich",
         "correct": true
       }
-    ],
-    "questionId": 37,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mvun2nk5zkkap5rxh2rlfi",
+    "id": 38,
     "question": "Welche Redewendung verwendet der Pilot, wenn eine Durchfluggenehmigung eingeholt werden soll? (1,00 P.)",
     "answers": [
       {
@@ -1133,14 +985,10 @@
         "text": "Möchte",
         "correct": false
       }
-    ],
-    "questionId": 38,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3s52vn6twn6gtwg6g0wu5m",
+    "id": 39,
     "question": "Welche Redewendung verwendet der Pilot, wenn eine Meldung mit \"Ja\" beantwortet werden soll? (1,00 P.)",
     "answers": [
       {
@@ -1163,14 +1011,10 @@
         "text": "Ja",
         "correct": false
       }
-    ],
-    "questionId": 39,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "9kgj4xz1unj3v4xbjmbubd",
+    "id": 40,
     "question": "Welche Redewendung verwendet der Pilot, wenn eine Meldung mit \"Nein\" beantwortet werden soll? (1,00 P.)",
     "answers": [
       {
@@ -1193,14 +1037,10 @@
         "text": "Nicht",
         "correct": false
       }
-    ],
-    "questionId": 40,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fmviiitmvlrqqovxknhccl",
+    "id": 41,
     "question": "Welche Redewendung verwendet der Pilot, um sich beim Turm \"startklar\" zu melden? (1,00 P.)",
     "answers": [
       {
@@ -1223,14 +1063,10 @@
         "text": "Fertig",
         "correct": false
       }
-    ],
-    "questionId": 41,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v7nyvjkll2j841e0pht5i",
+    "id": 42,
     "question": "Welche Redewendung verwendet der Pilot, um dem Turm ein Durchstartmanöver mitzuteilen? (1,00 P.)",
     "answers": [
       {
@@ -1253,14 +1089,10 @@
         "text": "Ziehe hoch",
         "correct": false
       }
-    ],
-    "questionId": 42,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "h3gcseeq2neier4hk9mw6",
+    "id": 43,
     "question": "Welches Rufzeichen hat die Flugplatzkontrollstelle? (1,00 P.)",
     "answers": [
       {
@@ -1283,14 +1115,10 @@
         "text": "Turm",
         "correct": true
       }
-    ],
-    "questionId": 43,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bruwvcxz0aldabmhg9i5j",
+    "id": 44,
     "question": "Welches Rufzeichen hat die Flugverkehrskontrolle auf dem Rollfeld? (1,00 P.)",
     "answers": [
       {
@@ -1313,14 +1141,10 @@
         "text": "Kontrolle",
         "correct": false
       }
-    ],
-    "questionId": 44,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "myqrui92q3twaq419z1w",
+    "id": 45,
     "question": "Welches Rufzeichen hat der Fluginformationsdienst? (1,00 P.)",
     "answers": [
       {
@@ -1343,14 +1167,10 @@
         "text": "Info",
         "correct": false
       }
-    ],
-    "questionId": 45,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "24mbz37kflbhn28971ehk9",
+    "id": 46,
     "question": "Wie kann das Kennzeichen D-EAZF abgekürzt werden? (1,00 P.)",
     "answers": [
       {
@@ -1373,14 +1193,10 @@
         "text": "DEF",
         "correct": false
       }
-    ],
-    "questionId": 46,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "kphg27c4lmebct68gwbnyc",
+    "id": 47,
     "question": "Wann darf der Pilot das Kennzeichen des eigenen Luftfahrzeuges abkürzen? (1,00 P.)",
     "answers": [
       {
@@ -1403,14 +1219,10 @@
         "text": "Bei nur wenig Verkehr in der Platzrunde",
         "correct": false
       }
-    ],
-    "questionId": 47,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i27a37gmywj5dd1ihjgp",
+    "id": 48,
     "question": "Wie wird das Luftfahrzeug-Kennzeichen beim Einleitungsanruf übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -1433,14 +1245,10 @@
         "text": "Vollständig mit allen Zeichen",
         "correct": true
       }
-    ],
-    "questionId": 48,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ryk8ld4x1y92dh5l4aja4l",
+    "id": 49,
     "question": "Wie wird ein Einleitungsanruf im Sprechfunkverkehr zwischen D-EAZF und Düsseldorf Turm korrekt abgesetzt? (1,00 P.)",
     "answers": [
       {
@@ -1463,14 +1271,10 @@
         "text": "Düsseldorf Turm kommen",
         "correct": false
       }
-    ],
-    "questionId": 49,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4rv8zqq3t2ouxd8srzntb",
+    "id": 50,
     "question": "Wie bestätigt der Pilot die Anweisung \"Rufen Sie Hamburg Turm auf 121,275\"? (1,00 P.)",
     "answers": [
       {
@@ -1493,14 +1297,10 @@
         "text": "Rufe Turm",
         "correct": false
       }
-    ],
-    "questionId": 50,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "p37b8hhgsdrts18tkxu52o",
+    "id": 51,
     "question": "Was bedeutet die Funktest-Verständlichkeit 1? (1,00 P.)",
     "answers": [
       {
@@ -1523,14 +1323,10 @@
         "text": "Die Übermittlung ist schwer verständlich",
         "correct": false
       }
-    ],
-    "questionId": 51,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v2kwt8azdijv4clxxfmp",
+    "id": 52,
     "question": "Was bedeutet die Funktest-Verständlichkeit 2? (1,00 P.)",
     "answers": [
       {
@@ -1553,14 +1349,10 @@
         "text": "Die Übermittlung ist unverständlich",
         "correct": false
       }
-    ],
-    "questionId": 52,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zhhp7kwrqlhhb92ezqmhlk",
+    "id": 53,
     "question": "Was bedeutet die Funktest-Verständlichkeit 3? (1,00 P.)",
     "answers": [
       {
@@ -1583,14 +1375,10 @@
         "text": "Die Übermittlung ist zeitweise verständlich",
         "correct": false
       }
-    ],
-    "questionId": 53,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "j95wm2p719p8q3rkgo9q",
+    "id": 54,
     "question": "Was bedeutet die Funktest-Verständlichkeit 5? (1,00 P.)",
     "answers": [
       {
@@ -1613,14 +1401,10 @@
         "text": "Die Übermittlung ist unverständlich",
         "correct": false
       }
-    ],
-    "questionId": 54,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fkh9f08wn4tal71480mu99",
+    "id": 55,
     "question": "Wie lange sollte ein Funktest zur Überprüfung der Funkanlage maximal dauern? (1,00 P.)",
     "answers": [
       {
@@ -1643,14 +1427,10 @@
         "text": "10 Sekunden",
         "correct": true
       }
-    ],
-    "questionId": 55,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2sz898z9zvsqcy7h5ihhd",
+    "id": 56,
     "question": "Welche Meldung der Bodenfunkstelle ist NICHT wörtlich zu wiederholen? (1,00 P.)",
     "answers": [
       {
@@ -1673,14 +1453,10 @@
         "text": "Höhenanweisung",
         "correct": false
       }
-    ],
-    "questionId": 56,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mociokusyubyrfrnzyan",
+    "id": 57,
     "question": "Welche Meldung der Bodenfunkstelle ist NICHT wörtlich zu wiederholen? (1,00 P.)",
     "answers": [
       {
@@ -1703,14 +1479,10 @@
         "text": "Verkehrsinformation",
         "correct": true
       }
-    ],
-    "questionId": 57,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "to9jcc5axbnimjzed75h",
+    "id": 58,
     "question": "Wie muss die Anweisung \"DZF nach dem Abheben steigen Sie geradeaus auf 2.500 Fuß, machen Sie dann eine Rechtskurve Steuerkurs 220, Wind 090 Grad, 5 Knoten, Piste 12, Start frei\" bestätigt werden? (1,00 P.)",
     "answers": [
       {
@@ -1733,14 +1505,10 @@
         "text": "DZF nach dem Abheben geradeaus auf 2.500 Fuß, dann Rechtskurve, Steuerkurs 220, 090 Grad, 5 Knoten",
         "correct": false
       }
-    ],
-    "questionId": 58,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "lhh9rkx6i4taopftoh1l",
+    "id": 59,
     "question": "Wie muss die Anweisung \"Melden Sie den Überflug von PAH\" bestätigt werden? (1,00 P.)",
     "answers": [
       {
@@ -1763,14 +1531,10 @@
         "text": "Positiv",
         "correct": false
       }
-    ],
-    "questionId": 59,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hp9d0p15pmebba1enalphv",
+    "id": 60,
     "question": "Wie muss die Anweisung \"Squawk 4321, rufen Sie Bremen Radar auf 131.325\" bestätigt werden? (1,00 P.)",
     "answers": [
       {
@@ -1793,14 +1557,10 @@
         "text": "Squawk 4321, Wilco",
         "correct": false
       }
-    ],
-    "questionId": 60,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fqao3hol04hlrvgbfslt9n",
+    "id": 61,
     "question": "Wie muss die Information \"Sie fliegen in Luftraum Delta ein\" bestätigt werden? (1,00 P.)",
     "answers": [
       {
@@ -1823,14 +1583,10 @@
         "text": "Verstanden",
         "correct": true
       }
-    ],
-    "questionId": 61,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "x0tfkv9c2re1bwqhzumc2g",
+    "id": 62,
     "question": "Welchen Wolkenbedeckungsgrad gibt die Abkürzung \"FEW\" in einer METAR- Wettermeldung an? (1,00 P.)",
     "answers": [
       {
@@ -1853,14 +1609,10 @@
         "text": "1 bis 2 Achtel",
         "correct": true
       }
-    ],
-    "questionId": 62,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qs8rh3z1tqv7osl3663fo",
+    "id": 63,
     "question": "Welchen Wolkenbedeckungsgrad gibt die Abkürzung \"SCT\" in einer METAR- Wettermeldung an? (1,00 P.)",
     "answers": [
       {
@@ -1883,14 +1635,10 @@
         "text": "5 bis 7 Achtel",
         "correct": false
       }
-    ],
-    "questionId": 63,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "edinmcvxj3nbsf589af456",
+    "id": 64,
     "question": "Welchen Wolkenbedeckungsgrad gibt die Abkürzung \"BKN\" in einer METAR- Wettermeldung an? (1,00 P.)",
     "answers": [
       {
@@ -1913,14 +1661,10 @@
         "text": "1 bis 2 Achtel",
         "correct": false
       }
-    ],
-    "questionId": 64,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4mchzlst8ebx7lqff7lwy",
+    "id": 65,
     "question": "Wie wird die Sicht bei vorhandenen 12 Kilometern Sicht per Funk übermittelt? (1,00 P.)",
     "answers": [
       {
@@ -1943,14 +1687,10 @@
         "text": "Eins-Zwo Kilometer",
         "correct": false
       }
-    ],
-    "questionId": 65,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zldamkjifyokutcd92qq9",
+    "id": 66,
     "question": "Wann sind Sichtwerte in Metern zu übermitteln? (1,00 P.)",
     "answers": [
       {
@@ -1973,14 +1713,10 @@
         "text": "Bis 10 Kilometer",
         "correct": false
       }
-    ],
-    "questionId": 66,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zsv6baz7fkozqtbmwur4z",
+    "id": 67,
     "question": "Wann sind Sichtwerte in Kilometern zu übermitteln? (1,00 P.)",
     "answers": [
       {
@@ -2003,14 +1739,10 @@
         "text": "Bis 5 Kilometer",
         "correct": false
       }
-    ],
-    "questionId": 67,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jzt1g67tvxjh1ift1smhnf",
+    "id": 68,
     "question": "Was kann auf einer VOLMET-Frequenz abgehört werden? (1,00 P.)",
     "answers": [
       {
@@ -2033,14 +1765,10 @@
         "text": "Navigationsinformationen",
         "correct": false
       }
-    ],
-    "questionId": 68,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "89etp6xjlodh3d61fr81x",
+    "id": 69,
     "question": "Welche Navigationseinrichtung kann zur Ausstrahlung der ATIS verwendet werden? (1,00 P.)",
     "answers": [
       {
@@ -2063,14 +1791,10 @@
         "text": "DME",
         "correct": false
       }
-    ],
-    "questionId": 69,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "p3vs4czkjdr499w7ypxeud",
+    "id": 70,
     "question": "Wie können während eines Überlandfluges Wettermeldungen von Flugplätzen abgerufen werden? (1,00 P.)",
     "answers": [
       {
@@ -2093,14 +1817,10 @@
         "text": "VOLMET",
         "correct": true
       }
-    ],
-    "questionId": 70,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "681snld1te6fc78w9q4dr",
+    "id": 71,
     "question": "Welcher Transpondercode muss bei einem Funkausfall gesetzt werden? (1,00 P.)",
     "answers": [
       {
@@ -2123,14 +1843,10 @@
         "text": "7600",
         "correct": true
       }
-    ],
-    "questionId": 71,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6sgiiu75qkihkgfmw4c0er",
+    "id": 72,
     "question": "Mit welcher Redewendung beginnt eine Blindsendung? (1,00 P.)",
     "answers": [
       {
@@ -2153,14 +1869,10 @@
         "text": "Bitte hören",
         "correct": false
       }
-    ],
-    "questionId": 72,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "x1nm8dxw3eu9dprbdpqr9",
+    "id": 73,
     "question": "Auf welcher Frequenz soll eine Blindsendung übermittelt werden? (1,00 P.)",
     "answers": [
       {
@@ -2183,14 +1895,10 @@
         "text": "Auf der aktuellen Frequenz",
         "correct": true
       }
-    ],
-    "questionId": 73,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "iecxkfun3fnfzxawdoia",
+    "id": 74,
     "question": "Wie oft soll eine Blindsendung übermittelt werden? (1,00 P.)",
     "answers": [
       {
@@ -2213,14 +1921,10 @@
         "text": "Drei Mal",
         "correct": false
       }
-    ],
-    "questionId": 74,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5zfo3zdvi1puth1vs2sd",
+    "id": 75,
     "question": "In welcher Situation ist der Transpondercode 7600 zu setzen? (1,00 P.)",
     "answers": [
       {
@@ -2243,14 +1947,10 @@
         "text": "Wolkeneinflug",
         "correct": false
       }
-    ],
-    "questionId": 75,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "z853e3brvqe93m1hg51fb",
+    "id": 76,
     "question": "Wie ist bei einem Funkausfall in Luftraum D zu verfahren? (1,00 P.)",
     "answers": [
       {
@@ -2273,14 +1973,10 @@
         "text": "Der Flug ist oberhalb 5.000 ft MSL unter Einhaltung der Sichtflugregeln fortzusetzen oder der Luftraum muss auf dem kürzesten Weg verlassen werden",
         "correct": false
       }
-    ],
-    "questionId": 76,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8t4ictj9hzhsog6srkfv5",
+    "id": 77,
     "question": "Unter welchen Bedingungen darf bei einem Funkausfall in eine Kontrollzone eingeflogen werden? (1,00 P.)",
     "answers": [
       {
@@ -2303,14 +1999,10 @@
         "text": "Wenn es sich um den Startflugplatz handelt",
         "correct": false
       }
-    ],
-    "questionId": 77,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "el4j9dcs1yke83kr586ox",
+    "id": 78,
     "question": "Welches Dringlichkeitssignal sollte zu Beginn einer Dringlichkeitssendung vorzugsweise dreimal übermittelt werden? (1,00 P.)",
     "answers": [
       {
@@ -2333,14 +2025,10 @@
         "text": "Hilfe",
         "correct": false
       }
-    ],
-    "questionId": 78,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "06anegvg8lhloej4rccsr5j",
+    "id": 79,
     "question": "Dringlichkeitsmeldungen sind Meldungen... (1,00 P.)",
     "answers": [
       {
@@ -2363,14 +2051,10 @@
         "text": "über Luftfahrzeuge und deren Insassen, die von schwerer und unmittelbarer Gefahr bedroht sind und sofortiger Hilfe bedürfen.",
         "correct": false
       }
-    ],
-    "questionId": 79,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yrx9gjasthnu0rxb2pu5y",
+    "id": 80,
     "question": "Notmeldungen sind Meldungen... (1,00 P.)",
     "answers": [
       {
@@ -2393,14 +2077,10 @@
         "text": "welche die Sicherheit eines Luftfahrzeugs, eines Wasserfahrzeugs, eines anderen Fahrzeugs oder einer Person betreffen.",
         "correct": false
       }
-    ],
-    "questionId": 80,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tj3o5lu444gk7knbod90hl",
+    "id": 81,
     "question": "Auf welcher Frequenz sollte ein Notruf zunächst abgesetzt werden? (1,00 P.)",
     "answers": [
       {
@@ -2423,14 +2103,10 @@
         "text": "Auf einer FIS-Frequenz",
         "correct": false
       }
-    ],
-    "questionId": 81,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "eotn48bmgn7fq58622qfx6",
+    "id": 82,
     "question": "Welche Angaben sollten in einer Dringlichkeitsmeldung übermittelt werden? (1,00 P.)",
     "answers": [
       {
@@ -2453,14 +2129,10 @@
         "text": "Art der Schwierigkeit oder Beobachtung, wichtige Informationen für die Hilfestellung, Abflughafen, Angaben über Standort, Kurs und Flughöhe.",
         "correct": false
       }
-    ],
-    "questionId": 82,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c7cfv7ntc1peu8u0rawz7l",
+    "id": 83,
     "question": "Die Transpondereinstellung für Notfälle lautet... (1,00 P.)",
     "answers": [
       {
@@ -2483,14 +2155,10 @@
         "text": "7000.",
         "correct": false
       }
-    ],
-    "questionId": 83,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dptczbh54lw1sax84pbf11",
+    "id": 84,
     "question": "Welche der folgenden Frequenzen ist für den UKW-Sprechfunkverkehr reserviert? (1,00 P.)",
     "answers": [
       {
@@ -2513,14 +2181,10 @@
         "text": "327,25 MHz",
         "correct": false
       }
-    ],
-    "questionId": 84,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7l3e2ie0xt6vt4sk49n29i",
+    "id": 85,
     "question": "Welche der folgenden Frequenzen ist für den UKW-Sprechfunkverkehr reserviert? (1,00 P.)",
     "answers": [
       {
@@ -2543,14 +2207,10 @@
         "text": "117,30 kHz",
         "correct": false
       }
-    ],
-    "questionId": 85,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "cwrsj8uvttd3mm631h9a",
+    "id": 86,
     "question": "Zu welchem Frequenzband gehören die Sprechfunkfrequenzen 118.000 bis 136,975 MHz? (1,00 P.)",
     "answers": [
       {
@@ -2573,14 +2233,10 @@
         "text": "LW / LF",
         "correct": false
       }
-    ],
-    "questionId": 86,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rj3qh71wiqfdbt7k7lnan",
+    "id": 87,
     "question": "Welcher der aufgeführten Störfaktoren wirkt sich auf den Empfang von UKW- Funkwellen aus? (1,00 P.)",
     "answers": [
       {
@@ -2603,14 +2259,10 @@
         "text": "Dämmerungseffekt",
         "correct": false
       }
-    ],
-    "questionId": 87,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7sddxsd8ze6afo9flmszz5",
+    "id": 88,
     "question": "Mit welcher Geschwindigkeit breiten sich elektromagnetische Wellen ungefähr aus? (1,00 P.)",
     "answers": [
       {
@@ -2633,14 +2285,10 @@
         "text": "123.000 m/s",
         "correct": false
       }
-    ],
-    "questionId": 88,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fksqrp47tof2pctwf668r6",
+    "id": 89,
     "question": "Die Gültigkeit einer ATIS beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2663,10 +2311,6 @@
         "text": "60 Minuten.",
         "correct": false
       }
-    ],
-    "questionId": 89,
-    "asset": null,
-    "subject": "com",
-    "lang": "de"
+    ]
   }
 ]

@@ -1,6 +1,6 @@
 [
   {
-    "id": "lcezo4b0uzajcdskgzijq",
+    "id": 1,
     "question": "Der Begriff \"Flugzeit\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -23,14 +23,10 @@
         "text": "die Gesamtzeit zwischen dem ersten Start und der letzten Landung im Rahmen eines oder mehrerer zusammenhängender Flüge.",
         "correct": false
       }
-    ],
-    "questionId": 1,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "31edsofa5jvqypeo78sdy",
+    "id": 2,
     "question": "Bei einem geplanten Flug über Wasser kann während einer gewissen Zeitspanne im Falle einer Notlandung kein Land erreicht werden. <br><br>Worauf ist zu achten? (1,00 P.)",
     "answers": [
       {
@@ -53,14 +49,10 @@
         "text": "Für alle Insassen müssen Rettungswesten oder Rettungsboote vorhanden sein",
         "correct": true
       }
-    ],
-    "questionId": 2,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6dlj43fhqc4i5ty57o560m",
+    "id": 3,
     "question": "Welche der folgenden Faktoren können einen Einfluss auf die am Boden empfundene Lärmbelästigung durch ein Luftfahrzeug haben? <br><br>1) Triebwerksleistung <br>2) Propellerdrehzahl <br>3) Fahrwerksstellung <br>4) Landeklappenstellung <br>5) Wahl des Flugweges <br>6) Flughöhe <br>7) Flugregeln (1,00 P.)",
     "answers": [
       {
@@ -83,14 +75,10 @@
         "text": "1, 5, 6, 7.",
         "correct": false
       }
-    ],
-    "questionId": 3,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ql5n0t604wqyujgra8fp3k",
+    "id": 4,
     "question": "Wie kann der Pilot eines motorgetriebenen Luftfahrzeuges die Lärmemission im Sink- und Anflug minimieren? (1,00 P.)",
     "answers": [
       {
@@ -113,14 +101,10 @@
         "text": "Niedriger Anflug mit geringstmöglicher Triebwerksleistung, spät konfigurieren und steil sinken, vorgegebene Anflugstrecken einhalten",
         "correct": false
       }
-    ],
-    "questionId": 4,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "twz5ilsrjukh7044zln8yd",
+    "id": 5,
     "question": "Wann sollten Kurven aus Lärmschutzgründen in niedrigen Höhen über Ortschaften nicht geflogen werden? (1,00 P.)",
     "answers": [
       {
@@ -143,14 +127,10 @@
         "text": "Im Steigflug",
         "correct": true
       }
-    ],
-    "questionId": 5,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "wdeq9ff90u9kt7ai17pzq",
+    "id": 6,
     "question": "Wie sollten Abflüge in der Nähe von Ortschaften erfolgen? (1,00 P.)",
     "answers": [
       {
@@ -173,14 +153,10 @@
         "text": "Ortschaften möglichst umfliegen oder in ausreichender Höhe überfliegen",
         "correct": true
       }
-    ],
-    "questionId": 6,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pass2aeskvp1zs0wcob0vs",
+    "id": 7,
     "question": "Welche Triebwerke sind anfällig für Vergaserbrände? (1,00 P.)",
     "answers": [
       {
@@ -203,14 +179,10 @@
         "text": "Turbopropmotoren",
         "correct": false
       }
-    ],
-    "questionId": 7,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pyq6e6ww5icsp9yui1r3n8",
+    "id": 8,
     "question": "Welche Gefahr kann beim Anlassen des Triebwerks kurz nach dem „Pumpen\" am Gashebel entstehen? (1,00 P.)",
     "answers": [
       {
@@ -233,14 +205,10 @@
         "text": "Kondensation und Vergaservereisung",
         "correct": false
       }
-    ],
-    "questionId": 8,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qepnnzxtep30i00xwcyme",
+    "id": 9,
     "question": "Welche Gefahr kann beim Anlassen des Motors bestehen? (1,00 P.)",
     "answers": [
       {
@@ -263,14 +231,10 @@
         "text": "Vergaserbrand",
         "correct": true
       }
-    ],
-    "questionId": 9,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8n01mfpo9c3c4ig4f6ffin",
+    "id": 10,
     "question": "Warum darf ein Triebwerk, das gebrannt hat, nicht wieder angelassen werden? (1,00 P.)",
     "answers": [
       {
@@ -293,14 +257,10 @@
         "text": "Der Kraftstoff hat seine maximale Betriebstemperatur überschritten",
         "correct": false
       }
-    ],
-    "questionId": 10,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xjrlo2zobpkxk5vw2zoo0j",
+    "id": 11,
     "question": "Welches bei einem Triebwerksbrand entstehende Gas ist besonders gefährlich? (1,00 P.)",
     "answers": [
       {
@@ -323,14 +283,10 @@
         "text": "Sauerstoff",
         "correct": false
       }
-    ],
-    "questionId": 11,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fvg3sey2wqisl1fisr9jg",
+    "id": 12,
     "question": "Wie wird ein Halonfeuerlöscher korrekt eingesetzt? (1,00 P.)",
     "answers": [
       {
@@ -353,14 +309,10 @@
         "text": "Entsichern. <br>Aufrecht halten. <br>Aus 1 m bis 1,5 m Entfernung auf den Brandherd richten und auslösen.",
         "correct": true
       }
-    ],
-    "questionId": 12,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "h1xrovydbq6oegc9fo809",
+    "id": 13,
     "question": "Was ist beim Einsatz eines Halonfeuerlöschers in der Luftfahrzeugkabine zu beachten? (1,00 P.)",
     "answers": [
       {
@@ -383,14 +335,10 @@
         "text": "Bei Erhitzung kann sich das Löschmittel zu giftigen Folgeprodukten zersetzen; die Kabine muss daher gut ventiliert werden.",
         "correct": true
       }
-    ],
-    "questionId": 13,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "du0nlmh655hc5stmcuj1eg",
+    "id": 14,
     "question": "Während eines Triebwerksbrandes dringt Rauch in die Kabine ein. <br><br>Welche Maßnahmen sind umgehend zu ergreifen? (1,00 P.)",
     "answers": [
       {
@@ -413,14 +361,10 @@
         "text": "Avionik und Kabinenbeleuchtung ausschalten",
         "correct": false
       }
-    ],
-    "questionId": 14,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c186rsme4i5s625v0xj1bh",
+    "id": 15,
     "question": "Welche erste Maßnahme ist bei einem Kabelbrand während des Fluges angemessen? (1,00 P.)",
     "answers": [
       {
@@ -443,14 +387,10 @@
         "text": "Hauptschalter ausschalten",
         "correct": true
       }
-    ],
-    "questionId": 15,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ce2vtt21pmccem90nj1hv8",
+    "id": 16,
     "question": "Welches Löschmittel ist bei Luftfahrzeugbränden am wenigsten geeignet? (1,00 P.)",
     "answers": [
       {
@@ -473,14 +413,10 @@
         "text": "Wasser",
         "correct": true
       }
-    ],
-    "questionId": 16,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "boxmkt4mu0i0x2kqzix91k",
+    "id": 17,
     "question": "Im Reiseflug dringt geringfügig Rauch hinter dem Instrumentenbrett hervor. Der Pilot vermutet einen elektrischen Brand. <br><br>Welche Maßnahme sollte der Pilot unter Berücksichtigung des Flughandbuchs als erstes ergreifen? (1,00 P.)",
     "answers": [
       {
@@ -503,14 +439,10 @@
         "text": "Triebwerk abstellen",
         "correct": false
       }
-    ],
-    "questionId": 17,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qa8qqcgefkg2wxrpey79o",
+    "id": 18,
     "question": "Im Reiseflug dringt geringfügig Rauch hinter dem Instrumentenbrett hervor. Der Pilot vermutet eine Brandquelle im Motorraum. <br><br>Welche Maßnahme sollte der Pilot unter Berücksichtigung des Flughandbuchs als erstes ergreifen? (1,00 P.)",
     "answers": [
       {
@@ -533,14 +465,10 @@
         "text": "Triebwerk abstellen",
         "correct": false
       }
-    ],
-    "questionId": 18,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "04fn8hpygb7441i4km2wy8",
+    "id": 19,
     "question": "Eine Windscherung ist... (1,00 P.)",
     "answers": [
       {
@@ -563,14 +491,10 @@
         "text": "die langsame Zunahme der Windgeschwindigkeit in Höhen oberhalb von 13.000 ft.",
         "correct": false
       }
-    ],
-    "questionId": 19,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zyjr2663j6hlxf0kdgrbu8",
+    "id": 20,
     "question": "In welcher der folgenden Situationen kann mit Windscherung (windshear) gerechnet werden? (1,00 P.)",
     "answers": [
       {
@@ -593,14 +517,10 @@
         "text": "Bei dem Durchgang einer Warmfront",
         "correct": false
       }
-    ],
-    "questionId": 20,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "566b89eczgqolh6j6gt7qs",
+    "id": 21,
     "question": "Während des Anfluges gerät das Luftfahrzeug in eine Windscherung (windshear) mit abnehmendem Gegenwind. <br><br>Wie ändern sich der Anflugpfad und die wahre Eigengeschwindigkeit (TAS), wenn der Pilot keine Korrekturen vornimmt? (1,00 P.)",
     "answers": [
       {
@@ -623,14 +543,10 @@
         "text": "Anflugpfad wird höher. <br>TAS wird zunehmen.",
         "correct": false
       }
-    ],
-    "questionId": 21,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3q6zo2t1stdrr3icq2bah",
+    "id": 22,
     "question": "Während des Anfluges gerät das Luftfahrzeug in eine Windscherung (windshear) mit zunehmendem Gegenwind. <br><br>Wie ändern sich der Anflugpfad und die wahre Eigengeschwindigkeit (TAS), wenn der Pilot keine Korrekturen vornimmt? (1,00 P.)",
     "answers": [
       {
@@ -653,14 +569,10 @@
         "text": "Anflugpfad wird höher. <br>TAS wird abnehmen.",
         "correct": false
       }
-    ],
-    "questionId": 22,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4rspffklvwbad9ofraiv5m",
+    "id": 23,
     "question": "Während des Anfluges gerät das Luftfahrzeug in eine Windscherung (windshear) mit abnehmendem Rückenwind. <br><br>Wie ändern sich der Anflugpfad und die wahre Eigengeschwindigkeit (TAS), wenn der Pilot keine Korrekturen vornimmt? (1,00 P.)",
     "answers": [
       {
@@ -683,14 +595,10 @@
         "text": "Anflugpfad wird höher. <br>TAS wird zunehmen.",
         "correct": true
       }
-    ],
-    "questionId": 23,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "st6ep5bvz7hq9xnnapx75q",
+    "id": 24,
     "question": "Nach dem Start gerät ein Luftfahrzeug in eine Windscherung (windshear) mit abnehmendem Gegenwind. <br><br>Welches sind die Auswirkungen auf das Luftfahrzeug? (1,00 P.)",
     "answers": [
       {
@@ -713,14 +621,10 @@
         "text": "Die Geschwindigkeit über Grund (groundspeed - GS) nimmt ab",
         "correct": false
       }
-    ],
-    "questionId": 24,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ojcjyor8mu9t7yqgqqtukd",
+    "id": 25,
     "question": "Womit ist an Punkt 2 der abgebildeten Fallböe zu rechnen? <br><br>Siehe Bild (OPR-001). (1,00 P.)",
     "asset": "assets/OPR/OPR-001.png",
     "answers": [
@@ -744,13 +648,10 @@
         "text": "Konstante Sinkrate",
         "correct": false
       }
-    ],
-    "questionId": 25,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ai96at5ftnjvm918t7isk",
+    "id": 26,
     "question": "Womit ist an Punkt 3 der abgebildeten Fallböe zu rechnen? <br><br>Siehe Bild (OPR-001). (1,00 P.)",
     "asset": "assets/OPR/OPR-001.png",
     "answers": [
@@ -774,13 +675,10 @@
         "text": "Konstante Sinkrate",
         "correct": false
       }
-    ],
-    "questionId": 26,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mo92qb4pe74r4ninyr9gu",
+    "id": 27,
     "question": "Wie lässt sich das Einfliegen in Scherwinde (windshear) vermeiden? (1,00 P.)",
     "answers": [
       {
@@ -803,14 +701,10 @@
         "text": "Thermisch aktive Gebiete im Sommer umfliegen oder unterfliegen",
         "correct": false
       }
-    ],
-    "questionId": 27,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6ib4ct9vafekagm189opr",
+    "id": 28,
     "question": "Wie sollte beim Einflug in eine Windscherung unter Berücksichtigung des Flughandbuchs verfahren werden? <br><br>1. Reduzierung der Geschwindigkeit. <br>2. Fahrwerk und Klappen einfahren. <br>3. Gegenwärtige Konfiguration beibehalten. <br>4. Schub anpassen. (1,00 P.)",
     "answers": [
       {
@@ -833,14 +727,10 @@
         "text": "1 und 2",
         "correct": false
       }
-    ],
-    "questionId": 28,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "h2kur41wzy5t34gzqlol2e",
+    "id": 29,
     "question": "Nach dem Abheben von einem Flugplatz steigt die Geschwindigkeit im Anfangssteigflug wesentlich stärker an als erwartet. <br><br>Welche Entwicklung ist zu erwarten, falls in eine Fallböe (microburst) eingeflogen wurde? (1,00 P.)",
     "answers": [
       {
@@ -863,14 +753,10 @@
         "text": "Abnahme der Steigrate und Abnahme der Fluggeschwindigkeit",
         "correct": true
       }
-    ],
-    "questionId": 29,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ueato9nm4zoteszudrwhx",
+    "id": 30,
     "question": "Unmittelbar nach dem Start wird in eine starke Fallböe (microburst) eingeflogen. <br><br>Durch welche Reaktion lässt sich ein unbeabsichtigtes Sinken vermeiden? (1,00 P.)",
     "answers": [
       {
@@ -893,14 +779,10 @@
         "text": "Maximale Triebwerksleistung setzen, Landekonfiguration einnehmen und Geschwindigkeit möglichst schnell abbauen",
         "correct": false
       }
-    ],
-    "questionId": 30,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "k8laa3x7wqo6u98bkn8i6b",
+    "id": 31,
     "question": "Wirbelschleppen entstehen beim Start, sobald das Luftfahrzeug... (1,00 P.)",
     "answers": [
       {
@@ -923,14 +805,10 @@
         "text": "mit dem Bugrad abhebt.",
         "correct": true
       }
-    ],
-    "questionId": 31,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c0fjw4akjgk6s8409c12i",
+    "id": 32,
     "question": "Wodurch entstehen Wirbelschleppen? (1,00 P.)",
     "answers": [
       {
@@ -953,14 +831,10 @@
         "text": "Durch den Abgasstrahl von Strahltriebwerken",
         "correct": false
       }
-    ],
-    "questionId": 32,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hi8vvhv28jhqtwt7m2ivdm",
+    "id": 33,
     "question": "Wirbelschleppen sind besonders stark, wenn ein Flugzeug... (1,00 P.)",
     "answers": [
       {
@@ -983,14 +857,10 @@
         "text": "niedrig fliegt.",
         "correct": false
       }
-    ],
-    "questionId": 33,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "05tnnylaib7b94dcl7xl4zn",
+    "id": 34,
     "question": "Wirbelschleppen sind besonders stark, wenn ein Flugzeug... (1,00 P.)",
     "answers": [
       {
@@ -1013,14 +883,10 @@
         "text": "mit geringem Schub fliegt.",
         "correct": false
       }
-    ],
-    "questionId": 34,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i5evcx6uifhetjj23hb1ro",
+    "id": 35,
     "question": "Die Stärke von Wirbelschleppen ist abhängig von... (1,00 P.)",
     "answers": [
       {
@@ -1043,14 +909,10 @@
         "text": "dem Gewicht.",
         "correct": true
       }
-    ],
-    "questionId": 35,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "t4vx7u3dhaqb0204h08sp4",
+    "id": 36,
     "question": "Zwei Flugzeuge gleichen Musters fliegen bei gleicher Masse und gleicher Klappen- Konfiguration mit verschiedenen Geschwindigkeiten in unterschiedlicher Höhe. <br><br>Welches Flugzeug verursacht stärkere Wirbelschleppen? (1,00 P.)",
     "answers": [
       {
@@ -1073,14 +935,10 @@
         "text": "Das Flugzeug mit geringerer Geschwindigkeit",
         "correct": true
       }
-    ],
-    "questionId": 36,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "oocmdcm92yjlmlt1sl6t",
+    "id": 37,
     "question": "Auf einer langen Piste soll mit einem Luftfahrzeug unter zwei Tonnen Abflugmasse kurz hinter einem Verkehrsflugzeug der Wirbelschleppenkategorie \"Medium\" oder \"Heavy\" gelandet werden. <br><br>Wie kann der Wirbelschleppenbereich des Verkehrsflugzeuges gemieden werden? (1,00 P.)",
     "answers": [
       {
@@ -1103,14 +961,10 @@
         "text": "Durch einen hohen Anflug und eine sehr kurze Landung, um vor dem Aufsetzpunkt des Verkehrsflugzeuges zum Stillstand zu kommen",
         "correct": false
       }
-    ],
-    "questionId": 37,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2bkqiaqdny7zfhzbgix54h",
+    "id": 38,
     "question": "Was ist beim Rollen / Manövrieren hinter einem Verkehrsflugzeug zu beachten? (1,00 P.)",
     "answers": [
       {
@@ -1133,14 +987,10 @@
         "text": "Aufgrund des Abgasstrahls sollten mindestens 600 m Abstand gehalten werden",
         "correct": false
       }
-    ],
-    "questionId": 38,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "u3giy2gtev1wbqinnf8kl",
+    "id": 39,
     "question": "Welches Verfahren ist geeignet, um auf ein unvorbereitetes Außenlandefeld anzufliegen? (1,00 P.)",
     "answers": [
       {
@@ -1163,14 +1013,10 @@
         "text": "Flugsicherung informieren und technische Unterstützung anfordern, im Flughandbuch nach einer fachlichen Referenz suchen und Notlandung durchführen.",
         "correct": false
       }
-    ],
-    "questionId": 39,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c37eksriqyuijll492keg",
+    "id": 40,
     "question": "Welches der angegebenen Gelände ist für eine Außenlandung am besten geeignet? (1,00 P.)",
     "answers": [
       {
@@ -1193,14 +1039,10 @@
         "text": "Gepflügter Acker",
         "correct": false
       }
-    ],
-    "questionId": 40,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "viwrsdl4kqgvayjtgfvz6",
+    "id": 41,
     "question": "Bei einer Notlandung handelt es sich immer um eine... (1,00 P.)",
     "answers": [
       {
@@ -1223,14 +1065,10 @@
         "text": "Landung ohne Triebwerkshilfe.",
         "correct": false
       }
-    ],
-    "questionId": 41,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "osem93c9dnceol8ji8zjpw",
+    "id": 42,
     "question": "Wie wird eine durch die Umstände erzwungene Landung bezeichnet? (1,00 P.)",
     "answers": [
       {
@@ -1253,14 +1091,10 @@
         "text": "Sicherheitslandung",
         "correct": false
       }
-    ],
-    "questionId": 42,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tp6jgwkg3zkiyh59ocio9n",
+    "id": 43,
     "question": "Bei einer Sicherheitslandung handelt es sich immer um eine... (1,00 P.)",
     "answers": [
       {
@@ -1283,14 +1117,10 @@
         "text": "Landung ohne Triebwerkshilfe.",
         "correct": false
       }
-    ],
-    "questionId": 43,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2v3mttgs449pibaj2vc4m",
+    "id": 44,
     "question": "Welches der genannten Gelände eignet sich am besten für eine Außenlandung? (1,00 P.)",
     "answers": [
       {
@@ -1313,14 +1143,10 @@
         "text": "Ein Feld mit wogendem reifem Getreide",
         "correct": false
       }
-    ],
-    "questionId": 44,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pxu0ha2s8y404lr2k86he",
+    "id": 45,
     "question": "Nach einer Sicherheitslandung sind die Bremsen und Reifen stark erhitzt. <br><br>Wie sollte sich der Pilot den Reifen nur nähern? (1,00 P.)",
     "answers": [
       {
@@ -1343,14 +1169,10 @@
         "text": "Von der Vorder- oder Rückseite",
         "correct": true
       }
-    ],
-    "questionId": 45,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6it9rxf3e4ni2bhobpvwek",
+    "id": 46,
     "question": "Was muss bei überhitzten Bremsen beachtet werden? (1,00 P.)",
     "answers": [
       {
@@ -1373,14 +1195,10 @@
         "text": "Es kann zum Bersten von Reifen in Radial- oder Laufrichtung kommen",
         "correct": false
       }
-    ],
-    "questionId": 46,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "59tip5k9ysnpy497qbkwqo",
+    "id": 47,
     "question": "Wann sollten die Schwimmwesten nach einer Notwasserung aufgeblasen werden? (1,00 P.)",
     "answers": [
       {
@@ -1403,14 +1221,10 @@
         "text": "Außerhalb des Luftfahrzeuges",
         "correct": true
       }
-    ],
-    "questionId": 47,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xu7x2z4xusgl808asatxf",
+    "id": 48,
     "question": "Wie wirkt sich feuchtes Gras auf die Start- und Landestrecke aus? (1,00 P.)",
     "answers": [
       {
@@ -1433,14 +1247,10 @@
         "text": "Verlängerung der Startstrecke und Verlängerung der Landestrecke",
         "correct": true
       }
-    ],
-    "questionId": 48,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "srfco5zwpmliu92no83vuc",
+    "id": 49,
     "question": "Eine Piste gilt als kontaminiert, wenn... (1,00 P.)",
     "answers": [
       {
@@ -1463,14 +1273,10 @@
         "text": "die Pistenoberfläche innerhalb der benötigten Länge und Breite zu 75% durch Verunreinigungen wie Schnee, Reif, Eis oder Sand bedeckt ist.",
         "correct": false
       }
-    ],
-    "questionId": 49,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ll32b7a7vmfx1uwgtbe8r",
+    "id": 50,
     "question": "Welchen Bedeckungsgrad mit Eis oder kompaktem Schnee muss eine Piste mindestens aufweisen, wenn diese als \"kontaminiert\" bezeichnet wird? (1,00 P.)",
     "answers": [
       {
@@ -1493,14 +1299,10 @@
         "text": "25 %",
         "correct": true
       }
-    ],
-    "questionId": 50,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "onthxa5sncib4wpim6uyl",
+    "id": 51,
     "question": "Welche Gefahr geht von nassem Schnee auf der Piste aus? (1,00 P.)",
     "answers": [
       {
@@ -1523,14 +1325,10 @@
         "text": "Erhöhung des Rollwiderstandes",
         "correct": true
       }
-    ],
-    "questionId": 51,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "u59dzpfp41wdm4w2m7sdn",
+    "id": 52,
     "question": "Welche Gefahr geht von stehendem Wasser auf der Piste aus? (1,00 P.)",
     "answers": [
       {
@@ -1553,14 +1351,10 @@
         "text": "Erhöhung des Auftriebs",
         "correct": false
       }
-    ],
-    "questionId": 52,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "9qlkjo5tsjfzd1nixxh66p",
+    "id": 53,
     "question": "Welche Gefahr besteht bei einer Landung nach einem starken Regenschauer? (1,00 P.)",
     "answers": [
       {
@@ -1583,14 +1377,10 @@
         "text": "Längerer Bremsweg durch Aquaplaning",
         "correct": true
       }
-    ],
-    "questionId": 53,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "amn87uele6qei2ysurpjn5",
+    "id": 54,
     "question": "Welche Reaktion ist angemessen, wenn bei einer Landung Aquaplaning vermutet wird? (1,00 P.)",
     "answers": [
       {
@@ -1613,14 +1403,10 @@
         "text": "Bei drehenden Rädern mäßig bremsen; die Richtung mit aerodynamischen Mitteln halten",
         "correct": true
       }
-    ],
-    "questionId": 54,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rg7rel118p8841xq7s40ne",
+    "id": 55,
     "question": "Was gibt der Bremskoeffizient an? (1,00 P.)",
     "answers": [
       {
@@ -1643,14 +1429,10 @@
         "text": "Das Verhältnis zwischen Reibungskraft und Anpresskraft zwischen zwei Körpern",
         "correct": true
       }
-    ],
-    "questionId": 55,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bqb4cjuj6gaj4cayjsjo2n",
+    "id": 56,
     "question": "Wie sollte die Landung auf einer kontaminierten Piste mit schlechten Bremswerten durchgeführt werden, wenn sich diese nicht vermeiden lässt? (1,00 P.)",
     "answers": [
       {
@@ -1673,14 +1455,10 @@
         "text": "Bei möglichst geringer Seitenwindkomponente mit maximaler Landeklappenstellung, negativer Längsneigung und Mindestfahrt aufsetzen, vorsichtig bremsen.",
         "correct": false
       }
-    ],
-    "questionId": 56,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   },
   {
-    "id": "26t40p0pre373eglh5v8l8",
+    "id": 57,
     "question": "Welche der folgenden Wettererscheinungen, die im Zusammenhang mit Frontgewittern auftreten können, stellt im Landeanflug die größte Gefahr dar? (1,00 P.)",
     "answers": [
       {
@@ -1703,10 +1481,6 @@
         "text": "Niederschlag",
         "correct": false
       }
-    ],
-    "questionId": 57,
-    "asset": null,
-    "subject": "opr",
-    "lang": "de"
+    ]
   }
 ]

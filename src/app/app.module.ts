@@ -10,6 +10,10 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { MatButtonModule, MatRadioModule, MatListModule, MatInputModule } from '@angular/material';
 import { MatFormFieldModule } from '@angular/material/form-field';
 
+import { NgxsModule } from '@ngxs/store';
+import { NgxsLoggerPluginModule } from '@ngxs/logger-plugin';
+import { QuestionnaireState } from './states/questionnaire.state';
+
 import { AppComponent } from './app.component';
 import { QuestionComponent } from './components/question/question.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -39,6 +43,10 @@ import { AuthGuard } from './services/auth-guard.service';
   ],
   imports: [
     BrowserModule,
+    NgxsModule.forRoot([
+      QuestionnaireState
+    ]),
+    NgxsLoggerPluginModule.forRoot(),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,

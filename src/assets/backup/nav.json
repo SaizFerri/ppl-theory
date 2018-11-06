@@ -1,6 +1,6 @@
 [
   {
-    "id": "wbfln7s8yc0xjdgne8d66",
+    "id": 1,
     "question": "Wie ist die Erdachse in Bezug zur Ebene ihrer Umlaufbahn die Sonne (Ekliptik) orientiert? (1,00 P.)",
     "answers": [
       {
@@ -23,14 +23,10 @@
         "text": "Die Erdachse verläuft parallel zur Ebene der Ekliptik",
         "correct": false
       }
-    ],
-    "questionId": 1,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zsv3lhks5nme5atz74afxm",
+    "id": 2,
     "question": "Die (gedachte) Erdachse geht durch den... (1,00 P.)",
     "answers": [
       {
@@ -53,14 +49,10 @@
         "text": "magnetischen Nordpol und den magnetischen Südpol.",
         "correct": false
       }
-    ],
-    "questionId": 2,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2iamqwbxw1x4onvq450aok",
+    "id": 3,
     "question": "Welche Aussage ist in Bezug auf die Erdachse korrekt? (1,00 P.)",
     "answers": [
       {
@@ -83,14 +75,10 @@
         "text": "Die Erdachse schneidet den magnetischen Südpol sowie den magnetischen Nordpol und hat einen Winkel von 66,5° zur Äquatorebene",
         "correct": false
       }
-    ],
-    "questionId": 3,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ghbgub47wvsook1wj8beta",
+    "id": 4,
     "question": "Welche angenäherte, geometrische Form der Erde dient als Grundlage für Navigationssysteme wie GPS? (1,00 P.)",
     "answers": [
       {
@@ -113,14 +101,10 @@
         "text": "Flache Scheibe",
         "correct": false
       }
-    ],
-    "questionId": 4,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "f0fasi2iek9fgewtegsrh",
+    "id": 5,
     "question": "Welche Aussage trifft auf eine Kursgleiche (Loxodrome) zu? (1,00 P.)",
     "answers": [
       {
@@ -143,14 +127,10 @@
         "text": "Der vollständige Umlauf einer Kursgleiche hat immer den Erdmittelpunkt im Zentrum.",
         "correct": false
       }
-    ],
-    "questionId": 5,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "adlgxryqettwm9h6o03n68",
+    "id": 6,
     "question": "Welcher der folgenden Kreisbögen hat den Erdmittelpunkt NICHT im Zentrum? (1,00 P.)",
     "answers": [
       {
@@ -173,14 +153,10 @@
         "text": "Längengrad",
         "correct": false
       }
-    ],
-    "questionId": 6,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "lbb2e0cra9nw1qx2w308hc",
+    "id": 7,
     "question": "Die kürzeste Distanz zweier Punkte auf der Erde entspricht einem Teil... (1,00 P.)",
     "answers": [
       {
@@ -203,14 +179,10 @@
         "text": "eines Breitenkreises.",
         "correct": false
       }
-    ],
-    "questionId": 7,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "t355buoj7l94q1plgpek4j",
+    "id": 8,
     "question": "Der Umfang der Erde am Äquator beträgt ungefähr... <br><br>Siehe Bild (NAV-002) (1,00 P.)",
     "asset": "assets/NAV/NAV-002.png",
     "answers": [
@@ -234,13 +206,10 @@
         "text": "21.600 NM.",
         "correct": true
       }
-    ],
-    "questionId": 8,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "n1e4s31q4sv5i90aynmv",
+    "id": 9,
     "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Hamburg (N53°38', E009°59'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
@@ -263,14 +232,10 @@
         "text": "70 NM",
         "correct": true
       }
-    ],
-    "questionId": 9,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6ww1m4y6yoe9q4uudr0ynn",
+    "id": 10,
     "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Hannover (N52°28', E009°59') nach Kiel (N54°23', E009°59'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
@@ -293,14 +258,10 @@
         "text": "83 NM",
         "correct": false
       }
-    ],
-    "questionId": 10,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "1ntuh0zsqjzdwki622b8vg",
+    "id": 11,
     "question": "Der Äquator ist ein... (1,00 P.)",
     "answers": [
       {
@@ -323,14 +284,10 @@
         "text": "Längenkreis.",
         "correct": false
       }
-    ],
-    "questionId": 11,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3ible7zt54sah8ykix6enf",
+    "id": 12,
     "question": "Die Breitendifferenz zwischen den beiden Orten A (N12°53'30'') und B (S07°34'30'') beträgt: (1,00 P.)",
     "answers": [
       {
@@ -353,14 +310,10 @@
         "text": "20°28'00''",
         "correct": true
       }
-    ],
-    "questionId": 12,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i2cvwnmec9siogr3j3ps5",
+    "id": 13,
     "question": "Die beiden Polarkreise befinden sich... (1,00 P.)",
     "answers": [
       {
@@ -383,14 +336,10 @@
         "text": "23,5° nördlich bzw. südlich des Äquators.",
         "correct": false
       }
-    ],
-    "questionId": 13,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "twgpxm2ct8njfk6t15vp2",
+    "id": 14,
     "question": "Die Entfernung zwischen den Breitengraden N48° und N49° entlang eines Längengrades beträgt: (1,00 P.)",
     "answers": [
       {
@@ -413,14 +362,10 @@
         "text": "60 Bogensekunden",
         "correct": false
       }
-    ],
-    "questionId": 14,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6oy0oy0hmvuw7qkvaz4fhn",
+    "id": 15,
     "question": "Welcher Distanz entspricht die Strecke von einem Grad Breitendifferenz entlang eines Längengrades? (1,00 P.)",
     "answers": [
       {
@@ -443,14 +388,10 @@
         "text": "1 NM",
         "correct": false
       }
-    ],
-    "questionId": 15,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fkz8mzmm2ol9mnrrrlcd8t",
+    "id": 16,
     "question": "Ein Punkt auf der Erdoberfläche liegt bei 47°50'27'' nördlicher Breite. <br><br>Welcher Punkt liegt genau 240 NM nördlich davon? (1,00 P.)",
     "answers": [
       {
@@ -473,14 +414,10 @@
         "text": "49°50'27'' N",
         "correct": false
       }
-    ],
-    "questionId": 16,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "og7amx099vmk90domvwcji",
+    "id": 17,
     "question": "Ein Luftfahrzeug fliegt genau mit Nordkurs von Klagenfurt (N46°40', E014°20') nach Linz (N48°15', E014°20'). <br><br>Wie groß ist die geflogene Distanz? (1,00 P.)",
     "answers": [
       {
@@ -503,14 +440,10 @@
         "text": "95 km",
         "correct": false
       }
-    ],
-    "questionId": 17,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8fk0rusan1t9a0bspyauy4",
+    "id": 18,
     "question": "Die Entfernung zwischen den beiden Längengraden 150° E und 151° E entlang des Äquators beträgt: (1,00 P.)",
     "answers": [
       {
@@ -533,14 +466,10 @@
         "text": "60 Bogensekunden",
         "correct": false
       }
-    ],
-    "questionId": 18,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "q0zvlgggd709lwybexxxi5",
+    "id": 19,
     "question": "Wie groß ist die Längendifferenz zwischen 9° E und 10° E auf dem 50. Breitengrad? (1,00 P.)",
     "answers": [
       {
@@ -563,14 +492,10 @@
         "text": "60'",
         "correct": true
       }
-    ],
-    "questionId": 19,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "up1oytvsls0l0hy6vkn8ha",
+    "id": 20,
     "question": "Welches ist die Distanz zwischen zwei Punkten auf dem Äquator, wenn die Längendifferenz dieser Punkte ein Grad beträgt? (1,00 P.)",
     "answers": [
       {
@@ -593,14 +518,10 @@
         "text": "216 NM",
         "correct": false
       }
-    ],
-    "questionId": 20,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "oqjj0y6uf6bhbt9093863r",
+    "id": 21,
     "question": "Zwei beliebige Punkte A und B liegen auf demselben Breitengrad (nicht der Äquator). Punkt A befindet sich auf dem Längengrad E010°, Punkt B auf E020°. <br><br>Welche der folgenden Aussagen zur Entfernung entlang der Kursgleichen von A nach B ist korrekt? (1,00 P.)",
     "answers": [
       {
@@ -623,14 +544,10 @@
         "text": "Die Entfernung entlang der Kursgleichen zwischen A und B ist immer kleiner als 600 NM",
         "correct": true
       }
-    ],
-    "questionId": 21,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "38l45s8ctbq8kmxgru21c6",
+    "id": 22,
     "question": "Die Punkte A und B liegen beide auf dem Breitengrad N60°. Punkt A befindet sich auf W020°, Punkt B auf W010°. <br><br>Welche Distanz hat die Loxodrome zwischen den beiden Punkten? (1,00 P.)",
     "answers": [
       {
@@ -653,14 +570,10 @@
         "text": "300 km",
         "correct": false
       }
-    ],
-    "questionId": 22,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "f3dmwgxad9y7w48rontp",
+    "id": 23,
     "question": "Ein Luftfahrzeug befindet sich an der Position N60° W040°. <br><br>Die Distanz entlang der Loxodrome zum Punkt N60° W000° beträgt... (2,00 P.)",
     "answers": [
       {
@@ -683,14 +596,10 @@
         "text": "1.200 NM.",
         "correct": true
       }
-    ],
-    "questionId": 23,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sijhdfae51lj4nz7y4h0d",
+    "id": 24,
     "question": "Wie groß ist die Zeitdifferenz, wenn die Sonne von einem bestimmten Punkt aus um 20 Längengrade weitergewandert ist? (1,00 P.)",
     "answers": [
       {
@@ -713,14 +622,10 @@
         "text": "1:20 h",
         "correct": true
       }
-    ],
-    "questionId": 24,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hyxhrze8a5qjlnbj92ikj",
+    "id": 25,
     "question": "Wie groß ist die Zeitdifferenz, wenn die Sonne von einem bestimmten Punkt aus um 10 Längengrade weitergewandert ist? (1,00 P.)",
     "answers": [
       {
@@ -743,14 +648,10 @@
         "text": "0:40 h",
         "correct": true
       }
-    ],
-    "questionId": 25,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0ydzulmjlo157m3p7dfx7l",
+    "id": 26,
     "question": "Wie groß ist die Zeitdifferenz, wenn die Sonne von einem bestimmten Punkt aus um 10 Längengrade weitergewandert ist? (1,00 P.)",
     "answers": [
       {
@@ -773,14 +674,10 @@
         "text": "0,66 h",
         "correct": true
       }
-    ],
-    "questionId": 26,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zssin0pau6mhq306ip0lq9",
+    "id": 27,
     "question": "Mitteleuropäische Sommerzeit (CEST) ist festgelegt als UTC+2. <br><br>Welche Zeit in UTC entspricht somit 1600 MESZ (CEST)? (1,00 P.)",
     "answers": [
       {
@@ -803,14 +700,10 @@
         "text": "1400 UTC.",
         "correct": true
       }
-    ],
-    "questionId": 27,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jinpvmzx4zfctmr316a20l",
+    "id": 28,
     "question": "UTC ist die... (1,00 P.)",
     "answers": [
       {
@@ -833,14 +726,10 @@
         "text": "Zonenzeit (gesetzliche Zeit).",
         "correct": false
       }
-    ],
-    "questionId": 28,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jexshvt2e4ydn6uo64hid",
+    "id": 29,
     "question": "Mitteleuropäische Zeit (MEZ) ist festgelegt als UTC+1. <br><br>Welche Zeit in UTC entspricht somit 1700 MEZ? (1,00 P.)",
     "answers": [
       {
@@ -863,14 +752,10 @@
         "text": "1700 UTC.",
         "correct": false
       }
-    ],
-    "questionId": 29,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fffu3npoic7igkw95hzn0o",
+    "id": 30,
     "question": "Ort 1 befindet sich bei etwa E 016° 34', Ort 2 bei etwa E 013° 00'. Beide Orte liegen etwa auf derselben geografischen Breite. <br><br>Um welchen Wert unterscheiden sich die Sonnenauf- und Sonnenuntergangszeiten (angegeben in Standardzeit - SZ) in Ort 1 und Ort 2? (2,00 P.)",
     "answers": [
       {
@@ -893,14 +778,10 @@
         "text": "In Ort 1 erfolgt der Sonnenaufgang ca. 4 Minuten später und der Sonnenuntergang ca. 4 Minuten früher",
         "correct": false
       }
-    ],
-    "questionId": 30,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fvljuf17zy79ex623cbn4p",
+    "id": 31,
     "question": "Der Begriff \"Sonnenaufgang\" ist definiert als: (1,00 P.)",
     "answers": [
       {
@@ -923,14 +804,10 @@
         "text": "der Zeitpunkt, an dem die volle Sonnenscheibe über dem Horizont erscheint.",
         "correct": false
       }
-    ],
-    "questionId": 31,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c7wnfmh971fl987u9a2qw",
+    "id": 32,
     "question": "Der Begriff \"Sonnenuntergang\" ist definiert als der Zeitpunkt, an dem... (1,00 P.)",
     "answers": [
       {
@@ -953,14 +830,10 @@
         "text": "der Mittelpunkt der Sonnenscheibe unter dem Horizont verschwindet.",
         "correct": false
       }
-    ],
-    "questionId": 32,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "t3wb10e0ytl6py0gs76bl",
+    "id": 33,
     "question": "Der Begriff \"bürgerliche Dämmerung\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -983,14 +856,10 @@
         "text": "der Zeitraum vor Sonnenaufgang oder nach Sonnenuntergang, wobei der Mittelpunkt der Sonnenscheibe gleich oder weniger als 12 Grad unter dem wahren Horizont steht.",
         "correct": false
       }
-    ],
-    "questionId": 33,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i5nppupuoidaxbyu8i9sm",
+    "id": 34,
     "question": "Gegeben sind: TC: 032°; WCA: +11°; DEV: 001° W; CH: 049°. <br><br>Welche Werte haben TH, VAR und MH? (2,00 P.)",
     "answers": [
       {
@@ -1013,14 +882,10 @@
         "text": "TH: 048°. <br>VAR: 005°E. <br>MH: 050°.",
         "correct": false
       }
-    ],
-    "questionId": 34,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "nftfrq17qkdnr2f96gw1n",
+    "id": 35,
     "question": "Gegeben sind: TC: 105°; WCA: +009°; MH: 119°; CH: 120°. Welche Werte haben VAR und DEV? (2,00 P.)",
     "answers": [
       {
@@ -1043,14 +908,10 @@
         "text": "VAR: 005°W. <br>DEV: -001°.",
         "correct": true
       }
-    ],
-    "questionId": 35,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "twxbfr47ain0auggkc9xl",
+    "id": 36,
     "question": "Gegeben sind: WCA: -012°; TH: 125°; MC: 139°; DEV: 002°E. <br><br>Welche Werte haben: TC, MH und CH? (2,00 P.)",
     "answers": [
       {
@@ -1073,14 +934,10 @@
         "text": "TC: 137°. <br>MH: 127°. <br>CH: 125°.",
         "correct": true
       }
-    ],
-    "questionId": 36,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "33bqryog1z516rzu4445p6",
+    "id": 37,
     "question": "Gegeben sind: TC: 179°; WCA: -12°; VAR: 004°E; DEV: +002°. <br><br>Welche Werte haben MH und MC? (1,00 P.)",
     "answers": [
       {
@@ -1103,14 +960,10 @@
         "text": "MH: 167°. <br>MC: 161°.",
         "correct": false
       }
-    ],
-    "questionId": 37,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g3ljbftskfwvygbomuj2",
+    "id": 38,
     "question": "Mit welcher Formel wird der magnetische Steuerkurs (MH) berechnet? (1,00 P.)",
     "answers": [
       {
@@ -1133,14 +986,10 @@
         "text": "MH = TH - VAR",
         "correct": true
       }
-    ],
-    "questionId": 38,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "aktfludkbbu3tzd8m2nbmt",
+    "id": 39,
     "question": "Wie wird der Winkel zwischen dem rechtweisenden Kurs (TC) und dem rechtweisenden Steuerkurs (TH) bezeichnet? (1,00 P.)",
     "answers": [
       {
@@ -1163,14 +1012,10 @@
         "text": "Deviation",
         "correct": false
       }
-    ],
-    "questionId": 39,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "moi7osz8p2x4piy6lxnd",
+    "id": 40,
     "question": "Wie wird der Winkel zwischen dem magnetischen Kurs (MC) und dem rechtweisenden Kurs (TC) bezeichnet? (1,00 P.)",
     "answers": [
       {
@@ -1193,14 +1038,10 @@
         "text": "WCA",
         "correct": false
       }
-    ],
-    "questionId": 40,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "gqt8vvhfgsgsgbnffw3s8",
+    "id": 41,
     "question": "Der Begriff \"magnetischer Kurs\" (MC) ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -1223,14 +1064,10 @@
         "text": "die Richtung von einem beliebigen Punkt der Erde zum magnetischen Nordpol.",
         "correct": false
       }
-    ],
-    "questionId": 41,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sirvdnrig1ubkmq521yw",
+    "id": 42,
     "question": "Der Begriff \"rechtweisender Kurs\" (TC) ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -1253,14 +1090,10 @@
         "text": "die Richtung von einem beliebigen Punkt der Erde zum geografischen Nordpol.",
         "correct": false
       }
-    ],
-    "questionId": 42,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qztshlwn3399tz11ir136",
+    "id": 43,
     "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. <br><br>Welche Werte haben TH und DEV? (2,00 P.)",
     "answers": [
       {
@@ -1283,14 +1116,10 @@
         "text": "TH: 172°. <br>DEV: +002°.",
         "correct": false
       }
-    ],
-    "questionId": 43,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "63y6sjtfoli6vuanflag3a",
+    "id": 44,
     "question": "Gegeben sind: TC: 183°; WCA: +011°; MH: 198°; CH: 200°. <br><br>Welche Werte haben VAR und DEV? (2,00 P.)",
     "answers": [
       {
@@ -1313,14 +1142,10 @@
         "text": "VAR: 004°W. <br>DEV: +002°.",
         "correct": false
       }
-    ],
-    "questionId": 44,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zunnlcxlwvbtaqlqoman1j",
+    "id": 45,
     "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. <br><br>Welche Werte haben TH und VAR? (2,00 P.)",
     "answers": [
       {
@@ -1343,14 +1168,10 @@
         "text": "TH: 152°. <br>VAR: 002°E.",
         "correct": false
       }
-    ],
-    "questionId": 45,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ee0di2qwxzyxvf5066ouh",
+    "id": 46,
     "question": "Gegeben sind: TC: 168°; WCA: +012°; MH: 178°; CH 176°. <br><br>Welche Werte haben VAR und DEV? (2,00 P.)",
     "answers": [
       {
@@ -1373,14 +1194,10 @@
         "text": "VAR: 002°W. <br>DEV: +002°.",
         "correct": false
       }
-    ],
-    "questionId": 46,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "eovju2u0wnh14nrbnmgpvg",
+    "id": 47,
     "question": "Wo ist die vertikale Ablenkung (Inklination) der Kompassnadel am geringsten? (1,00 P.)",
     "answers": [
       {
@@ -1403,14 +1220,10 @@
         "text": "An den geografischen Polen",
         "correct": false
       }
-    ],
-    "questionId": 47,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3qtfrj8u2chmgg78ba11a",
+    "id": 48,
     "question": "Wie wird der Winkel zwischen Kompass Nord (CN) und magnetisch Nord (MN) bezeichnet? (1,00 P.)",
     "answers": [
       {
@@ -1433,14 +1246,10 @@
         "text": "WCA",
         "correct": false
       }
-    ],
-    "questionId": 48,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pfjw3ojwgwv9fqc9nzrgm",
+    "id": 49,
     "question": "Welche Richtung entspricht \"Kompass Nord\" (CN)? (1,00 P.)",
     "answers": [
       {
@@ -1463,14 +1272,10 @@
         "text": "Die Richtung, in die sich der Magnetkompass unter Einfluss des Erdmagnetfelds und vorhandener Flugzeugmagnetfelder ausrichtet",
         "correct": true
       }
-    ],
-    "questionId": 49,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tk0ztyntxh7o5lpo5hes3",
+    "id": 50,
     "question": "Eine \"Isogone\" ist definiert als eine Linie... (1,00 P.)",
     "answers": [
       {
@@ -1493,14 +1298,10 @@
         "text": "die alle Punkte mit derselben Variation verbindet.",
         "correct": true
       }
-    ],
-    "questionId": 50,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ij085n71lvd5izcpf4hea",
+    "id": 51,
     "question": "Eine \"Agone\" ist definiert als eine Linie... (1,00 P.)",
     "answers": [
       {
@@ -1523,14 +1324,10 @@
         "text": "die alle Punkte mit der Deviation 0° verbindet.",
         "correct": false
       }
-    ],
-    "questionId": 51,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "723hihvd5u4vitfm39s18",
+    "id": 52,
     "question": "Welche Basiseinheiten und Abkürzungen werden in der Luftfahrt für Entfernungen verwendet? (1,00 P.)",
     "answers": [
       {
@@ -1553,14 +1350,10 @@
         "text": "Fuß (ft) und Zoll (in)",
         "correct": false
       }
-    ],
-    "questionId": 52,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zptxbqcij785waqbc4pmxu",
+    "id": 53,
     "question": "1.000 ft (Fuß) entsprechen ca. (1,00 P.)",
     "answers": [
       {
@@ -1583,14 +1376,10 @@
         "text": "3.000 m (Meter).",
         "correct": false
       }
-    ],
-    "questionId": 53,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "r4m14e8vmui2ox0kvh92",
+    "id": 54,
     "question": "5.500 m entsprechen ca. (1,00 P.)",
     "answers": [
       {
@@ -1613,14 +1402,10 @@
         "text": "30.000 ft (Fuß).",
         "correct": false
       }
-    ],
-    "questionId": 54,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mtc7zt521y39g8vy1krea",
+    "id": 55,
     "question": "Bei welchen Punkten in der abgebildeten Checkliste ist der Magnetkompass zu berücksichtigen? <br><br>Siehe Anlage (NAV-004) (1,00 P.)",
     "asset": "assets/NAV/NAV-004.png",
     "answers": [
@@ -1644,13 +1429,10 @@
         "text": "\"Gyro\" und \"Circuit Breaker\"",
         "correct": false
       }
-    ],
-    "questionId": 55,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fw2n2z563bm0zgsjl7uz",
+    "id": 56,
     "question": "Welche Aussage in Bezug auf den Begriff \"Variation\" (VAR) ist korrekt? (1,00 P.)",
     "answers": [
       {
@@ -1673,14 +1455,10 @@
         "text": "Die Variation besitzt überall auf der Erde einen konstanten Wert",
         "correct": false
       }
-    ],
-    "questionId": 56,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "u0cwpl9nu3oz57q5ih2juf",
+    "id": 57,
     "question": "Welches kann ein Grund für die Änderung der Pisten-Kennziffern an Flugplätzen sein (z.B. von Piste 06 auf Piste 07)? (1,00 P.)",
     "answers": [
       {
@@ -1703,14 +1481,10 @@
         "text": "Die rechtweisende Richtung der Piste hat sich geändert",
         "correct": false
       }
-    ],
-    "questionId": 57,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dl6de68ixgoccelgpxxzk9",
+    "id": 58,
     "question": "Elektronische Geräte an Bord eines Luftfahrzeuges haben Einfluss auf den... (1,00 P.)",
     "answers": [
       {
@@ -1733,14 +1507,10 @@
         "text": "künstlichen Horizont.",
         "correct": false
       }
-    ],
-    "questionId": 58,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2jjc9ui9xrmfu00va8xg9",
+    "id": 59,
     "question": "Welche Eigenschaften hat eine Mercator-Karte? (1,00 P.)",
     "answers": [
       {
@@ -1763,14 +1533,10 @@
         "text": "Der Maßstab nimmt mit der geographischen Breite zu, Großkreise erscheinen als Geraden, Kursgleiche als gekrümmte Linien.",
         "correct": false
       }
-    ],
-    "questionId": 59,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "uqiqm7mgrht1zjcxxhspxl",
+    "id": 60,
     "question": "Welche Eigenschaft muss eine konforme Karte erfüllen? (1,00 P.)",
     "answers": [
       {
@@ -1793,14 +1559,10 @@
         "text": "Der Maßstab muss auf der ganzen Karte konstant sein.",
         "correct": false
       }
-    ],
-    "questionId": 60,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zgcqxqelfee3vgynfdqleb",
+    "id": 61,
     "question": "Wie werden Kursgleichen und Großkreise auf einer Mercator-Karte dargestellt? (1,00 P.)",
     "answers": [
       {
@@ -1823,14 +1585,10 @@
         "text": "Kursgleichen: als gerade Linien. <br>Großkreise: als gekrümmte Linien.",
         "correct": true
       }
-    ],
-    "questionId": 61,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xh136x4sciwyu7jfdz9k",
+    "id": 62,
     "question": "Welche Eigenschaften besitzt eine Lambert-Karte? (1,00 P.)",
     "answers": [
       {
@@ -1853,14 +1611,10 @@
         "text": "Kursgleichen werden als gerade Linien dargestellt, die Karte ist winkeltreu",
         "correct": false
       }
-    ],
-    "questionId": 62,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "84medwxm8nn9o4x3c5usas",
+    "id": 63,
     "question": "Welche Standlinien muss ein Pilot in seine Luftfahrtkarte einzeichnen, um mit Hilfe von NDBs seine Position zu bestimmen? (1,00 P.)",
     "answers": [
       {
@@ -1883,14 +1637,10 @@
         "text": "Magnetische Steuerkurse (MHs)",
         "correct": false
       }
-    ],
-    "questionId": 63,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qjj9oz0lv172rky4prn3le",
+    "id": 64,
     "question": "Das Radial vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) lautet... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
     "asset": "assets/NAV/NAV-031.png",
     "answers": [
@@ -1914,13 +1664,10 @@
         "text": "204°.",
         "correct": false
       }
-    ],
-    "questionId": 64,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "43ricbsnravc3tf3ol7kvd",
+    "id": 65,
     "question": "Welche Position hat das Luftfahrzeug unter Berücksichtigung der folgenden Kreuzpeilung? <br><br>VOR Hamburg (HAM) (53°41?N, 010°12?E): Radial 119° <br>VOR Brünkendorf (BKD) (53°02?N, 011°33?E): Radial 320° <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
     "asset": "assets/NAV/NAV-031.png",
     "answers": [
@@ -1944,13 +1691,10 @@
         "text": "52°20'N, 10°10'E",
         "correct": false
       }
-    ],
-    "questionId": 65,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0uyi9vncxwgojpjr5yq7u",
+    "id": 66,
     "question": "Auf einer aeronautischen Navigationskarte werden zwei 220 NM voneinander entfernte Flugplätze in einem Abstand von 40,7 cm dargestellt. <br><br>Wie groß ist der Kartenmaßstab? (1,00 P.)",
     "answers": [
       {
@@ -1973,14 +1717,10 @@
         "text": "1 : 500.000",
         "correct": false
       }
-    ],
-    "questionId": 66,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2ggtcfhph56ol1hr796bbn",
+    "id": 67,
     "question": "Die Distanz vom VOR Brünkendorf (BKD) (53°02?N, 011°33?E) nach Pritzwalk (EDBU) (53°11'N, 12°11'E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
     "asset": "assets/NAV/NAV-031.png",
     "answers": [
@@ -2004,13 +1744,10 @@
         "text": "42 NM.",
         "correct": false
       }
-    ],
-    "questionId": 67,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zsua5usmpzgcaqejs27v7",
+    "id": 68,
     "question": "Der Abstand von 7,5 cm auf einer aeronautischen Karte entspricht in der Realität einer Distanz von 60,745 NM. <br><br>Der Kartenmaßstab beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2033,14 +1770,10 @@
         "text": "1 : 500.000.",
         "correct": false
       }
-    ],
-    "questionId": 68,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "umyqqb3lhgl6029c8667m",
+    "id": 69,
     "question": "Welche der Zuordnungen ist korrekt? <br><br>Siehe Bild (NAV-006) (1,00 P.)",
     "asset": "assets/NAV/NAV-006.png",
     "answers": [
@@ -2064,13 +1797,10 @@
         "text": "1: VORTAC. <br>2: VOR/DME. <br>3: VOR. <br>4: NDB.",
         "correct": false
       }
-    ],
-    "questionId": 69,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "t2bbn2h625ra7q9j27pw05",
+    "id": 70,
     "question": "Für einen kurzen Flug von A nach B entnimmt der Pilot einer aeronautischen Karte folgende Information: <br><br>Rechtweisender Kurs (TC): 245°. <br>Magnetische Variation: 7° W. <br><br>Der magnetische Kurs (MC) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2093,14 +1823,10 @@
         "text": "245°.",
         "correct": false
       }
-    ],
-    "questionId": 70,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ur0a9p96aqbphfo9ke1jmd",
+    "id": 71,
     "question": "Ein Luftfahrzeug fliegt mit einer angezeigten Fluggeschwindigkeit (IAS) von 150 kt in 8.000 ft MSL. <br><br>Die wahre Fluggeschwindigkeit (TAS) beträgt nach der Faustregel... (1,00 P.)",
     "answers": [
       {
@@ -2123,14 +1849,10 @@
         "text": "174 kt.",
         "correct": true
       }
-    ],
-    "questionId": 71,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5do8k7i2155xbqikz9hzyo",
+    "id": 72,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 250°. <br>Distanz am Boden: 210 NM. <br>TAS: 130 kt. <br>Gegenwindkomponente: 15 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0915 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (2,00 P.)",
     "answers": [
       {
@@ -2153,14 +1875,10 @@
         "text": "1105 UTC.",
         "correct": true
       }
-    ],
-    "questionId": 72,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "9xe23w4cjhj5ncnlxk43qb",
+    "id": 73,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 283°. <br>Distanz am Boden: 75 NM. <br>TAS: 105 kt. <br>Gegenwindkomponente: 12 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1242 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2183,14 +1901,10 @@
         "text": "1356 UTC.",
         "correct": false
       }
-    ],
-    "questionId": 73,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "axi5a0k8pt57if83imeinc",
+    "id": 74,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 182°. <br>Distanz am Boden: 110 NM. <br>GS: 77 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 1513 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2213,14 +1927,10 @@
         "text": "1724 UTC.",
         "correct": false
       }
-    ],
-    "questionId": 74,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "cn752bocfgscraaxxhqj6c",
+    "id": 75,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC) von A nach B: 352°. <br>Distanz am Boden: 100 NM. <br>GS: 107 kt. <br>Voraussichtliche Abflugzeit (estimated time of departure - ETD): 0933 UTC. <br><br>Die voraussichtliche Ankunftszeit (estimated time of arrival - ETA) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2243,14 +1953,10 @@
         "text": "1029 UTC.",
         "correct": true
       }
-    ],
-    "questionId": 75,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "epgtdcsmostkwfybx3ibn",
+    "id": 76,
     "question": "Ein Luftfahrzeug legt 50 NM in 42 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
@@ -2273,14 +1979,10 @@
         "text": "132 kt.",
         "correct": false
       }
-    ],
-    "questionId": 76,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g61mlixp938jo4rolhgd7",
+    "id": 77,
     "question": "Ein Luftfahrzeug legt 15 km in 4 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund (GS)? (1,00 P.)",
     "answers": [
       {
@@ -2303,14 +2005,10 @@
         "text": "225 km/h",
         "correct": true
       }
-    ],
-    "questionId": 77,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8i0rqj1dj9r9htk88kyws",
+    "id": 78,
     "question": "Ein Luftfahrzeug legt 100 km in 56 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
@@ -2333,14 +2031,10 @@
         "text": "198 kt.",
         "correct": false
       }
-    ],
-    "questionId": 78,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c0gc2cs5ozujpausuyip2r",
+    "id": 79,
     "question": "Ein Luftfahrzeug legt 120 NM in 55 Minuten zurück. <br><br>Wie groß ist die Geschwindigkeit über Grund? (1,00 P.)",
     "answers": [
       {
@@ -2363,14 +2057,10 @@
         "text": "110 km/h.",
         "correct": false
       }
-    ],
-    "questionId": 79,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rpnpzqwkl7jnbkyy63mzd",
+    "id": 80,
     "question": "Wie lange benötigt ein Luftfahrzeug für eine Distanz von 236 NM bei einer Geschwindigkeit über Grund (GS) von 134 kt? (1,00 P.)",
     "answers": [
       {
@@ -2393,14 +2083,10 @@
         "text": "1:34 h",
         "correct": false
       }
-    ],
-    "questionId": 80,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jqg75xl85crbkxljgfg5wc",
+    "id": 81,
     "question": "Ein Luftfahrzeug fliegt mit einer wahren Fluggeschwindigkeit (TAS) von 120 kt bei einem Rückenwind von 35 kt. <br><br>Die Flugdauer für eine Distanz von 185 NM beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2423,14 +2109,10 @@
         "text": "0 h 50 Min.",
         "correct": false
       }
-    ],
-    "questionId": 81,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "e3v432d3pd0avv4bhcyd9p",
+    "id": 82,
     "question": "Welche Entfernung legt ein Luftfahrzeug bei einer Wahren Fluggeschwindigkeit (TAS) von 180 kt und einem Gegenwind von 25 kt in 2 Stunden und 25 Minuten zurück? (1,00 P.)",
     "answers": [
       {
@@ -2453,14 +2135,10 @@
         "text": "375 NM",
         "correct": true
       }
-    ],
-    "questionId": 82,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "my92cnt5b4sfjwrrz1an5i",
+    "id": 83,
     "question": "Eine Steigrate von ca. 900 ft/min entspricht... (1,00 P.)",
     "answers": [
       {
@@ -2483,14 +2161,10 @@
         "text": "5,4 m/Sek.",
         "correct": false
       }
-    ],
-    "questionId": 83,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "uvi9gl6skoht1n1p17wfm",
+    "id": 84,
     "question": "Eine Steigrate von ca. 2.900 ft/min entspricht... (1,00 P.)",
     "answers": [
       {
@@ -2513,14 +2187,10 @@
         "text": "4,5 m/Sek.",
         "correct": false
       }
-    ],
-    "questionId": 84,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pqbcepmymyz6c1zpjd0z",
+    "id": 85,
     "question": "Eine Steigrate von ca. 1.100 ft/min entspricht... (1,00 P.)",
     "answers": [
       {
@@ -2543,14 +2213,10 @@
         "text": "5,6 m/Sek.",
         "correct": true
       }
-    ],
-    "questionId": 85,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sa1edpv3kvopf4g1ple6c7",
+    "id": 86,
     "question": "Gegeben: <br><br>CAS: 155 kt. <br>FL 80. <br>Außentemperatur (OAT): -15°C. <br><br>Die Wahre Fluggeschwindigkeit (TAS) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2573,14 +2239,10 @@
         "text": "170 kt.",
         "correct": true
       }
-    ],
-    "questionId": 86,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7fxmhajnj2qn07l3esrjk9",
+    "id": 87,
     "question": "Der rechtweisende Kurs (TC) von Uelzen (EDVU) (52°59?N, 10°28?E) nach Neustadt (EDAN) (53°22'N, 011°37'E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
     "asset": "assets/NAV/NAV-031.png",
     "answers": [
@@ -2604,13 +2266,10 @@
         "text": "061°.",
         "correct": true
       }
-    ],
-    "questionId": 87,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6dsv9c1wtlj62tpimhrm",
+    "id": 88,
     "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von -9°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe gerundet auf den nächsten 50 ft-Wert beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2633,14 +2292,10 @@
         "text": "6.750 ft.",
         "correct": false
       }
-    ],
-    "questionId": 88,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "j9f3z052ucfrlmogt7ft2",
+    "id": 89,
     "question": "Die Distanz von Neustadt (EDAN) (53°22'N, 011°37'E) nach Uelzen (EDVU) (52°59?N, 10°28?E) beträgt... <br><br>Siehe Anlage (NAV-031) (1,00 P.)",
     "asset": "assets/NAV/NAV-031.png",
     "answers": [
@@ -2664,13 +2319,10 @@
         "text": "46 NM.",
         "correct": true
       }
-    ],
-    "questionId": 89,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ehc6pssph9gv5uq1aghvvg",
+    "id": 90,
     "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +11°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
     "answers": [
       {
@@ -2693,14 +2345,10 @@
         "text": "6.250 ft",
         "correct": false
       }
-    ],
-    "questionId": 90,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "nenqar88l9du5m3awdatf",
+    "id": 91,
     "question": "Ein Luftfahrzeug fliegt in einer Druckhöhe von 7.000 ft bei einer Außentemperatur (OAT) von +21°C. <br><br>Die QNH-Höhe beträgt 6.500 ft. <br>Die wahre Höhe beträgt: Runden Sie auf den nächsten 50 ft-Wert. (1,00 P.)",
     "answers": [
       {
@@ -2723,14 +2371,10 @@
         "text": "6.250 ft",
         "correct": false
       }
-    ],
-    "questionId": 91,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "89nhdxpvhgnnvrdkqey35l",
+    "id": 92,
     "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 250° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Der Wind beträgt 010°/30 kt. <br>Der rechtweisende Kurs (TC) beträgt: (1,00 P.)",
     "answers": [
       {
@@ -2753,14 +2397,10 @@
         "text": "243°",
         "correct": false
       }
-    ],
-    "questionId": 92,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "q7w5kyl0b810mciw7122om",
+    "id": 93,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 255°. <br>TAS: 100 kt. <br>Wind: 200°/10 kt. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2783,14 +2423,10 @@
         "text": "275°.",
         "correct": false
       }
-    ],
-    "questionId": 93,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bqy8j5zkjs5a5tjj0wuo4g",
+    "id": 94,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 165°. <br>TAS: 90 kt. <br>Wind: 130°/20 kt. <br>Distanz: 153 NM. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2813,14 +2449,10 @@
         "text": "152°.",
         "correct": false
       }
-    ],
-    "questionId": 94,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yhvihbpl2czfu1v031uhh",
+    "id": 95,
     "question": "Folgende Werte sind gegeben: <br><br>Geschwindigkeit über Grund (GS): 160 kt. <br>Rechtweisender Kurs (TC): 177°. <br>Windvektor (W/V): 140°/20 kt. <br><br>Die wahre Eigengeschwindigkeit (TAS) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2843,14 +2475,10 @@
         "text": "176 kt.",
         "correct": true
       }
-    ],
-    "questionId": 95,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v5rryl27odenkxfya5sy4",
+    "id": 96,
     "question": "Folgende Werte sind gegeben: <br><br>Geschwindigkeit über Grund (GS): 160 kt. <br>Rechtweisender Kurs (TC): 177°. <br>Windvektor (W/WS): 140°/20 kt. <br><br>Der rechtweisende Steuerkurs (TH) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2873,14 +2501,10 @@
         "text": "173°.",
         "correct": true
       }
-    ],
-    "questionId": 96,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sbzjqytus7h28dkq5mgj6t",
+    "id": 97,
     "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 220° mit einer wahren Fluggeschwindigkeit (TAS) von 220 kt. Der Wind beträgt 270°/50 kt. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2903,14 +2527,10 @@
         "text": "170 kt.",
         "correct": false
       }
-    ],
-    "questionId": 97,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "j10wnzv0zhrj6n1plbr6q",
+    "id": 98,
     "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2933,14 +2553,10 @@
         "text": "159 kt.",
         "correct": true
       }
-    ],
-    "questionId": 98,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "cwp5szdpnkc60cpvc1j00j",
+    "id": 99,
     "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2963,14 +2579,10 @@
         "text": "- 7°",
         "correct": true
       }
-    ],
-    "questionId": 99,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i4zii7okhwjbeja3p9vtq6",
+    "id": 100,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 270°. <br>TAS: 100 kt. <br>Wind: 090°/25 kt. <br>Distanz: 100 NM. <br><br>Die Geschwindigkeit über Grund (GS) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -2993,14 +2605,10 @@
         "text": "120 kt.",
         "correct": false
       }
-    ],
-    "questionId": 100,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jw60zpi1r5tm79g0zchmcn",
+    "id": 101,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 270°. <br>TAS: 100 kt. <br>Wind: 090°/25 kt. <br>Distanz: 100 NM. <br><br>Die Flugzeit beträgt... (1,00 P.)",
     "answers": [
       {
@@ -3023,14 +2631,10 @@
         "text": "62 Min.",
         "correct": false
       }
-    ],
-    "questionId": 101,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "defitnlizb7susxu3u6rxo",
+    "id": 102,
     "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Steuerkurs (TH) von 290° mit einer Wahren Eigengeschwindigkeit (TAS) von 150 kt. Der Wind beträgt 260°/20 kt. <br><br>Der rechtweisende Kurs (TC) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -3053,14 +2657,10 @@
         "text": "286°.",
         "correct": false
       }
-    ],
-    "questionId": 102,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "koy5kxcx32fsrgpkpli7cp",
+    "id": 103,
     "question": "Ein Luftfahrzeug folgt einem rechtweisenden Kurs (TC) von 040° bei einer konstanten Wahren Eigengeschwindigkeit (TAS) von 180 kt. Der Windvektor beträgt 350°/30 kt. <br><br>Der Windvorhaltewinkel (WCA) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -3083,14 +2683,10 @@
         "text": "7° rechts.",
         "correct": false
       }
-    ],
-    "questionId": 103,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2lko4x1l0upfcq4b2wtvp",
+    "id": 104,
     "question": "Ein Luftfahrzeug fliegt auf einem rechtweisenden Kurs (TC) von 140° mit einer Geschwindigkeit über Grund (GS) von 120 kt. Die Wahre Fluggeschwindigkeit (TAS) beträgt 150 kt, der rechtweisende Steuerkurs (TH) beträgt 150°. <br><br>Windrichtung und Windgeschwindigkeit betragen... (1,00 P.)",
     "answers": [
       {
@@ -3113,14 +2709,10 @@
         "text": "225° / 16 kt.",
         "correct": false
       }
-    ],
-    "questionId": 104,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "41h1hqtgme9uopothp7t8",
+    "id": 105,
     "question": "Folgende Werte sind gegeben: <br><br>Rechtweisender Kurs (TC): 120°. <br>TAS: 120 kt. <br>Wind 150°/12 kt. <br><br> Der WCA beträgt... (1,00 P.)",
     "answers": [
       {
@@ -3143,14 +2735,10 @@
         "text": "6° nach links.",
         "correct": false
       }
-    ],
-    "questionId": 105,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "nizlnf1a2cgskl93q363k",
+    "id": 106,
     "question": "Beim Passieren einer bekannten Bodenmarkierung während eines Streckenfluges stellt der Pilot fest, dass er 5 Minuten schneller als geplant ist. Die geplante Geschwindigkeit über Grund (GS) beträgt 120 kt, die Distanz des vorherigen Teilstücks betrug 30 NM. <br><br>Die zusätzliche Windkomponente (WK) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -3173,14 +2761,10 @@
         "text": "20 kt Rückenwind.",
         "correct": false
       }
-    ],
-    "questionId": 106,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bv4y9mjjevys0ainx8kc9",
+    "id": 107,
     "question": "Die Entfernung von A nach B beträgt 120 NM. Nach 55 NM stellt der Pilot eine Abweichung von der geplanten Kursstrecke von 7 NM nach rechts fest. <br><br>Welche Steuerkursänderung muss durchgeführt werden, um B direkt zu erreichen? (1,00 P.)",
     "answers": [
       {
@@ -3203,14 +2787,10 @@
         "text": "7° links",
         "correct": false
       }
-    ],
-    "questionId": 107,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "acawxw1hwa49vq1akmkur",
+    "id": 108,
     "question": "Ein Luftfahrzeug fliegt auf einem Steuerkurs von 090°. Die zu fliegende Distanz beträgt 90 NM. Nach 45 NM ist das Luftfahrzeug 4,5 NM nördlich des Flugweges. <br><br>Welche Steuerkursänderung muss durchgeführt werden, um am Zielflughafen anzukommen? (1,00 P.)",
     "answers": [
       {
@@ -3233,14 +2813,10 @@
         "text": "9° nach rechts",
         "correct": false
       }
-    ],
-    "questionId": 108,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ipeznr24vfxd58t43ml8l",
+    "id": 109,
     "question": "Welche vereinfachte Annahme ist die Grundlage der \"1 zu 60 Regel\"? (1,00 P.)",
     "answers": [
       {
@@ -3263,14 +2839,10 @@
         "text": "60 NM seitlicher Versatz auf 1 NM Flugstrecke entsprechen einem Driftwinkel von 1°.",
         "correct": false
       }
-    ],
-    "questionId": 109,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "gfeao559rhoxlh3nlni7tl",
+    "id": 110,
     "question": "Während des Fluges werden folgende Werte ermittelt: <br><br>Rechtweisender Kurs (TC): 120°. <br>Geschwindigkeit über Grund (GS): 140 kt. <br>Rechtweisender Steuerkurs (TH): 115°. <br>Wahre Fluggeschwindigkeit (TAS): 150 kt. <br><br>Welcher Windvektor ist korrekt? (1,00 P.)",
     "answers": [
       {
@@ -3293,14 +2865,10 @@
         "text": "65° / 16 kt.",
         "correct": true
       }
-    ],
-    "questionId": 110,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "j62ewmt9lkxvscbgf8p6c",
+    "id": 111,
     "question": "Ein Luftfahrzeug befindet sich auf dem Flug von A nach B (Entfernung 220 NM) bei einer kalkulierten Geschwindigkeit über Grund (GS) von 120 kt. Der Start erfolgte um 1200 UTC. Nach 70 NM entlang der Strecke ist das Luftfahrzeug 5 Minuten vor seiner geplanten Zeit. <br><br>Welches ist die revidierte voraussichtliche Ankunftszeit (estimated time of arrival - ETA) für B, wenn die neu ermittelte GS für die gesamte Strecke gilt? (1,00 P.)",
     "answers": [
       {
@@ -3323,14 +2891,10 @@
         "text": "1340 UTC",
         "correct": false
       }
-    ],
-    "questionId": 111,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rh42kgrno6av3rol6didj",
+    "id": 112,
     "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 9.000 ft auf 1.500 ft bei einer Sinkrate von 1.200 ft/Min. <br><br>Wie lange dauert der Sinkflug? (1,00 P.)",
     "answers": [
       {
@@ -3353,14 +2917,10 @@
         "text": "Dauer: 12 Min",
         "correct": false
       }
-    ],
-    "questionId": 112,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "akopap7zh24r4blbaypbl",
+    "id": 113,
     "question": "Unter der Annahme von Windstille sinkt ein Luftfahrzeug von 7.500 ft auf 1.200 ft. Die durchschnittliche wahre Eigengeschwindigkeit (TAS) beträgt 105 kt bei einer Sinkrate von 800 ft/Min. <br><br>Wie lange dauert der Sinkflug? (1,00 P.)",
     "answers": [
       {
@@ -3383,14 +2943,10 @@
         "text": "Dauer: 15 Min",
         "correct": false
       }
-    ],
-    "questionId": 113,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "gtb9mf9affj8qnhyu1hs5",
+    "id": 114,
     "question": "Welche Werte ergänzen den Flugdurchführungsplan (markierte Kästchen) korrekt? <br><br>Siehe Anlage (NAV-014) (3,00 P.)",
     "asset": "assets/NAV/NAV-014.png",
     "answers": [
@@ -3414,13 +2970,10 @@
         "text": "TH: 185°. <br>MH: 184°. <br>MC: 178°.",
         "correct": true
       }
-    ],
-    "questionId": 114,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ftzx1u0zyt0uubnt4tvbuc",
+    "id": 115,
     "question": "Welche Empfangsantenne befindet sich unter dem abgebildeten Antennenschutz? <br><br>Siehe Bild (NAV-017) (1,00 P.)",
     "asset": "assets/NAV/NAV-017.png",
     "answers": [
@@ -3444,13 +2997,10 @@
         "text": "DME",
         "correct": false
       }
-    ],
-    "questionId": 115,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pe36bou0p4obwxdu02kb8l",
+    "id": 116,
     "question": "Mit welcher Geschwindigkeit breiten sich elektromagnetische Wellen ungefähr aus? (1,00 P.)",
     "answers": [
       {
@@ -3473,14 +3023,10 @@
         "text": "300.000 ft/s",
         "correct": false
       }
-    ],
-    "questionId": 116,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "od5ec84ifvoav6skj6o4",
+    "id": 117,
     "question": "Welche Modulationsarten gibt es? (1,00 P.)",
     "answers": [
       {
@@ -3503,14 +3049,10 @@
         "text": "Amplitudenmodulation, Frequenzmodulation, Phasenmodulation",
         "correct": true
       }
-    ],
-    "questionId": 117,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pzjirgv8azfapv1h5uxxv6",
+    "id": 118,
     "question": "Wie breiten sich Funkwellen im Lang- und Mittelwellenbereich (z.B. NDB) aus? (1,00 P.)",
     "answers": [
       {
@@ -3533,14 +3075,10 @@
         "text": "Ausschließlich als Bodenwelle",
         "correct": false
       }
-    ],
-    "questionId": 118,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yx7nos1hzt2z6jzdin5c8",
+    "id": 119,
     "question": "Wie breiten sich Funkwellen im Ultrakurzwellenbereich (z.B. VOR) aus? (1,00 P.)",
     "answers": [
       {
@@ -3563,14 +3101,10 @@
         "text": "Ausschließlich als Raumwelle",
         "correct": false
       }
-    ],
-    "questionId": 119,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3ly1qsrifqlau7yqfefgww",
+    "id": 120,
     "question": "Wie breiten sich quasioptische (direkte) Wellen aus? (1,00 P.)",
     "answers": [
       {
@@ -3593,14 +3127,10 @@
         "text": "Direkt durch die Atmosphäre, werden aber durch die Ionosphäre beeinflusst",
         "correct": false
       }
-    ],
-    "questionId": 120,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yt8ezw32x8ac6mg7dui4an",
+    "id": 121,
     "question": "Welche Information kann ein UKW-Peiler (VDF) ermitteln? (1,00 P.)",
     "answers": [
       {
@@ -3623,14 +3153,10 @@
         "text": "Rechtweisende Steuerkurse",
         "correct": false
       }
-    ],
-    "questionId": 121,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "krmz9a9yx0qkrbwbrsf619",
+    "id": 122,
     "question": "Welche Ausrüstung muss an Bord eines Luftfahrzeuges vorhanden sein, um einen UKW-Peiler (VDF) zu nutzen? (1,00 P.)",
     "answers": [
       {
@@ -3653,14 +3179,10 @@
         "text": "Ein UKW-Peilempfänger",
         "correct": false
       }
-    ],
-    "questionId": 122,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "28k0kck52xw0fpsgz385l5k",
+    "id": 123,
     "question": "Gegeben: QDM: 138°; VAR: 010°E. <br><br>Welchen Wert hat das QUJ? (1,00 P.)",
     "answers": [
       {
@@ -3683,14 +3205,10 @@
         "text": "328°",
         "correct": false
       }
-    ],
-    "questionId": 123,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fllrert0vlnbuakrva4a",
+    "id": 124,
     "question": "Gegeben: QTE: 229°; VAR: 010°W. <br><br>Welchen Wert hat das QDM? (1,00 P.)",
     "answers": [
       {
@@ -3713,14 +3231,10 @@
         "text": "049°",
         "correct": false
       }
-    ],
-    "questionId": 124,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hsl9l4akcufs9d7x6anvj8",
+    "id": 125,
     "question": "Gegeben: QDR: 022°; VAR 010°E. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
@@ -3743,14 +3257,10 @@
         "text": "052°",
         "correct": false
       }
-    ],
-    "questionId": 125,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "p32716jy4nifok9izvxvpb",
+    "id": 126,
     "question": "Gegeben: QDR: 067°; VAR: 005°E. <br><br>Welchen Wert hat das QDM? (1,00 P.)",
     "answers": [
       {
@@ -3773,14 +3283,10 @@
         "text": "257°",
         "correct": false
       }
-    ],
-    "questionId": 126,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "o667qmo1wgxyhbo3faj2h",
+    "id": 127,
     "question": "Gegeben: QDM: 279°; VAR: 005°W; DEV 005°E. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
@@ -3803,14 +3309,10 @@
         "text": "089°",
         "correct": false
       }
-    ],
-    "questionId": 127,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5op5zbnh2r7e6h4sgb3qtb",
+    "id": 128,
     "question": "Gegeben: QDM: 300°; VAR: 005°E; DEV: 005°W. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
@@ -3833,14 +3335,10 @@
         "text": "120°",
         "correct": true
       }
-    ],
-    "questionId": 128,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "nldhmz9pd2rmh8fgflm6ss",
+    "id": 129,
     "question": "Gegeben: QDR 152°; VAR: 005°W; DEV: 005°E. <br><br>Welchen Wert hat das QUJ? (1,00 P.)",
     "answers": [
       {
@@ -3863,14 +3361,10 @@
         "text": "317°",
         "correct": false
       }
-    ],
-    "questionId": 129,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fk780mweon5qptzbsmzmn",
+    "id": 130,
     "question": "Gegeben: QDM: 348°; VAR: 005°W. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
@@ -3893,14 +3387,10 @@
         "text": "343°",
         "correct": false
       }
-    ],
-    "questionId": 130,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "624ws1ic14n5b4z9onb4jv",
+    "id": 131,
     "question": "Gegeben: QTE 203°; VAR 010°E. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
@@ -3923,14 +3413,10 @@
         "text": "013°",
         "correct": false
       }
-    ],
-    "questionId": 131,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4tlchxre6ovo4a1nblvs4",
+    "id": 132,
     "question": "Gegeben: QTE: 248°; VAR: 010°W. <br><br>Welchen Wert hat das QDR? (1,00 P.)",
     "answers": [
       {
@@ -3953,14 +3439,10 @@
         "text": "238°",
         "correct": false
       }
-    ],
-    "questionId": 132,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "1jp1401kzaonribdkqy5s",
+    "id": 133,
     "question": "Gegeben: QDR: 254°; VAR: 010°E. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
@@ -3983,14 +3465,10 @@
         "text": "284°",
         "correct": false
       }
-    ],
-    "questionId": 133,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "vrqmabpil0f2r4ao49gtx6",
+    "id": 134,
     "question": "Gegeben: QDM: 134°; VAR: 005°W. <br><br>Welchen Wert hat das QTE? (1,00 P.)",
     "answers": [
       {
@@ -4013,14 +3491,10 @@
         "text": "129°",
         "correct": false
       }
-    ],
-    "questionId": 134,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "roqf7rkeelqjrke8vzcu1",
+    "id": 135,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDR von 225°? (1,00 P.)",
     "answers": [
       {
@@ -4043,14 +3517,10 @@
         "text": "Südwestlich",
         "correct": true
       }
-    ],
-    "questionId": 135,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dmmc85gxqiuker8h0qf9n9",
+    "id": 136,
     "question": "Das \"QDR\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -4073,14 +3543,10 @@
         "text": "die magnetische Peilung von der Station zum Luftfahrzeug.",
         "correct": true
       }
-    ],
-    "questionId": 136,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "r5vahq2sfg8nufq2fqdno",
+    "id": 137,
     "question": "Das \"QUJ\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -4103,14 +3569,10 @@
         "text": "die rechtweisende Peilung vom Luftfahrzeug zur Station.",
         "correct": true
       }
-    ],
-    "questionId": 137,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "a3zdzmilrl7ei9l8kqn22",
+    "id": 138,
     "question": "Das \"QTE\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -4133,14 +3595,10 @@
         "text": "die rechtweisende Peilung von der Station zum Luftfahrzeug.",
         "correct": true
       }
-    ],
-    "questionId": 138,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0qdfxo35de2rgqvtw7jo764",
+    "id": 139,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDM von 035°? (1,00 P.)",
     "answers": [
       {
@@ -4163,14 +3621,10 @@
         "text": "Nordwestlich",
         "correct": false
       }
-    ],
-    "questionId": 139,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7v196b2c62u9nwm1qwbje",
+    "id": 140,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDM von 305°? (1,00 P.)",
     "answers": [
       {
@@ -4193,14 +3647,10 @@
         "text": "Südöstlich",
         "correct": true
       }
-    ],
-    "questionId": 140,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bh2gucmoaioa6iekmjxrj",
+    "id": 141,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDM von 215°? (1,00 P.)",
     "answers": [
       {
@@ -4223,14 +3673,10 @@
         "text": "Südwestlich",
         "correct": false
       }
-    ],
-    "questionId": 141,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "soxxtdc9nwrrqe2tkc4yke",
+    "id": 142,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDR von 135°? (1,00 P.)",
     "answers": [
       {
@@ -4253,14 +3699,10 @@
         "text": "Nordwestlich",
         "correct": false
       }
-    ],
-    "questionId": 142,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yey77lrh11amex8zne2ri9",
+    "id": 143,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf die Bodenstation bei einem QDR von 315°? (1,00 P.)",
     "answers": [
       {
@@ -4283,14 +3725,10 @@
         "text": "Südwestlich",
         "correct": false
       }
-    ],
-    "questionId": 143,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "65prl975lc7yrr01dmkm89",
+    "id": 144,
     "question": "Die Reichweite eines UKW-Peilers (VDF) ist abhängig von... (1,00 P.)",
     "answers": [
       {
@@ -4313,14 +3751,10 @@
         "text": "der Reichweite der Bodenwelle.",
         "correct": false
       }
-    ],
-    "questionId": 144,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yi7maxrd1le6mxx07j5g0u",
+    "id": 145,
     "question": "Welche Ausrüstung an Bord des Luftfahrzeuges wird zum Empfang eines ungerichteten Funkfeuers (NDB) benötigt? (1,00 P.)",
     "answers": [
       {
@@ -4343,14 +3777,10 @@
         "text": "Course Deviation Indicator (CDI)",
         "correct": false
       }
-    ],
-    "questionId": 145,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4hed5ivrglqeyr2eu5fjcd",
+    "id": 146,
     "question": "Ungerichtete Funkfeuer (NDBs) senden in welchem Frequenzbereich? (1,00 P.)",
     "answers": [
       {
@@ -4373,14 +3803,10 @@
         "text": "Langwellen (LW) und Mittelwellen (MW)",
         "correct": true
       }
-    ],
-    "questionId": 146,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v7e8pnw2wfge5ntcc69aqu",
+    "id": 147,
     "question": "Ein Pilot möchte mit einem QDM von 090° auf ein NDB zufliegen. Das Luftfahrzeug fliegt für 5 Minuten mit einem magnetischen Steuerkurs (MH) von 095° und einer Funkkompass-Anzeige (RBI) von 355° stabil auf ein NDB zu. Nach 6 Minuten zeigt der Funkkompass den Wert 358° an. <br><br>Welche Aussage ist korrekt? (1,00 P.)",
     "answers": [
       {
@@ -4403,14 +3829,10 @@
         "text": "Die Seitenwindkomponente ist kleiner geworden; der Pilot muss einen größeren Steuerkurs fliegen.",
         "correct": false
       }
-    ],
-    "questionId": 147,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "w9207xbs4994vyt8r95nkm",
+    "id": 148,
     "question": "Welches QDM muss der Pilot fliegen, um bei Windstille direkt zum eingestellten NDB zu gelangen? <br><br>Siehe Bild (NAV-019) (1,00 P.)",
     "asset": "assets/NAV/NAV-019.png",
     "answers": [
@@ -4434,13 +3856,10 @@
         "text": "230°",
         "correct": false
       }
-    ],
-    "questionId": 148,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "424ye1ijnbagvn0wjn9pi",
+    "id": 149,
     "question": "Welcher Unterschied besteht zwischen einem Anflug-NDB und einem Strecken-NDB? (1,00 P.)",
     "answers": [
       {
@@ -4463,14 +3882,10 @@
         "text": "Anflug-NDBs haben eine höhere Reichweite",
         "correct": false
       }
-    ],
-    "questionId": 149,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tghi23abojlzxlf25ecr9",
+    "id": 150,
     "question": "Wann ist die Reichweite von NDBs im Mittelwellenbereich am größten? (1,00 P.)",
     "answers": [
       {
@@ -4493,14 +3908,10 @@
         "text": "Mittags",
         "correct": false
       }
-    ],
-    "questionId": 150,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "goh1vvg056pj2sk4b209pk",
+    "id": 151,
     "question": "Unter welchen Bedingungen ist der Küstenfehler am größten? (1,00 P.)",
     "answers": [
       {
@@ -4523,14 +3934,10 @@
         "text": "Funkwellenausbreitung im rechten Winkel zur Küste. Luftfahrzeug fliegt oberhalb einer Flughöhe von 6.000 ft.",
         "correct": false
       }
-    ],
-    "questionId": 151,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0qd86j2c35thao58dhx33tu",
+    "id": 152,
     "question": "Zu welcher Tageszeit kann es im LF/MF-Frequenzbereich zu \"fading\" kommen? (1,00 P.)",
     "answers": [
       {
@@ -4553,14 +3960,10 @@
         "text": "Nachts",
         "correct": true
       }
-    ],
-    "questionId": 152,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zaa1qv03629cr8kqjm0i4",
+    "id": 153,
     "question": "Welcher Winkel beschreibt das zeitliche oder räumliche Fortschreiten einer elektromagnetischen Schwingung? (1,00 P.)",
     "answers": [
       {
@@ -4583,14 +3986,10 @@
         "text": "Wellenwinkel",
         "correct": false
       }
-    ],
-    "questionId": 153,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "be7a9kgkvb662nv2icpcq",
+    "id": 154,
     "question": "Nähern sich Sender und Empfänger einander an... (1,00 P.)",
     "answers": [
       {
@@ -4613,14 +4012,10 @@
         "text": "entspricht die wahrgenommene der gesendeten Frequenz.",
         "correct": false
       }
-    ],
-    "questionId": 154,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5xidgetbajlj0te3x0kxn",
+    "id": 155,
     "question": "Entfernen sich Sender und Empfänger voneinander... (1,00 P.)",
     "answers": [
       {
@@ -4643,14 +4038,10 @@
         "text": "verringert sich die wahrgenommene Frequenz.",
         "correct": true
       }
-    ],
-    "questionId": 155,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "r3ypm617zclg7z0827euf",
+    "id": 156,
     "question": "Nach welchem Prinzip werden die Radiale eines VORs definiert? (1,00 P.)",
     "answers": [
       {
@@ -4673,14 +4064,10 @@
         "text": "Phasenvergleich zweier Signale",
         "correct": true
       }
-    ],
-    "questionId": 156,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "waqt6ip0khklxaq74ig0gn",
+    "id": 157,
     "question": "Ein VOR-Radial entspricht dem... (1,00 P.)",
     "answers": [
       {
@@ -4703,14 +4090,10 @@
         "text": "QDM.",
         "correct": false
       }
-    ],
-    "questionId": 157,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "29g613w6ibnv3rryrp8gfl",
+    "id": 158,
     "question": "Wo befindet sich das Luftfahrzeug, wenn die VOR-Nadel voll ausgeschlagen ist? (1,00 P.)",
     "answers": [
       {
@@ -4733,14 +4116,10 @@
         "text": "10 NM (oder mehr) neben der eingestellten Kurslinie",
         "correct": false
       }
-    ],
-    "questionId": 158,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "cknrk2ghyippdxld41c2jl",
+    "id": 159,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? <br><br>Siehe Anlage (NAV-021) (1,00 P.)",
     "asset": "assets/NAV/NAV-021.png",
     "answers": [
@@ -4764,13 +4143,10 @@
         "text": "Südöstlich",
         "correct": false
       }
-    ],
-    "questionId": 159,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tlvy47349qpeebi2zyc7l7",
+    "id": 160,
     "question": "Wo befindet sich das Luftfahrzeug in Bezug auf das VOR? <br><br>Siehe Anlage (NAV-022) (1,00 P.)",
     "asset": "assets/NAV/NAV-022.png",
     "answers": [
@@ -4794,13 +4170,10 @@
         "text": "Südwestlich",
         "correct": false
       }
-    ],
-    "questionId": 160,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "q6x3b9rbepfi30kx6ftls",
+    "id": 161,
     "question": "Auf welchem Radial befindet sich das Luftfahrzeug? <br><br>Siehe Anlage (NAV-024) (1,00 P.)",
     "asset": "assets/NAV/NAV-024.png",
     "answers": [
@@ -4824,13 +4197,10 @@
         "text": "066°",
         "correct": false
       }
-    ],
-    "questionId": 161,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7yourmuq8i5udvsrpcgl3",
+    "id": 162,
     "question": "Die Reichweite eines VORs wird entscheidend beeinflusst durch... (1,00 P.)",
     "answers": [
       {
@@ -4853,14 +4223,10 @@
         "text": "Reflektierte Raumwellen",
         "correct": false
       }
-    ],
-    "questionId": 162,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6jaog87px4iw4l53tsjkv",
+    "id": 163,
     "question": "In welchem Frequenzband arbeiten Entfernungsmessgeräte (DMEs)? (1,00 P.)",
     "answers": [
       {
@@ -4883,14 +4249,10 @@
         "text": "UHF",
         "correct": true
       }
-    ],
-    "questionId": 163,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "edmwcuwgzkd51pq58xxmg",
+    "id": 164,
     "question": "Nach welchem Prinzip bestimmt ein Entfernungsmessgerät (DME) die Distanz? (1,00 P.)",
     "answers": [
       {
@@ -4913,14 +4275,10 @@
         "text": "Doppler",
         "correct": false
       }
-    ],
-    "questionId": 164,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bifsig4p35pjjodeurfvc",
+    "id": 165,
     "question": "Welche Entfernung kann auf dem Entfernungsmessgerät (DME) im Cockpit abgelesen werden? (1,00 P.)",
     "answers": [
       {
@@ -4943,14 +4301,10 @@
         "text": "Radialentfernung",
         "correct": false
       }
-    ],
-    "questionId": 165,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0k5zbdqo803il165ruxot6",
+    "id": 166,
     "question": "Wie viele Luftfahrzeuge können ungefähr maximal gleichzeitig von einer Entfernungsmessstation (DME) bedient werden? (1,00 P.)",
     "answers": [
       {
@@ -4973,14 +4327,10 @@
         "text": "150",
         "correct": false
       }
-    ],
-    "questionId": 166,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yssokz3j9h900ipvs17vdcl",
+    "id": 167,
     "question": "Die Differenz zwischen der abgelesenen DME-Entfernung und der horizontalen Entfernung zur DME-Station nimmt zu... (1,00 P.)",
     "answers": [
       {
@@ -5003,14 +4353,10 @@
         "text": "mit steigender Entfernung von der Station.",
         "correct": false
       }
-    ],
-    "questionId": 167,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "22zpeskaxuduuh069xfgd",
+    "id": 168,
     "question": "Das primäre Bodenradar bestimmt die Richtung eines Luftfahrzeuges in Bezug auf die Antenne durch... (1,00 P.)",
     "answers": [
       {
@@ -5033,14 +4379,10 @@
         "text": "das Impulspaarintervall.",
         "correct": false
       }
-    ],
-    "questionId": 168,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jnaeilqkzrdjx892soumr",
+    "id": 169,
     "question": "Das primäre Bodenradar bestimmt die Entfernung eines Luftfahrzeuges in Bezug auf die Antenne durch... (1,00 P.)",
     "answers": [
       {
@@ -5063,14 +4405,10 @@
         "text": "das Impulspaarintervall.",
         "correct": false
       }
-    ],
-    "questionId": 169,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "205fx93ldtckmjpvv28fr",
+    "id": 170,
     "question": "Welche unmittelbaren Informationen erhält die Flugsicherung von einer primären Bodenradaranlage? (1,00 P.)",
     "answers": [
       {
@@ -5093,14 +4431,10 @@
         "text": "Geschwindigkeit (TAS) und Entfernung",
         "correct": false
       }
-    ],
-    "questionId": 170,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "csoggaqpbzoztpefrqds4",
+    "id": 171,
     "question": "Wie erfolgt die Anzeige der Bodenradarinformationen für die Flugsicherung? (1,00 P.)",
     "answers": [
       {
@@ -5123,14 +4457,10 @@
         "text": "Auf einem Computerbildschirm, der neben dem Sekundärradar-Anzeigegerät stehen muss",
         "correct": false
       }
-    ],
-    "questionId": 171,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "m4t4b7a3fre3wqnm6f2ki6",
+    "id": 172,
     "question": "Wie wird das bordseitige Antwortgerät eines Sekundärradars (secondary surveillance radar - SSR) bezeichnet? (1,00 P.)",
     "answers": [
       {
@@ -5153,14 +4483,10 @@
         "text": "Transponder",
         "correct": true
       }
-    ],
-    "questionId": 172,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tpmld7nuc9pg0hk3j351ds",
+    "id": 173,
     "question": "Welches ist ein Unterschied zwischen Primär- und Sekundärradar? (1,00 P.)",
     "answers": [
       {
@@ -5183,14 +4509,10 @@
         "text": "Primärradar-Signale sind variabel amplitudenmoduliert, Sekundärradar-Signale statisch impulsmoduliert",
         "correct": false
       }
-    ],
-    "questionId": 173,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "wzhoxktjju1y765cvomkr",
+    "id": 174,
     "question": "Der Transpondercode bei einem Funkausfall lautet... (1,00 P.)",
     "answers": [
       {
@@ -5213,14 +4535,10 @@
         "text": "7500.",
         "correct": false
       }
-    ],
-    "questionId": 174,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ru2h0ztd18mna3azawt5uh",
+    "id": 175,
     "question": "Der Transpondercode bei einem Notfall lautet... (1,00 P.)",
     "answers": [
       {
@@ -5243,14 +4561,10 @@
         "text": "7600.",
         "correct": false
       }
-    ],
-    "questionId": 175,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hamo580tsafph0l95wz8e",
+    "id": 176,
     "question": "Welche Höhe übermittelt der Transponder in Modus C? (1,00 P.)",
     "answers": [
       {
@@ -5273,14 +4587,10 @@
         "text": "QNH-Höhe",
         "correct": false
       }
-    ],
-    "questionId": 176,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pw99ebrwwy7eekujk9ndd",
+    "id": 177,
     "question": "Aus welchen Segmenten besteht ein \"Global Positioning System\" (GPS)? (1,00 P.)",
     "answers": [
       {
@@ -5303,14 +4613,10 @@
         "text": "Boden(Kontroll-)segment, Bestätigungssegment, Flugsegment",
         "correct": false
       }
-    ],
-    "questionId": 177,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ytkd9yue3bzeoymkm75p",
+    "id": 178,
     "question": "Wie viele aktive Satelliten benötigt das Raumsegment des NAVSTAR/GPS? (1,00 P.)",
     "answers": [
       {
@@ -5333,10 +4639,6 @@
         "text": "24",
         "correct": true
       }
-    ],
-    "questionId": 178,
-    "asset": null,
-    "subject": "nav",
-    "lang": "de"
+    ]
   }
 ]

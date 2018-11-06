@@ -1,6 +1,6 @@
 [
   {
-    "id": "mrnbdxlhrqlg2e2jk2t8rg",
+    "id": 1,
     "question": "Welche Wolken und Wettererscheinungen können die Folge sein, wenn eine feuchte und instabile Luftmasse vom vorherrschenden Wind gegen eine Gebirgskette gedrückt und zum Aufstieg gebracht wird? (1,00 P.)",
     "answers": [
       {
@@ -23,14 +23,10 @@
         "text": "Tiefe, geschlossene Schichtbewölkung (Hochnebel) ohne Niederschlag",
         "correct": false
       }
-    ],
-    "questionId": 1,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zwr4f6utz17z59ea4mr95",
+    "id": 2,
     "question": "Welche Art von Nebel entsteht, wenn feuchte, fast gesättigte Luft durch den vorherrschenden Wind gegen eine Hügelkette gedrückt und dabei zum Aufstieg gezwungen wird? (1,00 P.)",
     "answers": [
       {
@@ -53,14 +49,10 @@
         "text": "Verdunstungs-Nebel",
         "correct": false
       }
-    ],
-    "questionId": 2,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "75r2d785o97it9w3jiwthq",
+    "id": 3,
     "question": "Wie hängt die Druckverteilung am Boden mit der Druckverteilung in der oberen Troposphäre (>18.000 ft) zusammen? (1,00 P.)",
     "answers": [
       {
@@ -83,14 +75,10 @@
         "text": "Bei einem kalten Hoch ist in der Höhe meist ein Tief zu finden",
         "correct": true
       }
-    ],
-    "questionId": 3,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2vqah03c6cwizqon1vzur",
+    "id": 4,
     "question": "Was ist im Wetterbericht unter dem Begriff \"Überentwicklung\" zu verstehen? (1,00 P.)",
     "answers": [
       {
@@ -113,14 +101,10 @@
         "text": "Vertikalentwicklung von Cumulus-Wolken zu Regenschauern",
         "correct": true
       }
-    ],
-    "questionId": 4,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2lylve3icsh932nnsj5qbn",
+    "id": 5,
     "question": "Aus welchen Gasanteilen setzt sich trockene Luft zusammen? (1,00 P.)",
     "answers": [
       {
@@ -143,14 +127,10 @@
         "text": "78% Sauerstoff. <br>21% Wasserdampf. <br>1% Stickstoff.",
         "correct": false
       }
-    ],
-    "questionId": 5,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i1wuiywg7wjekcntqruied",
+    "id": 6,
     "question": "In welcher Schicht der Atmosphäre findet der überwiegende Teil des Wettergeschehens statt? (1,00 P.)",
     "answers": [
       {
@@ -173,14 +153,10 @@
         "text": "Thermosphäre",
         "correct": false
       }
-    ],
-    "questionId": 6,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "y8h3r00fugr33wiooj9il2",
+    "id": 7,
     "question": "Welche Masse besitzt ein \"Würfel Luft\" mit der Kantenlänge 1 Meter unter ISA- Bedingungen in MSL? (1,00 P.)",
     "answers": [
       {
@@ -203,14 +179,10 @@
         "text": "0,01225 kg",
         "correct": false
       }
-    ],
-    "questionId": 7,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "s74pxc0nq3fco4hhtcwi9q",
+    "id": 8,
     "question": "Wie verhält sich die Temperatur nach ISA (ICAO Standard Atmosphäre) mit zunehmender Höhe in der Troposphäre? (1,00 P.)",
     "answers": [
       {
@@ -233,14 +205,10 @@
         "text": "Sie nimmt mit 2 °C / 100 m zu",
         "correct": false
       }
-    ],
-    "questionId": 8,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "k6s95swoate706jtld4y7p",
+    "id": 9,
     "question": "Die mittlere Höhe der Tropopause nach ISA (ICAO Standard Atmosphäre) beträgt... (1,00 P.)",
     "answers": [
       {
@@ -263,14 +231,10 @@
         "text": "36.000 m",
         "correct": false
       }
-    ],
-    "questionId": 9,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xvjuysboa8hddlzltdsov",
+    "id": 10,
     "question": "Was ist die \"Tropopause\"? (1,00 P.)",
     "answers": [
       {
@@ -293,14 +257,10 @@
         "text": "Die Übergangsschicht zwischen Mesosphäre und Stratosphäre",
         "correct": false
       }
-    ],
-    "questionId": 10,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ehsscoo3t4mpywixpx7t4s",
+    "id": 11,
     "question": "In welcher Einheit werden Temperaturen in der Flugmeteorologie in Europa angegeben? (1,00 P.)",
     "answers": [
       {
@@ -323,14 +283,10 @@
         "text": "Gpdam",
         "correct": false
       }
-    ],
-    "questionId": 11,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "hdtscy639i7vzo275m6vkf",
+    "id": 12,
     "question": "Was ist eine \"Inversion\"? (1,00 P.)",
     "answers": [
       {
@@ -353,14 +309,10 @@
         "text": "Eine Schicht in der Atmosphäre, in der die Temperatur mit zunehmender Höhe konstant bleibt",
         "correct": false
       }
-    ],
-    "questionId": 12,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dhhn1qmmsyudfb51cxfzn",
+    "id": 13,
     "question": "Was ist eine \"Isothermie\"? (1,00 P.)",
     "answers": [
       {
@@ -383,14 +335,10 @@
         "text": "Eine Atmosphärenschicht, in der die Temperatur mit zunehmender Höhe konstant bleibt",
         "correct": true
       }
-    ],
-    "questionId": 13,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "aw9gfxiu5albf6m9nasepv",
+    "id": 14,
     "question": "Als Temperaturabnahme mit zunehmender Höhe wird für die Troposphäre in ISA angenommen: (1,00 P.)",
     "answers": [
       {
@@ -413,14 +361,10 @@
         "text": "0,65 °C / 100 m",
         "correct": true
       }
-    ],
-    "questionId": 14,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "kelrorya2oihmo0362ohn4",
+    "id": 15,
     "question": "Welcher der genannten Prozesse kann zu einer Inversion in etwa 5.000 ft (1.500 m) Höhe führen? (1,00 P.)",
     "answers": [
       {
@@ -443,14 +387,10 @@
         "text": "Großräumig absinkende Luft im Bereich eines Hochdruckgebiets",
         "correct": true
       }
-    ],
-    "questionId": 15,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7ih4bargpv5onp0jt2o6x8",
+    "id": 16,
     "question": "Wodurch kann eine bodennahe Inversion entstehen? (1,00 P.)",
     "answers": [
       {
@@ -473,14 +413,10 @@
         "text": "Durch großräumiges Aufsteigen von Luft",
         "correct": false
       }
-    ],
-    "questionId": 16,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0q868f5osj5pc8azt5cl3h",
+    "id": 17,
     "question": "Der Luftdruck gemäß ISA-Bedingungen beträgt in FL 180 (ca. 5.500 m)... (1,00 P.)",
     "answers": [
       {
@@ -503,14 +439,10 @@
         "text": "250 hPa.",
         "correct": false
       }
-    ],
-    "questionId": 17,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jh5g51w0566dd5aek1sxx",
+    "id": 18,
     "question": "Welcher Druckwert wird aus dem an einer Station gemessenen Luftdruck durch Reduktion auf Meeresniveau unter Berücksichtigung der tatsächlichen atmosphärischen Verhältnisse ermittelt? (1,00 P.)",
     "answers": [
       {
@@ -533,14 +465,10 @@
         "text": "QNE",
         "correct": false
       }
-    ],
-    "questionId": 18,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zaacb4ntd9p068owyy4exzv",
+    "id": 19,
     "question": "Wie ändern sich Luftdichte und Flugleistungen, wenn die Temperatur (bei gleichem Druck) sinkt? (1,00 P.)",
     "answers": [
       {
@@ -563,14 +491,10 @@
         "text": "Die Dichte nimmt ab, die Flugleistungen werden schlechter",
         "correct": false
       }
-    ],
-    "questionId": 19,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ww942zsoamwn217ozr6zp",
+    "id": 20,
     "question": "Welche Prozesse führen zu abnehmender Luftdichte? (1,00 P.)",
     "answers": [
       {
@@ -593,14 +517,10 @@
         "text": "Temperatur fällt, Druck fällt",
         "correct": false
       }
-    ],
-    "questionId": 20,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jkj2qs9x4mtddqdthwldz",
+    "id": 21,
     "question": "Der Luftdruck in MSL beträgt gemäß ISA... (1,00 P.)",
     "answers": [
       {
@@ -623,14 +543,10 @@
         "text": "113,25 hPa.",
         "correct": false
       }
-    ],
-    "questionId": 21,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4inwlw7emws7cm0ci3dbgy",
+    "id": 22,
     "question": "Die Tropopausenhöhe beträgt gemäß ISA... (1,00 P.)",
     "answers": [
       {
@@ -653,14 +569,10 @@
         "text": "36.000 ft.",
         "correct": true
       }
-    ],
-    "questionId": 22,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v61qsejwcn0a8d6p4asm1e",
+    "id": 23,
     "question": "Welche Höhe zeigt der barometrische Höhenmesser an? (1,00 P.)",
     "answers": [
       {
@@ -683,14 +595,10 @@
         "text": "Die Höhe über MSL (\"altitude\")",
         "correct": false
       }
-    ],
-    "questionId": 23,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "n7k1gb88w35sd6imqu0s8",
+    "id": 24,
     "question": "Wie kann ein Höhenmesser am Boden überprüft werden? (1,00 P.)",
     "answers": [
       {
@@ -713,14 +621,10 @@
         "text": "Durch Einstellen des QFFs und Prüfung, ob die Anzeige am Boden Null anzeigt",
         "correct": false
       }
-    ],
-    "questionId": 24,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "aar73gvemjjxum8neelbak",
+    "id": 25,
     "question": "Welche Höhe zeigt der Höhenmesser bei der Einstellung \"QFE\" an? (1,00 P.)",
     "answers": [
       {
@@ -743,14 +647,10 @@
         "text": "Wahre Höhe über MSL (\"true altitude\")",
         "correct": false
       }
-    ],
-    "questionId": 25,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jsbfekxxerfcsst1feapt",
+    "id": 26,
     "question": "Welche Höhe zeigt der Höhenmesser bei der Einstellung \"QNH\" an? (1,00 P.)",
     "answers": [
       {
@@ -773,14 +673,10 @@
         "text": "Höhe über MSL (\"altitude\")",
         "correct": true
       }
-    ],
-    "questionId": 26,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ppzjqyvld0nzem2haf5xt",
+    "id": 27,
     "question": "Welchen Wert hat die wahre Höhe unter folgenden Bedingungen? <br><br>QNH: 983 hPa. <br>Flug in Flugfläche: 85. <br>Außentemperatur: ISA - 10. (1,00 P.)",
     "answers": [
       {
@@ -803,14 +699,10 @@
         "text": "7.296 ft",
         "correct": true
       }
-    ],
-    "questionId": 27,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "0u0ewzyh2ysrflugf8p5t",
+    "id": 28,
     "question": "Wie kann auf Bodenwetterkarten die Windrichtung und -geschwindigkeit an verschiedenen Orten grob abgeleitet werden? (1,00 P.)",
     "answers": [
       {
@@ -833,14 +725,10 @@
         "text": "Anhand des Verlaufs von Warm- und Kaltfrontlinien",
         "correct": false
       }
-    ],
-    "questionId": 28,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "onz6shkeq1ps2l8n34t4rp",
+    "id": 29,
     "question": "Welche Kraft ist die Ursache für Wind? (1,00 P.)",
     "answers": [
       {
@@ -863,14 +751,10 @@
         "text": "Druckgradientenkraft",
         "correct": true
       }
-    ],
-    "questionId": 29,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6aomk84v67no6wzjoq9w6",
+    "id": 30,
     "question": "Außerhalb der Reibungsschicht weht der Wind bei großräumigen Druckunterschieden... (1,00 P.)",
     "answers": [
       {
@@ -893,14 +777,10 @@
         "text": "senkrecht zu den Isobaren.",
         "correct": false
       }
-    ],
-    "questionId": 30,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "84xbbkv1nwh8ok2tnwp91u",
+    "id": 31,
     "question": "Welche Oberflächenbeschaffenheit sorgt für die stärkste Reduktion der Windgeschwindigkeit in der bodennahen Reibungsschicht? (1,00 P.)",
     "answers": [
       {
@@ -923,14 +803,10 @@
         "text": "Flache Wüstengegenden",
         "correct": false
       }
-    ],
-    "questionId": 31,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "wadtr46tj4cn5u38nr53c",
+    "id": 32,
     "question": "Welcher Begriff bezeichnet das Zusammenströmen von Luft? (1,00 P.)",
     "answers": [
       {
@@ -953,14 +829,10 @@
         "text": "Divergenz",
         "correct": false
       }
-    ],
-    "questionId": 32,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "cdbe00yxonl21q9i533f9",
+    "id": 33,
     "question": "Welcher Begriff bezeichnet das Auseinanderströmen von Luft? (1,00 P.)",
     "answers": [
       {
@@ -983,14 +855,10 @@
         "text": "Subsudenz",
         "correct": false
       }
-    ],
-    "questionId": 33,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yiegamwhlwc5lg8p75j7",
+    "id": 34,
     "question": "Welche Auswirkungen hat eine Konvergenz in bodennahen Schichten auf das Wettergeschehen? (1,00 P.)",
     "answers": [
       {
@@ -1013,14 +881,10 @@
         "text": "Aufsteigende Luftbewegung mit Wolkenauflösung",
         "correct": false
       }
-    ],
-    "questionId": 34,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ndu6x4sexebykc09az669r",
+    "id": 35,
     "question": "Wie wird das Zusammenströmen von Luft am Boden bezeichnet und welche Auswirkungen hat dies? (1,00 P.)",
     "answers": [
       {
@@ -1043,14 +907,10 @@
         "text": "Konvergenz; die Folge sind absinkende Luftbewegungen",
         "correct": false
       }
-    ],
-    "questionId": 35,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8afkn54ybmplunowxezx0l",
+    "id": 36,
     "question": "Von welchen Luftmassen wird Mitteleuropa hauptsächlich beeinflusst? (1,00 P.)",
     "answers": [
       {
@@ -1073,14 +933,10 @@
         "text": "Tropische und arktische Kaltluft",
         "correct": false
       }
-    ],
-    "questionId": 36,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "03k7ms4fnp730v5ldw3dg7",
+    "id": 37,
     "question": "Wo in der globalen Zirkulation der Atmosphäre treffen polare Kaltluft und subtropische Warmluft aufeinander? (1,00 P.)",
     "answers": [
       {
@@ -1103,14 +959,10 @@
         "text": "Am Äquator",
         "correct": false
       }
-    ],
-    "questionId": 37,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rawh9xbdan8d4mxfl6kud7",
+    "id": 38,
     "question": "Wie werden Winde bezeichnet, die einen Hang hinaufströmen? (1,00 P.)",
     "answers": [
       {
@@ -1133,14 +985,10 @@
         "text": "Anabatische Winde",
         "correct": true
       }
-    ],
-    "questionId": 38,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g504nrvxqybd0wsd8wjyg",
+    "id": 39,
     "question": "Wie werden Winde bezeichnet, die einen Hang hinabströmen? (1,00 P.)",
     "answers": [
       {
@@ -1163,14 +1011,10 @@
         "text": "Konvergente Winde",
         "correct": false
       }
-    ],
-    "questionId": 39,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "jx266dybkkf5vvuhu5oz4d",
+    "id": 40,
     "question": "Wie wird eine an einem Gebirgszug absinkende Luftbewegung genannt? (1,00 P.)",
     "answers": [
       {
@@ -1193,14 +1037,10 @@
         "text": "Katabatischer Wind",
         "correct": true
       }
-    ],
-    "questionId": 40,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5tk6vphmy8nayy50ocxb06",
+    "id": 41,
     "question": "Eine Föhnwetterlage entwickelt sich bevorzugt unter welchen Bedingungen? (1,00 P.)",
     "answers": [
       {
@@ -1223,14 +1063,10 @@
         "text": "Labile Schichtung, großräumige Strömung gegen ein Gebirge",
         "correct": false
       }
-    ],
-    "questionId": 41,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "39iprhp65kqm2188bjw3k",
+    "id": 42,
     "question": "Mit welcher Gefahr ist bei Föhn-Wetterlage auf der Gebirgs-Leeseite zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -1253,14 +1089,10 @@
         "text": "Turbulenz innerhalb der Rotor-Zone",
         "correct": true
       }
-    ],
-    "questionId": 42,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bu1axq0tiznsc4y4dnoja",
+    "id": 43,
     "question": "In welcher Situation ist stets mit leichter Turbulenz zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -1283,14 +1115,10 @@
         "text": "Bei Thermik unterhalb von Quellwolken",
         "correct": true
       }
-    ],
-    "questionId": 43,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "a6hf3piv9wehcefvovnf8",
+    "id": 44,
     "question": "Wo muss mit mäßiger bis starker Turbulenz gerechnet werden? (1,00 P.)",
     "answers": [
       {
@@ -1313,14 +1141,10 @@
         "text": "Unterhalb der Staubewölkung auf der Luvseite eines Gebirges",
         "correct": false
       }
-    ],
-    "questionId": 44,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dcaymzn83snudjua29jnoo",
+    "id": 45,
     "question": "Welche Antwort gibt alle Zustände an, in welchen Wasser in der Atmosphäre vorkommen kann? (1,00 P.)",
     "answers": [
       {
@@ -1343,14 +1167,10 @@
         "text": "Flüssig, fest und gasförmig",
         "correct": true
       }
-    ],
-    "questionId": 45,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pojvzq2idj5je1sd2mu1e",
+    "id": 46,
     "question": "Wie verhalten sich Taupunkt und relative Feuchtigkeit bei abnehmender Temperatur? (1,00 P.)",
     "answers": [
       {
@@ -1373,14 +1193,10 @@
         "text": "Taupunkt steigt, relative Feuchtigkeit sinkt",
         "correct": false
       }
-    ],
-    "questionId": 46,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dnlitik1efd6rkmn17joc",
+    "id": 47,
     "question": "Wie verhalten sich Spread und relative Feuchtigkeit bei steigender Temperatur? (1,00 P.)",
     "answers": [
       {
@@ -1403,14 +1219,10 @@
         "text": "Spread bleibt konstant, relative Feuchtigkeit steigt",
         "correct": false
       }
-    ],
-    "questionId": 47,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "n5uquj46g3i81yl38n2ta",
+    "id": 48,
     "question": "Der \"Spread\" ist definiert als... (1,00 P.)",
     "answers": [
       {
@@ -1433,14 +1245,10 @@
         "text": "das Verhältnis aus tatsächlicher und maximal möglicher Luftfeuchtigkeit.",
         "correct": false
       }
-    ],
-    "questionId": 48,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qyo1oaxusciemkp60c2s1a",
+    "id": 49,
     "question": "Wenn bei ansonsten gleichbleibenden Bedingungen die Temperatur fällt... (1,00 P.)",
     "answers": [
       {
@@ -1463,14 +1271,10 @@
         "text": "vergrößert sich der Spread und die relative Feuchtigkeit steigt.",
         "correct": false
       }
-    ],
-    "questionId": 49,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qtwc3j16tznct5fh4oiwig",
+    "id": 50,
     "question": "Bei welchem Prozess kann latente Wärme in der oberen Troposphäre freigesetzt werden? (1,00 P.)",
     "answers": [
       {
@@ -1493,14 +1297,10 @@
         "text": "Bei Wolkenbildung durch Kondensation",
         "correct": true
       }
-    ],
-    "questionId": 50,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "afs1ednxwzncdgmff4ryrh",
+    "id": 51,
     "question": "Welche Beziehung besteht zwischen feucht- und trockenadiabatischem Temperaturgradienten? (1,00 P.)",
     "answers": [
       {
@@ -1523,14 +1323,10 @@
         "text": "Der feuchtadiabatische Gradient ist geringer als der trockenadiabatische Gradient",
         "correct": true
       }
-    ],
-    "questionId": 51,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dnvtjdkdwuigg4d6wklbas",
+    "id": 52,
     "question": "Der trockenadiabatische Temperaturgradient beträgt... (1,00 P.)",
     "answers": [
       {
@@ -1553,14 +1349,10 @@
         "text": "2 °C / 1.000 ft.",
         "correct": false
       }
-    ],
-    "questionId": 52,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fkhsz665lzg86isnvm85yj",
+    "id": 53,
     "question": "Der feuchtadiabatische Temperaturgradient ist im Mittel anzunehmen mit... (1,00 P.)",
     "answers": [
       {
@@ -1583,14 +1375,10 @@
         "text": "2 °C / 1.000 ft.",
         "correct": false
       }
-    ],
-    "questionId": 53,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rbv5r7f8dp8efameopt0l",
+    "id": 54,
     "question": "Welche Wetterbedingungen sind bei feuchtlabiler Schichtung zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -1613,14 +1401,10 @@
         "text": "Flache Quellbewölkung mit mittelhohen Untergrenzen",
         "correct": false
       }
-    ],
-    "questionId": 54,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "256qjg8xig6s40qj6sc92",
+    "id": 55,
     "question": "Unter welchen der aufgeführten Bedingungen kann sich Advektionsnebel bilden? (1,00 P.)",
     "answers": [
       {
@@ -1643,14 +1427,10 @@
         "text": "Warme und feuchte Luft wird über eine kalte Landmasse geführt",
         "correct": true
       }
-    ],
-    "questionId": 55,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "9bzv1h674eikcnpbrd70ec",
+    "id": 56,
     "question": "Welche Wolkenarten werden grundsätzlich unterschieden? (1,00 P.)",
     "answers": [
       {
@@ -1673,14 +1453,10 @@
         "text": "Schicht- und Hebungswolken",
         "correct": false
       }
-    ],
-    "questionId": 56,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "de647ld1jiuzqw85gc6b0c",
+    "id": 57,
     "question": "Welchen Namenszusatz erhalten hohe Wolken? (1,00 P.)",
     "answers": [
       {
@@ -1703,14 +1479,10 @@
         "text": "Strato-",
         "correct": false
       }
-    ],
-    "questionId": 57,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "n9tc1rk9d2omph52g1oyqs",
+    "id": 58,
     "question": "Mit welcher als Ziffer 2 abgebildeten Bewölkung muss auf der Leeseite einer Föhnwetterlage gerechnet werden? <br><br>Siehe Bild (MET-008). (1,00 P.)",
     "asset": "assets/MET/MET-008.png",
     "answers": [
@@ -1734,13 +1506,10 @@
         "text": "Nimbostratus",
         "correct": false
       }
-    ],
-    "questionId": 58,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "a6nxuj5ejwfo1rxic9a0js",
+    "id": 59,
     "question": "Welche Wolkengattung ist auf dem Foto abgebildet? <br><br>Siehe Bild (MET-002). (1,00 P.)",
     "asset": "assets/MET/MET-002.png",
     "answers": [
@@ -1764,13 +1533,10 @@
         "text": "Cirrus",
         "correct": false
       }
-    ],
-    "questionId": 59,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "p78plofq7398b9xbqxpu6v",
+    "id": 60,
     "question": "Welche Wolkengattung ist auf dem Foto abgebildet? <br><br>Siehe Bild (MET-004). (1,00 P.)",
     "asset": "assets/MET/MET-004.png",
     "answers": [
@@ -1794,13 +1560,10 @@
         "text": "Cumulus",
         "correct": false
       }
-    ],
-    "questionId": 60,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "46j8bgyk6v1xyo4leoyk4o",
+    "id": 61,
     "question": "Welche Faktoren können die Obergrenze einer Quellwolke beeinflussen? (1,00 P.)",
     "answers": [
       {
@@ -1823,14 +1586,10 @@
         "text": "Eine Inversionsschicht",
         "correct": true
       }
-    ],
-    "questionId": 61,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xq4vr8u9wignsrd67tzpdf",
+    "id": 62,
     "question": "Welche Faktoren weisen auf die Gefahr von Nebelbildung hin? (1,00 P.)",
     "answers": [
       {
@@ -1853,14 +1612,10 @@
         "text": "Kleiner Spread, steigende Temperatur",
         "correct": false
       }
-    ],
-    "questionId": 62,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "wux6lskb7nam79vlm7db3f",
+    "id": 63,
     "question": "Welche Bedingung kann die Bildung von Strahlungsnebel verhindern? (1,00 P.)",
     "answers": [
       {
@@ -1883,14 +1638,10 @@
         "text": "Nahezu vollkommene Windstille",
         "correct": false
       }
-    ],
-    "questionId": 63,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "2n7cjcl5zr381yvisam6k7",
+    "id": 64,
     "question": "Bei welchem Vorgang entsteht Advektionsnebel? (1,00 P.)",
     "answers": [
       {
@@ -1913,14 +1664,10 @@
         "text": "Kalte und feuchte Luft vermischt sich mit warmer und feuchter Luft",
         "correct": false
       }
-    ],
-    "questionId": 64,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dkzmftgu32sob28en8ln9",
+    "id": 65,
     "question": "Unter welchen Bedingungen entsteht orografischer Nebel (hill fog)? (1,00 P.)",
     "answers": [
       {
@@ -1943,14 +1690,10 @@
         "text": "Durch Verdunstung über warmem, feuchtem Untergrund in sehr kalter Umgebungsluft",
         "correct": false
       }
-    ],
-    "questionId": 65,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "byngvoknl5tjh1kczkr6sk",
+    "id": 66,
     "question": "Welche Bedingungen sind für die Niederschlagsbildung in Wolken erforderlich? (1,00 P.)",
     "answers": [
       {
@@ -1973,14 +1716,10 @@
         "text": "Das Vorhandensein einer Inversionsschicht.",
         "correct": false
       }
-    ],
-    "questionId": 66,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bjsxeu5afjbf0xkz31i4c",
+    "id": 67,
     "question": "Welches ist eine Voraussetzung für die Bildung großer Niederschlagsteilchen? (1,00 P.)",
     "answers": [
       {
@@ -2003,14 +1742,10 @@
         "text": "Eine ausgeprägte Inversion",
         "correct": false
       }
-    ],
-    "questionId": 67,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mjnqaz6r7pjsoz1t3l57g",
+    "id": 68,
     "question": "Aus welcher der genannten Wolkengattungen fällt anhaltender Regen (Landregen)? (1,00 P.)",
     "answers": [
       {
@@ -2033,14 +1768,10 @@
         "text": "Cumulonimbus",
         "correct": false
       }
-    ],
-    "questionId": 68,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6bbiojbwd75ph2vlllykx",
+    "id": 69,
     "question": "Welche Arten von Niederschlägen werden hinsichtlich der Wolkengattung unterschieden, aus der sie fallen? (1,00 P.)",
     "answers": [
       {
@@ -2063,14 +1794,10 @@
         "text": "Schauer und Flächenniederschläge",
         "correct": true
       }
-    ],
-    "questionId": 69,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "f5q6qd9f9ibpgm118n7ahp",
+    "id": 70,
     "question": "Wie wird eine Luftmasse bezeichnet, die im Winter über das russische Festland nach Mitteleuropa einströmt? (1,00 P.)",
     "answers": [
       {
@@ -2093,14 +1820,10 @@
         "text": "Maritime Polarluft",
         "correct": false
       }
-    ],
-    "questionId": 70,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8hl7vm2ers9apde9xy91a",
+    "id": 71,
     "question": "Welche Merkmale bestimmen den Charakter einer Luftmasse? (1,00 P.)",
     "answers": [
       {
@@ -2123,14 +1846,10 @@
         "text": "Die Schichtung der Luftmasse in der Herkunftsregion",
         "correct": false
       }
-    ],
-    "questionId": 71,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ku0ayz4ofrk7b1kulpzoqx",
+    "id": 72,
     "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-005) (1,00 P.)",
     "asset": "assets/MET/MET-005.png",
     "answers": [
@@ -2154,13 +1873,10 @@
         "text": "Kaltfront.",
         "correct": true
       }
-    ],
-    "questionId": 72,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "dlbayyzme2v928d30vw67p",
+    "id": 73,
     "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-006) (1,00 P.)",
     "asset": "assets/MET/MET-006.png",
     "answers": [
@@ -2184,13 +1900,10 @@
         "text": "Kaltfront.",
         "correct": false
       }
-    ],
-    "questionId": 73,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3t19rihni0fowc7dxciz7k",
+    "id": 74,
     "question": "Bei der abgebildeten Front handelt es sich um eine... <br><br>Siehe Bild (MET-009) (1,00 P.)",
     "asset": "assets/MET/MET-009.png",
     "answers": [
@@ -2214,13 +1927,10 @@
         "text": "Höhenfront.",
         "correct": false
       }
-    ],
-    "questionId": 74,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "albec0wayqm28f5dk9dv9",
+    "id": 75,
     "question": "Welche Abfolge von Bewölkung ist typisch beim Durchzug einer Warmfront? (1,00 P.)",
     "answers": [
       {
@@ -2243,14 +1953,10 @@
         "text": "Linienartig angeordnete Quellbewölkung mit Schauern und Gewittern (Cb), böig auffrischender Wind, nachfolgend einzelne Quellwolken mit Schauern",
         "correct": false
       }
-    ],
-    "questionId": 75,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "b30og8pnsn49cj6vyicq3m",
+    "id": 76,
     "question": "Welche Art von Bewölkung und Niederschlägen ist typisch bei Durchzug einer Kaltfront? (1,00 P.)",
     "answers": [
       {
@@ -2273,14 +1979,10 @@
         "text": "Abflauender Wind mit Wolkenauflösung und Erwärmung im Sommer, im Winter oft Ausbildung ausgedehnter Hochnebelfelder",
         "correct": false
       }
-    ],
-    "questionId": 76,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "sdsipwh0nhnk7qaksome",
+    "id": 77,
     "question": "Welche Sichtflugbedingungen sind im Warmsektor eines Polarfronttiefs im Sommer zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2303,14 +2005,10 @@
         "text": "Sichten unter 1.000 m, aufliegende Bewölkung",
         "correct": false
       }
-    ],
-    "questionId": 77,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "62ivx7k0qf9kzeyw68ij9p",
+    "id": 78,
     "question": "Welche Sichtflugbedingungen sind nach dem Durchzug einer Kaltfront zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2333,14 +2031,10 @@
         "text": "Mäßige Sichten bei absinkenden Untergrenzen mit einsetzendem Dauerniederschlag",
         "correct": false
       }
-    ],
-    "questionId": 78,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fr4drutp4bivq7h6ty4lq",
+    "id": 79,
     "question": "Wie verhalten sich die Luftmassen im Bereich einer Okklusion? (1,00 P.)",
     "answers": [
       {
@@ -2363,14 +2057,10 @@
         "text": "Die nachfolgende Kaltluft schließt sich mit der davorliegenden Kaltluft zusammen.",
         "correct": true
       }
-    ],
-    "questionId": 79,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mmwbiqcx4k4vi37kd84mp",
+    "id": 80,
     "question": "Wie wird eine Luftmassengrenze zwischen subtropischer Warmluft und polarer Kaltluft bezeichnet, die keine Verlagerungsrichtung zeigt? (1,00 P.)",
     "answers": [
       {
@@ -2393,14 +2083,10 @@
         "text": "Kaltfront",
         "correct": false
       }
-    ],
-    "questionId": 80,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "of34e8sauvrtab9d5eq6",
+    "id": 81,
     "question": "In welche Richtung erfolgt die Verlagerung eines Polarfront-Tiefs üblicherweise? (1,00 P.)",
     "answers": [
       {
@@ -2423,14 +2109,10 @@
         "text": "Im Winter nach Nordwesten, im Sommer nach Südwesten",
         "correct": false
       }
-    ],
-    "questionId": 81,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "4pg030ggkt3yfbpdsfltu",
+    "id": 82,
     "question": "Welcher Druckverlauf ist beim Durchzug eines Polarfront-Tiefs zu beobachten? (1,00 P.)",
     "answers": [
       {
@@ -2453,14 +2135,10 @@
         "text": "Fallender Druck vor der Warmfront, <br>konstanter Druck im Warmsektor, <br>fallender Druck hinter der Kaltfront",
         "correct": false
       }
-    ],
-    "questionId": 82,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5izyft46dq9dxicj3s9j7r",
+    "id": 83,
     "question": "Welcher Druckverlauf ist bei Durchzug einer Kaltfront zu beobachten? (1,00 P.)",
     "answers": [
       {
@@ -2483,14 +2161,10 @@
         "text": "Kurzer Druckfall, danach Druckanstieg",
         "correct": true
       }
-    ],
-    "questionId": 83,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "6iif7axfq4czddpto46ky",
+    "id": 84,
     "question": "Welche Änderungen in der Windrichtung sind bei Durchzug eines Polarfont-Tiefs in Mitteleuropa zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2513,14 +2187,10 @@
         "text": "Rechtsdrehender Wind bei Durchzug der Warmfront, linksdrehender Wind bei Durchzug der Kaltfront",
         "correct": false
       }
-    ],
-    "questionId": 84,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ou8f5moapl0vh92t37mrh",
+    "id": 85,
     "question": "Wo sind ausgedehnte Hochdruckgebiete ganzjährig zu finden? (1,00 P.)",
     "answers": [
       {
@@ -2543,14 +2213,10 @@
         "text": "Im äquatornahen tropischen Bereich",
         "correct": false
       }
-    ],
-    "questionId": 85,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "af9bq8zlx2koha49t1i3xq",
+    "id": 86,
     "question": "Welche Art von Bewölkung ist in ausgedehnten Hochdruckgebieten im Sommer typischerweise anzutreffen? (1,00 P.)",
     "answers": [
       {
@@ -2573,14 +2239,10 @@
         "text": "Aufgelockerte Cu Bewölkung",
         "correct": true
       }
-    ],
-    "questionId": 86,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "fhk3kizyn1dezmxnab1jxu",
+    "id": 87,
     "question": "Welche Druckverteilung kann sich einstellen, wenn in der Höhe kalte Luft einfließt? (1,00 P.)",
     "answers": [
       {
@@ -2603,14 +2265,10 @@
         "text": "Ausbildung eines Hochs in der Höhe",
         "correct": false
       }
-    ],
-    "questionId": 87,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "bqr2v7phwssm7fglutwp4c",
+    "id": 88,
     "question": "Welches Wettergeschehen ist zu erwarten, wenn in der Höhe kalte Luft einfließt? (1,00 P.)",
     "answers": [
       {
@@ -2633,14 +2291,10 @@
         "text": "Wetterberuhigung und Wolkenauflösung",
         "correct": false
       }
-    ],
-    "questionId": 88,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8lralf304vlgddtr0m7846",
+    "id": 89,
     "question": "Wie wirkt sich einfließende Kaltluft auf die Form und den Abstand der Druckflächen aus? (1,00 P.)",
     "answers": [
       {
@@ -2663,14 +2317,10 @@
         "text": "Der Abstand der Druckflächen wird größer, es bildet sich eine Hebung (Hoch)",
         "correct": false
       }
-    ],
-    "questionId": 89,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "yiaxrd8pbkan5rdi46flri",
+    "id": 90,
     "question": "Welche Wetterphänomene sind im Bereich eines Höhentrogs zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2693,14 +2343,10 @@
         "text": "Wetterberuhigung und Ausbildung von Hochnebelfeldern",
         "correct": false
       }
-    ],
-    "questionId": 90,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "9uvmrfz2nmby7w7qdijifa",
+    "id": 91,
     "question": "Welche globale Frontlinie trennt über Mitteleuropa die subtropische Warmluft von polarer Kaltluft? (1,00 P.)",
     "answers": [
       {
@@ -2723,14 +2369,10 @@
         "text": "Polarfront",
         "correct": true
       }
-    ],
-    "questionId": 91,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zibkxj7y1tcijj3vcshcym",
+    "id": 92,
     "question": "Welches Wetter ist in Mitteleuropa bei Hochdruckwetterlage im Sommer zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2753,14 +2395,10 @@
         "text": "Wetterberuhigung und Wolkenauflösung, wenige hohe Cu",
         "correct": true
       }
-    ],
-    "questionId": 92,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "ioylhoirl6eqh9p2y5yjv",
+    "id": 93,
     "question": "Welche Druckverhältnisse sind in Hochdruckgebieten in Mitteleuropa im Sommer typischerweise zu beobachten? (1,00 P.)",
     "answers": [
       {
@@ -2783,14 +2421,10 @@
         "text": "Geringer Isobarenabstand mit schwachen Winden, Ausbildung lokaler Windsysteme",
         "correct": false
       }
-    ],
-    "questionId": 93,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "qfxaa5omr5sfxueuvch8",
+    "id": 94,
     "question": "Welches Wetter ist in Mitteleuropa bei Hochdruckwetterlage im Winter zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2813,14 +2447,10 @@
         "text": "Windstille und ausgedehnte Hochnebelfelder",
         "correct": true
       }
-    ],
-    "questionId": 94,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "73cm0wy51qxsng2d9r3mf",
+    "id": 95,
     "question": "Welche Windverhältnisse sind im Bereich großer Isobarenabstände zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2843,14 +2473,10 @@
         "text": "Ausbildung lokaler Windsysteme bei starker westlicher Grundströmung",
         "correct": false
       }
-    ],
-    "questionId": 95,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "pbcepflrs4kln0cl8x9jv",
+    "id": 96,
     "question": "Welche Wetterverhältnisse sind bei Föhnwetterlage auf der Stauseite zu erwarten? (1,00 P.)",
     "answers": [
       {
@@ -2873,14 +2499,10 @@
         "text": "Wolkenauflösung und ungewöhnliche Erwärmung bei starkem, teils böigem Wind",
         "correct": false
       }
-    ],
-    "questionId": 96,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g41skzayliov9qpy6zx3e",
+    "id": 97,
     "question": "Welcher Wind erfährt eine Verstärkung, weil sein Strömungsbereich durch Gebirge verengt wird? (1,00 P.)",
     "answers": [
       {
@@ -2903,14 +2525,10 @@
         "text": "Bora",
         "correct": false
       }
-    ],
-    "questionId": 97,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "x0w8qqtqfbfcz9n6j3kk1q",
+    "id": 98,
     "question": "Wie wird der kalte Fallwind bezeichnet, der aus nordöstlicher Richtung in die Adria strömt? (1,00 P.)",
     "answers": [
       {
@@ -2933,14 +2551,10 @@
         "text": "Passat",
         "correct": false
       }
-    ],
-    "questionId": 98,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g00bdeqpxyc9r6cgtp9hbh",
+    "id": 99,
     "question": "Unter welchen Bedingungen ist am ehesten mit Vereisung zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -2963,14 +2577,10 @@
         "text": "Temperaturen zwischen 0 °C und -12 °C, Vorhandensein von unterkühlten Wassertröpfchen (Wolken)",
         "correct": true
       }
-    ],
-    "questionId": 99,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "8ss3re7vkgj1te0yxlfja2",
+    "id": 100,
     "question": "Welcher Temperaturbereich ist in Bezug auf Luftfahrzeugvereisung besonders gefährlich? (1,00 P.)",
     "answers": [
       {
@@ -2993,14 +2603,10 @@
         "text": "+5 °C bis -10 °C",
         "correct": false
       }
-    ],
-    "questionId": 100,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "p84lgs93rvkve9c345a2un",
+    "id": 101,
     "question": "Welche Art von Eisansatz bildet sich, wenn sehr kleine Wassertröpfchen und Eisteilchen auf die Stirnflächen eines Luftfahrzeuges treffen? (1,00 P.)",
     "answers": [
       {
@@ -3023,14 +2629,10 @@
         "text": "Mischeis",
         "correct": false
       }
-    ],
-    "questionId": 101,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5264ov3zs4vingujwuhmmn",
+    "id": 102,
     "question": "Welche Art von Eisansatz bildet sich, wenn große, unterkühlte Wassertropfen auf die Stirnflächen eines Luftfahrzeuges treffen? (1,00 P.)",
     "answers": [
       {
@@ -3053,14 +2655,10 @@
         "text": "Klareis",
         "correct": true
       }
-    ],
-    "questionId": 102,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "gq1rum4rnbv0g8aih0szxll",
+    "id": 103,
     "question": "In welcher Situation ist mit einer starken Windscherung zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -3083,14 +2681,10 @@
         "text": "Bei Überlandflügen unter Cu-Bewölkung mit etwa 4/8 Bedeckungsgrad",
         "correct": false
       }
-    ],
-    "questionId": 103,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "y97sckgy5vfhg2dzeqc1oh",
+    "id": 104,
     "question": "Welche Bedingungen bieten die Voraussetzung für die Entstehung von Gewittern? (1,00 P.)",
     "answers": [
       {
@@ -3113,14 +2707,10 @@
         "text": "Warme und trockene Luft, Vorhandensein einer ausgeprägten Inversion",
         "correct": false
       }
-    ],
-    "questionId": 104,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "xxswvjnivf21am9operty",
+    "id": 105,
     "question": "Die Voraussetzungen für die Bildung von Wärmegewittern sind... (1,00 P.)",
     "answers": [
       {
@@ -3143,14 +2733,10 @@
         "text": "absolut stabile Schichtung, hohe Temperatur und geringe Luftfeuchtigkeit.",
         "correct": false
       }
-    ],
-    "questionId": 105,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "1t2wrp796dseas3l3f32ye",
+    "id": 106,
     "question": "In welcher Entwicklungsstufe eines Gewitters ist mit sehr starken Auf- und Abwinden zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -3173,14 +2759,10 @@
         "text": "Reifestadium",
         "correct": true
       }
-    ],
-    "questionId": 106,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "3923yetq8sgkd6fvqixlf",
+    "id": 107,
     "question": "In welchem Stadium eines Gewitters sind überwiegend Aufwinde anzutreffen? (1,00 P.)",
     "answers": [
       {
@@ -3203,14 +2785,10 @@
         "text": "Auflösestadium",
         "correct": false
       }
-    ],
-    "questionId": 107,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "buwgkjezwijguzphmdxj4k",
+    "id": 108,
     "question": "Welches ist die größte Gefahr, die von einem Blitzschlag im Luftfahrzeug ausgeht? (1,00 P.)",
     "answers": [
       {
@@ -3233,14 +2811,10 @@
         "text": "Plötzlicher Druckabfall in der Kabine und Bildung von Rauch",
         "correct": false
       }
-    ],
-    "questionId": 108,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "v5kpofa3ahes6ukpihqf7h",
+    "id": 109,
     "question": "In welcher Situation ist mit starken Abwinden und einer ausgeprägten Windscherung in Bodennähe zu rechnen? (1,00 P.)",
     "answers": [
       {
@@ -3263,14 +2837,10 @@
         "text": "Beim Anflug auf einen Platz an der Küste bei ausgeprägtem Seewind",
         "correct": false
       }
-    ],
-    "questionId": 109,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "tsn53mxjwolgr5g76j57ic",
+    "id": 110,
     "question": "Welches Phänomen entsteht bei einem Gewitter dadurch, dass mit dem Niederschlag ein Schwall kalter Luft aus der Wolke herausstürzt? (1,00 P.)",
     "answers": [
       {
@@ -3293,14 +2863,10 @@
         "text": "Der ambossartige Aufsatz",
         "correct": false
       }
-    ],
-    "questionId": 110,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "84ilnfev45hsa7tn05hiip",
+    "id": 111,
     "question": "Welche Gefahren bestehen beim Start aus einer Bodeninversion? (1,00 P.)",
     "answers": [
       {
@@ -3323,14 +2889,10 @@
         "text": "Aufgrund der geringeren Temperaturen am Boden ist mit Vereisung zu rechnen",
         "correct": false
       }
-    ],
-    "questionId": 111,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "po7a5yah7md16cx52r1on",
+    "id": 112,
     "question": "Welche Gefahr besteht beim Anflug auf einen im Tal gelegenen Flugplatz, wenn über dem Tal eine starke Windströmung senkrecht zu den Berghängen besteht? (1,00 P.)",
     "answers": [
       {
@@ -3353,14 +2915,10 @@
         "text": "Eingeschränkte Sicht, Verlust des Sichtkontakts zum Platz im Endanflug",
         "correct": false
       }
-    ],
-    "questionId": 112,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "orw3qrim65jof4rvnbq4yj",
+    "id": 113,
     "question": "Welche Art der Sichtverschlechterung ist weitgehend unabhängig von Temperatur- Änderungen? (1,00 P.)",
     "answers": [
       {
@@ -3383,14 +2941,10 @@
         "text": "Feuchter Dunst (BR)",
         "correct": false
       }
-    ],
-    "questionId": 113,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "a1runubq7ydn4j0eq8djut",
+    "id": 114,
     "question": "In welcher Wetterkarte sind Informationen über den Luftdruck und den Frontenverlauf am Boden zu entnehmen? (1,00 P.)",
     "answers": [
       {
@@ -3413,14 +2967,10 @@
         "text": "Windkarte",
         "correct": false
       }
-    ],
-    "questionId": 114,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rpc53s1nseg1kxb2n763i",
+    "id": 115,
     "question": "Auf welcher Wetterkarte sind die aktuellen auf MSL gültigen Druckwerte mit Druckzentren und Fronten dargestellt? (1,00 P.)",
     "answers": [
       {
@@ -3443,14 +2993,10 @@
         "text": "Bodenwetterkarte",
         "correct": true
       }
-    ],
-    "questionId": 115,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "7davbe1vw2t2cogm51t0a4",
+    "id": 116,
     "question": "Welche Beobachtungstechnik erlaubt das Sammeln von Temperatur- und Taupunktdaten innerhalb der Troposphäre? (1,00 P.)",
     "answers": [
       {
@@ -3473,14 +3019,10 @@
         "text": "Satellitenbilder",
         "correct": false
       }
-    ],
-    "questionId": 116,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5p2o78gjwimks9l9dao7xi",
+    "id": 117,
     "question": "Welche Informationen können aus Satelliten-Bildern entnommen werden? (1,00 P.)",
     "answers": [
       {
@@ -3503,14 +3045,10 @@
         "text": "Turbulenz- und Vereisungszonen in verschiedenen Schichten",
         "correct": false
       }
-    ],
-    "questionId": 117,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "rewzitsvnfb1zav8yj0v98",
+    "id": 118,
     "question": "In welcher Darstellung sind Niederschlagsbereiche zu erkennen? (1,00 P.)",
     "answers": [
       {
@@ -3533,14 +3071,10 @@
         "text": "Radarbild",
         "correct": true
       }
-    ],
-    "questionId": 118,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "5fnlrgahx36abfytdjsqc9",
+    "id": 119,
     "question": "Welche Information ist NICHT auf einer Low Level Significant Weather Chart (LLSWC) zu finden? (1,00 P.)",
     "answers": [
       {
@@ -3563,14 +3097,10 @@
         "text": "Frontenverlauf und -verlagerung",
         "correct": false
       }
-    ],
-    "questionId": 119,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "zic3lpokd29d77e36buzb",
+    "id": 120,
     "question": "Die gemessenen Druckverhältnisse für MSL und die zugehörigen Frontensysteme werden dargestellt in der... (1,00 P.)",
     "answers": [
       {
@@ -3593,14 +3123,10 @@
         "text": "Significant Weather Chart (SWC).",
         "correct": false
       }
-    ],
-    "questionId": 120,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "g03k5t7yuq1afaovrpe45",
+    "id": 121,
     "question": "Durch welche Meldungsgruppe wird starker Dauerregen in einem METAR benannt? (1,00 P.)",
     "answers": [
       {
@@ -3623,14 +3149,10 @@
         "text": "SHRA",
         "correct": false
       }
-    ],
-    "questionId": 121,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "c4css1sthgjx3tu5m6se8",
+    "id": 122,
     "question": "Durch welche Meldungsgruppe wird ein mäßiger Regenschauer in einem METAR benannt? (1,00 P.)",
     "answers": [
       {
@@ -3653,14 +3175,10 @@
         "text": "SHRA",
         "correct": true
       }
-    ],
-    "questionId": 122,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "i06wacyew92ybzxlf4zzy",
+    "id": 123,
     "question": "Welche Information ist in der ATIS enthalten, nicht aber in einem METAR? (1,00 P.)",
     "answers": [
       {
@@ -3683,14 +3201,10 @@
         "text": "Angaben zum durchschnittlichen Wind, ggf. Maximalgeschwindigkeiten in Böen",
         "correct": false
       }
-    ],
-    "questionId": 123,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "mrkbro86n18rz4hta54h",
+    "id": 124,
     "question": "Welcher per Funk zu empfangenen Meldung können Informationen über das Landewetter und Betriebsbedingungen am Zielflughafen entnommen werden? (1,00 P.)",
     "answers": [
       {
@@ -3713,14 +3227,10 @@
         "text": "ATIS",
         "correct": true
       }
-    ],
-    "questionId": 124,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   },
   {
-    "id": "vy77z8bq5o3z0meapqghz",
+    "id": 125,
     "question": "Für welche Bereiche werden Warnungen als SIGMET herausgegeben? (1,00 P.)",
     "answers": [
       {
@@ -3743,10 +3253,6 @@
         "text": "Für einen Flugplatz",
         "correct": false
       }
-    ],
-    "questionId": 125,
-    "asset": null,
-    "subject": "met",
-    "lang": "de"
+    ]
   }
 ]
