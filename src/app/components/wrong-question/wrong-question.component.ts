@@ -1,23 +1,21 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { Component, Input } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Question } from '../../interfaces/question.interface';
 import { Answer } from '../../interfaces/answer.interface';
-import { QuestionsService } from '../../services/questions.service';
+import { Subject } from '../../enum/subject.enum';
+import { Store } from '@ngxs/store';
+import { QuestionnaireState } from 'src/app/states/questionnaire.state';
+import { map, switchMap, filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-wrong-question',
   templateUrl: './wrong-question.component.html'
 })
-export class WrongQuestionComponent implements OnInit {
+export class WrongQuestionComponent {
   @Input() isEmpty: boolean;
   
   question: Question;
-  params: any;
-  questionId: string;
-  questionNumber: number;
-  
-  path: string;
-  subject: string;
+  subject: Subject;
   answers: Answer[];
   selectedAnswer: Answer;
   correctAnswer: Answer;
@@ -27,51 +25,52 @@ export class WrongQuestionComponent implements OnInit {
   isCorrect: boolean = false;
   hasAsset: boolean = false;
 
-
   constructor(
     private readonly route: ActivatedRoute,
-    private readonly router: Router,
-    private readonly questionService: QuestionsService
+    private readonly store: Store
   ) {
-    route.params.subscribe(params => this.params = params);
-  }
+    /**
+     * Initialize component when route params are changed
+     */
+    route.params.pipe(
+      switchMap(params => {
+        this.subject = <Subject>Subject[params.subject.toUpperCase()];
+        this.isLoaded = false;
 
-  ngOnInit() {
-    this.subject = this.params.subject;
-    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
-    this.questionService.wrongQuestionData.subscribe(
-      res => {
-        if(res) {
-          this.questionId = res.questionId;
-          this.questionNumber = res.questionNumber;
-          this.router.navigateByUrl(`/wrong/${this.subject}/${this.questionNumber}`);
-          this.questionService.getQuestions(this.path).subscribe(
-            response => {
-              const questions = response;
-              this.question = questions.filter(question => question.id === this.questionId)[0];
-              this.answers = this.question.answers;
-              this.hasAsset = false;
-              if (this.question.asset) {
-                this.hasAsset = true;
-              }
-              this.selectedAnswer = null;
-              this.isLoaded = true;
-              this.buttonColor = 'primary';
-              this.isWrong = false;
-              this.isCorrect = false;
-            },
-            err => console.log(err)
+        /**
+         * Returns the observable with the mapped question
+         * (from WrongAnsweredQuestion to Question)
+         */
+        return this.store.select(QuestionnaireState.wrongAnsweredBySubject(this.subject))
+          .pipe(
+            filter(questions => questions.length > 0),
+            map(questions => questions.find(question => question.questionNumber === parseInt(params.id))),
+            filter(Boolean),
+            switchMap(question => this.store.select(QuestionnaireState.questionById(question.questionId)))
           )
-        }
-      }
+      })
     )
+    .subscribe(question => {
+      this.buttonColor = 'primary';
+      this.isWrong = false;
+      this.isCorrect = false;
+      this.selectedAnswer = null;
+
+      if (question) {
+        this.question = question;
+        this.answers = this.question.answers;
+        this.hasAsset = false;
+        if (this.question.asset) {
+          this.hasAsset = true;
+        }
+        this.isLoaded = true;
+      }
+    });
   }
 
-  async check() {
-    
+  check() {
     if (this.selectedAnswer) {
-      this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);
-      this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
+      this.correctAnswer = this.answers.find(answer => answer.correct === true);
 
       if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
@@ -83,15 +82,8 @@ export class WrongQuestionComponent implements OnInit {
         this.isWrong = false;
         this.isCorrect = true;
       }
-
-      // let exists = await this.questionService.fireCheckIfExists(this.question, Collection.ANSWERED, this.subject);
-
-      // if (!exists) {
-      //   this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.correct, this.subject);
-      // }
     } else {
       return;
     }
   }
-
 }

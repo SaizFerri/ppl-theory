@@ -91,7 +91,7 @@
   },
   {
     "id": "6cu3c4hi3e5fv6zf9wlguh",
-    "question": "Welche Tragflächenanordnung zeigt die Abbildung? Siehe Bild (AGK-002) (1,00 P.)",
+    "question": "Welche Tragflächenanordnung zeigt die Abbildung? <br><br> Siehe Bild (AGK-002) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -117,7 +117,7 @@
     "questionId": 4,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-002.png"
   },
   {
     "id": "3w5mueyoapb7a468hjkqe6",
@@ -181,7 +181,7 @@
   },
   {
     "id": "eq17o9oncog3mm594auuzo",
-    "question": "Welche Leitwerksform zeigt die Abbildung? Siehe Bild (AGK-003) (1,00 P.)",
+    "question": "Welche Leitwerksform zeigt die Abbildung? <br><br>Siehe Bild (AGK-003) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -207,7 +207,7 @@
     "questionId": 7,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-003.png"
   },
   {
     "id": "wyl8wvfqsqspxoe7m0hpvk",
@@ -421,7 +421,7 @@
   },
   {
     "id": "6tfy2qewlzqpdqdnbogoai",
-    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 3 in der Abbildung? Siehe Bild (AGK-005) (1,00 P.)",
+    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 3 in der Abbildung? <br><br>Siehe Bild (AGK-005) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -447,11 +447,11 @@
     "questionId": 15,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-005.png"
   },
   {
     "id": "3dac687bv9g3w8l9d8id4n",
-    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 1 in der Abbildung? Siehe Bild (AGK-005) (1,00 P.)",
+    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 1 in der Abbildung? <br><br>Siehe Bild (AGK-005) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -477,11 +477,11 @@
     "questionId": 16,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-005.png"
   },
   {
     "id": "7z9iv338wto4g1xridjbm6",
-    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 4 in der Abbildung? Siehe Bild (AGK-005). (1,00 P.)",
+    "question": "Welches Bauteil eines Bugfahrwerks bezeichnet Nummer 4 in der Abbildung? <br><br>Siehe Bild (AGK-005). (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -507,7 +507,7 @@
     "questionId": 17,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-005.png"
   },
   {
     "id": "zi4cp92nvvusq5nyrxl5",
@@ -631,7 +631,7 @@
   },
   {
     "id": "8h5lul5uzuh5vmdrfkeb9j",
-    "question": "Was wird anhand der Markierung auf der Abbildung überprüft? Siehe Bild (AGK-006) (1,00 P.)",
+    "question": "Was wird anhand der Markierung auf der Abbildung überprüft? <br><br>Siehe Bild (AGK-006) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -657,7 +657,7 @@
     "questionId": 22,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-006.png"
   },
   {
     "id": "nn8y8uxbjk8hbyogqnfhup",
@@ -785,22 +785,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Primärwirkung: Gieren nach links. Sekundärwirkung: Rollen nach rechts.",
+        "text": "Primärwirkung: Gieren nach links. <br>Sekundärwirkung: Rollen nach rechts.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Primärwirkung: Gieren nach rechts. Sekundärwirkung: Rollen nach links.",
+        "text": "Primärwirkung: Gieren nach rechts. <br>Sekundärwirkung: Rollen nach links.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Primärwirkung: Gieren nach rechts. Sekundärwirkung: Rollen nach rechts.",
+        "text": "Primärwirkung: Gieren nach rechts. <br>Sekundärwirkung: Rollen nach rechts.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Primärwirkung: Gieren nach links. Sekundärwirkung: Rollen nach links.",
+        "text": "Primärwirkung: Gieren nach links. <br>Sekundärwirkung: Rollen nach links.",
         "correct": true
       }
     ],
@@ -815,22 +815,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Primärwirkung: Rollen nach rechts. Sekundärwirkung: Gieren nach links.",
+        "text": "Primärwirkung: Rollen nach rechts. <br>Sekundärwirkung: Gieren nach links.",
         "correct": true
       },
       {
         "id": 1,
-        "text": "Primärwirkung: Rollen nach links. Sekundärwirkung: Gieren nach links.",
+        "text": "Primärwirkung: Rollen nach links. <br>Sekundärwirkung: Gieren nach links.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Primärwirkung: Rollen nach rechts. Sekundärwirkung: Gieren nach rechts.",
+        "text": "Primärwirkung: Rollen nach rechts. <br>Sekundärwirkung: Gieren nach rechts.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Primärwirkung: Rollen nach links. Sekundärwirkung: Gieren nach rechts.",
+        "text": "Primärwirkung: Rollen nach links. <br>Sekundärwirkung: Gieren nach rechts.",
         "correct": false
       }
     ],
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "lqroa6bdv5c4fwccxektex",
-    "question": "Die Stromerzeugung in einem Luftfahrzeug erfolgt über: 1. Die Batterie. 2. Den Generator. 3. Das Relais. 4. Die Sicherung. (1,00 P.)",
+    "question": "Die Stromerzeugung in einem Luftfahrzeug erfolgt über: <br><br>1. Die Batterie. <br>2. Den Generator. <br>3. Das Relais. <br>4. Die Sicherung. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "fgb86xgbnwiil256gcdiri",
-    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? Siehe Bild (AGK-007) (1,00 P.)",
+    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? <br><br>Siehe Bild (AGK-007) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1587,11 +1587,11 @@
     "questionId": 53,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-007.png"
   },
   {
     "id": "yiz0ppaypoqiprqvt5ps6j",
-    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? Siehe Bild (AGK-008) (1,00 P.)",
+    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? <br><br>Siehe Bild (AGK-008) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1617,11 +1617,11 @@
     "questionId": 54,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-008.png"
   },
   {
     "id": "380bolq738m05ixyvece2p3",
-    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? Siehe Bild (AGK-010) (1,00 P.)",
+    "question": "Welcher Arbeitstakt eines Viertakt-Ottomotors ist auf der Abbildung dargestellt? <br><br>Siehe Bild (AGK-010) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -1647,7 +1647,7 @@
     "questionId": 55,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-010.png"
   },
   {
     "id": "ruxo1zbt9kqnpvnqhlc9",
@@ -2251,7 +2251,7 @@
   },
   {
     "id": "nh4jkyz69epn4c6ztp2p9",
-    "question": "Ziffer Nummer 1 in der Zeichnung bezeichnet bei einem Propeller: Siehe Bild (AGK-011) D: Anströmrichtung. C: Profilsehne. R: Rotationsrichtung. (1,00 P.)",
+    "question": "Ziffer Nummer 1 in der Zeichnung bezeichnet bei einem Propeller: <br><br>Siehe Bild (AGK-011) <br><br>D: Anströmrichtung. <br>C: Profilsehne. <br>R: Rotationsrichtung. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2277,11 +2277,11 @@
     "questionId": 76,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-011.png"
   },
   {
     "id": "isuggftht8cjp0jfnvmdrm",
-    "question": "Ziffer Nummer 3 in der Zeichnung bezeichnet bei einem Propeller: Siehe Bild (AGK-011) D: Anströmrichtung. C: Profilsehne. R: Rotationsrichtung. (1,00 P.)",
+    "question": "Ziffer Nummer 3 in der Zeichnung bezeichnet bei einem Propeller: <br><br>Siehe Bild (AGK-011) <br><br>D: Anströmrichtung. <br>C: Profilsehne. <br>R: Rotationsrichtung. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2307,7 +2307,7 @@
     "questionId": 77,
     "subject": "agk",
     "lang": "de",
-    "asset": null
+    "asset": "assets/AGK/AGK-011.png"
   },
   {
     "id": "5a1b7ib8jok1ek6f2dra4s",
@@ -2345,22 +2345,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "1) Drehzahl verringern. 2) Ladedruck verringern.",
+        "text": "1) Drehzahl verringern. <br>2) Ladedruck verringern.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "1) Drehzahl verringern. 2) Ladedruck erhöhen.",
+        "text": "1) Drehzahl verringern. <br>2) Ladedruck erhöhen.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "1) Ladedruck verringern. 2) Drehzahl erhöhen.",
+        "text": "1) Ladedruck verringern. <br>2) Drehzahl erhöhen.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "1) Ladedruck verringern. 2) Drehzahl verringern.",
+        "text": "1) Ladedruck verringern. <br>2) Drehzahl verringern.",
         "correct": true
       }
     ],
@@ -2461,7 +2461,7 @@
   },
   {
     "id": "v4f22l9vvxmh7eipytc0m5",
-    "question": "Bei der Kurzschluss-Überprüfung wird der Zündschalter für einen kurzen Moment auf OFF und anschließend wieder auf BOTH gestellt. Was passiert mit der Drehzahl, wenn die Zündanlage ordnungsgemäß geerdet ist? (1,00 P.)",
+    "question": "Bei der Kurzschluss-Überprüfung wird der Zündschalter für einen kurzen Moment auf OFF und anschließend wieder auf BOTH gestellt. <br><br>Was passiert mit der Drehzahl, wenn die Zündanlage ordnungsgemäß geerdet ist? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -2611,7 +2611,7 @@
   },
   {
     "id": "gdko3s1plr2unfbcb77rv",
-    "question": "Bei einer Blockierung der Abnahmestelle für den statischen Druck (static port) sind folgende Instrumente NICHT funktionsfähig: 1. Höhenmesser. 2. Variometer. 3. Fahrtmesser. 4. Künstlicher Horizont. (1,00 P.)",
+    "question": "Bei einer Blockierung der Abnahmestelle für den statischen Druck (static port) sind folgende Instrumente NICHT funktionsfähig: <br><br>1. Höhenmesser. <br>2. Variometer. <br>3. Fahrtmesser. <br>4. Künstlicher Horizont. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3151,7 +3151,7 @@
   },
   {
     "id": "2z1jz5ch4xm3sjcxa3zm",
-    "question": "Ein in 5.000 ft MSL fliegendes Luftfahrzeug befindet sich auf Steuerkurs 180° und hat eine angezeigte Geschwindigkeit (IAS) von 100 kt. Der Wind weht aus Richtung 180° mit 30 kt. Mit welcher Wahren Eigengeschwindigkeit (TAS) ist das Luftfahrzeug ungefähr unterwegs? Instrumenten- und Einbaufehler können vernachlässigt werden. (1,00 P.)",
+    "question": "Ein in 5.000 ft MSL fliegendes Luftfahrzeug befindet sich auf Steuerkurs 180° und hat eine angezeigte Geschwindigkeit (IAS) von 100 kt. Der Wind weht aus Richtung 180° mit 30 kt. <br><br>Mit welcher Wahren Eigengeschwindigkeit (TAS) ist das Luftfahrzeug ungefähr unterwegs? <br><br>Instrumenten- und Einbaufehler können vernachlässigt werden. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3211,7 +3211,7 @@
   },
   {
     "id": "6zvgreub6s78noyyx8csa6",
-    "question": "In größerer Höhe wird die Wahre Eigengeschwindigkeit (TAS) größer als die kalibrierte (angezeigte) Eigengeschwindigkeit. Wie kann die TAS ungefähr ermittelt werden? (1,00 P.)",
+    "question": "In größerer Höhe wird die Wahre Eigengeschwindigkeit (TAS) größer als die kalibrierte (angezeigte) Eigengeschwindigkeit. <br><br>Wie kann die TAS ungefähr ermittelt werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3241,7 +3241,7 @@
   },
   {
     "id": "v7p8ogew5sh547cy52m2b8",
-    "question": "Ein in 5.000 ft MSL fliegendes Luftfahrzeug befindet sich auf Steuerkurs 180° und hat eine Wahre Eigengeschwindigkeit (TAS) von 110 kt. Der Wind weht aus Richtung 180° mit 30 kt. Welcher Wert kann auf dem Fahrtmesser ungefähr abgelesen werden? Instrumenten- und Einbaufehler können vernachlässigt werden. (1,00 P.)",
+    "question": "Ein in 5.000 ft MSL fliegendes Luftfahrzeug befindet sich auf Steuerkurs 180° und hat eine Wahre Eigengeschwindigkeit (TAS) von 110 kt. Der Wind weht aus Richtung 180° mit 30 kt. <br><br>Welcher Wert kann auf dem Fahrtmesser ungefähr abgelesen werden? <br><br>Instrumenten- und Einbaufehler können vernachlässigt werden. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3541,7 +3541,7 @@
   },
   {
     "id": "kemc63uj41cw1xzro3gkb",
-    "question": "Ein Luftfahrzeug auf der Nordhalbkugel beschleunigt auf einem magnetischen Steuerkurs von 090°. Die Anzeige des Magnetkompasses wird... (1,00 P.)",
+    "question": "Ein Luftfahrzeug auf der Nordhalbkugel beschleunigt auf einem magnetischen Steuerkurs von 090°. <br><br>Die Anzeige des Magnetkompasses wird... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3601,7 +3601,7 @@
   },
   {
     "id": "apsj2swj0hck98fnwriu",
-    "question": "Ein Luftfahrzeug auf der Nordhalbkugel kurvt auf dem kürzesten Weg von Steuerkurs 270° auf Steuerkurs 360°. Bei welcher Anzeige am Magnetkompass sollte die Kurve beendet werden? (1,00 P.)",
+    "question": "Ein Luftfahrzeug auf der Nordhalbkugel kurvt auf dem kürzesten Weg von Steuerkurs 270° auf Steuerkurs 360°. <br><br>Bei welcher Anzeige am Magnetkompass sollte die Kurve beendet werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "hva6iny9l7t0t6907kw38ys",
-    "question": "Ein Luftfahrzeug auf der Nordhalbkugel kurvt auf dem kürzesten Weg von Steuerkurs 030° auf Steuerkurs 180°. Bei welchem am Magnetkompass angezeigten Steuerkurs sollte die Kurve beendet werden? (1,00 P.)",
+    "question": "Ein Luftfahrzeug auf der Nordhalbkugel kurvt auf dem kürzesten Weg von Steuerkurs 030° auf Steuerkurs 180°. <br><br>Bei welchem am Magnetkompass angezeigten Steuerkurs sollte die Kurve beendet werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3751,7 +3751,7 @@
   },
   {
     "id": "8sb6eivyb2opuyv4fxe3l",
-    "question": "Ein Luftfahrzeug auf der Nordhalbkugel beschleunigt auf einem magnetischen Steuerkurs von 270°. Der Magnetkompass zeigt während dieses Manövers ungefähr den folgenden Wert an: (1,00 P.)",
+    "question": "Ein Luftfahrzeug auf der Nordhalbkugel beschleunigt auf einem magnetischen Steuerkurs von 270°. <br><br>Der Magnetkompass zeigt während dieses Manövers ungefähr den folgenden Wert an: (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "aj3n6dotvubc48r4f1sa3t",
-    "question": "Zur Messung der angezeigten Fluggeschwindigkeit (IAS) wird der Staudruck verwendet. Wovon hängt der Staudruck ab? (1,00 P.)",
+    "question": "Zur Messung der angezeigten Fluggeschwindigkeit (IAS) wird der Staudruck verwendet. <br><br>Wovon hängt der Staudruck ab? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3811,7 +3811,7 @@
   },
   {
     "id": "7p9y9e7yiv2vi1qo3bo4fi",
-    "question": "Ein Luftfahrzeug auf der Nordhalbkugel verzögert auf einem magnetischen Steuerkurs von 270°. Der Magnetkompass zeigt während dieses Manövers ungefähr den folgenden Wert an: (1,00 P.)",
+    "question": "Ein Luftfahrzeug auf der Nordhalbkugel verzögert auf einem magnetischen Steuerkurs von 270°. <br><br>Der Magnetkompass zeigt während dieses Manövers ungefähr den folgenden Wert an: (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "xwxvbrk50vyozp9hiixfn",
-    "question": "Welches sind die Ursachen für den Kompassdrehfehler? 1. Deviation. 2. Inklination. 3. Kurvenbeschleunigung. 4. Deklination. (1,00 P.)",
+    "question": "Welches sind die Ursachen für den Kompassdrehfehler? <br><br>1. Deviation. <br>2. Inklination. <br>3. Kurvenbeschleunigung. <br>4. Deklination. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "3aw2nj72yuq8ixm6ychqls",
-    "question": "Die Öffnungen zur Entnahme des statischen Drucks sind bei einem Luftfahrzeug blockiert. Bei welchen Instrumenten kann das Fehlanzeigen verursachen? (1,00 P.)",
+    "question": "Die Öffnungen zur Entnahme des statischen Drucks sind bei einem Luftfahrzeug blockiert. <br><br>Bei welchen Instrumenten kann das Fehlanzeigen verursachen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4111,7 +4111,7 @@
   },
   {
     "id": "c09tavp5rxfw4f026l5za",
-    "question": "Die angezeigte Richtung eines Kurskreisels muss in regelmäßigen Abständen überprüft und nachjustiert werden. Einer der Gründe hierfür ist: (1,00 P.)",
+    "question": "Die angezeigte Richtung eines Kurskreisels muss in regelmäßigen Abständen überprüft und nachjustiert werden. <br><br>Einer der Gründe hierfür ist: (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "3ultpmc7735xptepzktev",
-    "question": "Welche Lampenfarbe im Cockpit soll den Piloten auf folgende Situation aufmerksam machen: \"Sofortiges Eingreifen ist erforderlich / Warnung.\" (1,00 P.)",
+    "question": "Welche Lampenfarbe im Cockpit soll den Piloten auf folgende Situation aufmerksam machen: <br><br>\"Sofortiges Eingreifen ist erforderlich / Warnung.\" (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4171,7 +4171,7 @@
   },
   {
     "id": "ejabf0c7wbvx7r7cxkjmqt",
-    "question": "Der Fahrtmesser an einem Luftfahrzeug ist defekt. Das Luftfahrzeug darf in Betrieb genommen werden, wenn... (1,00 P.)",
+    "question": "Der Fahrtmesser an einem Luftfahrzeug ist defekt. <br><br>Das Luftfahrzeug darf in Betrieb genommen werden, wenn... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4471,7 +4471,7 @@
   },
   {
     "id": "q5vss67z1cpkhhn4ljz63",
-    "question": "In der Nebenskala eines Höhenmessers wird der am Flugplatz herrschende Druck eingestellt (QFE). Was zeigt der Höhenmesser während des Fluges an? (1,00 P.)",
+    "question": "In der Nebenskala eines Höhenmessers wird der am Flugplatz herrschende Druck eingestellt (QFE). <br><br>Was zeigt der Höhenmesser während des Fluges an? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "q5r86unjmremnf7178xoje",
-    "question": "Die Kugel der Libelle (Scheinlot) ist im rechten Kurvenflug nach rechts ausgewandert. Durch welche Aktionen kann die Kugel in die Mitte gebracht werden? (1,00 P.)",
+    "question": "Die Kugel der Libelle (Scheinlot) ist im rechten Kurvenflug nach rechts ausgewandert. <br><br>Durch welche Aktionen kann die Kugel in die Mitte gebracht werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -4651,7 +4651,7 @@
   },
   {
     "id": "9ezum8pilvo3zxk5pykwp4",
-    "question": "Welche dieser Dokumente müssen auf internationalen Flügen immer mitgeführt werden? a) Eintragungsschein b) Lufttüchtigkeitszeugnis c) Bescheinigung über die Nachprüfung der Lufttüchtigkeit d) EASA Form-1 e) Bordbuch f) Entsprechende Ausweise für jedes Besatzungsmitglied g) Technische Lebenslaufakte (1,00 P.)",
+    "question": "Welche dieser Dokumente müssen auf internationalen Flügen immer mitgeführt werden? <br><br>a) Eintragungsschein <br>b) Lufttüchtigkeitszeugnis <br>c) Bescheinigung über die Nachprüfung der Lufttüchtigkeit <br>d) EASA Form-1 <br>e) Bordbuch <br>f) Entsprechende Ausweise für jedes Besatzungsmitglied <br>g) Technische Lebenslaufakte (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -5521,7 +5521,7 @@
   },
   {
     "id": "lupqvhw7mqr7hci0uadbuf",
-    "question": "Zwei motorisierte Luftfahrzeuge nähern sich auf entgegengesetztem Kurs in annähernd gleicher Höhe. Wer muss ausweichen? (1,00 P.)",
+    "question": "Zwei motorisierte Luftfahrzeuge nähern sich auf entgegengesetztem Kurs in annähernd gleicher Höhe. <br><br>Wer muss ausweichen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -5551,7 +5551,7 @@
   },
   {
     "id": "jk79l77hcssywun7axwn1g",
-    "question": "Zwei motorisierte Luftfahrzeuge auf entgegengesetztem Kurs nähern sich während des Rollens am Boden an. Wer muss ausweichen? (1,00 P.)",
+    "question": "Zwei motorisierte Luftfahrzeuge auf entgegengesetztem Kurs nähern sich während des Rollens am Boden an. <br><br>Wer muss ausweichen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -5641,7 +5641,7 @@
   },
   {
     "id": "95tkvcc7xkglf713pcek",
-    "question": "Eine Boeing 737 und eine Cessna 152 nähern sich auf kreuzenden Kursen im Luftraum der Klasse \"D\". Wer muss ausweichen? (1,00 P.)",
+    "question": "Eine Boeing 737 und eine Cessna 152 nähern sich auf kreuzenden Kursen im Luftraum der Klasse \"D\". <br><br>Wer muss ausweichen? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -5731,7 +5731,7 @@
   },
   {
     "id": "06bb1we6qco7a5zcuuxbina",
-    "question": "Ein einmotoriges kolbengetriebenes Luftfahrzeug und ein zweimotoriges turbopropgetriebenes Luftfahrzeug nähern sich von vorne in der gleichen Flughöhe. Welche Ausweichregel kommt zur Anwendung, um einen Zusammenstoß zu vermeiden? (1,00 P.)",
+    "question": "Ein einmotoriges kolbengetriebenes Luftfahrzeug und ein zweimotoriges turbopropgetriebenes Luftfahrzeug nähern sich von vorne in der gleichen Flughöhe. <br><br>Welche Ausweichregel kommt zur Anwendung, um einen Zusammenstoß zu vermeiden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -6065,22 +6065,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Bodensicht: mindestens 1,5 km. Flugsicht: mindestens 1,5 km. Hauptwolkenuntergrenze: nicht unter 600 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "text": "Bodensicht: mindestens 1,5 km. <br>Flugsicht: mindestens 1,5 km. <br>Hauptwolkenuntergrenze: nicht unter 600 ft. <br>Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
         "correct": true
       },
       {
         "id": 1,
-        "text": "Bodensicht: mindestens 800 m. Flugsicht: mindestens 800 m. Hauptwolkenuntergrenze: nicht unter 600 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "text": "Bodensicht: mindestens 800 m. <br>Flugsicht: mindestens 800 m. <br>Hauptwolkenuntergrenze: nicht unter 600 ft. <br>Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Bodensicht: mindestens 1,5 km. Flugsicht: mindestens 1,5 km. Hauptwolkenuntergrenze nicht unter 1000 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "text": "Bodensicht: mindestens 1,5 km. <br>Flugsicht: mindestens 1,5 km. <br>Hauptwolkenuntergrenze nicht unter 1000 ft. <br>Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Bodensicht: mindestens 5 km. Flugsicht: mindestens 5 km. Hauptwolkenuntergrenze: nicht unter 1500 ft. Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
+        "text": "Bodensicht: mindestens 5 km. <br>Flugsicht: mindestens 5 km. <br>Hauptwolkenuntergrenze: nicht unter 1500 ft. <br>Erdsicht. Das Luftfahrzeug muss frei von Wolken bleiben.",
         "correct": false
       }
     ],
@@ -6091,7 +6091,7 @@
   },
   {
     "id": "xbnfhjlm3qm0mufvywh3dr",
-    "question": "Ein militärisches Luftfahrzeug nähert sich tagsüber von der linken Seite, betätigt wechselweise die Querruder und dreht anschließend in einer sanften Linkskurve ab. Welche Bedeutung hat dieses Signal? (1,00 P.)",
+    "question": "Ein militärisches Luftfahrzeug nähert sich tagsüber von der linken Seite, betätigt wechselweise die Querruder und dreht anschließend in einer sanften Linkskurve ab. <br><br>Welche Bedeutung hat dieses Signal? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "jq3whapni1uce41gkz5bf",
-    "question": "Ein militärisches Luftfahrzeug vollzieht tagsüber einen plötzlichen Richtungswechsel von 90 Grad und zieht hoch, ohne den Flugweg des zivilen Luftfahrzeuges zu kreuzen. Welche Bedeutung hat dieses Signal? (1,00 P.)",
+    "question": "Ein militärisches Luftfahrzeug vollzieht tagsüber einen plötzlichen Richtungswechsel von 90 Grad und zieht hoch, ohne den Flugweg des zivilen Luftfahrzeuges zu kreuzen. <br><br>Welche Bedeutung hat dieses Signal? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -6455,22 +6455,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Flugplatzkontrolldienst (TWR). Anflugkontrolldienst (APP). Bezirkskontrolldienst (ACC).",
+        "text": "Flugplatzkontrolldienst (TWR). <br>Anflugkontrolldienst (APP). <br>Bezirkskontrolldienst (ACC).",
         "correct": true
       },
       {
         "id": 1,
-        "text": "Fluginformationsdienst (FIS). Flugberatungsdienst (AIS). Fester Flugfernmeldedienst (AFS).",
+        "text": "Fluginformationsdienst (FIS). <br>Flugberatungsdienst (AIS). <br>Fester Flugfernmeldedienst (AFS).",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Flugalarmdienst (ALR). Such- und Rettungsdienst (SAR). Flugplatzkontrolldienst (TWR).",
+        "text": "Flugalarmdienst (ALR). <br>Such- und Rettungsdienst (SAR). <br>Flugplatzkontrolldienst (TWR).",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Anflugkontrolldienst (APP). Bezirkskontrolldienst (ACC). Fluginformationsdienst (FIS).",
+        "text": "Anflugkontrolldienst (APP). <br>Bezirkskontrolldienst (ACC). <br>Fluginformationsdienst (FIS).",
         "correct": false
       }
     ],
@@ -6515,22 +6515,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Flugverkehrskontrolldienst (ATC). Fluginformationsdienst (FIS).",
+        "text": "Flugverkehrskontrolldienst (ATC). <br>Fluginformationsdienst (FIS).",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Fluginformationsdienst (FIS). Flugalarmdienst (ALR).",
+        "text": "Fluginformationsdienst (FIS). <br>Flugalarmdienst (ALR).",
         "correct": true
       },
       {
         "id": 2,
-        "text": "Flugberatungsdienst (AIS). Such- und Rettungsdienst (SAR).",
+        "text": "Flugberatungsdienst (AIS). <br>Such- und Rettungsdienst (SAR).",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Flugverkehrskontrolldienst (ATC). Flugberatungsdienst (AIS).",
+        "text": "Flugverkehrskontrolldienst (ATC). <br>Flugberatungsdienst (AIS).",
         "correct": false
       }
     ],
@@ -6751,7 +6751,7 @@
   },
   {
     "id": "igto3km5wbj4a0dospsc0d",
-    "question": "Bis wann gilt das dargestellte NOTAM? A1024/13 A) LOWW B) 1305211200 C) 1305211400 E) STOCKERAU VOR STO 113.00 UNSERVICEABLE. (1,00 P.)",
+    "question": "Bis wann gilt das dargestellte NOTAM? <br><br>A1024/13 A) LOWW B) 1305211200 C) 1305211400 E) STOCKERAU VOR STO 113.00 UNSERVICEABLE. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7591,7 +7591,7 @@
   },
   {
     "id": "i9e6cwib60qvcmp6agootn",
-    "question": "Welche Bedeutung hat das abgebildete Schild? Siehe Bild (ALW-019) (1,00 P.)",
+    "question": "Welche Bedeutung hat das abgebildete Schild? <br><br>Siehe Bild (ALW-019) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7617,11 +7617,11 @@
     "questionId": 99,
     "subject": "alw",
     "lang": "de",
-    "asset": null
+    "asset": "assets/ALW/ALW-019.png"
   },
   {
     "id": "9klrhlhnt2ov4y3falaca",
-    "question": "Welche Bedeutung hat das abgebildete Schild? Siehe Bild (ALW-020) (1,00 P.)",
+    "question": "Welche Bedeutung hat das abgebildete Schild? <br><br>Siehe Bild (ALW-020) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7647,11 +7647,11 @@
     "questionId": 100,
     "subject": "alw",
     "lang": "de",
-    "asset": null
+    "asset": "assets/ALW/ALW-020.png"
   },
   {
     "id": "x6osh4wjprmk43q5bbus78",
-    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? Siehe Bild (ALW-010) (1,00 P.)",
+    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? <br><br>Siehe Bild (ALW-010) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7677,11 +7677,11 @@
     "questionId": 101,
     "subject": "alw",
     "lang": "de",
-    "asset": null
+    "asset": "assets/ALW/ALW-010.png"
   },
   {
     "id": "4rz5vy454jyt8bfy1vz1gq",
-    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? Siehe Bild (ALW-011) (1,00 P.)",
+    "question": "Welche Bedeutung hat dieses Zeichen an einem Flugplatz? <br><br>Siehe Bild (ALW-011) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7707,11 +7707,11 @@
     "questionId": 102,
     "subject": "alw",
     "lang": "de",
-    "asset": null
+    "asset": "assets/ALW/ALW-011.png"
   },
   {
     "id": "gg46h7b80dal7dvnxtzjvo",
-    "question": "Welche Bedeutung hat das abgebildete Zeichen an einem Flugplatz? Siehe Bild (ALW-012) (1,00 P.)",
+    "question": "Welche Bedeutung hat das abgebildete Zeichen an einem Flugplatz? <br><br>Siehe Bild (ALW-012) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -7737,7 +7737,7 @@
     "questionId": 103,
     "subject": "alw",
     "lang": "de",
-    "asset": null
+    "asset": "assets/ALW/ALW-012.png"
   },
   {
     "id": "vu0xbtbjm2960dmpt42vjt",
@@ -7895,22 +7895,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Ereignis. Vorfall. Schwerer Vorfall.",
+        "text": "Ereignis. <br>Vorfall. <br>Schwerer Vorfall.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Vorfall. Absturz. Katastrophe.",
+        "text": "Vorfall. <br>Absturz. <br>Katastrophe.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Störung. Schwere Störung. Unfall.",
+        "text": "Störung. <br>Schwere Störung. <br>Unfall.",
         "correct": true
       },
       {
         "id": 3,
-        "text": "Vorfall. Schwerer Vorfall. Unfall.",
+        "text": "Vorfall. <br>Schwerer Vorfall. <br>Unfall.",
         "correct": false
       }
     ],
@@ -13381,7 +13381,7 @@
   },
   {
     "id": "wqpxf8e9keojiam8v2bkg",
-    "question": "Das \"E\" im SHELL Model steht für... Siehe Bild (HPL-001) (1,00 P.)",
+    "question": "Das \"E\" im SHELL Model steht für... <br><br>Siehe Bild (HPL-001) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -13407,11 +13407,11 @@
     "questionId": 2,
     "subject": "hpl",
     "lang": "de",
-    "asset": null
+    "asset": "assets/HPL/HPL-001.png"
   },
   {
     "id": "r22mytd472d0m3fhjidy",
-    "question": "Das \"L\" im Shell-Modell steht für... Siehe Bild (HPL-001) (1,00 P.)",
+    "question": "Das \"L\" im Shell-Modell steht für... <br><br>Siehe Bild (HPL-001) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -13437,7 +13437,7 @@
     "questionId": 3,
     "subject": "hpl",
     "lang": "de",
-    "asset": null
+    "asset": "assets/HPL/HPL-001.png"
   },
   {
     "id": "x317oi1khy7361ht4h0grv",
@@ -13621,7 +13621,7 @@
   },
   {
     "id": "43p3q7y6keg30xg6dp3x3u",
-    "question": "Luft besteht aus Sauerstoff, Stickstoff und anderen Gasen. Welcher Anteil der Zusammensetzung entfällt dabei auf die anderen Gase? (1,00 P.)",
+    "question": "Luft besteht aus Sauerstoff, Stickstoff und anderen Gasen. <br><br>Welcher Anteil der Zusammensetzung entfällt dabei auf die anderen Gase? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -15421,7 +15421,7 @@
   },
   {
     "id": "l4rjlw8n568wxmqsfc1xc",
-    "question": "An welchem Punkt der Abbildung befindet sich der ideale Erregungsgrad? Siehe Bild (HPL-002) P: Leistung A: Erregung / Stress (1,00 P.)",
+    "question": "An welchem Punkt der Abbildung befindet sich der ideale Erregungsgrad? <br><br>Siehe Bild (HPL-002) <br><br>P: Leistung <br>A: Erregung / Stress (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -15447,11 +15447,11 @@
     "questionId": 70,
     "subject": "hpl",
     "lang": "de",
-    "asset": null
+    "asset": "assets/HPL/HPL-002.png"
   },
   {
     "id": "mw57bdvy71rwh1n1i32d",
-    "question": "An welchem Punkt der Abbildung ist der Pilot überfordert? Siehe Bild (HPL-002) P: Leistung A: Erregung / Stress (1,00 P.)",
+    "question": "An welchem Punkt der Abbildung ist der Pilot überfordert? <br><br>Siehe Bild (HPL-002) <br><br>P: Leistung <br>A: Erregung / Stress (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -15477,11 +15477,11 @@
     "questionId": 71,
     "subject": "hpl",
     "lang": "de",
-    "asset": null
+    "asset": "assets/HPL/HPL-002.png"
   },
   {
     "id": "8krtxs4jsi733tl7bc2p96",
-    "question": "Welche der folgenden Eigenschaften werden durch Stress beeinflusst? 1. Aufmerksamkeit. 2. Konzentration. 3. Reaktionsfähigkeit. 4. Erinnerungsvermögen. (1,00 P.)",
+    "question": "Welche der folgenden Eigenschaften werden durch Stress beeinflusst? <br><br>1. Aufmerksamkeit. <br>2. Konzentration. <br>3. Reaktionsfähigkeit. <br>4. Erinnerungsvermögen. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26671,7 +26671,7 @@
   },
   {
     "id": "2bei2elwmsltwne6g85dj",
-    "question": "Nummer 2 in der Zeichnung entspricht... Siehe Bild (PFA-010) (1,00 P.)",
+    "question": "Nummer 2 in der Zeichnung entspricht... <br><br>Siehe Bild (PFA-010) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26697,11 +26697,11 @@
     "questionId": 11,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-010.png"
   },
   {
     "id": "ec63x2nxwskakfcirf5tdb",
-    "question": "Nummer 3 in der Zeichnung entspricht... Siehe Bild (PFA-010) (1,00 P.)",
+    "question": "Nummer 3 in der Zeichnung entspricht... <br><br>Siehe Bild (PFA-010) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26727,7 +26727,7 @@
     "questionId": 12,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-010.png"
   },
   {
     "id": "1u31nw3ysiz1swt8uqnajm",
@@ -26791,7 +26791,7 @@
   },
   {
     "id": "1ztiwt0k7yb9ad8qw5twfo",
-    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 3 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 3 dargestellt? <br><br>Siehe Bild (PFA-009) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26817,11 +26817,11 @@
     "questionId": 15,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-009.png"
   },
   {
     "id": "0ixazzw4mvopkkv5kyifofc",
-    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 4 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "question": "Welcher Punkt am Flügelprofil wird durch Nummer 4 dargestellt? <br><br>Siehe Bild (PFA-009) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26847,7 +26847,7 @@
     "questionId": 16,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-009.png"
   },
   {
     "id": "p9khikc8gge848seuuzg26",
@@ -26881,7 +26881,7 @@
   },
   {
     "id": "o4h8yh1p688fx87pct2k5a",
-    "question": "Welcher Punkt am Flügelprofil wird von Nummer 1 dargestellt? Siehe Bild (PFA-009) (1,00 P.)",
+    "question": "Welcher Punkt am Flügelprofil wird von Nummer 1 dargestellt? <br><br>Siehe Bild (PFA-009) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -26907,7 +26907,7 @@
     "questionId": 18,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-009.png"
   },
   {
     "id": "tpwmvhjmis393xirkj928",
@@ -27121,7 +27121,7 @@
   },
   {
     "id": "14jegno9io7hqm87cs5lm",
-    "question": "Der in der Grafik dargestellte Winkel (alpha) entspricht dem... Siehe Bild (PFA-003) DoF: Anströmrichtung (direction of airflow). (1,00 P.)",
+    "question": "Der in der Grafik dargestellte Winkel (alpha) entspricht dem... <br><br>Siehe Bild (PFA-003) <br><br>DoF: Anströmrichtung (direction of airflow). (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -27147,11 +27147,11 @@
     "questionId": 26,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-003.png"
   },
   {
     "id": "pw083cuaa7utfid1ptz2",
-    "question": "Um das Überziehverhalten eines Luftfahrzeuges zu verbessern, wird der Flügel nach außen hin verwunden (der Einstellwinkel verändert sich in Spannweitenrichtung). Dies bezeichnet man als... (1,00 P.)",
+    "question": "Um das Überziehverhalten eines Luftfahrzeuges zu verbessern, wird der Flügel nach außen hin verwunden (der Einstellwinkel verändert sich in Spannweitenrichtung). <br><br>Dies bezeichnet man als... (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -27421,7 +27421,7 @@
   },
   {
     "id": "hfvpos6zqil9ozdgwxd0d",
-    "question": "Welche Kurve stellt den induzierten Widerstand dar? Siehe Bild (PFA-011). (1,00 P.)",
+    "question": "Welche Kurve stellt den induzierten Widerstand dar? <br><br>Siehe Bild (PFA-011). (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -27447,7 +27447,7 @@
     "questionId": 36,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-011.png"
   },
   {
     "id": "kpxt7bly7zh5wequwo2a2x",
@@ -28441,7 +28441,7 @@
   },
   {
     "id": "2ah91p5i302g30zjjmg9mm",
-    "question": "Welches konstruktive Merkmal ist in der Abbildung dargestellt? Siehe Bild (PFA-006) L: Auftrieb. (1,00 P.)",
+    "question": "Welches konstruktive Merkmal ist in der Abbildung dargestellt? <br><br>Siehe Bild (PFA-006) <br><br>L: Auftrieb. (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -28467,7 +28467,7 @@
     "questionId": 70,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-006.png"
   },
   {
     "id": "saqnngvrqw7sfur6q8u4q",
@@ -29011,7 +29011,7 @@
   },
   {
     "id": "5t9wzql16bjm24dqm2wjhe",
-    "question": "Das rechte Querruder schlägt nach oben aus, das linke nach unten. Wie reagiert das Luftfahrzeug? (1,00 P.)",
+    "question": "Das rechte Querruder schlägt nach oben aus, das linke nach unten. <br><br>Wie reagiert das Luftfahrzeug? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -29131,7 +29131,7 @@
   },
   {
     "id": "q4temqjyb8e529qlz18wyh",
-    "question": "Ein Flugzeug besitzt im Reiseflug bei konstanter Leistungseinstellung die Tendenz, die Nase zu heben. Wie kann diese Tendenz unterdrückt werden? (1,00 P.)",
+    "question": "Ein Flugzeug besitzt im Reiseflug bei konstanter Leistungseinstellung die Tendenz, die Nase zu heben. <br><br>Wie kann diese Tendenz unterdrückt werden? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -29191,7 +29191,7 @@
   },
   {
     "id": "ayni6k0lxkn3cqzjgr6cnu",
-    "question": "Das Trimmruder am Höhenruder ist nach oben ausgeschlagen. In welcher Stellung befindet sich die zugehörige Anzeige? (1,00 P.)",
+    "question": "Das Trimmruder am Höhenruder ist nach oben ausgeschlagen. <br><br>In welcher Stellung befindet sich die zugehörige Anzeige? (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -29405,22 +29405,22 @@
     "answers": [
       {
         "id": 0,
-        "text": "Propellersteigung wird größer. Sinkrate wird größer.",
+        "text": "Propellersteigung wird größer. <br>Sinkrate wird größer.",
         "correct": false
       },
       {
         "id": 1,
-        "text": "Propellersteigung wird kleiner. Sinkrate wird kleiner.",
+        "text": "Propellersteigung wird kleiner. <br>Sinkrate wird kleiner.",
         "correct": false
       },
       {
         "id": 2,
-        "text": "Propellersteigung wird kleiner. Sinkrate wird größer.",
+        "text": "Propellersteigung wird kleiner. <br>Sinkrate wird größer.",
         "correct": false
       },
       {
         "id": 3,
-        "text": "Propellersteigung wird größer. Sinkrate wird kleiner.",
+        "text": "Propellersteigung wird größer. <br>Sinkrate wird kleiner.",
         "correct": true
       }
     ],
@@ -29431,7 +29431,7 @@
   },
   {
     "id": "8ar5js2km84y0apmokgxn",
-    "question": "Der in der Polare bezeichnete Punkt 1 kennzeichnet welchen Flugzustand? Siehe Bild (PFA-008) (1,00 P.)",
+    "question": "Der in der Polare bezeichnete Punkt 1 kennzeichnet welchen Flugzustand? <br><br>Siehe Bild (PFA-008) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -29457,11 +29457,11 @@
     "questionId": 103,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-008.png"
   },
   {
     "id": "hevirpai8f6d9ixu3kwuf9",
-    "question": "Der in der Polare bezeichnete Punkt 5 kennzeichnet welchen Flugzustand? Siehe Bild (PFA-008) (1,00 P.)",
+    "question": "Der in der Polare bezeichnete Punkt 5 kennzeichnet welchen Flugzustand? <br><br>Siehe Bild (PFA-008) (1,00 P.)",
     "answers": [
       {
         "id": 0,
@@ -29487,7 +29487,7 @@
     "questionId": 104,
     "subject": "pfa",
     "lang": "de",
-    "asset": null
+    "asset": "assets/PFA/PFA-008.png"
   },
   {
     "id": "hgmy8cgfoppqpqf9sk6r9m",

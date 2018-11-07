@@ -1,24 +1,24 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Store } from '@ngxs/store';
+import { map, switchMap } from 'rxjs/operators';
+
 import { Question } from '../../interfaces/question.interface';
 import { Answer } from '../../interfaces/answer.interface';
-import { QuestionsService } from '../../services/questions.service';
-import { Collection } from '../../enum/collection.enum';
-import { Store } from '@ngxs/store';
-import { CheckIfExistsInFirebase } from 'src/app/actions/questionnaire.actions';
+import { QuestionnaireState } from 'src/app/states/questionnaire.state';
+import { Subject } from 'src/app/enum/subject.enum';
+import { AddAnsweredQuestionToFirebase } from 'src/app/actions/questionnaire.actions';
 
 @Component({
   selector: 'app-question',
   templateUrl: './question.component.html'
 })
-export class QuestionComponent implements OnInit {
+export class QuestionComponent {
   question: Question;
   answers: Answer[];
   selectedAnswer: Answer;
   correctAnswer: Answer;
-  path: string;
-  params: object;
-  subject: string;
+  subject: Subject;
   buttonColor: string;
   isLoaded: boolean = false;
   isWrong: boolean = false;
@@ -27,37 +27,39 @@ export class QuestionComponent implements OnInit {
 
   constructor(
     private readonly route: ActivatedRoute,
-    private readonly questionService: QuestionsService,
     private readonly store: Store
   ) {
-    route.params.subscribe(params => this.initialize(params));
-  }
-
-  ngOnInit() {}
-  
-  async initialize(params) {
-    this.selectedAnswer = null;
-    this.isLoaded = false;
-    this.subject = params.subject;
-    this.path = `${this.subject.toUpperCase()}/${this.subject}.json`;
-    this.buttonColor = 'primary';
-    this.isWrong = false;
-    this.isCorrect = false;
-
-    this.questionService.getQuestions(this.path).subscribe(
-      response => {
-        this.question = response.filter(question => question.questionId === parseInt(params.id))[0];
+    /**
+     * Initializes component when route params are changed
+     */
+    route.params.pipe(
+      switchMap(params => {
+        this.selectedAnswer = null;
+        this.isLoaded = false;
+        this.subject = <Subject>Subject[params.subject.toUpperCase()];
+        this.buttonColor = 'primary';
+        this.isWrong = false;
+        this.isCorrect = false;
+        
+        return this.store.select(QuestionnaireState.questionsBySubject(this.subject))
+          .pipe(
+            map(questions => questions.find(question => question.questionId === parseInt(params.id)))
+          )
+      })
+    )
+    .subscribe(question => {
+      if (question) {
+        this.question = question;
         this.answers = this.question.answers;
         this.isLoaded = true;
       }
-    )
+    });
   }
 
-  async check() {
+  check() {
     if (this.selectedAnswer) {
-      this.correctAnswer = await this.questionService.correctQuestion(this.question, this.selectedAnswer, this.path);      
-      this.correctAnswer = this.answers.filter(answer => answer.id === this.correctAnswer.id)[0];
-      
+      this.correctAnswer = this.answers.find(answer => answer.correct === true);
+        
       if (this.correctAnswer.id !== this.selectedAnswer.id) {
         this.buttonColor = 'warn';
         this.selectedAnswer = this.correctAnswer;
@@ -69,12 +71,18 @@ export class QuestionComponent implements OnInit {
         this.isCorrect = true;
       }
 
-      /** Update this */
-      //let exists = this.store.dispatch(new CheckIfExistsInFirebase(this.question)).subscribe(response => console.log(response));
-      
-      // if (!exists) {
-      //   this.questionService.fireAddToCollection(this.question, Collection.ANSWERED, this.isCorrect, this.subject);
-      // }
+      /**
+       * Checks if the question exists in the 'wrongAnsweredQuestions' state
+       * and if not, and the questions was answered wrong, it will be added to 
+       * firebase
+       */
+      this.store.select(QuestionnaireState.checkIfExistsInFirebase(this.question))
+        .subscribe(question => {
+          if (!question && this.isWrong) {
+            this.store.dispatch(new AddAnsweredQuestionToFirebase(this.question));
+          }
+        });
+
     } else {
       return;
     }

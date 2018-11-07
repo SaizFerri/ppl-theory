@@ -7,5 +7,4 @@ export interface WrongAnsweredQuestion {
   questionNumber: number;
   subject: Subject;
   lang: Lang;
-  answeredCorrectly: boolean;
 }

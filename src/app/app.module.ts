@@ -46,7 +46,7 @@ import { AuthGuard } from './services/auth-guard.service';
     NgxsModule.forRoot([
       QuestionnaireState
     ]),
-    NgxsLoggerPluginModule.forRoot(),
+    NgxsLoggerPluginModule.forRoot({disabled: environment.production}),
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,

@@ -1,5 +1,5 @@
-import { State, Action, StateContext, NgxsOnInit, Selector, createSelector } from '@ngxs/store';
-import { FetchWrongAnsweredQuestions, FetchQuestions } from '../actions/questionnaire.actions';
+import { State, Action, StateContext, NgxsOnInit, createSelector } from '@ngxs/store';
+import { FetchWrongAnsweredQuestions, FetchQuestions, AddAnsweredQuestionToFirebase } from '../actions/questionnaire.actions';
 
 import { tap } from 'rxjs/operators';
 
@@ -8,29 +8,31 @@ import { Question } from '../interfaces/question.interface';
 import { WrongAnsweredQuestion } from '../interfaces/wrongAnsweredQuestion.interface';
 import { AuthService } from '../services/auth.service';
 import { Subject } from '../enum/subject.enum';
+import { Collection } from '../enum/collection.enum';
 
 export interface QuestionnaireStateModel {
   questions: Question[];
   wrongAnsweredQuestions: WrongAnsweredQuestion[];
-  // Make own interface
-  savedQuestions: WrongAnsweredQuestion[];
 }
 
 @State<QuestionnaireStateModel>({
   name: 'questionnaire',
   defaults: {
     questions: [],
-    wrongAnsweredQuestions: [],
-    savedQuestions: []
+    wrongAnsweredQuestions: []
   }
 })
 export class QuestionnaireState implements NgxsOnInit {
   constructor(private questionsService: QuestionsService, private authService: AuthService) {}
 
+  /**
+   * Fill the state with the inital data
+   * @param ctx 
+   */
   ngxsOnInit(ctx: StateContext<QuestionnaireStateModel>) {
     ctx.dispatch([
       new FetchQuestions(),
-      //new FetchWrongAnsweredQuestions()
+      new FetchWrongAnsweredQuestions()
     ]);
   }
   
@@ -39,7 +41,7 @@ export class QuestionnaireState implements NgxsOnInit {
    * @param subject 
    */
   static questionsBySubject(subject: Subject) {
-    return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
+    return createSelector([QuestionnaireState], (state: QuestionnaireStateModel): Question[] => {
       return state.questions.filter(question => question.subject === subject);
     });
   }
@@ -49,7 +51,7 @@ export class QuestionnaireState implements NgxsOnInit {
    * @param subject 
    */
   static wrongAnsweredBySubject(subject: Subject) {
-    return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
+    return createSelector([QuestionnaireState], (state: QuestionnaireStateModel): WrongAnsweredQuestion[] => {
       return state.wrongAnsweredQuestions.filter(question => question.subject === subject);
     });
   }
@@ -60,7 +62,21 @@ export class QuestionnaireState implements NgxsOnInit {
    */
   static checkIfExistsInFirebase(question: Question) {
     return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
-      return state.wrongAnsweredQuestions.find(questionToCompare => questionToCompare.questionId === question.id);
+      return state.wrongAnsweredQuestions.find(questionToCompare => {
+        return questionToCompare.questionId === question.id;
+      });
+    });
+  }
+
+  /**
+   * Returns the question by id
+   * @param id 
+   */
+  static questionById(id: string) {
+    return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
+      return state.questions.find(questionToCompare => {
+        return questionToCompare.id === id;
+      });
     });
   }
 
@@ -69,7 +85,6 @@ export class QuestionnaireState implements NgxsOnInit {
     return this.questionsService.getQuestions(`questions.json`)
       .pipe(
         tap(fetchedQuestions => {
-          const state = ctx.getState();
           ctx.patchState({
             questions: fetchedQuestions
           })
@@ -80,11 +95,18 @@ export class QuestionnaireState implements NgxsOnInit {
   @Action(FetchWrongAnsweredQuestions)
   async fetchWrongAnsweredQuestions(ctx: StateContext<QuestionnaireStateModel>) {
     const user = await this.authService.isLoggedIn();
-    return this.questionsService.fireGetAllWrong(user)
+    if (user) {
+      return this.questionsService.fireGetAllWrong(user)
       .subscribe(fetchedQuestions => {
         ctx.patchState({
           wrongAnsweredQuestions: fetchedQuestions
         });
       });
+    }
+  }
+
+  @Action(AddAnsweredQuestionToFirebase)
+  addAnsweredQuestionToFirebase(ctx: StateContext<QuestionnaireStateModel>, action: AddAnsweredQuestionToFirebase) {
+    return this.questionsService.fireAddToWrongAnsweredCollection(action.question, Collection.WRONG);
   }
 }

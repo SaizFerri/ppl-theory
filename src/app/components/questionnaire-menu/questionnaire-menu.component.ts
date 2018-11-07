@@ -1,6 +1,7 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { Question } from '../../interfaces/question.interface';
+import { Subject } from 'src/app/enum/subject.enum';
 
 @Component({
   selector: 'app-questionnaire-menu',
@@ -10,7 +11,7 @@ export class QuestionnaireMenuComponent {
 
   @Input() questions: Question[];
   @Input() wrong: boolean;
-  @Input() subject: string;
+  @Input() subject: Subject;
 
   @Output() navigateTo = new EventEmitter<Question>();
 

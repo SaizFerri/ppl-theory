@@ -1,20 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../services/auth.service';
-import { Select, Store } from '@ngxs/store';
-import { Observable } from 'rxjs';
-import { QuestionnaireStateModel, QuestionnaireState } from 'src/app/states/questionnaire.state';
-import { WrongAnsweredQuestion } from 'src/app/interfaces/wrongAnsweredQuestion.interface';
-import { GetWrongAnsweredQuestions } from 'src/app/actions/questionnaire.actions';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html'
 })
 export class HomeComponent {
-  @Select() questionnaire$: Observable<QuestionnaireStateModel>;
-  @Select(QuestionnaireState.wrongAnsweredBySubject('com')) bad$: Observable<WrongAnsweredQuestion[]>;
-  
   subjects: object[] = [
     {
       subject: "Luftrecht",
@@ -56,15 +48,12 @@ export class HomeComponent {
 
   constructor(
     private readonly router: Router,
-    private readonly authService: AuthService,
-    private readonly store: Store
+    private readonly authService: AuthService
   ) { }
 
   logOut() {
     this.authService.logOut();
     this.router.navigate(['login']);
   }
-
-  checkState() {}
 
 }
