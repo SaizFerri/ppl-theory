@@ -18,11 +18,10 @@ import { AppComponent } from './app.component';
 import { QuestionComponent } from './components/question/question.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './components/home/home.component';
-import { QuestionnaireComponent } from './components/questionnaire/questionnaire.component'
+import { QuestionnaireComponent } from './components/questionnaire/questionnaire.component';
 import { environment } from '../environments/environment';
 import { WrongQuestionnaireComponent } from './components/wrong-questionnaire/wrong-questionnaire.component';
 import { QuestionnaireMenuComponent } from './components/questionnaire-menu/questionnaire-menu.component';
-import { WrongQuestionComponent } from './components/wrong-question/wrong-question.component';
 import { WrongQuestionnaireMenuComponent } from './components/wrong-questionnaire-menu/wrong-questionnaire-menu.component';
 import { WrongWrapperComponent } from './components/wrong-wrapper/wrong-wrapper.component';
 import { UserLoginComponent } from './components/user-login/user-login.component';
@@ -36,7 +35,6 @@ import { AuthGuard } from './services/auth-guard.service';
     QuestionnaireComponent,
     WrongQuestionnaireComponent,
     QuestionnaireMenuComponent,
-    WrongQuestionComponent,
     WrongQuestionnaireMenuComponent,
     WrongWrapperComponent,
     UserLoginComponent
@@ -54,7 +52,7 @@ import { AuthGuard } from './services/auth-guard.service';
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
-    MatButtonModule, 
+    MatButtonModule,
     MatRadioModule,
     MatListModule,
     MatInputModule,

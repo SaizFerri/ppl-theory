@@ -1,22 +1,32 @@
 import { Component } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
+import { ActivatedRoute, Router, Params } from '@angular/router';
 import { Store } from '@ngxs/store';
 
-import { Subject } from '../../enum/subject.enum';
-import { Question } from '../../interfaces/question.interface';
-import { QuestionnaireState } from 'src/app/states/questionnaire.state';
 import { switchMap, tap } from 'rxjs/operators';
+import { Subject } from 'rxjs';
+
+import { QuestionnaireState } from '../../states/questionnaire.state';
+import { AddAnsweredQuestionToFirebase } from '../../actions/questionnaire.actions';
+
+import { Subject as QuestionSubject } from '../../enum/subject.enum';
+import { Question } from '../../interfaces/question.interface';
+import { Answer } from '../../interfaces/answer.interface';
 
 @Component({
   selector: 'app-questionnaire',
   templateUrl: './questionnaire.component.html'
 })
 export class QuestionnaireComponent {
-  subject: Subject;
+  question: Question;
   questions: Question[];
-  params: any;
-  isLoaded: boolean = false;
-  hasError: boolean = false;
+  subject: QuestionSubject;
+  selectedAnswer: Answer;
+  correctAnswer: Subject<Answer> = new Subject<Answer>();
+  isCorrect: Subject<boolean> = new Subject<boolean>();
+
+  params: Params;
+  isLoaded = false;
+  hasError = false;
 
   constructor(
     private router: Router,
@@ -30,30 +40,66 @@ export class QuestionnaireComponent {
     this.route.params.pipe(
       switchMap(params => {
         this.params = params;
-        this.subject = <Subject>Subject[this.params.subject.toUpperCase()];
+        this.subject = <QuestionSubject>QuestionSubject[this.params.subject.toUpperCase()];
         this.hasError = false;
-    
+        this.isCorrect.next(null);
+
         return this.store.select(QuestionnaireState.questionsBySubject(this.subject));
       }),
       // Checks if the question exists and if not sets the hasError to true
       tap(questions => {
-        const actualQuestion = questions.find(question => question.questionId === parseInt(this.params.id));
-        
-        if (!actualQuestion) {
+        this.question = questions.find(question => question.questionId === parseInt(this.params.id, 10));
+
+        if (!this.question) {
           this.hasError = true;
         }
       })
-    )
-    .subscribe(questions => {
-      this.questions = questions;
-      this.isLoaded = true;
-    });
+      )
+      .subscribe(questions => {
+        this.questions = questions;
+        this.isLoaded = true;
+      });
+  }
+
+  getAnswer(answer) {
+    this.selectedAnswer = answer;
+  }
+
+  check() {
+    if (this.selectedAnswer) {
+      const correctAnswer = this.question.answers.find(answer => answer.correct === true);
+      let correct;
+
+      if (correctAnswer.id !== this.selectedAnswer.id) {
+        correct = false;
+        this.isCorrect.next(false);
+        this.correctAnswer.next(correctAnswer);
+      } else if (correctAnswer.id === this.selectedAnswer.id) {
+        correct = true;
+        this.isCorrect.next(true);
+      }
+
+      /**
+       * Checks if the question exists in the 'wrongAnsweredQuestions' state
+       * and if not, and the questions was answered wrong, it will be added to
+       * firebase
+       */
+      this.store.select(QuestionnaireState.checkIfExistsInFirebase(this.question))
+        .subscribe(question => {
+          if (!question && !correct) {
+            this.store.dispatch(new AddAnsweredQuestionToFirebase(this.question));
+          }
+        });
+
+    } else {
+      return;
+    }
   }
 
   next() {
-    const questionId = parseInt(this.params.id) + 1;
+    const questionId = parseInt(this.params.id, 10) + 1;
     const checkNext = this.questions.find(question => question.questionId === questionId);
-    
+
     if (checkNext) {
       this.router.navigateByUrl(`/${this.subject}/${questionId}`);
     } else {
@@ -62,9 +108,9 @@ export class QuestionnaireComponent {
   }
 
   prev() {
-    const questionId = parseInt(this.params.id) - 1;
+    const questionId = parseInt(this.params.id, 10) - 1;
     const checkPrev = this.questions.find(question => question.questionId === questionId);
-    
+
     if (checkPrev) {
       this.router.navigateByUrl(`/${this.subject}/${questionId}`);
     } else {

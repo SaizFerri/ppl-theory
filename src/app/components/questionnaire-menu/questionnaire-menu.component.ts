@@ -1,7 +1,7 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Router } from '@angular/router';
 import { Question } from '../../interfaces/question.interface';
-import { Subject } from 'src/app/enum/subject.enum';
+import { Subject } from '../../enum/subject.enum';
 
 @Component({
   selector: 'app-questionnaire-menu',

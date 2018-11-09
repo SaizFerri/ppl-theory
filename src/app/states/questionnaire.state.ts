@@ -26,19 +26,8 @@ export class QuestionnaireState implements NgxsOnInit {
   constructor(private questionsService: QuestionsService, private authService: AuthService) {}
 
   /**
-   * Fill the state with the inital data
-   * @param ctx 
-   */
-  ngxsOnInit(ctx: StateContext<QuestionnaireStateModel>) {
-    ctx.dispatch([
-      new FetchQuestions(),
-      new FetchWrongAnsweredQuestions()
-    ]);
-  }
-  
-  /**
    * Returns all the questions from the state from a specific subject
-   * @param subject 
+   * @param subject
    */
   static questionsBySubject(subject: Subject) {
     return createSelector([QuestionnaireState], (state: QuestionnaireStateModel): Question[] => {
@@ -48,7 +37,7 @@ export class QuestionnaireState implements NgxsOnInit {
 
   /**
    * Returns all the wrong answered questions from the state from a specific subject
-   * @param subject 
+   * @param subject
    */
   static wrongAnsweredBySubject(subject: Subject) {
     return createSelector([QuestionnaireState], (state: QuestionnaireStateModel): WrongAnsweredQuestion[] => {
@@ -58,7 +47,7 @@ export class QuestionnaireState implements NgxsOnInit {
 
   /**
    * Returns all the wrong answered questions from the state from a specific subject
-   * @param subject 
+   * @param subject
    */
   static checkIfExistsInFirebase(question: Question) {
     return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
@@ -70,7 +59,7 @@ export class QuestionnaireState implements NgxsOnInit {
 
   /**
    * Returns the question by id
-   * @param id 
+   * @param id
    */
   static questionById(id: string) {
     return createSelector([QuestionnaireState], (state: QuestionnaireStateModel) => {
@@ -80,6 +69,18 @@ export class QuestionnaireState implements NgxsOnInit {
     });
   }
 
+  /**
+   * Fill the state with the inital data
+   * @param ctx
+   */
+  ngxsOnInit(ctx: StateContext<QuestionnaireStateModel>) {
+    ctx.dispatch([
+      new FetchQuestions(),
+      new FetchWrongAnsweredQuestions()
+    ]);
+  }
+
+
   @Action(FetchQuestions)
   fetchQuestions(ctx: StateContext<QuestionnaireStateModel>) {
     return this.questionsService.getQuestions(`questions.json`)
@@ -87,7 +88,7 @@ export class QuestionnaireState implements NgxsOnInit {
         tap(fetchedQuestions => {
           ctx.patchState({
             questions: fetchedQuestions
-          })
+          });
         })
       );
   }

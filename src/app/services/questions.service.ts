@@ -29,16 +29,16 @@ export class QuestionsService {
 
   async fireAddToWrongAnsweredCollection(question: Question, collection: Collection) {
     const user: User = await this.authService.isLoggedIn();
-    
+
     if (user) {
-      await this.db.collection(collection)
-              .add({ 
-                userId: user.uid, 
-                questionId: question.id, 
-                questionNumber: question.questionId, 
-                subject: question.subject, 
-                lang: question.lang
-              });
+      await this.db.collection(collection).add({
+          userId: user.uid,
+          questionId: question.id,
+          questionNumber: question.questionId,
+          subject: question.subject,
+          lang: question.lang
+        }
+      );
     }
   }
 }

@@ -12,8 +12,8 @@ const routes: Routes = [
   { path: 'login', component: UserLoginComponent },
   { path: '', component: HomeComponent, canActivate: [AuthGuard] },
   { path: ':subject/:id', component: QuestionnaireComponent, canActivate: [AuthGuard] },
-  { 
-    path: 'wrong', 
+  {
+    path: 'wrong',
     component: WrongWrapperComponent,
     canActivate: [AuthGuard],
     children: [

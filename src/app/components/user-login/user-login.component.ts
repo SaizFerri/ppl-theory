@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class UserLoginComponent implements OnInit {
   email: string;
   password: string;
-  isError: boolean = false;
+  isError = false;
 
   constructor(
     private readonly router: Router,

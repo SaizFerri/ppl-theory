@@ -1,4 +1,4 @@
 export enum Collection {
-  WRONG = "wrongAnsweredQuestions",
-  SAVED = "savedQuestions"
+  WRONG = 'wrongAnsweredQuestions',
+  SAVED = 'savedQuestions'
 }
