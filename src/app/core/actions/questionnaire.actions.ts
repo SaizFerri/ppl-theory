@@ -1,4 +1,4 @@
-import { Question } from '../interfaces/question.interface';
+import { Question } from '@app/core/interfaces/question.interface';
 
 export class FetchQuestions {
   static readonly type = '[Questionnaire] FetchQuestions';

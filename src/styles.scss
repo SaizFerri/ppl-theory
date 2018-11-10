@@ -1,10 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "styles/theme.scss";
 
-h5 {
-  margin-bottom: 1.5rem;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -19,22 +15,27 @@ img {
   width: 100%;
 }
 
-.home-questionnaire-menu,
+.start-questionnaire-menu,
 .questionnaire-menu {
   height: 100%;
   overflow-y: auto;
-  
-  .q-menu-item {
-    cursor: pointer;
-
-    &:hover {
-      background-color: #ececec;
-    }
-  }
 }
 
-.questionnaire-menu {
-  height: 100vh;
+mat-drawer {
+  min-width: 20%;
+}
+
+h6 {
+  font-size: 1.25rem;
+}
+
+@include media-breakpoint-between(xs, sm) {
+  h6 {
+    font-size: 1rem;
+  }
+  mat-drawer {
+    min-width: 60%;
+  }
 }
 
 .mat-radio-label {
@@ -48,16 +49,16 @@ img {
 .alert {
   border: none;
   border-radius: 0;
-}
 
-.alert-danger {
-  color: white;
-  background-color: #d32f2f;
-}
+  &.alert-danger {
+    color: white;
+    background-color: #d32f2f;
+  }
 
-.alert-success {
-  color: white;
-  background-color: #4BB543;
+  &.alert-success {
+    color: white;
+    background-color: #4BB543;
+  }
 }
 
 .q-image {
@@ -66,6 +67,10 @@ img {
 
 .q-button {
   padding: 0 1rem 2rem 0;
+}
+
+.question-title {
+  padding-bottom: 1rem; 
 }
 
 .question-answers {

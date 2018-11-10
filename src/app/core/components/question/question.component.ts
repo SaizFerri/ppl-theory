@@ -1,9 +1,9 @@
 import { Component, Input, Output, EventEmitter, OnInit, OnDestroy } from '@angular/core';
 import { switchMap } from 'rxjs/operators';
-import { Subject } from 'rxjs';
+import { Subject, Observable } from 'rxjs';
 
-import { Question } from '../../interfaces/question.interface';
-import { Answer } from '../../interfaces/answer.interface';
+import { Question } from '@app/core/interfaces/question.interface';
+import { Answer } from '@app/core/interfaces/answer.interface';
 
 @Component({
   selector: 'app-question',
@@ -11,21 +11,20 @@ import { Answer } from '../../interfaces/answer.interface';
 })
 export class QuestionComponent implements OnInit, OnDestroy {
   @Input() question: Question;
-  @Input() correctAnswer: Subject<Answer>;
-  @Input() correct: Subject<boolean>;
+  @Input() correctAnswer$: Subject<Answer>;
+  @Input() correct$: Subject<boolean>;
 
-  @Output() answer = new EventEmitter<Answer>();
+  @Output() answer$ = new EventEmitter<Answer>();
 
   selectedAnswer: Answer;
   isWrong = false;
   isCorrect = false;
   buttonColor = 'primary';
 
-
   constructor() {}
 
   ngOnInit() {
-    this.correct.pipe(
+    this.correct$.pipe(
       switchMap(correct => {
         if (correct) {
           this.isCorrect = true;
@@ -40,7 +39,7 @@ export class QuestionComponent implements OnInit, OnDestroy {
           this.isWrong = false;
           this.buttonColor = 'primary';
         }
-        return this.correctAnswer;
+        return this.correctAnswer$;
       })
     )
     .subscribe(answer => {
@@ -49,10 +48,10 @@ export class QuestionComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy() {
-    this.correctAnswer.unsubscribe();
+    this.correctAnswer$.unsubscribe();
   }
 
   answerOnChange() {
-    this.answer.emit(this.selectedAnswer);
+    this.answer$.emit(this.selectedAnswer);
   }
 }

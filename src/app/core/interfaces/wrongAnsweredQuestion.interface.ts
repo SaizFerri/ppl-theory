@@ -1,5 +1,5 @@
-import { Subject } from '../enum/subject.enum';
-import { Lang } from '../enum/lang.enum';
+import { Subject } from '@app/core/enum/subject.enum';
+import { Lang } from '@app/core/enum/lang.enum';
 
 export interface WrongAnsweredQuestion {
   userId: string;

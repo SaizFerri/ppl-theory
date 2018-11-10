@@ -1,0 +1,32 @@
+<mat-drawer-container fullscreen autosize hasBackdrop="true">
+    <mat-drawer #drawer mode="over">
+        <app-questionnaire-menu [questions]="questions" [subject]="subject" [wrong]="true" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
+    </mat-drawer>
+    <mat-drawer-content (swiperight)="prev()" (swipeleft)="next()" class="container pt-4">
+        <div class="row">
+            <div *ngIf="isEmpty && !hasError">
+                <h2>There are no wrong answered questions.</h2>
+            </div>
+            <div *ngIf="hasError && !isEmpty" class="alert alert-danger">
+                The question you are looking for is not in your wrong answered question.
+            </div>
+            <div *ngIf="!isEmpty && !hasError" class="col-xl-10 pb-4 d-flex justify-content-between">
+                <button mat-icon-button (click)="menu.first.toggle()"><mat-icon>menu</mat-icon></button>
+                <div class="q-buttons-control">
+                    <button mat-icon-button (click)="prev()"><mat-icon>keyboard_arrow_left</mat-icon></button>
+                    <button mat-icon-button (click)="next()"><mat-icon>keyboard_arrow_right</mat-icon></button>
+                    <button mat-icon-button routerLink='/'><mat-icon>home</mat-icon></button>
+                </div>
+            </div>
+            <div class="col-xl-10">
+                <app-question *ngIf="!hasError && !isEmpty" [question]="question" [correctAnswer$]="correctAnswer$" [correct$]="isCorrect$" (answer$)="getAnswer($event)"></app-question>
+                <div *ngIf="!isEmpty && !hasError" class="pt-4 pl-4">
+                    <button mat-raised-button [color]="'primary'" (click)="check()">Check</button>
+                </div>
+                <div *ngIf="question.asset" class="q-image">
+                    <img [src]="question.asset" alt="">
+                </div>
+            </div>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>

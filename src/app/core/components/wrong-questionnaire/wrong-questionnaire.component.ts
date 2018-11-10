@@ -5,24 +5,30 @@ import { Store } from '@ngxs/store';
 import { Subject } from 'rxjs';
 import { map, withLatestFrom, filter, tap, switchMap } from 'rxjs/operators';
 
-import { QuestionnaireState } from '../../states/questionnaire.state';
-import { Subject as QuestionSubjectect } from '../../enum/subject.enum';
-import { Question } from '../../interfaces/question.interface';
-import { WrongAnsweredQuestion } from '../../interfaces/wrongAnsweredQuestion.interface';
-import { Answer } from '../../interfaces/answer.interface';
+import { QuestionnaireState } from '@app/core/states/questionnaire.state';
+import { Subject as QuestionSubjectect } from '@app/core/enum/subject.enum';
+import { Question } from '@app/core/interfaces/question.interface';
+import { WrongAnsweredQuestion } from '@app/core/interfaces/wrongAnsweredQuestion.interface';
+import { Answer } from '@app/core/interfaces/answer.interface';
+import { ViewChildren } from '@angular/core';
+import { QueryList } from '@angular/core';
+import { MatDrawer } from '@angular/material';
 
 @Component({
   selector: 'app-wrong-questionnaire',
   templateUrl: './wrong-questionnaire.component.html'
 })
 export class WrongQuestionnaireComponent {
+  // Workaround for ngIf behaviour
+  @ViewChildren('drawer') menu: QueryList<MatDrawer>;
+
   question: Question;
   questions: Question[];
   subject: QuestionSubjectect;
   wrongAnsweredQuestions: WrongAnsweredQuestion[];
   selectedAnswer: Answer;
-  correctAnswer: Subject<Answer> = new Subject<Answer>();
-  isCorrect: Subject<boolean> = new Subject<boolean>();
+  correctAnswer$: Subject<Answer> = new Subject<Answer>();
+  isCorrect$: Subject<boolean> = new Subject<boolean>();
   params: Params;
 
   isEmpty = true;
@@ -38,7 +44,7 @@ export class WrongQuestionnaireComponent {
         this.params = params;
         this.subject = <QuestionSubjectect>QuestionSubjectect[params.subject.toUpperCase()];
         this.hasError = false;
-        this.isCorrect.next(null);
+        this.isCorrect$.next(null);
 
         return this.store.select(QuestionnaireState.wrongAnsweredBySubject(this.subject))
           .pipe(
@@ -84,11 +90,11 @@ export class WrongQuestionnaireComponent {
 
       if (correctAnswer.id !== this.selectedAnswer.id) {
         correct = false;
-        this.isCorrect.next(false);
-        this.correctAnswer.next(correctAnswer);
+        this.isCorrect$.next(false);
+        this.correctAnswer$.next(correctAnswer);
       } else if (correctAnswer.id === this.selectedAnswer.id) {
         correct = true;
-        this.isCorrect.next(true);
+        this.isCorrect$.next(true);
       }
     } else {
       return;

@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { AuthService } from '../../services/auth.service';
+import { AuthService } from '@app/core/services/auth.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html'
+  selector: 'app-start',
+  templateUrl: './start.component.html'
 })
-export class HomeComponent {
+export class StartComponent {
   subjects: object[] = [
     {
       subject: 'Luftrecht',

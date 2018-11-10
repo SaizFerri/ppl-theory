@@ -1,0 +1,29 @@
+<mat-drawer-container fullscreen autosize hasBackdrop="true" *ngIf="isLoaded">
+    <mat-drawer #drawer opened="false" mode="over">
+        <app-questionnaire-menu [questions]="questions" [subject]="subject"></app-questionnaire-menu>
+    </mat-drawer>
+    <mat-drawer-content (swiperight)="prev()" (swipeleft)="next()" class="container pt-4">
+        <div class="row">
+            <div class="col-xl-10 pb-4 d-flex justify-content-between">
+                <button mat-icon-button (click)="drawer.toggle()"><mat-icon>menu</mat-icon></button>
+                <div class="q-buttons-control">
+                    <button mat-icon-button (click)="prev()"><mat-icon>keyboard_arrow_left</mat-icon></button>
+                    <button mat-icon-button (click)="next()"><mat-icon>keyboard_arrow_right</mat-icon></button>
+                    <button mat-icon-button routerLink='/'><mat-icon>home</mat-icon></button>
+                </div>
+            </div>
+            <div class="col-xl-10">
+                <app-question *ngIf="!hasError" [question]="question" [correctAnswer$]="correctAnswer$" [correct$]="isCorrect$" (answer$)="getAnswer($event)"></app-question>
+                <div *ngIf="!hasError" class="pt-4 pl-4">
+                    <button mat-raised-button [color]="'primary'" (click)="check()">Check</button>
+                </div>
+                <div *ngIf="hasError" class="alert alert-danger">
+                    The question you are looking for doesn't exist.
+                </div>
+                <div *ngIf="question.asset" class="q-image">
+                    <img [src]="question.asset" alt="">
+                </div>
+            </div>
+        </div>
+    </mat-drawer-content>
+</mat-drawer-container>
