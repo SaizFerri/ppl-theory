@@ -9,23 +9,7 @@ import { UserLoginComponent } from '@app/core/components/user-login/user-login.c
 import { AuthGuard } from '@app/core/services/auth-guard.service';
 
 const routes: Routes = [
-  { path: 'login', component: UserLoginComponent },
-  { path: '', component: StartComponent, canActivate: [AuthGuard] },
-  { path: ':subject/:id', component: QuestionnaireComponent, canActivate: [AuthGuard] },
-  {
-    path: 'wrong',
-    component: WrongWrapperComponent,
-    canActivate: [AuthGuard],
-    children: [
-      {
-        path: '',
-        children: [
-          { path: '', component: WrongQuestionnaireMenuComponent },
-          { path: ':subject/:id', component: WrongQuestionnaireComponent }
-        ]
-      }
-    ]
-  }
+  { path: '', loadChildren: '@app/core#CoreModule'},
 ];
 
 @NgModule({

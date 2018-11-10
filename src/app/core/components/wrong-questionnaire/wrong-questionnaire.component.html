@@ -1,30 +1,41 @@
-<mat-drawer-container fullscreen autosize hasBackdrop="true">
+<div *ngIf="!isLoaded" class="d-flex justify-content-center align-content-center pt-4">
+    <mat-spinner></mat-spinner>
+</div>
+<mat-drawer-container *ngIf="isLoaded" fullscreen autosize hasBackdrop="true">
     <mat-drawer #drawer mode="over">
-        <app-questionnaire-menu [questions]="questions" [subject]="subject" [wrong]="true" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
+        <app-questionnaire-menu [questions]="questions" [subject]="subject" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
     </mat-drawer>
-    <mat-drawer-content class="container pt-4">
-        <div class="row">
-            <div *ngIf="isEmpty && !hasError">
-                <h2>There are no wrong answered questions.</h2>
+    <mat-drawer-content class="container">
+        <div class="row justify-content-center pt-2" *ngIf="isEmpty && !hasError">
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+                <mat-card>There are no wrong answered questions.</mat-card>
             </div>
-            <div *ngIf="hasError && !isEmpty" class="alert alert-danger">
-                The question you are looking for is not in your wrong answered question.
+        </div>
+        <div class="row justify-content-center pt-2" *ngIf="hasError && !isEmpty">
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+                <mat-card [style.backgroundColor]="dangerColor" [style.color]="colorWhite">The question you are looking for is not in your wrong answered question.</mat-card>
             </div>
-            <div *ngIf="!isEmpty && !hasError" class="col-xl-10 pb-4 d-flex justify-content-between">
+        </div>
+        <div class="row pb-5 justify-content-center" *ngIf="!hasError && !isEmpty">
+            <div [style.backgroundColor]="colorWhiteBackground" class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 pb-4 pt-4 d-flex justify-content-between sticky-top">
                 <button mat-icon-button (click)="menu.first.toggle()"><mat-icon>menu</mat-icon></button>
-                <div class="q-buttons-control">
-                    <button mat-icon-button (click)="prev()"><mat-icon>keyboard_arrow_left</mat-icon></button>
-                    <button mat-icon-button (click)="next()"><mat-icon>keyboard_arrow_right</mat-icon></button>
-                    <button mat-icon-button routerLink='/'><mat-icon>home</mat-icon></button>
-                </div>
+                <button mat-icon-button mat-raised-button routerLink='/'><mat-icon>home</mat-icon></button>
             </div>
-            <div class="col-xl-10">
-                <app-question *ngIf="!hasError && !isEmpty" [question]="question" [correctAnswer$]="correctAnswer$" [correct$]="isCorrect$" (answer$)="getAnswer($event)"></app-question>
-                <div *ngIf="!isEmpty && !hasError" class="pt-4 pl-4">
-                    <button mat-raised-button [color]="'primary'" (click)="check()">Check</button>
-                </div>
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 pt-2 pb-2">
+                <app-question [question]="question" [correctAnswer$]="correctAnswer$" [correct$]="isCorrect$" (answer$)="getAnswer($event)"></app-question>
                 <div *ngIf="question.asset" class="q-image">
                     <img [src]="question.asset" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center" *ngIf="!hasError && !isEmpty">
+            <div [style.backgroundColor]="colorWhiteBackground" class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 p-4 d-flex justify-content-between align-items-center sticky-bottom">
+                <div>
+                    <button mat-icon-button mat-raised-button class="mr-2" (click)="prev()"><mat-icon>keyboard_arrow_left</mat-icon></button>
+                    <button mat-icon-button mat-raised-button (click)="next()"><mat-icon>keyboard_arrow_right</mat-icon></button>
+                </div>
+                <div>
+                    <button mat-icon-button mat-raised-button [color]="'primary'" (click)="check()"><mat-icon>check</mat-icon></button>
                 </div>
             </div>
         </div>

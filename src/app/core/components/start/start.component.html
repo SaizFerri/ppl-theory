@@ -7,10 +7,10 @@
   </div>
   <div class="row justify-content-center">
     <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-      <mat-list role="list" class="start-questionnaire-menu">
-        <mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route" class="q-menu-item">{{ subject.subject }}</mat-list-item>
-        <mat-list-item role="listitem" class="q-menu-item" routerLink="/wrong" style="background-color: #d32f2f; color: #fff">Wrong answered</mat-list-item>
-      </mat-list>
+      <mat-nav-list role="navigation">
+        <a mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route">{{ subject.subject }}</a>
+        <a mat-list-item role="listitem" routerLink="/questionnaire/wrong" style="background-color: #d32f2f; color: #fff">Wrong answered</a>
+      </mat-nav-list>
     </div>
   </div>
 </div>

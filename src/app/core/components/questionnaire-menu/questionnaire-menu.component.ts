@@ -10,7 +10,6 @@ import { Subject } from '@app/core/enum/subject.enum';
 export class QuestionnaireMenuComponent {
 
   @Input() questions: Question[];
-  @Input() wrong: boolean;
   @Input() subject: Subject;
 
   @Output() navigateTo = new EventEmitter<Question>();
@@ -18,11 +17,7 @@ export class QuestionnaireMenuComponent {
   constructor(private readonly router: Router) { }
 
   navigate(id: number) {
-    if (this.wrong) {
-      this.navigateTo.emit(this.questions.filter(q => q.questionId === id)[0]);
-    } else {
-      this.router.navigateByUrl(`${this.subject}/${id}`);
-    }
+    this.navigateTo.emit(this.questions.find(q => q.questionId === id));
   }
 
 }

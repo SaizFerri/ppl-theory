@@ -1,13 +1,11 @@
-<div *ngIf="isCorrect" class="alert alert-success">
-    Correct!
+<div class="question">
+    <mat-card class="mb-4" *ngIf="isCorrect" [style.backgroundColor]="successColor" [style.color]="colorWhite">Correct!</mat-card>
+    <mat-card class="mb-4" *ngIf="isWrong" [style.backgroundColor]="dangerColor" [style.color]="colorWhite">Wrong!</mat-card>
+    <div class="d-flex pb-2">
+        <h6>{{question.questionId}}.&nbsp;</h6>
+        <h6 [innerHTML]="question.question"></h6>
+    </div>
+    <mat-radio-group class="question-answers pl-2" [(ngModel)]="selectedAnswer" (click)="answerOnChange()" (change)="answerOnChange()">
+        <mat-radio-button [color]="buttonColor" *ngFor="let answer of question.answers" [value]="answer"><span class="question-answer" [innerHTML]="answer.text"></span></mat-radio-button>
+    </mat-radio-group>
 </div>
-<div *ngIf="isWrong" class="alert alert-danger">
-    Wrong!
-</div>
-<div class="question-title d-flex">
-    <h6>{{question.questionId}}.&nbsp;</h6>
-    <h6 [innerHTML]="question.question"></h6>
-</div>
-<mat-radio-group class="question-answers pl-4" [(ngModel)]="selectedAnswer" (click)="answerOnChange()" (change)="answerOnChange()">
-    <mat-radio-button [color]="buttonColor" *ngFor="let answer of question.answers" [value]="answer"><span [innerHTML]="answer.text"></span></mat-radio-button>
-</mat-radio-group>

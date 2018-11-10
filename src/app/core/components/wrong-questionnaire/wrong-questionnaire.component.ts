@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { Store } from '@ngxs/store';
 
-import { Subject } from 'rxjs';
+import { Subject, Observable, Subscription } from 'rxjs';
 import { map, withLatestFrom, filter, tap, switchMap } from 'rxjs/operators';
 
 import { QuestionnaireState } from '@app/core/states/questionnaire.state';
@@ -13,13 +13,14 @@ import { Answer } from '@app/core/interfaces/answer.interface';
 import { ViewChildren } from '@angular/core';
 import { QueryList } from '@angular/core';
 import { MatDrawer } from '@angular/material';
+import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-wrong-questionnaire',
   templateUrl: './wrong-questionnaire.component.html'
 })
-export class WrongQuestionnaireComponent {
-  // Workaround for ngIf behaviour
+export class WrongQuestionnaireComponent implements OnInit, OnDestroy {
+  // Workaround for ngIf behaviour in mat-drawer
   @ViewChildren('drawer') menu: QueryList<MatDrawer>;
 
   question: Question;
@@ -30,47 +31,58 @@ export class WrongQuestionnaireComponent {
   correctAnswer$: Subject<Answer> = new Subject<Answer>();
   isCorrect$: Subject<boolean> = new Subject<boolean>();
   params: Params;
+  state: Subscription;
 
-  isEmpty = true;
+  isLoaded = false;
+  isEmpty = false;
   hasError = false;
+
+  dangerColor = '#D33534';
+  colorWhite = '#FFFFFF';
+  colorWhiteBackground = '#FAFAFA';
 
   constructor(
     private readonly router: Router,
     private readonly route: ActivatedRoute,
     private readonly store: Store,
   ) {
-    route.params.pipe(
-      switchMap(params => {
-        this.params = params;
-        this.subject = <QuestionSubjectect>QuestionSubjectect[params.subject.toUpperCase()];
-        this.hasError = false;
-        this.isCorrect$.next(null);
+    route.params.subscribe(params => this.params = params);
+  }
 
-        return this.store.select(QuestionnaireState.wrongAnsweredBySubject(this.subject))
-          .pipe(
-            filter(questions => questions.length > 0),
-            withLatestFrom(this.store.select(QuestionnaireState.questionsBySubject(this.subject))),
-            map(([wrongAnsweredQuestions, questions]) => {
-              return wrongAnsweredQuestions.map(wrongQuestion => questions.find(question => wrongQuestion.questionId === question.id));
-            }),
-            tap(questions => {
-              this.question = questions.find(question => question.questionId === parseInt(params.id, 10));
-              if (!this.question) {
-                this.hasError = true;
-              }
-            })
-          );
-      })
-    )
-    .subscribe(questions => {
-      // Sort questions in menu in ascendent order
-      this.questions = questions.sort((a, b) => a.questionId - b.questionId);
+  ngOnInit() {
+    this.subject = <QuestionSubjectect>QuestionSubjectect[this.params.subject.toUpperCase()];
+    this.hasError = false;
+    this.isCorrect$.next(null);
 
-      if (!this.question && this.questions.length > 0) {
-        this.router.navigateByUrl(`wrong/${this.subject}/${this.questions[0].questionId}`);
-      }
-      this.isEmpty = this.questions.length === 0;
-    });
+    this.state = this.store.select(QuestionnaireState.wrongAnsweredBySubject(this.subject))
+      .pipe(
+        filter(questions => {
+          const full = questions.length > 0;
+          if (!full) {
+            this.isEmpty = true;
+            this.isLoaded = true;
+          }
+          return full;
+        }),
+        withLatestFrom(this.store.select(QuestionnaireState.questionsBySubject(this.subject))),
+        map(([wrongAnsweredQuestions, questions]) => {
+          return wrongAnsweredQuestions.map(wrongQuestion => questions.find(question => wrongQuestion.questionId === question.id));
+        })
+      )
+      .subscribe(questions => {
+        // Sort questions in menu in ascendent order
+        this.questions = questions.sort((a, b) => a.questionId - b.questionId);
+
+        if (this.questions.length > 0) {
+          this.isEmpty = false;
+          this.navigateTo(this.questions[0]);
+        }
+        this.isLoaded = true;
+      });
+  }
+
+  ngOnDestroy() {
+    this.state.unsubscribe();
   }
 
   getAnswer(answer) {
@@ -80,7 +92,10 @@ export class WrongQuestionnaireComponent {
   navigateTo(question) {
     const questionToNavigate = this.questions.find(q => q.id === question.id);
     this.question = questionToNavigate;
-    this.router.navigateByUrl(`wrong/${this.subject}/${questionToNavigate.questionId}`);
+    this.isCorrect$.next(null);
+    this.correctAnswer$.next(null);
+    this.selectedAnswer = null;
+    this.router.navigateByUrl(`questionnaire/wrong/${this.subject}/${questionToNavigate.questionId}`);
   }
 
   check() {

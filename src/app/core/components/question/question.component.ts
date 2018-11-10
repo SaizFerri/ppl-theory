@@ -21,6 +21,10 @@ export class QuestionComponent implements OnInit, OnDestroy {
   isCorrect = false;
   buttonColor = 'primary';
 
+  dangerColor = '#D33534';
+  successColor = '#4BB543';
+  colorWhite = '#FFFFFF';
+
   constructor() {}
 
   ngOnInit() {

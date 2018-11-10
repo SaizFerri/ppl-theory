@@ -10,39 +10,39 @@ export class StartComponent {
   subjects: object[] = [
     {
       subject: 'Luftrecht',
-      route: '/alw/1'
+      route: '/questionnaire/alw/1'
     },
     {
       subject: 'Menschliches Leistungsvermögen',
-      route: '/hpl/1'
+      route: '/questionnaire/hpl/1'
     },
     {
       subject: 'Meteorologie',
-      route: '/met/1'
+      route: '/questionnaire/met/1'
     },
     {
       subject: 'Komunikation',
-      route: '/com/1'
+      route: '/questionnaire/com/1'
     },
     {
       subject: 'Grundlagen des Fluges (Flugzeug)',
-      route: '/pfa/1'
+      route: '/questionnaire/pfa/1'
     },
     {
       subject: 'Betriebliche verfahren',
-      route: '/opr/1'
+      route: '/questionnaire/opr/1'
     },
     {
       subject: 'Flugleistung und Flugplannung',
-      route: '/fpp/1'
+      route: '/questionnaire/fpp/1'
     },
     {
       subject: 'Allgemeine Luftfahrzeugkunde',
-      route: '/agk/1'
+      route: '/questionnaire/agk/1'
     },
     {
       subject: 'Navigation',
-      route: '/nav/1'
+      route: '/questionnaire/nav/1'
     }
   ];
 

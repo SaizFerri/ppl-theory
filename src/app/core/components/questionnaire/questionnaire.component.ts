@@ -1,9 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute, Router, Params } from '@angular/router';
 import { Store } from '@ngxs/store';
 
-import { switchMap, tap } from 'rxjs/operators';
-import { Subject } from 'rxjs';
+import { switchMap, tap, filter } from 'rxjs/operators';
+import { Subject, Subscription } from 'rxjs';
 
 import { QuestionnaireState } from '@app/core/states/questionnaire.state';
 import { AddAnsweredQuestionToFirebase } from '@app/core/actions/questionnaire.actions';
@@ -11,62 +11,86 @@ import { AddAnsweredQuestionToFirebase } from '@app/core/actions/questionnaire.a
 import { Subject as QuestionSubject } from '@app/core/enum/subject.enum';
 import { Question } from '@app/core/interfaces/question.interface';
 import { Answer } from '@app/core/interfaces/answer.interface';
+import { ViewChildren } from '@angular/core';
+import { QueryList } from '@angular/core';
+import { MatDrawer } from '@angular/material';
 
 @Component({
   selector: 'app-questionnaire',
   templateUrl: './questionnaire.component.html'
 })
-export class QuestionnaireComponent {
+export class QuestionnaireComponent implements OnInit, OnDestroy {
+  // Workaround for ngIf behaviour in mat-drawer
+  @ViewChildren('drawer') menu: QueryList<MatDrawer>;
+
   question: Question;
   questions: Question[];
   subject: QuestionSubject;
   selectedAnswer: Answer;
   correctAnswer$: Subject<Answer> = new Subject<Answer>();
   isCorrect$: Subject<boolean> = new Subject<boolean>();
+  state: Subscription;
 
   params: Params;
   isLoaded = false;
+  isEmpty = false;
   hasError = false;
+
+  dangerColor = '#D33534';
+  colorWhite = '#FFFFFF';
+  colorWhiteBackground = '#FAFAFA';
 
   constructor(
     private router: Router,
     private readonly route: ActivatedRoute,
     private readonly store: Store
   ) {
-    /**
-     * Initializes component when route params are changed
-     * Calls switchMap to return the observable with the questions sorted by subject
-     */
-    this.route.params.pipe(
-      switchMap(params => {
-        this.params = params;
-        this.subject = <QuestionSubject>QuestionSubject[this.params.subject.toUpperCase()];
-        this.hasError = false;
-        this.isCorrect$.next(null);
+    this.route.params.subscribe(params => this.params = params);
+  }
 
-        return this.store.select(QuestionnaireState.questionsBySubject(this.subject));
-      }),
-      // Checks if the question exists and if not sets the hasError to true
-      tap(questions => {
-        this.question = questions.find(question => question.questionId === parseInt(this.params.id, 10));
+  ngOnInit() {
+    this.subject = <QuestionSubject>QuestionSubject[this.params.subject.toUpperCase()];
+    this.hasError = false;
+    this.isCorrect$.next(null);
 
-        if (!this.question) {
-          this.hasError = true;
-        }
-      })
+    this.state = this.store.select(QuestionnaireState.questionsBySubject(this.subject))
+      .pipe(
+        filter(questions => {
+          if (questions.length === 0) {
+            this.isEmpty = true;
+            this.isLoaded = true;
+          }
+          return questions.length > 0;
+        }),
+        tap(questions => {
+          this.question = questions.find(question => question.questionId === parseInt(this.params.id, 10));
+
+          if (!this.question) {
+            this.hasError = true;
+          }
+        })
       )
       .subscribe(questions => {
         this.questions = questions;
+        this.isEmpty = questions.length === 0;
         this.isLoaded = true;
       });
   }
 
-  test() {
-    console.log('asda');
+  ngOnDestroy() {
+    this.state.unsubscribe();
   }
 
   getAnswer(answer) {
     this.selectedAnswer = answer;
+  }
+
+  navigateTo(question) {
+    this.question = question;
+    this.isCorrect$.next(null);
+    this.correctAnswer$.next(null);
+    this.selectedAnswer = null;
+    this.router.navigateByUrl(`questionnaire/${this.subject}/${question.questionId}`);
   }
 
   check() {
@@ -102,23 +126,23 @@ export class QuestionnaireComponent {
 
   next() {
     const questionId = parseInt(this.params.id, 10) + 1;
-    const checkNext = this.questions.find(question => question.questionId === questionId);
+    const nextQuestion = this.questions.find(question => question.questionId === questionId);
 
-    if (checkNext) {
-      this.router.navigateByUrl(`/${this.subject}/${questionId}`);
+    if (nextQuestion) {
+      this.navigateTo(nextQuestion);
     } else {
-      this.router.navigateByUrl(`/${this.subject}/1`);
+      this.navigateTo(this.questions[0]);
     }
   }
 
   prev() {
     const questionId = parseInt(this.params.id, 10) - 1;
-    const checkPrev = this.questions.find(question => question.questionId === questionId);
+    const prevQuestion = this.questions.find(question => question.questionId === questionId);
 
-    if (checkPrev) {
-      this.router.navigateByUrl(`/${this.subject}/${questionId}`);
+    if (prevQuestion) {
+      this.navigateTo(prevQuestion);
     } else {
-      this.router.navigateByUrl(`/${this.subject}/${this.questions.length}`);
+      this.navigateTo(this.questions[this.questions.length - 1]);
     }
   }
 
