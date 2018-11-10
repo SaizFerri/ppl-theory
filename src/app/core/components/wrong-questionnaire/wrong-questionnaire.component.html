@@ -2,7 +2,7 @@
     <mat-drawer #drawer mode="over">
         <app-questionnaire-menu [questions]="questions" [subject]="subject" [wrong]="true" (navigateTo)="navigateTo($event)"></app-questionnaire-menu>
     </mat-drawer>
-    <mat-drawer-content (swiperight)="prev()" (swipeleft)="next()" class="container pt-4">
+    <mat-drawer-content class="container pt-4">
         <div class="row">
             <div *ngIf="isEmpty && !hasError">
                 <h2>There are no wrong answered questions.</h2>
