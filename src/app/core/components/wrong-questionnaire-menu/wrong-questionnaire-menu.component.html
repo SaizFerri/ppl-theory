@@ -1,8 +1,8 @@
 <div class="row justify-content-center pt-4">
   <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
-      <h4 style="color: #d32f2f">Wrong answered questions</h4>
+      <h4 [style.color]="dangerColor">Wrong answered questions</h4>
       <mat-nav-list role="navigation">
-        <a mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route" class="q-menu-item">{{ subject.subject }}</a>
+        <a mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route" class="q-menu-item">{{ subject[subjectLang] }}</a>
       </mat-nav-list>
   </div>
 </div>

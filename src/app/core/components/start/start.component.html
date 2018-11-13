@@ -1,15 +1,21 @@
 <div class="container pt-4">
   <div class="row justify-content-center">
-    <div class="d-flex justify-content-between col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
+    <div class="d-flex justify-content-between flex-wrap col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
       <h4>Questionnaires</h4>
-      <button mat-flat-button [color]="'warn'" type="submit" (click)="logOut()">Logout</button>
+      <div class="d-flex align-items-center">
+        <mat-button-toggle-group name="language" [(ngModel)]="language" (change)="getLanguage()">
+          <mat-button-toggle value="de">Deutsch</mat-button-toggle>
+          <mat-button-toggle value="en">English</mat-button-toggle>
+        </mat-button-toggle-group>
+        <button mat-flat-button [color]="'warn'" type="submit" (click)="logOut()" class="ml-2">Logout</button>
+      </div>
     </div>
   </div>
   <div class="row justify-content-center">
     <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
       <mat-nav-list role="navigation">
-        <a mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route">{{ subject.subject }}</a>
-        <a mat-list-item role="listitem" routerLink="/questionnaire/wrong" style="background-color: #d32f2f; color: #fff">Wrong answered</a>
+        <a mat-list-item role="listitem" *ngFor="let subject of subjects" [routerLink]="subject.route">{{ subject[subjectLang] }}</a>
+        <a mat-list-item role="listitem" routerLink="/questionnaire/wrong" [style.backgroundColor]="dangerColor" [style.color]="colorWhite">Wrong answered</a>
       </mat-nav-list>
     </div>
   </div>

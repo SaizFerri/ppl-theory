@@ -9,5 +9,18 @@ $theme-app-warn:    mat-palette($mat-red, 700);
 
 $theme-app-theme: mat-light-theme($theme-app-primary, $theme-app-accent, $theme-app-warn);
 
+@mixin toggle-button-theme($theme-app-theme) {
+  .mat-button-toggle {
+    .mat-button-toggle-button {
+      .mat-button-toggle-label-content {
+        line-height: 36px;
+      }
+    }
+  }
+}
+
+// Include the mixin
+@include toggle-button-theme($theme-app-theme);
+
 @include angular-material-theme($theme-app-theme);
 @include mat-radio-theme($theme-app-theme);

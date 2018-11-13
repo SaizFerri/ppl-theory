@@ -7,6 +7,8 @@ import { Observable } from 'rxjs';
 import { Question } from '../interfaces/question.interface';
 import { AuthService } from './auth.service';
 import { Collection } from '../enum/collection.enum';
+import { LanguageService } from '@app/core/services/language.service';
+import { switchMap } from 'rxjs/operators';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +17,7 @@ export class QuestionsService {
 
   constructor(
     private http: HttpClient,
+    private languageService: LanguageService,
     private readonly db: AngularFirestore,
     private readonly authService: AuthService
   ) { }
@@ -24,7 +27,11 @@ export class QuestionsService {
   }
 
   fireGetAllWrong(user: User): Observable<any> {
-    return this.db.collection(Collection.WRONG, ref => ref.where('userId', '==', user.uid)).valueChanges();
+    return this.languageService.lang.pipe(
+      switchMap(lang => {
+        return this.db.collection(Collection.WRONG, ref => ref.where('userId', '==', user.uid).where('lang', '==', lang)).valueChanges();
+      })
+    );
   }
 
   async fireAddToWrongAnsweredCollection(question: Question, collection: Collection) {

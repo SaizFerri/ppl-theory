@@ -24,6 +24,7 @@ import { UserLoginComponent } from '@app/core/components/user-login/user-login.c
 import { QuestionComponent } from '@app/core/components/question/question.component';
 import { QuestionnaireMenuComponent } from '@app/core/components/questionnaire-menu/questionnaire-menu.component';
 import { CoreRoutingModule } from '@app/core/core-routing.module';
+import { LanguageService } from '@app/core/services/language.service';
 
 @NgModule({
   declarations: [
@@ -56,6 +57,7 @@ import { CoreRoutingModule } from '@app/core/core-routing.module';
   exports: [],
   providers: [
     QuestionsService,
+    LanguageService,
     AuthService,
     AuthGuard
   ]

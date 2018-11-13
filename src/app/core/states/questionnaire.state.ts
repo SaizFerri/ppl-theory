@@ -1,7 +1,7 @@
 import { State, Action, StateContext, NgxsOnInit, createSelector } from '@ngxs/store';
 import { FetchWrongAnsweredQuestions, FetchQuestions, AddAnsweredQuestionToFirebase } from '../actions/questionnaire.actions';
 
-import { tap } from 'rxjs/operators';
+import { tap, switchMap, withLatestFrom, filter, map } from 'rxjs/operators';
 
 import { QuestionsService } from '../services/questions.service';
 import { Question } from '../interfaces/question.interface';
@@ -9,6 +9,7 @@ import { WrongAnsweredQuestion } from '../interfaces/wrongAnsweredQuestion.inter
 import { AuthService } from '../services/auth.service';
 import { Subject } from '../enum/subject.enum';
 import { Collection } from '../enum/collection.enum';
+import { LanguageService } from '@app/core/services/language.service';
 
 export interface QuestionnaireStateModel {
   questions: Question[];
@@ -23,7 +24,11 @@ export interface QuestionnaireStateModel {
   }
 })
 export class QuestionnaireState implements NgxsOnInit {
-  constructor(private questionsService: QuestionsService, private authService: AuthService) {}
+  constructor(
+    private questionsService: QuestionsService,
+    private languageService: LanguageService,
+    private authService: AuthService
+    ) {}
 
   /**
    * Returns all the questions from the state from a specific subject
@@ -85,6 +90,10 @@ export class QuestionnaireState implements NgxsOnInit {
   fetchQuestions(ctx: StateContext<QuestionnaireStateModel>) {
     return this.questionsService.getQuestions(`questions.json`)
       .pipe(
+        withLatestFrom(this.languageService.lang),
+        map(([fetchedQuestions, lang]) => {
+          return fetchedQuestions.filter(question => question.lang === lang);
+        }),
         tap(fetchedQuestions => {
           ctx.patchState({
             questions: fetchedQuestions
