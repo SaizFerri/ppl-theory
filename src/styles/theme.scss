@@ -19,8 +19,16 @@ $theme-app-theme: mat-light-theme($theme-app-primary, $theme-app-accent, $theme-
   }
 }
 
+@mixin button-theme($theme-app-theme) {
+  .mat-icon-button {
+    width: 50px!important;
+    height: 50px!important;
+  }
+}
+
 // Include the mixin
 @include toggle-button-theme($theme-app-theme);
+@include button-theme($theme-app-theme);
 
 @include angular-material-theme($theme-app-theme);
 @include mat-radio-theme($theme-app-theme);

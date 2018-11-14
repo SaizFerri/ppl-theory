@@ -21,7 +21,7 @@
                 <button mat-icon-button (click)="menu.first.toggle()"><mat-icon>menu</mat-icon></button>
                 <button mat-icon-button mat-raised-button routerLink='/'><mat-icon>home</mat-icon></button>
             </div>
-            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 pt-2 pb-2">
+            <div class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 pt-2 pb-4">
                 <app-question [question]="question" [correctAnswer$]="correctAnswer$" [correct$]="isCorrect$" (answer$)="getAnswer($event)"></app-question>
                 <div *ngIf="question.asset" class="q-image">
                     <img [src]="question.asset" alt="">
@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="row justify-content-center" *ngIf="!hasError && !isEmpty">
-            <div [style.backgroundColor]="colorWhiteBackground" class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 p-4 d-flex justify-content-between align-items-center sticky-bottom">
+            <div [style.backgroundColor]="colorWhiteBackground" class="col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12 p-2 d-flex justify-content-between align-items-center sticky-bottom">
                 <div>
                     <button mat-icon-button mat-raised-button class="mr-2" (click)="prev()"><mat-icon>keyboard_arrow_left</mat-icon></button>
                     <button mat-icon-button mat-raised-button (click)="next()"><mat-icon>keyboard_arrow_right</mat-icon></button>
