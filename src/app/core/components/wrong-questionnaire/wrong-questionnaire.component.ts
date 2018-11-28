@@ -70,6 +70,12 @@ export class WrongQuestionnaireComponent implements OnInit, OnDestroy {
         })
       )
       .subscribe(questions => {
+        // Eliminate doble questions from the Array
+        const cleanQuestions = new Set();
+        questions.filter(question => {
+          return cleanQuestions.has(question.id) ? false : cleanQuestions.add(question);
+        });
+        questions = Array.from(cleanQuestions);
         // Sort questions in menu in ascendent order
         this.questions = questions.sort((a, b) => a.questionId - b.questionId);
 

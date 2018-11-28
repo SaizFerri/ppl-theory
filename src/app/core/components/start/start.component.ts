@@ -5,7 +5,7 @@ import { LanguageService } from '@app/core/services/language.service';
 import { Lang } from '@app/core/enum/lang.enum';
 import { Observable, Subscription } from 'rxjs';
 import { Store } from '@ngxs/store';
-import { FetchQuestions } from '@app/core';
+import { FetchQuestions, QuestionsService } from '@app/core';
 
 @Component({
   selector: 'app-start',
@@ -70,6 +70,7 @@ export class StartComponent implements OnInit, OnDestroy {
   constructor(
     private readonly router: Router,
     private readonly languageService: LanguageService,
+    private readonly questionsService: QuestionsService,
     private readonly store: Store,
     private readonly authService: AuthService
   ) {}
@@ -95,5 +96,9 @@ export class StartComponent implements OnInit, OnDestroy {
     this.authService.logOut();
     this.router.navigate(['login']);
   }
+
+  // deleteQuestions() {
+  //   this.questionsService.fireDeleteByUserId('');
+  // }
 
 }

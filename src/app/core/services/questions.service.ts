@@ -34,6 +34,20 @@ export class QuestionsService {
     );
   }
 
+  fireDeleteByUserId(userId: string) {
+    this.db.collection(Collection.WRONG, ref => ref.where('userId', '==', userId)).get()
+      .subscribe(questions => {
+        questions.docs.forEach(async question => {
+          await this.db.collection(Collection.WRONG).doc(question.id).delete()
+            .then(function() {
+                console.log('Document successfully deleted!');
+            }).catch(function(error) {
+                console.error('Error removing document: ', error);
+            });
+        });
+      });
+  }
+
   async fireAddToWrongAnsweredCollection(question: Question, collection: Collection) {
     const user: User = await this.authService.isLoggedIn();
 
