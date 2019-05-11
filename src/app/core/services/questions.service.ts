@@ -22,6 +22,10 @@ export class QuestionsService {
     private readonly authService: AuthService
   ) { }
 
+  /**
+   * Gets the questions from a json file
+   * @param path
+   */
   getQuestions(path: string): Observable<any> {
     return this.http.get(`./assets/${path}`);
   }
