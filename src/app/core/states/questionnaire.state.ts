@@ -24,11 +24,12 @@ export interface QuestionnaireStateModel {
   }
 })
 export class QuestionnaireState implements NgxsOnInit {
+
   constructor(
     private questionsService: QuestionsService,
     private languageService: LanguageService,
     private authService: AuthService
-    ) {}
+  ) {}
 
   /**
    * Returns all the questions from the state from a specific subject
@@ -105,6 +106,7 @@ export class QuestionnaireState implements NgxsOnInit {
   @Action(FetchWrongAnsweredQuestions)
   async fetchWrongAnsweredQuestions(ctx: StateContext<QuestionnaireStateModel>) {
     const user = await this.authService.isLoggedIn();
+
     if (user) {
       return this.questionsService.fireGetAllWrong(user)
       .subscribe(fetchedQuestions => {

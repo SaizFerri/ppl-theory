@@ -43,11 +43,8 @@ export class QuestionsService {
       .subscribe(questions => {
         questions.docs.forEach(async question => {
           await this.db.collection(Collection.WRONG).doc(question.id).delete()
-            .then(function() {
-                console.log('Document successfully deleted!');
-            }).catch(function(error) {
-                console.error('Error removing document: ', error);
-            });
+            .then(() => console.log('Document successfully deleted!'))
+            .catch((error) => console.error('Error removing document: ', error));
         });
       });
   }
