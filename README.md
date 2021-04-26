@@ -1,27 +1,12 @@
-# PPLTheory
+# PPL Theory
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
+This project is a webapp to learn for the private pilot's licence theory test.
 
-## Development server
+While learning for my private pilot's licence I didn't find any good app to learn the required questionnaire to pass the theory test. The public questionnaire consists of 75% of the full questionnaire, while the remaining 25% is not public. The public questionnaire can be downloaded as a PDF with the right answers already marked. I found it very time consuming to learn from a PDF while hiding the answers with a piece of paper so I dediced to build an app.
+The app stores all the wrong answered questions in firestore so I could repeat only those questions instead of going all over the questionnaire.
+The questions are in German & English.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+#### Stack
+* Angular v6
+* NGXS
+* Firebase (Firestore & Authentication)
